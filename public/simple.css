@@ -1,0 +1,32 @@
+.q-view-modes{max-width:1050px;margin:10px auto 0;padding:8px 12px;display:flex;flex-wrap:wrap;gap:7px;align-items:center}
+.q-view-modes button{min-height:41px;border:1px solid #39577a;border-radius:9px;padding:9px 16px;color:#c8d8ef;background:#142339;font-size:13px;font-weight:700;cursor:pointer}
+.q-view-modes button.selected{background:#225088;border-color:#86b7f1;color:white}
+.q-view-modes span{font-size:10px;color:#8ea6c4;margin-left:5px}
+.q-simple{max-width:900px;margin:auto}
+.q-simple-card h2,.q-simple-ai h2,.q-simple-results h2{font-size:16px;display:flex;align-items:center;gap:8px}
+.q-simple-card>p,.q-simple-ai>p,.q-simple-results>p{font-size:11px;color:#b1c4dc;line-height:1.55}
+.q-simple-field{display:flex;flex-direction:column;gap:7px;margin-top:12px}
+.q-simple-field>label{font-size:12px;font-weight:750;color:#d0e2f7}
+.q-simple-field>textarea{width:100%;min-height:110px;line-height:1.7;font-size:13px}
+.q-simple-field>.btn{align-self:flex-start}
+.q-simple-ai{display:flex;flex-direction:column;gap:14px}
+.q-simple-ai>.btn{min-height:51px;font-size:13px}
+.q-simple-results{display:flex;flex-direction:column;gap:14px}
+.q-simple-extra{border:1px solid #344b67;border-radius:9px;padding:10px}
+.q-simple-extra>summary{font-size:12px;font-weight:750;color:#c0dcfb;cursor:pointer;line-height:1.5;padding:7px 0}
+.q-simple-results>p{display:flex;align-items:flex-start;gap:6px}
+@media(max-width:640px){.q-view-modes button{flex:1}.q-view-modes span{flex-basis:100%;text-align:center}.q-simple-field>.btn{width:100%;justify-content:center}}
+
+.q-voice-tabs{display:flex;gap:8px;flex-wrap:wrap;margin:0 0 12px}
+.q-voice-tabs button{flex:1;border:1px solid #3b608b;border-radius:9px;min-height:42px;background:#14273d;color:#c4dafa;font-size:11px;font-weight:700;cursor:pointer}
+.q-voice-tabs button.selected{background:#21558b;color:white;border-color:#86bfff}
+.q-groq-voice{display:flex;flex-direction:column;gap:13px;padding:12px;border:1px solid #3c5678;border-radius:10px;background:#122840}
+.q-groq-voice p{font-size:11px;color:#bed0e6;line-height:1.6}
+.q-groq-voice p svg{display:inline;vertical-align:middle;margin-right:6px}
+.q-groq-actions{display:flex;gap:10px;flex-wrap:wrap}
+.q-groq-actions .btn{flex:1;min-height:46px}
+@media(max-width:640px){.q-voice-tabs button{flex-basis:100%}.q-groq-actions .btn{min-width:100%}}
+
+.q-simple-provider{display:flex;flex-direction:column;gap:7px;font-size:12px;color:#d5e7fa;font-weight:700}
+.q-simple-provider select{width:100%;min-height:48px;font-size:13px;border-radius:9px;border:1px solid #467eaa;background:#162b43}
+.q-free-ai-status{font-size:11px;line-height:1.6;color:#b9d2ef}

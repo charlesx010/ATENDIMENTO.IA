@@ -1,0 +1,179 @@
+{
+  "schema": "prontuario_ia_fontes_meta_v1",
+  "generated_at": "2026-10-23",
+  "notes": "Metadados dos 8 PDFs carregados pelo usuário; não inclui texto integral, páginas ou imagens das apostilas.",
+  "documents": [
+    {
+      "id": "prescricoes",
+      "title": "Guia de prescrição - APS e Emergência",
+      "pages": 827,
+      "topics": 350,
+      "year": null,
+      "sha256_prefix": "1f863c31392e1115",
+      "physical_exam_page": 18,
+      "source": "user_upload",
+      "clinical_validation": "pending",
+      "copyright_redistribution": "unverified"
+    },
+    {
+      "id": "joelho",
+      "title": "TEOT 2021 - Joelho",
+      "pages": 71,
+      "topics": 37,
+      "year": 2021,
+      "sha256_prefix": "550751126825d141",
+      "physical_exam_page": 3,
+      "source": "user_upload",
+      "clinical_validation": "pending",
+      "copyright_redistribution": "unverified"
+    },
+    {
+      "id": "mao",
+      "title": "TEOT 2021 - Mão",
+      "pages": 103,
+      "topics": 54,
+      "year": 2021,
+      "sha256_prefix": "c91ae56161bbc67d",
+      "physical_exam_page": 3,
+      "source": "user_upload",
+      "clinical_validation": "pending",
+      "copyright_redistribution": "unverified"
+    },
+    {
+      "id": "ombro",
+      "title": "TEOT 2021 - Ombro",
+      "pages": 66,
+      "topics": 38,
+      "year": 2021,
+      "sha256_prefix": "85dcf0ea9a9b41aa",
+      "physical_exam_page": 3,
+      "source": "user_upload",
+      "clinical_validation": "pending",
+      "copyright_redistribution": "unverified"
+    },
+    {
+      "id": "pediatrica",
+      "title": "TEOT 2021 - Ortopedia pediátrica",
+      "pages": 92,
+      "topics": 50,
+      "year": 2021,
+      "sha256_prefix": "57f0a824072d126b",
+      "physical_exam_page": 3,
+      "source": "user_upload",
+      "clinical_validation": "pending",
+      "copyright_redistribution": "unverified"
+    },
+    {
+      "id": "quadril",
+      "title": "TEOT 2021 - Quadril",
+      "pages": 63,
+      "topics": 22,
+      "year": 2021,
+      "sha256_prefix": "de05d15bdd490cb3",
+      "physical_exam_page": 3,
+      "source": "user_upload",
+      "clinical_validation": "pending",
+      "copyright_redistribution": "unverified"
+    },
+    {
+      "id": "tornozelo",
+      "title": "TEOT 2021 - Pé e tornozelo",
+      "pages": 79,
+      "topics": 50,
+      "year": 2021,
+      "sha256_prefix": "7a877ae2ed9d88de",
+      "physical_exam_page": 3,
+      "source": "user_upload",
+      "clinical_validation": "pending",
+      "copyright_redistribution": "unverified"
+    },
+    {
+      "id": "tumores",
+      "title": "TEOT 2021 - Tumores musculoesqueléticos",
+      "pages": 36,
+      "topics": 51,
+      "year": 2021,
+      "sha256_prefix": "830ea876d3bafa58",
+      "physical_exam_page": 3,
+      "source": "user_upload",
+      "clinical_validation": "pending",
+      "copyright_redistribution": "unverified"
+    }
+  ],
+  "pilot_exam_terms": [
+    {
+      "id": "joelho",
+      "page": 3,
+      "tests": [
+        "Ober",
+        "Tilt patelar",
+        "McMurray",
+        "Apley",
+        "Steimann",
+        "Smillie"
+      ],
+      "status": "aguardando_revisao_medica"
+    },
+    {
+      "id": "ombro",
+      "page": 3,
+      "tests": [
+        "Neer",
+        "Hawkins",
+        "Yokum",
+        "Jobe"
+      ],
+      "status": "aguardando_revisao_medica"
+    },
+    {
+      "id": "tornozelo",
+      "page": 3,
+      "tests": [
+        "Thompson",
+        "Matle (grafia na apostila)"
+      ],
+      "status": "aguardando_revisao_medica"
+    },
+    {
+      "id": "mao",
+      "page": 4,
+      "tests": [
+        "Allen",
+        "Finkelstein"
+      ],
+      "status": "aguardando_revisao_medica"
+    },
+    {
+      "id": "quadril",
+      "page": 3,
+      "tests": [
+        "Log Roll",
+        "Dial Test",
+        "Thomas"
+      ],
+      "status": "aguardando_revisao_medica"
+    }
+  ],
+  "rules": {
+    "patient_data_storage": false,
+    "auto_fill_normal_findings": false,
+    "auto_generate_prescriptions": false,
+    "require_physician_confirmation": true,
+    "guide_prescriptions": "index_only_pending_current_official_verification",
+    "source_text_copied": false
+  },
+  "workflow": [
+    "Extrair índice sem IA",
+    "Deduplicar por hash",
+    "Pesquisar capítulo localmente",
+    "Revisar modelo clínico",
+    "Liberar opção por clique",
+    "Testar com caso fictício",
+    "IA opcional somente sob comando"
+  ],
+  "totals": {
+    "documents": 8,
+    "pages": 1337,
+    "topics": 652
+  }
+}

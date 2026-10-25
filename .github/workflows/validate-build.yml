@@ -1,0 +1,26 @@
+name: Verificar compilacao do Prontuario.IA
+on:
+  push:
+    branches: [main, preview-testes-gratuitos]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Baixar codigo
+        uses: actions/checkout@v4
+      - name: Preparar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Instalar dependencias
+        run: npm install --no-audit --no-fund
+      - name: Executar testes do ditado
+        run: npm test
+      - name: Validar compilacao
+        run: npm run build
