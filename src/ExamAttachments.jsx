@@ -13,6 +13,7 @@ export default function ExamAttachments({onInsertText=()=>{}}){
  const [progress,setProgress]=useState(0);
  const [lowConfidence,setLowConfidence]=useState(false);
  const job=useRef(0);
+ useEffect(()=>()=>{job.current+=1;},[]);
  useEffect(()=>{
   if(!file?.type?.startsWith('image/')){setPreview('');return;}
   const url=URL.createObjectURL(file);setPreview(url);
@@ -59,7 +60,7 @@ export default function ExamAttachments({onInsertText=()=>{}}){
  function insert(){
   const text=reportText.trim();
   if(!text){setMessage('Revise ou digite o texto do laudo antes de inserir.');return;}
-  onInsertText('EXAME ANEXADO — '+(file?.name||'sem arquivo')+'\n'+text);
+  if(onInsertText('EXAME ANEXADO — '+(file?.name||'sem arquivo')+'\n'+text)===false)return;
   setMessage('Exame inserido no atendimento. Ao gerar com a Groq Free, ele entrará no resumo clínico. Revise o conteúdo.');
  }
  return <section className="q-box q-simple-card q-exam-attachments" aria-busy={busy}>

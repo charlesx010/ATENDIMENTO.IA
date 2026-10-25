@@ -5,3 +5,12 @@ dist/
 !.env.example
 .netlify/
 .DS_Store
+
+# Ativos OCR gerados por npm run prepare:ocr
+public/ocr/
+playwright-report/
+test-results/
+# Material privado de preparação não deve ir ao GitHub
+*.sqlite
+*.sqlite3
+*.db

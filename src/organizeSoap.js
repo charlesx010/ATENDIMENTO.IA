@@ -10,7 +10,7 @@ const SECTION_PATTERNS = [
 ];
 
 const START_PATTERNS = [
-  ['subjective', /^(?:paciente\s+(?:refere|relata|queixa(?:-se)?|informa|descreve|nega|com\s+(?:dor|queixa|dificuldade|limita[cç][aã]o))|refere|relata|queixa(?:-se)?|informa|nega|sem\s+hist[oó]rico|apresenta\s+(?:dor|dificuldade|queixa)|hist[oó]ria\s+de\s+(?:dor|queixa))\b/i],
+  ['subjective', /^(?:paciente\s+(?:fict[ií]cio\s+)?(?:refere|relata|queixa(?:-se)?|informa|descreve|nega|com\s+(?:dor|queixa|dificuldade|limita[cç][aã]o))|refere|relata|queixa(?:-se)?|informa|nega|sem\s+hist[oó]rico|apresenta\s+(?:dor|dificuldade|queixa)|hist[oó]ria\s+de\s+(?:dor|queixa))\b/i],
   ['objective', /^(?:ao\s+exame|à\s+palpa[cç][aã]o|a\s+palpa[cç][aã]o|exame\s+f[ií]sico|sinais\s+vitais)\b/i],
   ['assessment', /^(?:hip[oó]tese\s+diagn[oó]stica|impress[aã]o\s+diagn[oó]stica|diagn[oó]stico\s+(?:informado|confirmado))\b/i],
   ['plan', /^(?:solicit[oa]|prescrev[oa]|encaminh[oa]|orient[oa]|conduta\s+proposta|retorno\s+em\b|foi\s+(?:solicitado|prescrito|encaminhado))\b/i],
@@ -54,7 +54,8 @@ export function organizeNotesToSoap(rawNotes){
     // definem S/O/A/P; caso contrário preserva o contexto da seção expressa,
     // ou classifica como "não identificado".
     const direct=START_PATTERNS.find(([,regex])=>regex.test(phrase));
-    const chosen=labeledSection||direct?.[0]||explicitSection||'unclassified';
+    const missing = /(?:n[aã]o\s+(?:informad[oa]s?|avaliad[oa]s?|investigad[oa]s?)|a\s+confirmar)/i.test(phrase);
+    const chosen=missing?'unclassified':labeledSection||direct?.[0]||explicitSection||'unclassified';
     sections[chosen].push(phrase);
   }
   return {sections,source:normalizeSource(rawNotes),statementCount:statements.length,

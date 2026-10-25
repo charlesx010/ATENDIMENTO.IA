@@ -4,11 +4,13 @@ import {supabase} from './supabase.js';
 
 const MAX_SECONDS=100;
 const MAX_BYTES=3600000;
-export default function GroqRecorder({onInsertTranscript=()=>{}}){
+export default function GroqRecorder({onInsertTranscript=()=>{},onPendingChange=()=>{}}){
  const [consent,setConsent]=useState(false);
  const [recording,setRecording]=useState(false);
  const [seconds,setSeconds]=useState(0);
  const [audio,setAudio]=useState(null);
+ const [audioUrl,setAudioUrl]=useState('');
+ useEffect(()=>{if(!audio){setAudioUrl('');return;}const url=URL.createObjectURL(audio);setAudioUrl(url);return()=>URL.revokeObjectURL(url);},[audio]);
  const [text,setText]=useState('');
  const [busy,setBusy]=useState(false);
  const [message,setMessage]=useState('');
@@ -25,6 +27,7 @@ export default function GroqRecorder({onInsertTranscript=()=>{}}){
   return()=>clearInterval(timer);
  },[recording]);
  useEffect(()=>{if(seconds>=MAX_SECONDS&&recording)stop();},[seconds,recording]);
+ useEffect(()=>{onPendingChange(Boolean(recording||audio||text||busy));},[recording,audio,text,busy,onPendingChange]);
  function stop(){
   if(recorder.current?.state==='recording')recorder.current.stop();
   stream.current?.getTracks().forEach(t=>t.stop());
@@ -33,6 +36,7 @@ export default function GroqRecorder({onInsertTranscript=()=>{}}){
  }
  async function start(){
   if(!consent){setMessage('Confirme que o áudio será inteiramente fictício.');return;}
+  if(audio&&!window.confirm('Substituir a gravação atual?'))return;
   if(!navigator.mediaDevices?.getUserMedia||!window.MediaRecorder){setMessage('Gravação não suportada neste navegador.');return;}
   setMessage('');setQualityWarnings([]);setText('');setAudio(null);setSeconds(0);chunks.current=[];
   try{
@@ -57,7 +61,7 @@ export default function GroqRecorder({onInsertTranscript=()=>{}}){
    rec.onerror=()=>{setMessage('Erro no gravador. Tente novamente.');stop();};
    rec.start(500);
    setRecording(true);
-  }catch{setMessage('Permissão do microfone negada ou dispositivo indisponível.');}
+  }catch{stream.current?.getTracks().forEach(t=>t.stop());stream.current=null;setMessage('Permissão do microfone negada ou dispositivo indisponível.');}
  }
  async function transcribe(){
   if(!audio||busy||!consent||text.trim())return; // Uma transcrição por áudio. Sem repetição acidental.
@@ -80,7 +84,8 @@ export default function GroqRecorder({onInsertTranscript=()=>{}}){
  }
  function insert(){
   if(!text.trim())return;
-  onInsertTranscript(text.trim());setText('');setAudio(null);setSeconds(0);
+  if(onInsertTranscript(text.trim())===false)return;
+  setText('');setAudio(null);setSeconds(0);
   setMessage('Texto inserido na consulta. Confira o conteúdo antes de gerar com IA.');
  }
  return <div className="q-groq-voice">
@@ -94,6 +99,8 @@ export default function GroqRecorder({onInsertTranscript=()=>{}}){
      {!!audio&&!recording&&!text.trim()&&<button className="btn primary" type="button" disabled={busy} onClick={transcribe}><Send size={16}/>{busy?' Transcrevendo...':' Transcrever (cota grátis)'}</button>}
    </div>
    {qualityWarnings.length>0&&<div className="q-clinical-review" role="alert"><strong>Revisão reforçada</strong><ul>{qualityWarnings.map((warning,index)=><li key={index}>{warning}</li>)}</ul></div>}
+   {audioUrl&&<audio controls src={audioUrl} aria-label="Reproduzir áudio gravado" style={{width:'100%',marginTop:12}}/>}
+   {audio&&!recording&&<button className="btn outline" type="button" disabled={busy} onClick={()=>{setAudio(null);setText('');setMessage('Áudio descartado.');}}>Descartar gravação</button>}
    {!!text&&<div className="q-simple-field"><label htmlFor="groq-text">Texto reconhecido — corrigir antes de inserir</label>
     <textarea id="groq-text" rows={5} value={text} onChange={e=>setText(e.target.value)}/>
     <button className="btn primary" type="button" onClick={insert}><Check size={16}/> Inserir no relato</button>

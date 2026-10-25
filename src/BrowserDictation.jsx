@@ -10,7 +10,7 @@ const MAX_SECONDS = 300;
 const prettyTime = seconds => String(Math.floor(seconds/60)).padStart(2,'0') + ':' +
   String(seconds%60).padStart(2,'0');
 
-export default function BrowserDictation({ onInsertTranscript=()=>{} }) {
+export default function BrowserDictation({ onInsertTranscript=()=>{}, onPendingChange=()=>{} }) {
   const [supported,setSupported] = useState(true);
   const [consented,setConsented] = useState(false);
   const [status,setStatus] = useState('idle');
@@ -179,9 +179,11 @@ export default function BrowserDictation({ onInsertTranscript=()=>{} }) {
     textRef.current=value;
     setText(value);
   }
+  useEffect(()=>{onPendingChange(Boolean(text||interim||['listening','starting','paused','finishing'].includes(status)));},[text,interim,status,onPendingChange]);
+
   function insert(){
     if(!text.trim())return;
-    onInsertTranscript(text.trim());
+    if(onInsertTranscript(text.trim())===false)return;
     textRef.current='';
     prefixRef.current='';
     interimRef.current='';
@@ -270,7 +272,7 @@ export default function BrowserDictation({ onInsertTranscript=()=>{} }) {
     {error && <p className="voice-error"><AlertTriangle size={16}/>{error}</p>}
     {notice && <p className="voice-muted">{notice}</p>}
     <p className="voice-hint">
-      Sem cobrança OpenAI. A fala revisada complementa a seção escolhida na tela principal; a consulta fica somente nesta aba.
+      Sem cobrança OpenAI. A fala revisada complementa a seção escolhida na tela principal; o texto fica nesta aba até você ativar a sincronização.
       O botão de limpeza remove somente repetições literalmente iguais; revise os dados clínicos. Este recurso não identifica interlocutores nem garante termos médicos corretos.
     </p>
   </section>;

@@ -7,8 +7,9 @@ import {
   KeyRound, RotateCcw, PanelLeft, Wifi, Info
 } from 'lucide-react';
 import {configured,supabase,validUsername} from './supabase';
-import QuickWorkspace from './QuickWorkspace.jsx';
-const APP_VERSION = '4.9.0';
+import ClinicalWorkspace from './workspace/Workspace.jsx';
+import AccessGate from './workspace/AccessGate.jsx';
+const APP_VERSION = '2.0.0';
 const logo=<span className="brand-mark"><Activity size={23}/></span>;
 
 function Logo({compact=false}) {return <div className="brand">{logo}{!compact&&<span>Prontuário<span className="brand-blue">.IA</span></span>}</div>}
@@ -18,7 +19,8 @@ function LinkNav({to,children,className='',onNavigate}){return <a href={to} clas
 
 function Gate({onLogin,pathname,onDemo}){
   const [username,setUsername]=useState(''); const [password,setPassword]=useState(''); const [busy,setBusy]=useState(false),[error,setError]=useState(''),[show,setShow]=useState(false);
-  const route=decodeURIComponent(pathname.slice(1).split('/')[0]||'').toLowerCase();
+  let route='';
+  try{route=decodeURIComponent(pathname.slice(1).split('/')[0]||'').toLowerCase()}catch{}
   const target=validUsername(route)&&route!=='demo' ? route : null;
   async function login(e){e.preventDefault();if(!configured)return;setBusy(true);setError('');try{const response=await fetch('/api/login',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({username:target,password})});if(!response.ok)throw Error('Falha de autenticação');const tokens=await response.json();const {data,error}=await supabase.auth.setSession({access_token:tokens.access_token,refresh_token:tokens.refresh_token});if(error||!data?.user)throw error||Error('Sessão inválida');setPassword('');onLogin(data.user)}catch{setError('Usuário ou senha inválidos. Verifique suas credenciais.')}finally{setBusy(false)}}
   return <div className="auth-page"><div className="auth-top"><Logo/><span className="auth-top-right"><ShieldCheck size={15}/> Ambiente protegido</span></div><div className="auth-main"><div className="auth-hero"><div className="hero-pill"><Sparkles size={14}/> SEU AMBIENTE CLÍNICO INTELIGENTE</div><h1>Mais tempo para cuidar.<br/><span>Menos tempo documentando.</span></h1><p>Uma área de trabalho médica simples, personalizável e acessível de qualquer navegador. Comece pelo básico — evoluímos módulo a módulo.</p><div className="hero-checks"><span><Check size={16}/> 100% online</span><span><Check size={16}/> Por usuário</span><span><Check size={16}/> Documentos locais gratuitos</span></div></div><section className="auth-card"><div className="auth-card-top"><div className="auth-icon"><LockKeyhole size={22}/></div><span className="eyebrow">ACESSO INDIVIDUAL</span><h2>{target?`Bem-vindo, ${target}`:'Entrar no Prontuário.IA'}</h2><p>{target?'Digite sua senha para abrir seu espaço de trabalho.':'Informe seu nome de usuário para abrir seu endereço individual.'}</p></div>
@@ -40,7 +42,7 @@ function MFA({onVerified,onSignOut}){
 function PasswordChange({profile,onChanged,onSignOut}){const [value,setValue]=useState(''),[confirm,setConfirm]=useState(''),[message,setMessage]=useState(''),[busy,setBusy]=useState(false);async function change(e){e.preventDefault();if(value.length<12||value!==confirm){setMessage('A senha precisa ter 12 ou mais caracteres e coincidir com a confirmação.');return;}setBusy(true);setMessage('');try{const {data:session,error:sessionError}=await supabase.auth.getSession();if(sessionError||!session?.session?.access_token)throw Error('Sessão expirada. Entre novamente.');const res=await fetch('/api/change-password',{method:'POST',headers:{'content-type':'application/json',authorization:'Bearer '+session.session.access_token},body:JSON.stringify({password:value})});const result=await res.json().catch(()=>({}));if(!res.ok)throw Error(result.error||'Não foi possível alterar a senha.');onChanged();}catch(e){setMessage(e.message)}finally{setBusy(false)}}return <div className="center-page"><Logo/><div className="gate-card"><div className="auth-icon"><KeyRound size={23}/></div><h2>Defina sua senha pessoal</h2><p>Seu administrador criou uma senha temporária. Escolha uma senha forte antes de continuar.</p><form onSubmit={change}><Field label="Nova senha (12+ caracteres)" value={value} onChange={setValue} type="password" autoComplete="new-password" required minLength={12}/><Field label="Confirmar nova senha" value={confirm} onChange={setConfirm} type="password" autoComplete="new-password" required minLength={12}/><button className="btn primary full" disabled={busy}>Atualizar senha</button></form>{message&&<Notice type="error">{message}</Notice>}<button className="btn subtle full" onClick={onSignOut}>Sair</button></div></div>}
 
 // A área após o login foi reconstruída em tela única, em QuickWorkspace.jsx.
-const Workspace = QuickWorkspace;
+const Workspace = ClinicalWorkspace;
 
 export default function App(){
  const [pathname,setPathname]=useState(window.location.pathname),[user,setUser]=useState(null),[profile,setProfile]=useState(null),[loading,setLoading]=useState(true),[error,setError]=useState(''),[demo,setDemo]=useState(false),[mfaReady,setMfaReady]=useState(false),[mfaChecked,setMfaChecked]=useState(false);
@@ -53,5 +55,5 @@ export default function App(){
  if(demo||pathname==='/demo')return <Workspace key="demo" demo profile={{display_name:'Demonstração'}} onLogout={()=>{setDemo(false);history.pushState({},'', '/');setPathname('/')}}/>;
  if(user&&error)return <div className="center-page"><Logo/><div className="gate-card"><Notice type="error">{error}</Notice><button className="btn primary full" onClick={logout}>Sair</button></div></div>;
  if(user&&profile){if(!mfaChecked)return <div className="center-page"><Logo/><p>Verificando proteção da conta...</p></div>;if(!mfaReady)return <MFA onVerified={()=>setMfaReady(true)} onSignOut={logout}/>;if(profile.must_change_password)return <PasswordChange profile={profile} onChanged={()=>setProfile(p=>({...p,must_change_password:false}))} onSignOut={logout}/>;return <Workspace key={user.id} profile={profile} onLogout={logout}/>;}
- return <Gate pathname={pathname} onLogin={setUser} onDemo={()=>{history.pushState({},'', '/demo');setPathname('/demo');setDemo(true)}}/>;
+ return <AccessGate pathname={pathname} onLogin={setUser} onDemo={()=>{history.pushState({},'', '/demo');setPathname('/demo');setDemo(true)}}/>;
 }

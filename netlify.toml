@@ -47,6 +47,11 @@
   status = 200
 
 [[redirects]]
+  from = "/api/organize-note"
+  to = "/.netlify/functions/organize-note"
+  status = 200
+
+[[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
