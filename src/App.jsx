@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { Activity, AlertTriangle, Info, KeyRound, ShieldCheck } from 'lucide-react';
 import { configured, supabase } from './supabase.js';
-import Workspace from './workspace/Workspace.jsx';
+import WorkspaceRouter from './workspace/WorkspaceRouter.jsx';
 import AccessGate from './workspace/AccessGate.jsx';
 
 const READINESS_TIMEOUT = 15000;
@@ -120,7 +120,7 @@ export default function App() {
   const [mfaReady, setMfaReady] = useState(false), [problem, setProblem] = useState('');
   const [retry, setRetry] = useState(0), [signingOut, setSigningOut] = useState(false), [logoutError, setLogoutError] = useState('');
   const mounted = useRef(true);
-  const demoMode = pathname === '/demo';
+  const demoMode = /^\/demo(?:\/novo)?\/?$/.test(pathname);
   useEffect(() => { mounted.current = true; return () => { mounted.current = false; }; }, []);
   useEffect(() => { const changed = () => setPathname(window.location.pathname); window.addEventListener('popstate', changed); return () => window.removeEventListener('popstate', changed); }, []);
   const navigate = path => { history.pushState({}, '', path); setPathname(path); };
@@ -156,13 +156,14 @@ export default function App() {
     setProfile(null); setProfilePhase('loading'); setProblem('');
     (async () => {
       try {
-        const result = await withTimeout(supabase.from('profiles').select('user_id,username,display_name,role,enabled,must_change_password,preferences,ai_enabled,monthly_limit_usd').eq('user_id', user.id).maybeSingle().abortSignal(controller.signal));
+        const result = await withTimeout(supabase.from('profiles').select('user_id,username,display_name,role,enabled,must_change_password,preferences').eq('user_id', user.id).maybeSingle().abortSignal(controller.signal));
         if (!alive) return;
         if (result.error || !result.data || !result.data.enabled) {
           setProblem('Sua conta não está habilitada ou não foi possível consultar o perfil. Tente novamente ou contate o administrador.'); setProfilePhase('error'); return;
         }
         setProfile(result.data); setProfilePhase('ready');
-        const route = `/${result.data.username}`;
+        const base = `/${result.data.username}`;
+        const route = window.location.pathname === `${base}/novo` || window.location.pathname === `${base}/novo/` ? `${base}/novo` : base;
         if (window.location.pathname !== route) { history.replaceState({}, '', route); setPathname(route); }
       } catch {
         if (alive) { setProblem('Não foi possível carregar sua conta. Seu acesso não foi liberado; confira a conexão e tente novamente.'); setProfilePhase('error'); }
@@ -204,7 +205,7 @@ export default function App() {
   const recovery = title => <Recovery title={title} message={problem} retry={recover} onSignOut={logout} onDemo={openDemo} signingOut={signingOut}/>;
   let content;
   // A demonstração nunca depende da disponibilidade de Auth, perfil ou MFA.
-  if (demoMode) content = <Workspace key="demo" demo profile={{ display_name: 'Demonstração' }} onLogout={() => navigate('/')}/>;
+  if (demoMode) content = <WorkspaceRouter key="demo" demo profile={{ display_name: 'Demonstração' }} pathname={pathname} onNavigate={navigate} onLogout={() => navigate('/')}/>;
   else if (authPhase === 'loading') content = <Loading message="Verificando sua sessão…" onDemo={openDemo}/>;
   else if (authPhase === 'error') content = recovery('Não foi possível abrir sua conta');
   else if (user && (profilePhase === 'loading' || profilePhase === 'idle')) content = <Loading message="Carregando sua conta…" onDemo={openDemo}/>;
@@ -214,7 +215,7 @@ export default function App() {
     else if (mfaPhase === 'error') content = recovery('Verificação de segurança indisponível');
     else if (!mfaReady) content = <MFA onVerified={() => setMfaReady(true)} onSignOut={logout} signingOut={signingOut}/>;
     else if (profile.must_change_password) content = <PasswordChange onChanged={() => setProfile(value => value ? { ...value, must_change_password: false } : value)} onSignOut={logout} signingOut={signingOut}/>;
-    else content = <Workspace key={user.id} profile={profile} onLogout={logout}/>;
+    else content = <WorkspaceRouter key={user.id} profile={profile} pathname={pathname} onNavigate={navigate} onLogout={logout}/>;
   } else content = <AccessGate pathname={pathname} onLogin={setUser} onDemo={openDemo}/>;
   return <>{logoutError && <div className="alert error" role="alert"><AlertTriangle size={18}/><div>{logoutError}<button className="btn subtle" disabled={signingOut} onClick={logout}>Tentar sair novamente</button></div></div>}{signingOut && <p role="status">Encerrando sessão…</p>}{content}</>;
 }

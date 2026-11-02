@@ -10,7 +10,7 @@ const reply = (message, status = 401, additional = {}) => new Response(JSON.stri
 export default async (request) => {
   if (request.method !== 'POST') return reply('Método não permitido', 405);
   if (!request.headers.get('content-type')?.toLowerCase().includes('application/json')) return reply('Formato inválido', 415);
-  if (!process.env.SUPABASE_URL || !process.env.SUPABASE_SERVICE_ROLE_KEY || !process.env.SUPABASE_ANON_KEY)
+  if (!process.env.SUPABASE_URL || !process.env.SUPABASE_SERVICE_ROLE_KEY || !(process.env.SUPABASE_ANON_KEY || process.env.SUPABASE_PUBLISHABLE_KEY))
     return reply('Serviço temporariamente indisponível', 503);
 
   let body;
@@ -36,7 +36,7 @@ export default async (request) => {
     const { data: identity, error: identityError } = await admin.auth.admin.getUserById(profile.user_id);
     if (identityError || !identity?.user?.email) return reply('Usuário ou senha inválidos');
 
-    const authClient = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_ANON_KEY, {
+    const authClient = createClient(process.env.SUPABASE_URL, (process.env.SUPABASE_ANON_KEY || process.env.SUPABASE_PUBLISHABLE_KEY), {
       auth: { persistSession: false, autoRefreshToken: false }
     });
     const { data, error } = await authClient.auth.signInWithPassword({

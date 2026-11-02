@@ -19,11 +19,29 @@ export function usagePolicy(env = process.env) {
     burstWindowSeconds: 60
   };
 }
+// Compatibilidade de rollout: as rotas existentes não dependiam da tabela de cotas.
+// Habilitar cotas é decisão explícita do servidor após aplicar a migração.
+export function legacyUsageEnforced(env = process.env) {
+  const flag = env.AI_USAGE_ENFORCEMENT;
+  if (flag === undefined || flag === '' || flag === 'false') return false;
+  if (flag === 'true') return true;
+  throw new UsageAccessError('A configuração de controle de uso precisa ser revisada no servidor.');
+}
+export function documentationEnabled(env = process.env) {
+  const flag = env.GROQ_CLINICAL_ENABLED;
+  return flag === undefined ? env.FREE_TRANSCRIPTION_ENABLED === 'true' : flag === 'true';
+}
+export async function reserveLegacyUsage(account, operation, env = process.env, limiter = reserveUsage) {
+  if (!OPERATIONS.includes(operation) || !account) throw new UsageAccessError('Controle de uso indisponível.');
+  if (!legacyUsageEnforced(env)) return { allowed: true, enforced: false, enforcementMode: 'legacy-provider-limits' };
+  // Não há fallback se a aplicação optou pela fiscalização de cotas.
+  return limiter(account, operation, env);
+}
 export function serverFeatures(env = process.env) {
   const configured = Boolean(env.SUPABASE_URL && env.SUPABASE_SERVICE_ROLE_KEY && env.GROQ_API_KEY);
   const voiceFlag = env.GROQ_TRANSCRIPTION_ENABLED;
   return {
-    documentation: configured && env.GROQ_CLINICAL_ENABLED === 'true',
+    documentation: configured && documentationEnabled(env),
     transcription: configured && (voiceFlag === undefined ? env.FREE_TRANSCRIPTION_ENABLED === 'true' : voiceFlag === 'true')
   };
 }
@@ -65,6 +83,16 @@ export function usageDenied(result) {
   };
 }
 export async function accountUsage(account, env = process.env, now = new Date()) {
+  if (!legacyUsageEnforced(env)) {
+    return {
+      enforced: false,
+      enforcementMode: 'legacy-provider-limits',
+      accounting: 'provider-limits',
+      operations: null,
+      features: serverFeatures(env),
+      note: 'Cotas do aplicativo ainda não foram ativadas neste ambiente. O acesso continua autenticado; limites e faturamento do provedor são independentes. A nova organização de prontuário continua exigindo seu próprio controle de cotas.'
+    };
+  }
   const policy = usagePolicy(env);
   const day = now.toISOString().slice(0, 10);
   const { data, error } = await account.client.from('ai_daily_usage').select('operation,attempts').eq('user_id', account.userId).eq('usage_day', day);
@@ -77,6 +105,7 @@ export async function accountUsage(account, env = process.env, now = new Date())
   return {
     period: day,
     resetsAt: new Date(Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate() + 1)).toISOString(),
+    enforced: true, enforcementMode: 'application-quota',
     accounting: 'attempts', operations, features: serverFeatures(env),
     note: 'Tentativas autorizadas são contabilizadas antes do envio à IA, inclusive quando o provedor falha. Pedidos inválidos, negados ou acima do limite não são contabilizados. Limites operacionais não representam plano pago nem saldo financeiro.'
   };

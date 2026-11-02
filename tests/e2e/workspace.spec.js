@@ -3,7 +3,7 @@ for(const width of [1440,390,360]) {
   test(`captura, revisão, exportação e catálogo em ${width}px`,async({page})=>{
     await page.setViewportSize({width,height:900});
     const errors=[];page.on('pageerror',e=>errors.push(e.message));
-    await page.goto('/demo');
+    await page.goto('/demo/novo');
     await page.getByRole('button',{name:'Carregar exemplo fictício'}).click();
     const source=await page.getByRole('textbox',{name:'Relato original',exact:true}).inputValue();
     await page.getByRole('button',{name:'Organizar prontuário',exact:true}).click();
@@ -35,7 +35,7 @@ test('microfone simulado insere texto, não duplica e preserva relato ao recusar
       stop(){setTimeout(()=>this.onend?.(),0)} abort(){}
     };
   });
-  await page.goto('/demo');
+  await page.goto('/demo/novo');
   await page.getByLabel('Entendi e autorizo apenas um teste fictício').check();
   await page.getByRole('button',{name:'Iniciar',exact:true}).click();
   await expect(page.getByRole('textbox',{name:'Transcrição gratuita para revisão'})).toHaveValue('Paciente fictício relata dor no joelho direito.');
@@ -48,7 +48,7 @@ test('microfone simulado insere texto, não duplica e preserva relato ao recusar
   await expect(page.getByRole('textbox',{name:'Relato original',exact:true})).toHaveValue('Paciente fictício relata dor no joelho direito.');
 });
 test('anexo TXT fictício passa por revisão e é inserido sem provedor externo',async({page})=>{
-  await page.goto('/demo');
+  await page.goto('/demo/novo');
   await page.getByText('Anexar exame ou laudo fictício · OCR local',{exact:true}).click();
   await page.locator('.q-file-button input').setInputFiles({name:'exame-ficticio.txt',mimeType:'text/plain',buffer:Buffer.from('EXAME FICTÍCIO. Resultado informado apenas para teste.')});
   await expect(page.getByLabel('Texto extraído — revisar antes de inserir')).toHaveValue('EXAME FICTÍCIO. Resultado informado apenas para teste.');
@@ -56,7 +56,7 @@ test('anexo TXT fictício passa por revisão e é inserido sem provedor externo'
   expect(await page.getByRole('textbox',{name:'Relato original',exact:true}).inputValue()).toContain('EXAME FICTÍCIO.');
 });
 test('backup é restaurado sem conservar aprovação e modal permite cancelar pelo teclado',async({page})=>{
-  await page.goto('/demo');await page.getByRole('button',{name:'Configuração',exact:true}).click();
+  await page.goto('/demo/novo');await page.getByRole('button',{name:'Configuração',exact:true}).click();
   const backup={schema:2,patient:'Teste backup',source:'Paciente fictício com dor.',summary:'Resumo de teste',soap:{subjective:'Dor relatada',objective:'',assessment:'',plan:''},pending:'',reviewed:true,generatedFrom:'Paciente fictício com dor.',origin:'manual'};
   await page.getByLabel('Arquivo JSON exportado pelo aplicativo').setInputFiles({name:'backup.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify(backup))});
   await expect(page.getByRole('textbox',{name:'Relato original',exact:true})).toHaveValue(backup.source);
@@ -70,5 +70,5 @@ test('entrada nova aceita usuário e mantém demonstração acessível sem confi
  await page.getByLabel('Nome de usuário').fill('charles');await page.getByRole('button',{name:'Continuar',exact:true}).click();
  await expect(page.getByRole('heading',{name:'Entrar como charles'})).toBeVisible();
  await page.getByRole('button',{name:'Abrir demonstração gratuita'}).click();
- await expect(page.getByRole('heading',{name:'Uma consulta, bem organizada.'})).toBeVisible();
+ await expect(page.getByRole('heading',{name:'Atendimento simplificado'})).toBeVisible();
 });

@@ -8,7 +8,7 @@ import legacyClinical from '../netlify/functions/free-clinical.mjs';
 import legacyBundle from '../netlify/functions/free-clinical-ai.mjs';
 
 const identity = { userId: '00000000-0000-4000-8000-000000000001' };
-const env = { GROQ_API_KEY: 'FAKE_TEST_ONLY', GROQ_CLINICAL_ENABLED: 'true', GROQ_TRANSCRIPTION_ENABLED: 'true', SUPABASE_URL: 'https://example.supabase.co', SUPABASE_SERVICE_ROLE_KEY: 'FAKE_TEST_ONLY' };
+const env = { AI_USAGE_ENFORCEMENT: 'true', GROQ_API_KEY: 'FAKE_TEST_ONLY', GROQ_CLINICAL_ENABLED: 'true', GROQ_TRANSCRIPTION_ENABLED: 'true', SUPABASE_URL: 'https://example.supabase.co', SUPABASE_SERVICE_ROLE_KEY: 'FAKE_TEST_ONLY' };
 const token = 'test-token-more-than-twenty-characters';
 const noteRequest = (fields = {}) => new Request('https://test.local/api/organize-note', {
   method: 'POST', headers: { authorization: `Bearer ${token}`, 'content-type': 'application/json' },
@@ -112,7 +112,7 @@ test('painel nega sessão ausente antes de consultar uso', async () => {
 });
 
 test('endpoints Groq legados compartilham o controle e falham antes do provedor', async () => {
-  const savedEnv = Object.fromEntries(['FREE_TRANSCRIPTION_ENABLED', 'GROQ_CLINICAL_ENABLED', 'GROQ_API_KEY', 'SUPABASE_URL', 'SUPABASE_SERVICE_ROLE_KEY'].map(key => [key, process.env[key]]));
+  const savedEnv = Object.fromEntries(['AI_USAGE_ENFORCEMENT', 'FREE_TRANSCRIPTION_ENABLED', 'GROQ_CLINICAL_ENABLED', 'GROQ_API_KEY', 'SUPABASE_URL', 'SUPABASE_SERVICE_ROLE_KEY'].map(key => [key, process.env[key]]));
   const originalFetch = globalThis.fetch; let provider = 0, reservations = 0;
   try {
     Object.assign(process.env, env, { FREE_TRANSCRIPTION_ENABLED: 'true' });

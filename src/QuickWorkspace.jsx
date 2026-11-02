@@ -389,10 +389,14 @@ export default function QuickWorkspace({profile,demo=false,onLogout}){
     e.preventDefault();
     if(demo){setPrefStatus('Na demonstração, as preferências valem apenas para esta aba.');return;}
     if(!configured||!profile?.user_id){setPrefStatus('Não é possível salvar: conta indisponível.');return;}
-    const {region:_unusedRegion,...previousPrefs}=((profile.preferences&&typeof profile.preferences==='object')?profile.preferences:{});
-    const next={...previousPrefs,specialty:prefs.specialty,caps:prefs.caps,format:'Narrativo'};
-    const {error}=await supabase.from('profiles').update({preferences:next}).eq('user_id',profile.user_id);
-    setPrefStatus(error?'Falha ao salvar preferências.':'Preferências salvas. Nenhum conteúdo clínico foi enviado.');
+    try{
+      const {data}=await supabase.auth.getSession();const token=data?.session?.access_token;
+      if(!token)throw Error('Entre novamente para salvar suas preferências.');
+      const response=await fetch('/api/preferences',{method:'PUT',headers:{'content-type':'application/json',authorization:'Bearer '+token},body:JSON.stringify({specialty:prefs.specialty,caps:prefs.caps,format:'Narrativo'}),signal:AbortSignal.timeout(15000)});
+      const result=await response.json().catch(()=>({}));
+      if(!response.ok)throw Error(result.error||'Não foi possível salvar as preferências.');
+      setPrefStatus('Preferências salvas. Nenhum conteúdo clínico foi enviado.');
+    }catch(error){setPrefStatus(error.name==='TimeoutError'?'A gravação demorou demais. Tente novamente.':error.message);}
   }
   function logout(){
     if(hasContent&&!window.confirm(temporarySync.active?'Sair não apaga a consulta sincronizada: ela continuará disponível por até 24 horas na sua conta. Confirmar saída?':'Sair descartará o conteúdo clínico temporário desta aba. Confirma que já copiou tudo?'))return;
@@ -766,7 +770,7 @@ export default function QuickWorkspace({profile,demo=false,onLogout}){
       </section>
       <p className="q-feedback">Para copiar a evolução ou qualquer rascunho, use a Central de documentos finais abaixo.</p>
       <FinalPackage narrative={narrative} documents={finalDocuments} pending={aiPending} outdated={aiResultsOutdated} copy={copy}/>
-      
+
       {status&&<p className="q-feedback" role="status">{status}</p>}
       {copied&&<p className="q-copied"><Check size={15}/> {copied} copiado para a área de transferência.</p>}
       <button className="q-clear" type="button" onClick={clearSession}><Trash2 size={16}/> Encerrar e limpar consulta</button>

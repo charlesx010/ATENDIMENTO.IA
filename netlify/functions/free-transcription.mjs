@@ -1,4 +1,4 @@
-import { authenticatedAccount, reserveUsage, usageDenied, UsageAccessError } from '../lib/usage-policy.mjs';
+import { authenticatedAccount, reserveUsage, reserveLegacyUsage, usageDenied, UsageAccessError } from '../lib/usage-policy.mjs';
 
 const respond = (value, status = 200, headers = {}) => new Response(JSON.stringify(value), {
   status, headers: { 'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-store', 'x-content-type-options': 'nosniff', ...headers }
@@ -25,7 +25,7 @@ export function createTranscriptionHandler({ env = process.env, fetcher = fetch,
       if (!account) return respond({ error: 'Conta não habilitada.' }, 403);
       const buffer = await request.arrayBuffer();
       if (buffer.byteLength < 1500 || buffer.byteLength > MAX_BYTES) return respond({ error: 'Áudio vazio ou acima de 3,6 MB.' }, 413);
-      const usage = await limiter(account, 'transcription', env);
+      const usage = await reserveLegacyUsage(account, 'transcription', env, limiter);
       if (!usage?.allowed) {
         const denied = usageDenied(usage);
         return respond(denied.body, 429, denied.headers);

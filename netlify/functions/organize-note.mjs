@@ -1,9 +1,9 @@
-import { authenticatedAccount, reserveUsage, usageDenied, UsageAccessError } from '../lib/usage-policy.mjs';
+import { authenticatedAccount, reserveUsage, usageDenied, UsageAccessError, documentationEnabled } from '../lib/usage-policy.mjs';
 import { documentationSchema, documentationPrompt, validateDocumentation } from '../lib/documentation.mjs';
 const json = (body, status = 200, headers = {}) => new Response(JSON.stringify(body), { status, headers: { 'content-type':'application/json; charset=utf-8', 'cache-control':'no-store', 'x-content-type-options':'nosniff', ...headers } });
 export function createDocumentationHandler({ env = process.env, fetcher = fetch, authenticate, limiter = reserveUsage } = {}) {
   return async request => {
-    const available = env.GROQ_CLINICAL_ENABLED === 'true' && Boolean(env.GROQ_API_KEY) && Boolean(env.SUPABASE_URL && env.SUPABASE_SERVICE_ROLE_KEY);
+    const available = documentationEnabled(env) && Boolean(env.GROQ_API_KEY) && Boolean(env.SUPABASE_URL && env.SUPABASE_SERVICE_ROLE_KEY);
     if (request.method === 'GET') return json({ available });
     if (request.method !== 'POST') return json({ error:'Método não permitido.' },405);
     if (!available) return json({ error:'Organização por IA não configurada. O modo literal continua disponível.' },503);

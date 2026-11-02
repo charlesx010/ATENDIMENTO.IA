@@ -1,4 +1,4 @@
-import {authenticatedAccount,reserveUsage,usageDenied,UsageAccessError} from '../lib/usage-policy.mjs';
+import {authenticatedAccount,reserveLegacyUsage,usageDenied,UsageAccessError} from '../lib/usage-policy.mjs';
 import {DEEP_FIELDS,deepJsonSchema,brazilianClinicalPrompt,validateDeepResult,normalizeBrazilianText} from '../lib/deep-clinical.mjs';
 import {lookupEvidence,evidenceInstructions} from '../lib/clinical-evidence.mjs';
 import {
@@ -61,7 +61,7 @@ export default async function handler(request){
  if(valid.text.length>6000)return respond({error:'Para economizar a cota gratuita, limite o caso a 6 mil caracteres.'},400);
  try{
   const account=await authenticatedAccount(auth.slice(7));
-  const usage=await reserveUsage(account,'documentation');
+  const usage=await reserveLegacyUsage(account,'documentation');
   if(!usage.allowed){const denied=usageDenied(usage);return respond(denied.body,429,denied.headers);}
  }catch(error){
   if(error instanceof UsageAccessError)return respond({error:error.message,code:error.code},error.status);

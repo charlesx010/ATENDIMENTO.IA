@@ -1,4 +1,6 @@
-# Prontuário.IA — piloto profissional 2.1
+# Prontuário.IA — correção de compatibilidade 2.1.1
+
+**Fluxo padrão restaurado:** `/demo` e `/<usuário>` oferecem novamente Simplificado, Completo, receituário e documentos, utilizando a sessão existente em `clinical_sessions`. A área nova é opcional em `/demo/novo` ou `/<usuário>/novo`. Leia [a correção de compatibilidade](docs/CORRECAO_COMPATIBILIDADE.md) antes de implantar sobre um ambiente já existente. Não recrie banco/usuários nem reexecute migrações de criação para recuperar as funções clássicas.
 
 Webapp responsivo de documentação clínica: **capturar → organizar → revisar**. O fluxo principal foi reconstruído; autenticação, ditado, OCR, catálogo e bibliotecas úteis do projeto original foram preservados. Não é uma implementação integralmente nova de todos os módulos.
 
@@ -80,7 +82,7 @@ Use `.env.example` como referência de nomes; configure valores pelas ferramenta
 
 As migrações `20261102_ai_usage.sql` e `20261102_personal_templates.sql` devem ser aplicadas após a base. A biblioteca tem salvamento/carregamento explícito e comparação de versão, separada da consulta; sua retenção é até exclusão, não 24 horas. Não colocar dados de pacientes nos roteiros.
 
-O painel Meu uso consulta apenas o consumo da própria conta. A reserva de tentativa é atômica no servidor; sem migração, o pedido de IA falha antes do provedor. Defaults: 30 tentativas de documentação/dia, 40 de transcrição/dia e 3/minuto/operação, ajustáveis pelas variáveis `AI_DOCUMENTATION_DAILY_LIMIT`, `AI_TRANSCRIPTION_DAILY_LIMIT`, `AI_BURST_LIMIT`. Tentativas autorizadas contam inclusive em falha do provedor, sem relação com cobrança financeira.
+O painel Meu uso consulta apenas o consumo da própria conta. A reserva de tentativa é atômica no servidor; o novo endpoint organiza-note exige a migração. As rotas clássicas só exigem a nova tabela quando AI_USAGE_ENFORCEMENT=true é explicitamente ativado; sem essa ativação, mantêm a configuração anterior e os limites do provedor. Defaults: 30 tentativas de documentação/dia, 40 de transcrição/dia e 3/minuto/operação, ajustáveis pelas variáveis `AI_DOCUMENTATION_DAILY_LIMIT`, `AI_TRANSCRIPTION_DAILY_LIMIT`, `AI_BURST_LIMIT`. Tentativas autorizadas contam inclusive em falha do provedor, sem relação com cobrança financeira.
 
 ## Sincronização e retenção
 

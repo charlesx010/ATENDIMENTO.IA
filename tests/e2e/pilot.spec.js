@@ -1,7 +1,7 @@
 import {test,expect} from '@playwright/test';
-async function localNote(page){await page.goto('/demo');await page.getByRole('button',{name:'Carregar exemplo fictício'}).click();await page.getByRole('button',{name:'Organizar prontuário',exact:true}).click();await page.getByRole('button',{name:'Organizar sem IA',exact:true}).click();}
+async function localNote(page){await page.goto('/demo/novo');await page.getByRole('button',{name:'Carregar exemplo fictício'}).click();await page.getByRole('button',{name:'Organizar prontuário',exact:true}).click();await page.getByRole('button',{name:'Organizar sem IA',exact:true}).click();}
 test('roteiro pessoal orienta captura sem contaminar relato e continua após navegar',async({page})=>{
- await page.setViewportSize({width:390,height:900});await page.goto('/demo');
+ await page.setViewportSize({width:390,height:900});await page.goto('/demo/novo');
  await page.getByRole('button',{name:'Modelos',exact:true}).click();
  await page.getByRole('button',{name:'Usar como guia',exact:true}).first().click();
  await expect(page.locator('.w-capture-guide')).toBeVisible();
@@ -34,7 +34,7 @@ test('impressão contém somente documento revisado e formatos não inventam fat
  await expect(page.locator('.w-print-document')).not.toContainText('Carregar exemplo fictício');
 });
 test('nova consulta elimina resultados OCR da consulta anterior',async({page})=>{
- await page.goto('/demo');await page.getByText('Anexar exame ou laudo fictício · OCR local',{exact:true}).click();
+ await page.goto('/demo/novo');await page.getByText('Anexar exame ou laudo fictício · OCR local',{exact:true}).click();
  await page.locator('.q-file-button input').setInputFiles({name:'ficticio.txt',mimeType:'text/plain',buffer:Buffer.from('EXAME FICTÍCIO DO CASO ANTERIOR')});
  await expect(page.getByLabel('Texto extraído — revisar antes de inserir')).toHaveValue('EXAME FICTÍCIO DO CASO ANTERIOR');
  page.on('dialog',d=>d.accept());await page.getByRole('button',{name:'Nova consulta',exact:true}).click();await page.getByRole('button',{name:'Limpar e começar'}).click();
@@ -43,7 +43,7 @@ test('nova consulta elimina resultados OCR da consulta anterior',async({page})=>
  await expect(page.getByRole('textbox',{name:'Relato original',exact:true})).toHaveValue('');
 });
 test('modelo personalizado pode ser criado, exportado e restaurado',async({page})=>{
- await page.goto('/demo');await page.getByRole('button',{name:'Modelos',exact:true}).click();
+ await page.goto('/demo/novo');await page.getByRole('button',{name:'Modelos',exact:true}).click();
  await page.getByRole('button',{name:'Criar modelo',exact:true}).click();
  await page.getByLabel('Nome do modelo',{exact:true}).fill('Roteiro da equipe');await page.getByLabel('Categoria',{exact:true}).fill('Geral');
  await page.getByLabel('Roteiro e perguntas para registrar').fill('Registrar motivo informado, achados realmente examinados e conduta decidida.');

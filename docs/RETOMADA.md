@@ -1,3 +1,7 @@
+# Correção 2.1.1 — leia primeiro
+
+O usuário relatou regressão completa. O fluxo antigo QuickWorkspace voltou como padrão; a área nova é opt-in em /novo. O banco clássico clinical_sessions e seu payload schema1 foram preservados, sem conversão. Runtime público permite usar a configuração das Functions quando não há VITE no build; só anon/publicável, nunca service_role. As rotas Groq antigas só aplicam cotas novas se AI_USAGE_ENFORCEMENT=true. Preferências têm endpoint autenticado próprio. Leia docs/CORRECAO_COMPATIBILIDADE.md. Não declarar site corrigido antes de confirmar repositório/commit do Netlify e teste real: preview iaidoutor está bloqueado nesta sessão e não há credencial Netlify.
+
 # Retomada — piloto profissional 2.1
 
 Atualização de 02/11/2026: a base 2.0 foi enviada ao GitHub (46fe0ce) e a CI passou. A evolução 2.1 está na branch feat/piloto-profissional, com mudanças para piloto comercial. Leia docs/PILOTO_COMERCIAL.md para recursos, migrações e limites. Não aplicar em produção sem preparar as novas tabelas de quota e biblioteca. A IA agora falha fechada se a migração das cotas não existir. O preview externo não foi validado/alterado.

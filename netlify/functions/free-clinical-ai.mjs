@@ -1,4 +1,4 @@
-import {authenticatedAccount,reserveUsage,usageDenied,UsageAccessError} from '../lib/usage-policy.mjs';
+import {authenticatedAccount,reserveLegacyUsage,usageDenied,UsageAccessError} from '../lib/usage-policy.mjs';
 import {
  validateClinicalDraft,formatClinicalBundlePrompt,bundleJsonSchema,validateClinicalBundle
 } from '../lib/ai-note.mjs';
@@ -38,7 +38,7 @@ export default async function freeClinicalAi(request){
   return json({error:'Autenticação temporariamente indisponível.'},503);
  try{
   const account=await authenticatedAccount(token);
-  const usage=await reserveUsage(account,'documentation');
+  const usage=await reserveLegacyUsage(account,'documentation');
   if(!usage.allowed){const denied=usageDenied(usage);return json(denied.body,429,denied.headers);}
  }catch(error){
   if(error instanceof UsageAccessError)return json({error:error.message,code:error.code},error.status);
