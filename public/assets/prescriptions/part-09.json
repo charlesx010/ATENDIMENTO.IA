@@ -1,0 +1,301 @@
+[
+  {
+    "id": "ADU-063",
+    "name": "Dor abdominal",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "R10.4",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "cólica intestinal, dor de barriga, buscopan, escopolamina, simeticona, luftal Dipirona 500 mg Butilbrometo de escopolamina 10 mg Metoclopramida 10 mg",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Dipirona 500 mg — 01 caixa\nTomar 02 comprimidos se febre ou dor, podendo repetir de 6/6h.\n\nUso oral\n2) Butilbrometo de escopolamina 10 mg — 01 caixa\nTomar 01 comprimido se dor abdominal, podendo repetir de 8/8h.\n\nUso oral\n3) Metoclopramida 10 mg — 01 caixa\nTomar 01 comprimido se náuseas ou vômitos, podendo repetir de 8/8h.\n\nORIENTAÇÕES:\n- Beber líquidos em pequenos goles (água, soro de reidratação, chás claros) e fazer dieta leve sem frituras, leite, café ou álcool.\n- Não tomar anti-inflamatórios (como diclofenaco, ibuprofeno ou cetoprofeno), pois irritam o estômago e mascaram quadros cirúrgicos.\n- Retornar imediatamente à emergência se a dor ficar contínua e forte (especialmente no lado direito inferior), ou se tiver febre, barriga dura ou vômitos."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  },
+  {
+    "id": "ADU-064",
+    "name": "Dor após trauma",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "T14.9",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "pancada, contusão, entorse, trauma contuso, nimesulida, diclofenaco Nimesulida 100 mg Dipirona 500 mg Paracetamol 500 mg + codeína 30 mg",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Nimesulida 100 mg — 10 comprimidos\nTomar 01 comprimido de 12/12h por 05 dias.\n\nUso oral\n2) Dipirona 500 mg — 01 caixa\nTomar 02 comprimidos se dor ou febre, podendo repetir de 6/6h.\n\nUso oral\n3) Paracetamol 500 mg + codeína 30 mg — 01 caixa\nTomar 01 comprimido se dor intensa, podendo repetir de 6/6h.\n\nORIENTAÇÕES:\n- Manter o local em repouso e elevado nas primeiras 48h, aplicando gelo envolto em pano fino por 15 a 20 minutos, 3 a 4 vezes ao dia.\n- Tomar o anti-inflamatório sempre após as refeições e evitar bebidas alcoólicas.\n- Retornar imediatamente ao pronto-socorro se surgir dormência, formigamento, perda de força, dedos frios/roxos ou piora da dor."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  },
+  {
+    "id": "ADU-065",
+    "name": "Dor de dente (odontalgia) e abscesso dentário",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "K08.8 / K04.7",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "odontalgia, dor de dente, dente inflamado, abscesso dentário, rosto inchado por dente, siso, pericoronarite Ibuprofeno 600 mg Dipirona 500 mg Amoxicilina 500 mg Amoxicilina + clavulanato 875/125 mg Clindamicina 300 mg Metronidazol 400 mg",
+    "gate": "O tratamento definitivo é odontológico (drenagem, canal ou extração). Antibiótico só se houver infecção com inchaço, febre ou íngua. Pulpite (dor sem inchaço) não precisa de antibiótico. Urgência: inchaço que desce para o pescoço ou embaixo da língua, dificuldade para engolir ou respirar, boca que não abre, olho fechando.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Ibuprofeno 600 mg — 15 comprimidos\nTomar 1 comprimido de 8/8h, após as refeições, por 5 dias.\n\nUso oral\n2) Dipirona 500 mg — 20 comprimidos\nTomar 1 a 2 comprimidos de 6/6h, se dor. Pode intercalar com o ibuprofeno.\n\nORIENTAÇÕES:\n- Bochecho com água morna e sal, 3 a 4 vezes ao dia. Compressa fria por fora do rosto (não quente).\n- Procurar o dentista (UBS com saúde bucal ou CEO) em até 48 a 72h: o remédio alivia, mas não resolve. Manter a escovação com cuidado.\n- Retornar imediatamente ao pronto-socorro se: inchaço que aumenta ou desce para o pescoço, dificuldade para engolir, respirar ou abrir a boca, febre alta, olho inchado."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Amoxicilina 500 mg — 21 cápsulas\nTomar 1 cápsula de 8/8h, por 7 dias.\n\nUso oral\n2) Amoxicilina + clavulanato 875/125 mg — 14 comprimidos\nTomar 1 comprimido de 12/12h, por 7 dias. Para quadros mais extensos.\n\nUso oral\n3) Clindamicina 300 mg — 28 cápsulas\nTomar 1 cápsula de 6/6h, por 7 dias. Alergia à penicilina.\n\nUso oral\n4) Metronidazol 400 mg — 21 comprimidos\nTomar 1 comprimido de 8/8h, por 7 dias. Associar à amoxicilina se infecção gengival ou sem melhora em 48h. Sem álcool.\n\nORIENTAÇÕES:\n- Bochecho com água morna e sal, 3 a 4 vezes ao dia. Compressa fria por fora do rosto (não quente).\n- Procurar o dentista (UBS com saúde bucal ou CEO) em até 48 a 72h: o remédio alivia, mas não resolve. Manter a escovação com cuidado.\n- Retornar imediatamente ao pronto-socorro se: inchaço que aumenta ou desce para o pescoço, dificuldade para engolir, respirar ou abrir a boca, febre alta, olho inchado."
+      },
+      {
+        "id": "na-unidade",
+        "title": "Prescrição na unidade",
+        "note": "Administração na unidade · separada da receita domiciliar",
+        "prescription": "PRESCRIÇÃO NA UNIDADE\n\nUso EV ou IM\n1) Dipirona 500 mg/mL — 01 ampola\nAplicar 2 mL (1 g) EV lento ou IM.\n\nUso EV\n2) Cetoprofeno 100 mg — 01 frasco-ampola\nDiluir em 100 mL de SF 0,9% e correr EV em 20 min (ou diclofenaco 75 mg IM)."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "dentista em 48 a 72h",
+      "retornar_imediatamente_se": "Inchaço que aumenta ou desce para o pescoço, dificuldade para engolir, respirar ou abrir a boca, febre alta, olho inchado.",
+      "seguranca_plantonista": "Gestante: amoxicilina e paracetamol são a escolha. Evitar anti-inflamatório após 20 semanas. Metronidazol pode ser usado. Amamentação: todos os itens são compatíveis. Anticoagulado ou doença renal: evitar anti-inflamatório.",
+      "encaminhar_internar": "Celulite facial extensa, trismo, febre alta ou risco de via aérea: internação, antibiótico EV e cirurgia bucomaxilofacial.",
+      "atestado_sugerido": "1 a 2 dias"
+    }
+  },
+  {
+    "id": "ADU-066",
+    "name": "DPOC descompensada",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "J44.1",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "enfisema, bronquite crônica exacerbada, falta de ar, prednisona, salbutamol, amoxicilina+clavulanato, DPOC, bronquite crônica, falta de ar em fumante, exacerbação, chiado Amoxicilina 500 mg Azitromicina 500 mg Prednisona 20 mg Dipirona 500 mg Omeprazol 20 mg Salbutamol Spray Aerossol 100 mcg Levofloxacino 500 mg Prednisona 20 mg Levofloxacino 750 mg Prednisona 20 mg Prednisona 20 mg Amoxicilina + clavulanato 875/125 mg Salbutamol spray 100 mcg/jato Azitromicina 500 mg Levofloxacino 500 mg Umeclidínio + vilanterol 62,5/25 mcg 1 inalador Tiotrópio 2,5 mcg/jato (Respimat) 1 inalador Acetilcisteína 600 mg envelope",
+    "gate": "Alvo de SpO2: 88 a 92%. Oxigênio demais pode reter CO2 (sonolência). Gasometria se SpO2 baixa, sonolência ou confusão. Pense nos diferenciais: pneumonia (RX), TEP, insuficiência cardíaca, pneumotórax, arritmia.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Amoxicilina 500 mg — 30 comprimidos\nTomar 01 comprimido de 8/8h por 10 dias consecutivos Horário sugerido (8/8h): 06:00 / 14:00 / 22:00.\n\nUso oral\n2) Azitromicina 500 mg — 07 comprimidos\nTomar 01 comprimido ao dia, no mesmo horário, por 07 dias consecutivos.\n\nUso oral\n3) Prednisona 20 mg — 15 comprimidos\nTomar 03 comprimidos às 8:00 por 05 dias seguidos.\n\nUso oral\n4) Dipirona 500 mg — 01 caixa\nTomar 02 comprimidos se dor ou febre, podendo repetir de 6/6h.\n\nUso oral\n5) Omeprazol 20 mg — 10 comprimidos\nTomar 01 comprimido pela manhã, em jejum, por 10 dias.\n\nUso oral\n6) Salbutamol Spray Aerossol 100 mcg — 01 frasco\nInalar 01 puff no meio da respiração profunda e segurar a respiração por 10 seg. pode repetir uma vez após um minuto. nas crises de falta de ar, por até 05 dias (se ausência de melhora, retornar à emergência).\n\nUso oral\n7) Levofloxacino 500 mg — 05 comprimidos\nTomar 01 comprimido uma vez ao dia, no mesmo horário, por 05 dias seguidos.\n\nORIENTAÇÕES:\n- Completar todo o antibiótico e a Prednisona pela manhã, mantendo suas bombinhas contínuas e suspendendo totalmente o cigarro.\n- Beber bastante água para fluidificar o catarro e manter a cabeceira elevada ao dormir.\n- Retornar IMEDIATAMENTE à emergência se piorar a falta de ar, ficar com lábios roxos, sonolento, confuso ou com febre persistente."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Prednisona 20 mg — 15 comprimidos\nTomar 03 comprimidos às 8:00 por 05 dias seguidos.\n\nUso oral\n2) Levofloxacino 750 mg — 05 comprimidos\nTomar 01 comprimido uma vez ao dia, no mesmo horário, por 05 dias seguidos.\n\nORIENTAÇÕES:\n- Completar todo o antibiótico e a Prednisona pela manhã, mantendo suas bombinhas contínuas e suspendendo totalmente o cigarro.\n- Beber bastante água para fluidificar o catarro e manter a cabeceira elevada ao dormir.\n- Retornar IMEDIATAMENTE à emergência se piorar a falta de ar, ficar com lábios roxos, sonolento, confuso ou com febre persistente."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Prednisona 20 mg — 15 comprimidos\nTomar 03 comprimidos às 8:00 por 05 dias seguidos.\n\nORIENTAÇÕES:\n- Completar todo o antibiótico e a Prednisona pela manhã, mantendo suas bombinhas contínuas e suspendendo totalmente o cigarro.\n- Beber bastante água para fluidificar o catarro e manter a cabeceira elevada ao dormir.\n- Retornar IMEDIATAMENTE à emergência se piorar a falta de ar, ficar com lábios roxos, sonolento, confuso ou com febre persistente."
+      },
+      {
+        "id": "esquema-4",
+        "title": "Esquema 4",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Prednisona 20 mg — 10 comprimidos\nTomar 2 comprimidos pela manhã, por 5 dias.\n\nUso oral\n2) Amoxicilina + clavulanato 875/125 mg — 10 comprimidos\nTomar 1 comprimido de 12/12h, por 5 dias.\n\nUso inalatório\n3) Salbutamol spray 100 mcg/jato — 01 frasco\nInalar 2 a 4 jatos com espaçador, se falta de ar, até de 4/4h.\n\nORIENTAÇÕES:\n- Completar todo o antibiótico e a Prednisona pela manhã, mantendo suas bombinhas contínuas e suspendendo totalmente o cigarro.\n- Beber bastante água para fluidificar o catarro e manter a cabeceira elevada ao dormir.\n- Retornar IMEDIATAMENTE à emergência se piorar a falta de ar, ficar com lábios roxos, sonolento, confuso ou com febre persistente."
+      },
+      {
+        "id": "esquema-5",
+        "title": "Esquema 5",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Azitromicina 500 mg — 03 comprimidos\nTomar 1 comprimido 1 vez ao dia, por 3 dias.\n\nUso oral\n2) Levofloxacino 500 mg — 05 comprimidos\nTomar 1 comprimido 1 vez ao dia, por 5 dias. Se uso recente de antibiótico ou exacerbações frequentes.\n\nUso oral\n3) Umeclidínio + vilanterol 62,5/25 mcg 1 inalador — 01 unidade / conforme orientação\nInalar 1 dose, 1 vez ao dia, todos os dias (manutenção).\n\nUso oral\n4) Tiotrópio 2,5 mcg/jato (Respimat) 1 inalador — 01 unidade / conforme orientação\nInalar 2 jatos, 1 vez ao dia, todos os dias (manutenção).\n\nUso oral\n5) Acetilcisteína 600 mg envelope — 10 envelopes\nDissolver 1 envelope em meio copo de água e tomar 1 vez ao dia, por 10 dias, se catarro espesso.\n\nORIENTAÇÕES:\n- Completar todo o antibiótico e a Prednisona pela manhã, mantendo suas bombinhas contínuas e suspendendo totalmente o cigarro.\n- Beber bastante água para fluidificar o catarro e manter a cabeceira elevada ao dormir.\n- Retornar IMEDIATAMENTE à emergência se piorar a falta de ar, ficar com lábios roxos, sonolento, confuso ou com febre persistente."
+      },
+      {
+        "id": "na-unidade",
+        "title": "Prescrição na unidade",
+        "note": "Administração na unidade · separada da receita domiciliar",
+        "prescription": "PRESCRIÇÃO NA UNIDADE\n\nUso inalatório\n1) Salbutamol spray 100 mcg/jato — 01 frasco\n4 a 8 jatos com espaçador a cada 20 min na 1ª hora, depois de 4/4h.\n\nUso inalatório\n2) Nebulização: Fenoterol 5 mg/mL 10 gotas + Ipratrópio 0,25 mg/mL 40 gotas + SF 0,9% 4 mL — 01 unidade / conforme orientação\nNebulizar a cada 20 min na 1ª hora (3 doses). Em retentor de CO2, nebulizar com ar comprimido.\n\nUso oral\n3) Prednisona 20 mg — 02 comprimidos\nTomar 2 comprimidos (40 mg), via oral. Se não tolerar via oral: metilprednisolona 40 mg EV."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "UBS em até 7 dias",
+      "retornar_imediatamente_se": "Falta de ar em repouso, lábios roxos, sonolência ou confusão, febre alta, pernas inchadas, precisar do spray antes de 4/4h.",
+      "seguranca_plantonista": "Idoso ou cardiopata: salbutamol pode causar taquicardia. Azitromicina e levofloxacino prolongam o QT. Doença renal: levofloxacino 750 mg a cada 48h se TFG 20 a 49. Diabético: prednisona sobe a glicemia (monitorar).",
+      "encaminhar_internar": "Internar: falta de ar grave sem resposta, SpO2 < 88% mesmo com O2, acidose respiratória, confusão, comorbidade grave descompensada ou sem suporte em casa.",
+      "atestado_sugerido": "3 a 7 dias"
+    }
+  },
+  {
+    "id": "ADU-067",
+    "name": "Entorse articular e contusão muscular",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "S93.4 / T14.0",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "torção, tornozelo virado, pé torcido, pancada, trauma leve, distensão muscular, joelho torcido, punho torcido Ibuprofeno 600 mg Dipirona 500 mg Diclofenaco dietilamônio 11,6 mg/g gel",
+    "gate": "Regras de Ottawa (tornozelo e pé): pedir RX se dor na região do tornozelo/médio pé + dor à palpação na borda posterior ou ponta dos maléolos, na base do 5º metatarso ou no navicular, ou incapacidade de dar 4 passos logo após o trauma e na sala.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Ibuprofeno 600 mg — 15 comprimidos\nTomar 1 comprimido de 8/8h, após as refeições, por 5 dias.\n\nUso oral\n2) Dipirona 500 mg — 20 comprimidos\nTomar 1 a 2 comprimidos de 6/6h, se dor.\n\nUso local\n3) Diclofenaco dietilamônio 11,6 mg/g gel — 01 bisnaga\nAplicar no local com leve massagem, 3 a 4 vezes ao dia, por 7 dias. Não aplicar em pele ferida.\n\nORIENTAÇÕES:\n- Gelo por 15 a 20 minutos a cada 2 a 3h nas primeiras 48 a 72h, sempre com um pano entre o gelo e a pele.\n- Manter o membro elevado acima do coração. Atadura firme, mas sem apertar demais.\n- Retornar imediatamente ao pronto-socorro se: dor que piora, inchaço muito grande, pé ou mão frio, roxo ou dormente, não conseguir apoiar após 5 a 7 dias, febre."
+      },
+      {
+        "id": "na-unidade",
+        "title": "Prescrição na unidade",
+        "note": "Administração na unidade · separada da receita domiciliar",
+        "prescription": "PRESCRIÇÃO NA UNIDADE\n\nUso EV ou IM\n1) Dipirona 500 mg/mL — 01 ampola\nAplicar 2 mL (1 g) EV lento ou IM.\n\nUso IM\n2) Diclofenaco de sódio 75 mg/3 mL — 01 ampola\nAplicar IM profundo, dose única.\n\nUso local\n3) Cetoprofeno 100 mg — 01 frasco-ampola\nDiluir em 100 mL de SF 0,9% e correr EV em 20 min. Gelo local e elevação. Entorse leve a moderada: enfaixamento compressivo. Entorse grave ou suspeita de lesão ligamentar importante: tala ou órtese e muletas."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "5 a 7 dias se não conseguir apoiar",
+      "retornar_imediatamente_se": "Dor que piora, inchaço muito grande, pé ou mão frio, roxo ou dormente, não conseguir apoiar após 5 a 7 dias, febre.",
+      "seguranca_plantonista": "Gestante: paracetamol e gelo. Evitar anti-inflamatório oral após 20 semanas. Idoso, doença renal ou anticoagulado: preferir paracetamol + gel tópico. Evitar anti-inflamatório oral.",
+      "encaminhar_internar": "Fratura, luxação, lesão ligamentar grave ou instabilidade: ortopedia. Dor desproporcional, dor ao esticar os dedos e membro tenso (síndrome compartimental): urgência ortopédica.",
+      "atestado_sugerido": "2 a 7 dias, conforme a gravidade e o trabalho"
+    }
+  },
+  {
+    "id": "ADU-068",
+    "name": "Enxaqueca / Migrânea",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "G43.9",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "dor de cabeça latejante, fotofobia, náusea, sumatriptano, sumax, naratriptano, naramig, cefaliv, migrânea, enxaqueca, dor de cabeça com vômito, aura, cefaleia Dipirona 500 mg Metoclopramida 10 mg Naproxeno sódico 500 mg Metoclopramida 10 mg Dipirona 500 mg Naproxeno sódico 500 mg Metoclopramida 10 mg Naratripano 2,5 mg Dipirona 500 mg Metoclopramida 10 mg Sumatriptano 25 mg Dipirona 500 mg Metoclopramida 10 mg Cefaliv® Metoclopramida 10 mg Sumatriptana 50 mg Propranolol 40 mg",
+    "gate": "Investigue antes de tratar como primária: dor súbita e muito forte, febre com nuca rígida, déficit neurológico, trauma, cefaleia nova após 50 anos, gestante ou puérpera, imunossuprimido, aura atípica ou com mais de 1h.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Dipirona 500 mg — 01 caixa\nTomar 02 comprimidos se febre ou dor, podendo repetir de 6/6h.\n\nUso oral\n2) Metoclopramida 10 mg — 01 caixa\nTomar 01 comprimido se náuseas ou vômitos, podendo repetir de 8/8h.\n\nUso oral\n3) Naproxeno sódico 500 mg — 10 cps\nTomar um comprimido se dor, podendo repetir de 12/12h por até 05 dias seguidos.\n\nORIENTAÇÕES:\n- Tomar o remédio específico da crise logo no primeiro sinal da dor e repousar em quarto escuro e silencioso com compressa fria na testa.\n- Nunca misturar triptanos (Sumatriptano/Naratriptano) com ergotamina (Cefaliv®/Cefalium®) no mesmo dia; evitar jejum, vinho e queijos amarelos.\n- Retornar à emergência se a dor durar mais de 72 horas ou vier com febre, nuca rígida, perda de força ou dificuldade para falar."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Metoclopramida 10 mg — 01 caixa\nTomar 01 comprimido se náuseas ou vômitos, podendo repetir de 8/8h.\n\nUso oral\n2) Dipirona 500 mg — 01 caixa\nTomar 02 comprimidos se febre ou dor, podendo repetir de 6/6h.\n\nUso oral\n3) Naproxeno sódico 500 mg — 10 cps\nTomar um comprimido se dor, podendo repetir de 12/12h por até 05 dias seguidos.\n\nORIENTAÇÕES:\n- Tomar o remédio específico da crise logo no primeiro sinal da dor e repousar em quarto escuro e silencioso com compressa fria na testa.\n- Nunca misturar triptanos (Sumatriptano/Naratriptano) com ergotamina (Cefaliv®/Cefalium®) no mesmo dia; evitar jejum, vinho e queijos amarelos.\n- Retornar à emergência se a dor durar mais de 72 horas ou vier com febre, nuca rígida, perda de força ou dificuldade para falar."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Metoclopramida 10 mg — 01 caixa\nTomar 01 comprimido se náuseas ou vômitos, podendo repetir de 8/8h.\n\nUso oral\n2) Naratripano 2,5 mg — 01 caixa\nTomar 01 comprimido ao primeiro sinal de enxaqueca. se não houver melhora, pode repetir 01 comprimido após 6h horas.\n\nUso oral\n3) Dipirona 500 mg — 01 caixa\nTomar 02 comprimidos se dor ou febre, podendo repetir de 6/6h.\n\nORIENTAÇÕES:\n- Tomar o remédio específico da crise logo no primeiro sinal da dor e repousar em quarto escuro e silencioso com compressa fria na testa.\n- Nunca misturar triptanos (Sumatriptano/Naratriptano) com ergotamina (Cefaliv®/Cefalium®) no mesmo dia; evitar jejum, vinho e queijos amarelos.\n- Retornar à emergência se a dor durar mais de 72 horas ou vier com febre, nuca rígida, perda de força ou dificuldade para falar."
+      },
+      {
+        "id": "esquema-4",
+        "title": "Esquema 4",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Metoclopramida 10 mg — 01 caixa\nTomar 01 comprimido se náuseas ou vômitos, podendo repetir de 8/8h.\n\nUso oral\n2) Sumatriptano 25 mg — 02 caixas\nTomar 01 comprimido ao primeiro sinal de enxaqueca. se não houver melhora, pode repetir 02 comprimidos a cada 02 horas, até o máximo de 04 vezes ao dia.\n\nUso oral\n3) Dipirona 500 mg — 01 caixa\nTomar 02 comprimidos se dor ou febre, podendo repetir de 6/6h.\n\nORIENTAÇÕES:\n- Tomar o remédio específico da crise logo no primeiro sinal da dor e repousar em quarto escuro e silencioso com compressa fria na testa.\n- Nunca misturar triptanos (Sumatriptano/Naratriptano) com ergotamina (Cefaliv®/Cefalium®) no mesmo dia; evitar jejum, vinho e queijos amarelos.\n- Retornar à emergência se a dor durar mais de 72 horas ou vier com febre, nuca rígida, perda de força ou dificuldade para falar."
+      },
+      {
+        "id": "esquema-5",
+        "title": "Esquema 5",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Metoclopramida 10 mg — 01 caixa\nTomar 01 comprimido se náuseas ou vômitos, podendo repetir de 8/8h.\n\nUso oral\n2) Cefaliv® — 01 caixa\nTomar 01 a 02 comprimidos ao primeiro sinal de enxaqueca. se não houver melhora, pode ingerir um comprimido a cada 30 min, até um máximo de 06 comprimidos.\n\nORIENTAÇÕES:\n- Tomar o remédio específico da crise logo no primeiro sinal da dor e repousar em quarto escuro e silencioso com compressa fria na testa.\n- Nunca misturar triptanos (Sumatriptano/Naratriptano) com ergotamina (Cefaliv®/Cefalium®) no mesmo dia; evitar jejum, vinho e queijos amarelos.\n- Retornar à emergência se a dor durar mais de 72 horas ou vier com febre, nuca rígida, perda de força ou dificuldade para falar."
+      },
+      {
+        "id": "esquema-6",
+        "title": "Esquema 6",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Metoclopramida 10 mg — 01 caixa\nTomar 01 comprimido se náuseas ou vômitos, podendo repetir de 8/8h.\n\nORIENTAÇÕES:\n- Tomar o remédio específico da crise logo no primeiro sinal da dor e repousar em quarto escuro e silencioso com compressa fria na testa.\n- Nunca misturar triptanos (Sumatriptano/Naratriptano) com ergotamina (Cefaliv®/Cefalium®) no mesmo dia; evitar jejum, vinho e queijos amarelos.\n- Retornar à emergência se a dor durar mais de 72 horas ou vier com febre, nuca rígida, perda de força ou dificuldade para falar."
+      },
+      {
+        "id": "esquema-7",
+        "title": "Esquema 7",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Sumatriptana 50 mg — 06 comprimidos\nTomar 1 comprimido no início da dor forte. Se a dor voltar, repetir após 2h (máx. 4 comprimidos por dia). Não usar se doença coronariana, AVC ou hipertensão não controlada.\n\nUso oral\n2) Propranolol 40 mg — 60 comprimidos\nTomar meio comprimido de 12/12h por 1 semana, depois 1 comprimido de 12/12h. Não usar em asmático. Alternativa: amitriptilina 12,5 a 25 mg à noite.\n\nORIENTAÇÕES:\n- Tomar o remédio específico da crise logo no primeiro sinal da dor e repousar em quarto escuro e silencioso com compressa fria na testa.\n- Nunca misturar triptanos (Sumatriptano/Naratriptano) com ergotamina (Cefaliv®/Cefalium®) no mesmo dia; evitar jejum, vinho e queijos amarelos.\n- Retornar à emergência se a dor durar mais de 72 horas ou vier com febre, nuca rígida, perda de força ou dificuldade para falar."
+      },
+      {
+        "id": "na-unidade",
+        "title": "Prescrição na unidade",
+        "note": "Administração na unidade · separada da receita domiciliar",
+        "prescription": "PRESCRIÇÃO NA UNIDADE\n\nUso EV\n1) Dipirona 500 mg/mL — 01 ampola\nAplicar 2 mL (1 g) EV lento, diluído em 8 mL de água destilada.\n\nUso EV\n2) Metoclopramida 10 mg/2 mL — 01 ampola\nDiluir em 100 mL de SF 0,9% e correr EV em 15 min. Trata náusea e dor.\n\nUso EV\n3) Cetoprofeno 100 mg — 01 frasco-ampola\nDiluir em 100 mL de SF 0,9% e correr EV em 20 min.\n\nUso EV\n4) Dexametasona 4 mg/mL — 01 unidade / conforme orientação\n1 ampola de 2,5 mL Aplicar 10 mg EV. Reduz o retorno da dor nas próximas 72h. Refratária: clorpromazina 0,1 mg/kg EV lento (máx. 25 mg), com SF 0,9% 500 mL (risco de hipotensão). Evitar opioide."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "UBS para avaliar prevenção",
+      "retornar_imediatamente_se": "Dor súbita e muito forte, febre com nuca dura, fraqueza ou formigamento que não passa, fala enrolada, perda de visão, dor por mais de 72h.",
+      "seguranca_plantonista": "Gestante: paracetamol + metoclopramida. Evitar anti-inflamatório no 3º trimestre, ergotamina e valproato. Amamentação: ibuprofeno, paracetamol e sumatriptana são compatíveis.",
+      "encaminhar_internar": "Crise com mais de 72h, aura atípica ou prolongada, refratária ou com sinal de alarme: neurologia e neuroimagem.",
+      "atestado_sugerido": "1 dia"
+    }
+  },
+  {
+    "id": "ADU-069",
+    "name": "Epididimite / Orquite",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "N45.9",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "dor no testículo, testículo inchado, ciprofloxacino, ceftriaxona, epididimite, orquite, saco inchado Ciprofloxacino 500mg Doxiciclina 100 mg Ibuprofeno 600 mg Dipirona 500 mg Ciprofloxacino 500 mg Levofloxacino 500 mg",
+    "gate": "Dor testicular súbita em jovem: torção testicular até prova em contrário (urologia imediata, janela de 6h). Epididimite: começo gradual, dor no epidídimo, melhora ao elevar o testículo, sintomas urinários.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Ciprofloxacino 500mg — 20 cps\nTomar 01 comprimido de 12/12h por 10 dias Horário sugerido: 08h00 – 20h00.\n\nORIENTAÇÕES:\n- Completar rigorosamente os 10 dias de Ciprofloxacino, manter repouso físico e usar cueca justa/suspensório escrotal para elevar a bolsa testicular.\n- Aplicar gelo envolto em toalha por 15 minutos, 3 vezes ao dia, nos primeiros 3 dias e manter abstinência sexual até a cura.\n- Retornar imediatamente ao pronto-socorro se a dor piorar subitamente, a febre durar mais de 72h ou sair pus."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Doxiciclina 100 mg — 20 comprimidos\nTomar 1 comprimido de 12/12h, por 10 dias.\n\nUso oral\n2) Ibuprofeno 600 mg — 15 comprimidos\nTomar 1 comprimido de 8/8h, após as refeições, por 5 dias.\n\nUso oral\n3) Dipirona 500 mg — 20 comprimidos\nTomar 1 a 2 comprimidos de 6/6h, se dor.\n\nORIENTAÇÕES:\n- Completar rigorosamente os 10 dias de Ciprofloxacino, manter repouso físico e usar cueca justa/suspensório escrotal para elevar a bolsa testicular.\n- Aplicar gelo envolto em toalha por 15 minutos, 3 vezes ao dia, nos primeiros 3 dias e manter abstinência sexual até a cura.\n- Retornar imediatamente ao pronto-socorro se a dor piorar subitamente, a febre durar mais de 72h ou sair pus."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Ciprofloxacino 500 mg — 20 comprimidos\nTomar 1 comprimido de 12/12h, por 10 dias.\n\nUso oral\n2) Levofloxacino 500 mg — 10 comprimidos\nTomar 1 comprimido 1 vez ao dia, por 10 dias.\n\nORIENTAÇÕES:\n- Completar rigorosamente os 10 dias de Ciprofloxacino, manter repouso físico e usar cueca justa/suspensório escrotal para elevar a bolsa testicular.\n- Aplicar gelo envolto em toalha por 15 minutos, 3 vezes ao dia, nos primeiros 3 dias e manter abstinência sexual até a cura.\n- Retornar imediatamente ao pronto-socorro se a dor piorar subitamente, a febre durar mais de 72h ou sair pus."
+      },
+      {
+        "id": "na-unidade",
+        "title": "Prescrição na unidade",
+        "note": "Administração na unidade · separada da receita domiciliar",
+        "prescription": "PRESCRIÇÃO NA UNIDADE\n\nUso EV\n1) Dipirona 500 mg/mL — 01 ampola\nAplicar 2 mL (1 g) EV lento.\n\nUso IM\n2) Ceftriaxona 500 mg — 01 frasco-ampola\nAplicar 500 mg IM, dose única, se até 35 anos ou risco de IST."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "72h",
+      "retornar_imediatamente_se": "Dor muito forte e súbita, inchaço que aumenta, febre alta, pele do saco escurecendo, vômitos.",
+      "seguranca_plantonista": "Doença renal: ciprofloxacino 500 mg 1 vez ao dia se TFG < 30. Caxumba: orquite viral, sem antibiótico (ver ficha Caxumba).",
+      "encaminhar_internar": "Suspeita de torção: urologia imediata. Abscesso ou sem melhora em 72h: USG e urologia.",
+      "atestado_sugerido": "3 a 7 dias"
+    }
+  }
+]
+
+

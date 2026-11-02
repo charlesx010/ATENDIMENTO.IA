@@ -1,0 +1,238 @@
+[
+  {
+    "id": "TAB-01",
+    "titulo": "Antibióticos: Gestação, Amamentação e Ajuste na Doença Renal (TFG)",
+    "itens": [
+      {
+        "medicamento": "Amoxicilina (500 mg 8/8h ou 875 mg 12/12h)",
+        "gestacao": "Seguro (1ª escolha)",
+        "amamentacao": "Compatível",
+        "doenca_renal": "TFG 10 a 30: 500 mg de 12/12h | TFG < 10: 500 mg 1x/dia"
+      },
+      {
+        "medicamento": "Amoxicilina + Clavulanato (875/125 mg 12/12h)",
+        "gestacao": "Seguro (evitar próximo ao termo se prematuridade)",
+        "amamentacao": "Compatível",
+        "doenca_renal": "TFG < 30: não usar 875 mg; usar 500/125 mg de 12/12h"
+      },
+      {
+        "medicamento": "Cefalexina (500 mg 6/6h)",
+        "gestacao": "Seguro",
+        "amamentacao": "Compatível",
+        "doenca_renal": "TFG 15 a 30: 500 mg de 12/12h | TFG < 15: 250 a 500 mg 1x/dia"
+      },
+      {
+        "medicamento": "Ceftriaxona (1 a 2 g EV/IM 1x/dia)",
+        "gestacao": "Seguro",
+        "amamentacao": "Compatível",
+        "doenca_renal": "Sem ajuste renal na dose usual"
+      },
+      {
+        "medicamento": "Azitromicina (500 mg 1x/dia)",
+        "gestacao": "Seguro",
+        "amamentacao": "Compatível",
+        "doenca_renal": "Sem ajuste (cautela se TFG < 10)"
+      },
+      {
+        "medicamento": "Claritromicina (500 mg 12/12h)",
+        "gestacao": "Evitar (preferir azitromicina)",
+        "amamentacao": "Compatível",
+        "doenca_renal": "TFG < 30: reduzir a dose pela metade (250 mg 12/12h)"
+      },
+      {
+        "medicamento": "Clindamicina (300 a 600 mg 6/6h ou 8/8h)",
+        "gestacao": "Seguro",
+        "amamentacao": "Compatível (observar diarreia no bebê)",
+        "doenca_renal": "Sem ajuste renal"
+      },
+      {
+        "medicamento": "Sulfametoxazol + Trimetoprima (800/160 mg 12/12h)",
+        "gestacao": "Evitar no 1º trimestre e no fim da gestação",
+        "amamentacao": "Compatível em RN a termo > 1 mês",
+        "doenca_renal": "TFG 15 a 30: metade da dose | TFG < 15: evitar"
+      },
+      {
+        "medicamento": "Nitrofurantoína (100 mg 6/6h)",
+        "gestacao": "Seguro no 1º e 2º trimestres; evitar a partir de 38 semanas",
+        "amamentacao": "Compatível se bebê > 1 mês",
+        "doenca_renal": "TFG < 30 (ou < 45 em idoso): evitar (ineficaz e tóxica)"
+      },
+      {
+        "medicamento": "Fosfomicina trometamol (3 g dose única)",
+        "gestacao": "Seguro",
+        "amamentacao": "Compatível",
+        "doenca_renal": "Evitar se TFG < 10"
+      },
+      {
+        "medicamento": "Ciprofloxacino (500 mg 12/12h) / Levofloxacino (750 mg 1x/dia)",
+        "gestacao": "Evitar (lesão cartilaginosa experimental)",
+        "amamentacao": "Cautela (preferir alternativa)",
+        "doenca_renal": "Cipro TFG < 30: 500 mg 1x/dia | Levo TFG 20-49: 750 mg a cada 48h"
+      },
+      {
+        "medicamento": "Doxiciclina (100 mg 12/12h)",
+        "gestacao": "Contraindicado (mancha dentes e inibe crescimento ósseo fetal)",
+        "amamentacao": "Evitar cursos > 21 dias",
+        "doenca_renal": "Sem ajuste renal"
+      },
+      {
+        "medicamento": "Metronidazol (250 a 500 mg 8/8h ou 12/12h)",
+        "gestacao": "Seguro (pode ser usado quando indicado)",
+        "amamentacao": "Compatível",
+        "doenca_renal": "TFG < 10: reduzir dose diária em 50%"
+      }
+    ]
+  },
+  {
+    "id": "TAB-02",
+    "titulo": "Outros Medicamentos na Gestação e Amamentação (Consulta Rápida)",
+    "itens": [
+      {
+        "medicamento": "Paracetamol",
+        "gestacao": "Seguro (Analgésico e antitérmico de 1ª escolha)",
+        "amamentacao": "Compatível"
+      },
+      {
+        "medicamento": "Dipirona",
+        "gestacao": "Cautela (evitar no 1º e no 3º trimestre; preferir paracetamol)",
+        "amamentacao": "Cautela (preferir paracetamol ou ibuprofeno)"
+      },
+      {
+        "medicamento": "Ibuprofeno, Naproxeno, Cetoprofeno, Diclofenaco (AINEs)",
+        "gestacao": "Contraindicados a partir de 20 semanas (oligoâmnio e fechamento do canal arterial); evitar no 1º trimestre",
+        "amamentacao": "Ibuprofeno é o AINE de 1ª escolha na lactação"
+      },
+      {
+        "medicamento": "Codeína e Tramadol",
+        "gestacao": "Cautela (uso curto; risco de abstinência/depressão neonatal no termo)",
+        "amamentacao": "Evitar (risco de sonolência e apneia no lactente)"
+      },
+      {
+        "medicamento": "Ondansetrona / Metoclopramida / Dimenidrinato",
+        "gestacao": "Piridoxina + Dimenidrinato ou Metoclopramida são 1ª linha; Ondansetrona após 10 semanas",
+        "amamentacao": "Compatíveis"
+      },
+      {
+        "medicamento": "Loratadina, Cetirizina, Desloratadina, Fexofenadina",
+        "gestacao": "Seguros (Loratadina e Cetirizina são os mais estudados)",
+        "amamentacao": "Compatíveis (preferir aos de 1ª geração que causam sedação)"
+      },
+      {
+        "medicamento": "Prednisona e Prednisolona",
+        "gestacao": "Seguros quando indicados (metabolizados pela placenta)",
+        "amamentacao": "Compatíveis"
+      },
+      {
+        "medicamento": "Omeprazol e Antiácidos (Hidróxido de Alumínio/Magnésio)",
+        "gestacao": "Seguros",
+        "amamentacao": "Compatíveis"
+      },
+      {
+        "medicamento": "Fluconazol oral",
+        "gestacao": "Evitar na gestação (na candidíase gestacional usar apenas Miconazol ou Nistatina tópicos por 7 dias)",
+        "amamentacao": "Dose única de 150 mg é compatível"
+      }
+    ]
+  },
+  {
+    "id": "TAB-03",
+    "titulo": "Analgésicos, Anti-inflamatórios e Antieméticos: Doses Máximas no Adulto",
+    "itens": [
+      {
+        "medicamento": "Paracetamol (500 a 1.000 mg de 6/6h)",
+        "dose_maxima_diaria": "4.000 mg/dia (2.000 mg/dia em hepatopatas, etilistas ou desnutridos)"
+      },
+      {
+        "medicamento": "Dipirona (500 a 1.000 mg de 6/6h)",
+        "dose_maxima_diaria": "4.000 mg/dia (evitar se histórico de agranulocitose ou anafilaxia)"
+      },
+      {
+        "medicamento": "Ibuprofeno (400 a 600 mg de 8/8h)",
+        "dose_maxima_diaria": "2.400 mg/dia (evitar se TFG < 30, úlcera ativa, IC, cirrose ou gestação >= 20 sem)"
+      },
+      {
+        "medicamento": "Naproxeno (250 a 500 mg de 12/12h)",
+        "dose_maxima_diaria": "1.000 mg/dia (por no máximo 3 a 5 dias)"
+      },
+      {
+        "medicamento": "Cetoprofeno (100 mg de 12/12h ou 8/8h)",
+        "dose_maxima_diaria": "300 mg/dia"
+      },
+      {
+        "medicamento": "Diclofenaco (50 mg de 8/8h)",
+        "dose_maxima_diaria": "150 mg/dia (evitar em alto risco cardiovascular)"
+      },
+      {
+        "medicamento": "Tramadol (50 a 100 mg de 6/6h)",
+        "dose_maxima_diaria": "400 mg/dia (300 mg/dia em > 75 anos; 200 mg/dia se TFG < 30)"
+      },
+      {
+        "medicamento": "Codeína (30 a 60 mg de 6/6h)",
+        "dose_maxima_diaria": "240 mg/dia (sempre orientar risco de constipação e sonolência)"
+      },
+      {
+        "medicamento": "Ondansetrona (4 a 8 mg de 8/8h)",
+        "dose_maxima_diaria": "24 mg/dia (máx. 16 mg por dose EV única pelo risco de QT longo; máx. 8 mg/dia em cirrose grave)"
+      },
+      {
+        "medicamento": "Metoclopramida (10 mg de 8/8h)",
+        "dose_maxima_diaria": "30 mg/dia por até 5 dias (risco de reação extrapiramidal/distonia aguda; reduzir 50% se TFG < 40)"
+      }
+    ]
+  },
+  {
+    "id": "TAB-04",
+    "titulo": "Corticoides: Equivalência Sistêmica e Potência de Corticoides Tópicos",
+    "itens": [
+      {
+        "classe": "Equivalência Sistêmica (= 5 mg de Prednisona)",
+        "detalhe": "Prednisona 5 mg = Prednisolona 5 mg = Metilprednisolona 4 mg = Triancinolona 4 mg = Dexametasona 0,75 mg = Betametasona 0,6 mg = Hidrocortisona 20 mg"
+      },
+      {
+        "classe": "Tópico — Baixa Potência (Rosto, pálpebras, dobras, área da fralda e bebês)",
+        "detalhe": "Hidrocortisona 1% creme/pomada ou Desonida 0,05% creme (usar por 5 a 7 dias no rosto/dobras)"
+      },
+      {
+        "classe": "Tópico — Média Potência (Tronco e membros)",
+        "detalhe": "Mometasona 0,1% creme ou Valerato de Betametasona 0,1% creme/pomada"
+      },
+      {
+        "classe": "Tópico — Alta / Muito Alta Potência (Placas espessas, palmas, plantas e couro cabeludo)",
+        "detalhe": "Dipropionato de Betametasona 0,05% ou Propionato de Clobetasol 0,05% (NUNCA usar em rosto, virilha, axilas ou área de fralda!)"
+      }
+    ]
+  },
+  {
+    "id": "TAB-05",
+    "titulo": "Tipos de Receita e Regras de Emissão (ANVISA / CFM)",
+    "itens": [
+      {
+        "tipo": "Receita de Antimicrobianos (RDC 471/2021)",
+        "exemplos": "Amoxicilina, Cefalexina, Azitromicina, Ciprofloxacino, Metronidazol",
+        "regras": "Emissão em 2 vias (1ª via retida na farmácia, 2ª via do paciente). Deve conter nome completo, idade e sexo do paciente. Validade de 10 dias em todo o território nacional."
+      },
+      {
+        "tipo": "Receita de Controle Especial — Branca C1 (2 vias)",
+        "exemplos": "Sertralina, Fluoxetina, Escitalopram, Amitriptilina, Nortriptilina, Pregabalina, Gabapentina, Carbamazepina, Haloperidol, Risperidona, Quetiapina, Zolpidem (<= 10 mg), Tramadol (<= 100 mg), Codeína (<= 50 mg), Isotretinoína (C2)",
+        "regras": "Emissão em 2 vias com identificação do comprador. Validade de 30 dias para até 60 dias de tratamento (até 180 dias para anticonvulsivantes e antiparkinsonianos)."
+      },
+      {
+        "tipo": "Notificação de Receita B (Azul — Psicotrópicos)",
+        "exemplos": "Diazepam, Clonazepam, Alprazolam, Lorazepam, Midazolam, Zolpidem (> 10 mg)",
+        "regras": "Talão azul numerado + receita anexa. Validade de 30 dias para até 60 dias de tratamento."
+      },
+      {
+        "tipo": "Notificação de Receita A (Amarela — Entorpecentes)",
+        "exemplos": "Morfina, Metadona, Fentanil, Oxicodona, Metilfenidato",
+        "regras": "Talão amarelo numerado. Validade de 30 dias para até 30 dias de tratamento."
+      },
+      {
+        "tipo": "Atestado Médico (Resolução CFM 2.381/2024)",
+        "exemplos": "Afastamento laboral ou escolar",
+        "regras": "Registrar nome completo, tempo de afastamento recomendado, data, assinatura e CRM. O código CID-10 só deve constar mediante autorização expressa do paciente."
+      }
+    ]
+  }
+]
+
+

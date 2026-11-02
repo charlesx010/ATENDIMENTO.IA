@@ -28,3 +28,29 @@
 .w-template-cloud{margin:0 0 24px}.workspace-v2 [hidden]{display:none!important}.w-template-cloud>p{font-size:12px;color:var(--muted)}
 .workspace-v2 .admin-panel .panel{background:#fff;border:1px solid var(--line);color:var(--ink)}.workspace-v2 .admin-panel h2,.workspace-v2 .admin-panel h3,.workspace-v2 .admin-panel label{color:var(--ink)}.workspace-v2 .admin-panel p,.workspace-v2 .admin-panel small{color:var(--muted)}.workspace-v2 .admin-panel input{background:white;color:var(--ink);border-color:#c9dadb;font-size:16px}.admin-stat-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.workspace-v2 .admin-panel .stat{background:#edf5f3;border-color:#c8e0d9;color:#176a62}.workspace-v2 .admin-panel .stat span{color:#4c6c6b}.workspace-v2 .admin-panel .stat strong{color:#176a62}.workspace-v2 .admin-panel .user-item{border-color:var(--line)}.workspace-v2 .admin-panel .user-info span{color:var(--muted)}.workspace-v2 .admin-panel .secret{background:#fff8e5;border-color:#e7d5a8;color:#705118}.workspace-v2 .admin-panel .secret p{color:#705118}.workspace-v2 .admin-panel .secret code{background:#fff;color:#142b35;overflow-wrap:anywhere}.workspace-v2 .admin-panel .alert.info{background:#eaf4f1;color:#2d615c;border-color:#c8ded7}
 @media(max-width:700px){.admin-stat-grid{grid-template-columns:1fr}.admin-panel .user-item{flex-wrap:wrap}.admin-panel .user-actions{width:100%;display:flex}.admin-panel .user-actions .btn{flex:1}.admin-panel .form-grid{grid-template-columns:1fr}}
+
+/* Acervos clínicos integrados ao tema do piloto */
+.workspace-v2 {
+  --ui-bg:#f3f7f7;
+  --ui-surface:#fff;
+  --ui-surface-2:#f7faf9;
+  --ui-line:#dce5e7;
+  --ui-text:#142b35;
+  --ui-muted:#627781;
+  --ui-primary:#087e83;
+  --ui-primary-soft:#e6f3f1;
+  --ui-success:#1b8261;
+  --ui-warning:#a06d00;
+  --ui-danger:#b33c49;
+}
+.workspace-v2 .rx-catalog,.workspace-v2 .rr-catalog,.workspace-v2 .rx-detail,.workspace-v2 .rr-detail{max-width:none;margin:0}
+.workspace-v2 .rx-catalog h1,.workspace-v2 .rx-catalog h2,.workspace-v2 .rx-catalog h3,.workspace-v2 .rr-catalog h1,.workspace-v2 .rr-catalog h2,.workspace-v2 .rr-catalog h3{color:var(--ink)}
+.workspace-v2 .rx-catalog input,.workspace-v2 .rx-catalog select,.workspace-v2 .rr-catalog input,.workspace-v2 .rr-catalog select{font-size:16px}
+.auth-v2 .a-brand .iai-brand{color:#8fd4c6}.auth-v2 .a-brand .iai-name{color:#eef6ff}.auth-v2 .a-brand .iai-doctor{color:#8fd4c6}
+.auth-v2 .a-mobile-brand .iai-brand{color:#087e83}.auth-v2 .a-mobile-brand .iai-name{color:#087e83}.auth-v2 .a-mobile-brand .iai-doctor{color:#087e83}
+@media(max-width:700px){
+  .workspace-v2 .w-sidebar nav{overflow-x:auto;justify-content:flex-start}
+  .workspace-v2 .w-sidebar nav button{min-width:68px;flex:0 0 68px;font-size:9px}
+  .workspace-v2 .w-main{padding-bottom:98px}
+  .workspace-v2 .w-content{padding-bottom:36px}
+}

@@ -1,0 +1,346 @@
+[
+  {
+    "id": "ADU-070",
+    "name": "Epistaxe (sangramento nasal)",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "R04.0",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "sangramento nasal, sangue no nariz, hemorragia nasal, nariz sangrando Soro fisiológico 0,9% spray nasal Vaselina sólida 1 pote Paracetamol 750 mg",
+    "gate": "90% são anteriores (região de Kiesselbach). Verificar PA e uso de anticoagulante ou antiagregante. Hemograma e coagulograma se sangramento importante ou recorrente.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso nasal\n1) Soro fisiológico 0,9% spray nasal — 01 frasco\nAplicar 2 a 3 jatos em cada narina, 3 vezes ao dia, por 7 dias.\n\nUso local\n2) Vaselina sólida 1 pote — 01 unidade / conforme orientação\nPassar pequena quantidade na entrada das narinas com cotonete, 2 vezes ao dia, por 7 dias.\n\nUso oral\n3) Paracetamol 750 mg — 20 comprimidos\nTomar 1 comprimido de 6/6h, se dor. Evitar AAS e anti-inflamatório.\n\nORIENTAÇÕES:\n- Se voltar a sangrar: sentar inclinado para a frente e apertar a parte mole do nariz por 10 a 15 minutos sem soltar. Gelo no dorso do nariz ajuda.\n- Por 48 a 72h: não assoar com força, não colocar o dedo, evitar esforço e peso, evitar banho e bebidas muito quentes. Espirrar de boca aberta.\n- Retornar imediatamente ao pronto-socorro se: sangramento que não para após 20 minutos de compressão, sangue escorrendo pela garganta, tontura, palidez ou desmaio, manchas roxas ou sangramento em outros lugares, febre com tampão."
+      },
+      {
+        "id": "na-unidade",
+        "title": "Prescrição na unidade",
+        "note": "Administração na unidade · separada da receita domiciliar",
+        "prescription": "PRESCRIÇÃO NA UNIDADE\n\nUso nasal\n1) Oximetazolina 0,05% (ou nafazolina) solução nasal — 01 frasco\nEmbeber um algodão, introduzir na narina que sangra e comprimir por 10 minutos.\n\nUso local\n2) Ácido tranexâmico 250 mg/5 mL — 02 ampolas\nEmbeber um algodão com 500 mg (10 mL) e aplicar na narina por 10 minutos, se persistir. Ponto sangrante visível: cauterização com nitrato de prata (se disponível), após vasoconstritor e lidocaína tópica. Persistiu: tamponamento nasal anterior (gaze com pomada ou tampão expansível) por 48h. PA muito elevada: tratar dor e ansiedade; anti-hipertensivo via oral se necessário."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "48h para retirar o tampão",
+      "retornar_imediatamente_se": "Sangramento que não para após 20 minutos de compressão, sangue escorrendo pela garganta, tontura, palidez ou desmaio, manchas roxas ou sangramento em outros lugares, febre com tampão.",
+      "seguranca_plantonista": "Anticoagulado: não suspender por conta própria. Se varfarina, checar INR. Gestante: mais comum pela congestão nasal. Mesmas medidas. Hipertenso grave ou cardiopata: vasoconstritor tópico com cautela.",
+      "encaminhar_internar": "Retirar o tampão anterior em 48h. Sangramento posterior, refratário ou recorrente: otorrino. Tamponamento posterior: internação. Sangramentos de repetição com manchas roxas: hemograma e hematologia.",
+      "atestado_sugerido": "não se aplica"
+    }
+  },
+  {
+    "id": "ADU-071",
+    "name": "Erisipela / Celulite",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "A46 / L03.9",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "infecção na perna, perna vermelha e quente, cefalexina, amoxicilina+clavulanato, clindamicina, erisipela, celulite, infecção de pele, vermelhidão com febre Cefalexina 500mg Cefalexina 500mg Cefalexina 500mg Cefadroxila 500mg Clindamicina 300mg Cefalexina 500 mg Dipirona 500 mg Amoxicilina 500 mg Clindamicina 300 mg Clotrimazol 1% creme",
+    "gate": "Erisipela: placa vermelha, quente, de bordas bem definidas, com febre (estreptococo). Celulite: bordas mal definidas, mais profunda (estreptococo e estafilococo). Marcar as bordas com caneta para acompanhar. Internar se: sepse, bolhas escuras ou necrose, dor desproporcional ou crepitação (fasceíte), falha do oral em 48 a 72h, imunossupressão, face ou região dos olhos.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Cefalexina 500mg — 28 comprimidos\nTomar 01 comprimido de 6/6h por 07 dias Horário sugerido: 06:00 / 12:00 / 18:00 / 00:00.\n\nORIENTAÇÕES:\n- Tomar o antibiótico rigorosamente nos horários até o fim e manter a perna/membro afetado ELEVADO sempre que estiver sentado ou deitado.\n- Lavar e secar muito bem entre os dedos dos pés (tratando frieiras) e marcar a borda da mancha vermelha com caneta para acompanhar a regressão.\n- Retornar imediatamente ao pronto-socorro se a mancha vermelha continuar crescendo após 48h, surgirem bolhas escuras ou febre alta."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Cefalexina 500mg — 40 comprimidos\nTomar 01 comprimido de 6/6h por 10 dias Horário sugerido: 06:00 / 12:00 / 18:00 / 00:00.\n\nORIENTAÇÕES:\n- Tomar o antibiótico rigorosamente nos horários até o fim e manter a perna/membro afetado ELEVADO sempre que estiver sentado ou deitado.\n- Lavar e secar muito bem entre os dedos dos pés (tratando frieiras) e marcar a borda da mancha vermelha com caneta para acompanhar a regressão.\n- Retornar imediatamente ao pronto-socorro se a mancha vermelha continuar crescendo após 48h, surgirem bolhas escuras ou febre alta."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Cefalexina 500mg — 56 comprimidos\nTomar 01 comprimido de 6/6h por 14 dias Horário sugerido: 06:00 / 12:00 / 18:00 / 00:00.\n\nUso oral\n2) Cefadroxila 500mg — 14 comprimidos\nTomar 01 comprimido de 12/12h por 07 dias seguidos Horário sugerido: 08:00 / 20:00.\n\nUso oral\n3) Clindamicina 300mg — 42 cápsulas\nTomar 02 cápsulas de 8/8 horas por 07 dias Horário sugerido: 06:00 / 14:00 / 22:00.\n\nORIENTAÇÕES:\n- Tomar o antibiótico rigorosamente nos horários até o fim e manter a perna/membro afetado ELEVADO sempre que estiver sentado ou deitado.\n- Lavar e secar muito bem entre os dedos dos pés (tratando frieiras) e marcar a borda da mancha vermelha com caneta para acompanhar a regressão.\n- Retornar imediatamente ao pronto-socorro se a mancha vermelha continuar crescendo após 48h, surgirem bolhas escuras ou febre alta."
+      },
+      {
+        "id": "esquema-4",
+        "title": "Esquema 4",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Cefalexina 500 mg — 28 cápsulas\nTomar 1 cápsula de 6/6h, por 7 dias.\n\nUso oral\n2) Dipirona 500 mg — 20 comprimidos\nTomar 1 a 2 comprimidos de 6/6h, se dor ou febre.\n\nORIENTAÇÕES:\n- Tomar o antibiótico rigorosamente nos horários até o fim e manter a perna/membro afetado ELEVADO sempre que estiver sentado ou deitado.\n- Lavar e secar muito bem entre os dedos dos pés (tratando frieiras) e marcar a borda da mancha vermelha com caneta para acompanhar a regressão.\n- Retornar imediatamente ao pronto-socorro se a mancha vermelha continuar crescendo após 48h, surgirem bolhas escuras ou febre alta."
+      },
+      {
+        "id": "esquema-5",
+        "title": "Esquema 5",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Amoxicilina 500 mg — 21 cápsulas\nTomar 1 cápsula de 8/8h, por 7 dias. Para erisipela típica.\n\nUso oral\n2) Clindamicina 300 mg — 28 cápsulas\nTomar 1 cápsula de 6/6h, por 7 dias. Alergia à penicilina.\n\nUso local\n3) Clotrimazol 1% creme — 01 bisnaga\nAplicar entre os dedos dos pés, 2 vezes ao dia, por 4 semanas, se houver frieira.\n\nORIENTAÇÕES:\n- Tomar o antibiótico rigorosamente nos horários até o fim e manter a perna/membro afetado ELEVADO sempre que estiver sentado ou deitado.\n- Lavar e secar muito bem entre os dedos dos pés (tratando frieiras) e marcar a borda da mancha vermelha com caneta para acompanhar a regressão.\n- Retornar imediatamente ao pronto-socorro se a mancha vermelha continuar crescendo após 48h, surgirem bolhas escuras ou febre alta."
+      },
+      {
+        "id": "na-unidade",
+        "title": "Prescrição na unidade",
+        "note": "Administração na unidade · separada da receita domiciliar",
+        "prescription": "PRESCRIÇÃO NA UNIDADE\n\nUso EV ou IM\n1) Dipirona 500 mg/mL — 01 ampola\nAplicar 2 mL (1 g) EV lento ou IM, se dor ou febre. Primeira dose do antibiótico oral já na unidade."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "48 a 72h",
+      "retornar_imediatamente_se": "Vermelhidão crescendo além da marca após 48h, bolhas escuras ou roxas, dor muito forte, febre que não cede, confusão ou pressão baixa.",
+      "seguranca_plantonista": "Gestante: cefalexina, amoxicilina ou clindamicina. Doença renal: TFG < 30: cefalexina 500 mg de 12/12h; amoxicilina 500 mg de 12/12h. Diabético ou idoso: limiar menor para internar.",
+      "encaminhar_internar": "Internação: oxacilina 2 g EV de 4/4h ou cefazolina 1 a 2 g EV de 8/8h (alergia: clindamicina 600 mg EV de 8/8h). Erisipela de repetição (2 a 3 por ano): profilaxia com penicilina benzatina 1.200.000 UI IM a cada 3 a 4 semanas e avaliação vascular.",
+      "atestado_sugerido": "3 a 7 dias (repouso com a perna elevada)"
+    }
+  },
+  {
+    "id": "ADU-072",
+    "name": "Escabiose",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "B86",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "sarna, coceira noturna, ivermectina, permetrina, nedax, coceira à noite, escabiose, coceira na família toda, lesões entre os dedos Ivermectina 06 mg Hidroxizina 25 mg Permetrina 5% loção Hidroxizina 25 mg Ivermectina 6 mg",
+    "gate": "Coceira que piora à noite, lesões entre os dedos, punhos, cintura, axilas, genitais e mamas, várias pessoas da casa com coceira. Tratar todos os contatos ao mesmo tempo, mesmo sem coceira.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Ivermectina 06 mg — 04 comprimidos\nTomar 02 comprimidos em dose única e repetir após 21 dias.\n\nUso oral\n2) Hidroxizina 25 mg — 01 caixa\nTomar 01 comprimido de 8/8 horas.\n\nORIENTAÇÕES:\n- Tomar a Ivermectina e repetir a 2ª dose na data indicada; todas as pessoas que moram na casa devem ser tratadas ao mesmo tempo.\n- Lavar roupas pessoais, lençóis e toalhas dos últimos 3 dias com água quente e passar a ferro (ou fechar em saco plástico por 7 dias).\n- Manter unhas curtas para não ferir a pele ao coçar e retornar ao médico se surgirem feridas com pus ou febre."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso local\n1) Permetrina 5% loção — 01 unidade / conforme orientação\n1 frasco (60 mL) Aplicar à noite do pescoço aos pés, inclusive entre os dedos, embaixo das unhas e nos genitais. Em idoso, incluir couro cabeludo e rosto, poupando olhos e boca. Deixar por 8 a 12h e retirar no banho. Repetir após 7 dias.\n\nUso oral\n2) Hidroxizina 25 mg — 10 comprimidos\nTomar 1 comprimido à noite, se coceira (adulto).\n\nORIENTAÇÕES:\n- Tomar a Ivermectina e repetir a 2ª dose na data indicada; todas as pessoas que moram na casa devem ser tratadas ao mesmo tempo.\n- Lavar roupas pessoais, lençóis e toalhas dos últimos 3 dias com água quente e passar a ferro (ou fechar em saco plástico por 7 dias).\n- Manter unhas curtas para não ferir a pele ao coçar e retornar ao médico se surgirem feridas com pus ou febre."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Ivermectina 6 mg — 01 unidade / conforme orientação\nconforme o peso Dose única, repetir após 7 dias. 15 a 24 kg: meio comprimido. 25 a 35 kg: 1. 36 a 50 kg: 1 e meio. 51 a 65 kg: 2. 66 a 79 kg: 2 e meio. 80 kg ou mais: 3 comprimidos.\n\nORIENTAÇÕES:\n- Tomar a Ivermectina e repetir a 2ª dose na data indicada; todas as pessoas que moram na casa devem ser tratadas ao mesmo tempo.\n- Lavar roupas pessoais, lençóis e toalhas dos últimos 3 dias com água quente e passar a ferro (ou fechar em saco plástico por 7 dias).\n- Manter unhas curtas para não ferir a pele ao coçar e retornar ao médico se surgirem feridas com pus ou febre."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "2 a 4 semanas se a coceira continuar",
+      "retornar_imediatamente_se": "Lesões com pus, crostas grossas espalhadas, febre, feridas que pioram.",
+      "seguranca_plantonista": "Gestante e amamentação: permetrina 5%. Não usar ivermectina na gestação. Idoso ou institucionalizado: pensar em sarna crostosa. Tratar contatos e cuidadores.",
+      "encaminhar_internar": "Sarna crostosa (norueguesa), imunossuprimido ou falha após 2 tratamentos: dermatologia. Lesões infectadas: ver ficha de Impetigo.",
+      "atestado_sugerido": "1 dia (até 24h após a 1ª aplicação)"
+    }
+  },
+  {
+    "id": "ADU-073",
+    "name": "Faringoamigdalite estreptocócica",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "J03.0",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "dor de garganta com placas, amigdalite bacteriana, pus na garganta, amoxicilina, azitromicina, amigdalite, tonsilite, dor de garganta com pus, placa na garganta, estreptococo, garganta inflamada com febre Dipirona 500mg Bicarbonato de Sódio Amoxicilina 500mg Bicarbonato de Sódio Omeprazol 20 mg Azitromicina 500mg Bicarbonato de Sódio Omeprazol 20 mg Amoxicilina 500 mg Ibuprofeno 600 mg Dipirona 500 mg Cefalexina 500 mg Azitromicina 500 mg Amoxicilina 250 mg/5 mL suspensão Azitromicina 200 mg/5 mL suspensão Ibuprofeno 50 mg/mL gotas Dipirona 500 mg/mL gotas",
+    "gate": "Suspeitar se: febre, pus nas amígdalas, íngua cervical anterior dolorosa e sem tosse ou coriza (Centor 3 a 4), principalmente entre 3 e 15 anos. Teste rápido para estreptococo, se disponível. Amoxicilina pura é a 1ª escolha (o estreptococo é sensível). Amoxicilina + clavulanato não é necessária no 1º episódio.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Dipirona 500mg — 01 caixa\nTomar 02 comprimidos se febre ou dor, podendo repetir de 06/06h.\n\nUso oral\n2) Bicarbonato de Sódio — 01 caixa\nDissolver três colheres de chá em um copo com água e gargarejar 3 vezes ao dia por 03 a 05 dias (enquanto houver dor de garganta).\n\nUso oral\n3) Amoxicilina 500mg — 20 comprimidos\nTomar 01 comprimido de 12/12h por 10 dias Horário sugerido: 08:00 / 20:00.\n\nORIENTAÇÕES:\n- Tomar o antibiótico até o último comprimido mesmo que a garganta melhore antes, para prevenir febre reumática.\n- Fazer os gargarejos mornos 3 vezes ao dia (sem engolir), beber bastante água e trocar a escova de dentes após 48h de antibiótico.\n- Retornar imediatamente à emergência se a febre durar mais de 72h ou se tiver dificuldade para engolir saliva, abrir a boca ou respirar."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Bicarbonato de Sódio — 01 caixa\nDissolver três colheres de chá em um copo com água e gargarejar 3 vezes ao dia por 03 a 05 dias (enquanto houver dor de garganta).\n\nUso oral\n2) Omeprazol 20 mg — 10 cápsulas (01 caixa)\nTomar 01 comprimidos pela manhã em jejum, 30 minutos antes do café-da-manhã, por 10 dias.\n\nUso oral\n3) Azitromicina 500mg — 05 comprimidos\nTomar 01 comprimido ao dia, no mesmo horário, por 05 dias Horário sugerido: 08:00.\n\nORIENTAÇÕES:\n- Tomar o antibiótico até o último comprimido mesmo que a garganta melhore antes, para prevenir febre reumática.\n- Fazer os gargarejos mornos 3 vezes ao dia (sem engolir), beber bastante água e trocar a escova de dentes após 48h de antibiótico.\n- Retornar imediatamente à emergência se a febre durar mais de 72h ou se tiver dificuldade para engolir saliva, abrir a boca ou respirar."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Bicarbonato de Sódio — 01 caixa\nDissolver três colheres de chá em um copo com água e gargarejar 3 vezes ao dia por 03 a 05 dias (enquanto houver dor de garganta).\n\nUso oral\n2) Omeprazol 20 mg — 10 cápsulas (01 caixa)\nTomar 01 comprimidos pela manhã em jejum, 30 minutos antes do café-da-manhã, por 10 dias.\n\nORIENTAÇÕES:\n- Tomar o antibiótico até o último comprimido mesmo que a garganta melhore antes, para prevenir febre reumática.\n- Fazer os gargarejos mornos 3 vezes ao dia (sem engolir), beber bastante água e trocar a escova de dentes após 48h de antibiótico.\n- Retornar imediatamente à emergência se a febre durar mais de 72h ou se tiver dificuldade para engolir saliva, abrir a boca ou respirar."
+      },
+      {
+        "id": "esquema-4",
+        "title": "Esquema 4",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Amoxicilina 500 mg — 30 cápsulas\nTomar 1 cápsula de 8/8h, por 10 dias.\n\nUso oral\n2) Ibuprofeno 600 mg — 09 comprimidos\nTomar 1 comprimido de 8/8h, após as refeições, por 3 dias.\n\nUso oral\n3) Dipirona 500 mg — 20 comprimidos\nTomar 1 a 2 comprimidos de 6/6h, se dor ou febre.\n\nORIENTAÇÕES:\n- Tomar o antibiótico até o último comprimido mesmo que a garganta melhore antes, para prevenir febre reumática.\n- Fazer os gargarejos mornos 3 vezes ao dia (sem engolir), beber bastante água e trocar a escova de dentes após 48h de antibiótico.\n- Retornar imediatamente à emergência se a febre durar mais de 72h ou se tiver dificuldade para engolir saliva, abrir a boca ou respirar."
+      },
+      {
+        "id": "esquema-5",
+        "title": "Esquema 5",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Cefalexina 500 mg — 20 cápsulas\nTomar 1 cápsula de 12/12h, por 10 dias. Alergia à penicilina sem anafilaxia.\n\nUso oral\n2) Azitromicina 500 mg — 05 comprimidos\nTomar 1 comprimido 1 vez ao dia, por 5 dias. Alergia grave à penicilina. CRIANÇA\n\nUso oral\n3) Amoxicilina 250 mg/5 mL suspensão — 02 frascos\nDar 0,33 mL/kg por dose (peso ÷ 3 = mL) de 8/8h, por 10 dias. Equivale a 50 mg/kg/dia. Máx. 10 mL (500 mg) por dose.\n\nUso oral\n4) Azitromicina 200 mg/5 mL suspensão — 01 frasco\nDar 0,3 mL/kg (12 mg/kg) 1 vez ao dia, por 5 dias. Máx. 12,5 mL (500 mg). Alergia à penicilina.\n\nUso oral\n5) Ibuprofeno 50 mg/mL gotas — 01 frasco\nDar 1 a 2 gotas/kg (máx. 40 gotas) de 8/8h, se dor.\n\nUso oral\n6) Dipirona 500 mg/mL gotas — 01 frasco\nDar 1 gota/kg (máx. 40 gotas) de 6/6h, se dor ou febre.\n\nORIENTAÇÕES:\n- Tomar o antibiótico até o último comprimido mesmo que a garganta melhore antes, para prevenir febre reumática.\n- Fazer os gargarejos mornos 3 vezes ao dia (sem engolir), beber bastante água e trocar a escova de dentes após 48h de antibiótico.\n- Retornar imediatamente à emergência se a febre durar mais de 72h ou se tiver dificuldade para engolir saliva, abrir a boca ou respirar."
+      },
+      {
+        "id": "na-unidade",
+        "title": "Prescrição na unidade",
+        "note": "Administração na unidade · separada da receita domiciliar",
+        "prescription": "PRESCRIÇÃO NA UNIDADE\n\nUso IM\n1) Penicilina G benzatina 1.200.000 UI — 01 frasco-ampola\nAplicar IM profundo no glúteo, dose única. Criança abaixo de 27 kg: 600.000 UI. Substitui o antibiótico oral (ótima opção se a adesão for duvidosa).\n\nUso EV ou IM\n2) Dipirona 500 mg/mL — 01 ampola\nAplicar 2 mL (1 g) IM ou EV lento, se dor ou febre.\n\nUso EV\n3) Dexametasona 4 mg/mL — 01 unidade / conforme orientação\n1 ampola de 2,5 mL Aplicar 10 mg IM, dose única, se dor intensa para engolir (adulto)."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "48 a 72h se não melhorar",
+      "retornar_imediatamente_se": "Boca que não abre, voz abafada, dificuldade para engolir a saliva, falta de ar, febre por mais de 48h com antibiótico. Nas semanas seguintes: dor e inchaço nas articulações, urina escura ou inchaço no rosto.",
+      "seguranca_plantonista": "Gestante e amamentação: penicilina, amoxicilina, cefalexina e azitromicina são seguras. Evitar anti-inflamatório após 20 semanas. Doença renal: TFG < 30: amoxicilina 500 mg de 12/12h.",
+      "encaminhar_internar": "Abscesso periamigdaliano: otorrino para drenagem. Amigdalite de repetição (7 em 1 ano, 5 por ano em 2 anos ou 3 por ano em 3 anos): otorrino.",
+      "atestado_sugerido": "2 a 3 dias (até 24h sem febre com antibiótico)"
+    }
+  },
+  {
+    "id": "ADU-074",
+    "name": "Faringoamigdalite inespecífica",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "J02.9",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "dor de garganta viral, garganta inflamada, bicarbonato, ibuprofeno, dor de garganta, faringite, faringoamigdalite viral, rouquidão Dipirona 500mg Bicarbonato de Sódio Dipirona 500mg Benalet® Dipirona 500 mg Ibuprofeno 400 mg Benzidamina 0,15% spray oral",
+    "gate": "Pistas de vírus: tosse, coriza, rouquidão, conjuntivite, aftas. Escore de Centor (febre, pus nas amígdalas, íngua cervical anterior dolorosa, ausência de tosse) com 0 a 1 ponto: não usar antibiótico. 3 ou mais: ver ficha de Faringoamigdalite bacteriana. Adolescente ou adulto jovem com febre, muita íngua, cansaço e amígdalas com placas: pensar em mononucleose. Amoxicilina causa manchas na pele nesses casos.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Dipirona 500mg — 01 caixa\nTomar 02 comprimidos se febre ou dor, podendo repetir de 06/06h.\n\nUso oral\n2) Bicarbonato de Sódio — 01 caixa\nDissolver três colheres de chá em um copo com água e gargarejar 3 vezes ao dia por 03 a 05 dias (enquanto houver dor de garganta).\n\nORIENTAÇÕES:\n- Beber bastante água, chás mornos e alimentos macios, fazendo gargarejos com água morna e bicarbonato 3 vezes ao dia (sem engolir).\n- Não usar antibióticos por conta própria, pois quadros virais melhoram com hidratação e sintomáticos.\n- Retornar à emergência se surgir dificuldade para engolir saliva ou abrir a boca, inchaço no pescoço, falta de ar ou febre por mais de 3 dias."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Dipirona 500mg — 01 caixa\nTomar 02 comprimidos se febre ou dor, podendo repetir de 06/06h.\n\nUso oral\n2) Benalet® — 01 caixa\nDissolver lentamente uma pastilha na boca, podendo repetir de 2/2h conforme necessidade.\n\nORIENTAÇÕES:\n- Beber bastante água, chás mornos e alimentos macios, fazendo gargarejos com água morna e bicarbonato 3 vezes ao dia (sem engolir).\n- Não usar antibióticos por conta própria, pois quadros virais melhoram com hidratação e sintomáticos.\n- Retornar à emergência se surgir dificuldade para engolir saliva ou abrir a boca, inchaço no pescoço, falta de ar ou febre por mais de 3 dias."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Dipirona 500 mg — 20 comprimidos\nTomar 1 a 2 comprimidos de 6/6h, se dor ou febre.\n\nUso oral\n2) Ibuprofeno 400 mg — 09 comprimidos\nTomar 1 comprimido de 8/8h, após as refeições, por 3 dias.\n\nUso oral\n3) Benzidamina 0,15% spray oral — 01 frasco\nAplicar 4 a 8 jatos na garganta, 3 vezes ao dia, se dor.\n\nORIENTAÇÕES:\n- Beber bastante água, chás mornos e alimentos macios, fazendo gargarejos com água morna e bicarbonato 3 vezes ao dia (sem engolir).\n- Não usar antibióticos por conta própria, pois quadros virais melhoram com hidratação e sintomáticos.\n- Retornar à emergência se surgir dificuldade para engolir saliva ou abrir a boca, inchaço no pescoço, falta de ar ou febre por mais de 3 dias."
+      },
+      {
+        "id": "na-unidade",
+        "title": "Prescrição na unidade",
+        "note": "Administração na unidade · separada da receita domiciliar",
+        "prescription": "PRESCRIÇÃO NA UNIDADE\n\nUso EV ou IM\n1) Dipirona 500 mg/mL — 01 ampola\nAplicar 2 mL (1 g) IM ou EV lento, se dor ou febre."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "se febre por mais de 3 dias",
+      "retornar_imediatamente_se": "Dificuldade para abrir a boca ou engolir a saliva, voz abafada, falta de ar, pescoço inchado, febre por mais de 3 dias.",
+      "seguranca_plantonista": "Gestante: paracetamol. Evitar anti-inflamatório após 20 semanas.",
+      "encaminhar_internar": "Suspeita de abscesso periamigdaliano (boca que não abre, voz abafada, abaulamento de um lado): otorrino para drenagem.",
+      "atestado_sugerido": "1 a 2 dias"
+    }
+  },
+  {
+    "id": "ADU-075",
+    "name": "Fascite plantar (dor no calcanhar / esporão)",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "M72.2",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "dor no calcanhar, esporão, fascite plantar, dor na sola do pé, esporão de calcâneo Ibuprofeno 600 mg Diclofenaco dietilamônio 11,6 mg/g gel Paracetamol 750 mg",
+    "gate": "Dor na sola do calcanhar, pior nos primeiros passos da manhã ou depois de ficar sentado. O esporão no RX não muda o tratamento.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Ibuprofeno 600 mg — 15 comprimidos\nTomar 1 comprimido de 8/8h, após as refeições, por 5 dias, nas crises.\n\nUso local\n2) Diclofenaco dietilamônio 11,6 mg/g gel — 01 bisnaga\nAplicar no calcanhar com massagem, 3 vezes ao dia, por 2 semanas.\n\nORIENTAÇÕES:\n- Alongar a sola do pé e a panturrilha várias vezes ao dia (principalmente antes de levantar da cama). É o tratamento principal.\n- Rolar uma garrafa de água gelada sob a sola por 10 a 15 minutos, 2 vezes ao dia.\n- Retornar imediatamente ao pronto-socorro se: inchaço e vermelhidão no calcanhar, dormência, dor após trauma ou que não deixa apoiar."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Paracetamol 750 mg — 20 comprimidos\nTomar 1 comprimido de 6/6h, se dor. Calcanheira de silicone e calçado com bom amortecimento.\n\nORIENTAÇÕES:\n- Alongar a sola do pé e a panturrilha várias vezes ao dia (principalmente antes de levantar da cama). É o tratamento principal.\n- Rolar uma garrafa de água gelada sob a sola por 10 a 15 minutos, 2 vezes ao dia.\n- Retornar imediatamente ao pronto-socorro se: inchaço e vermelhidão no calcanhar, dormência, dor após trauma ou que não deixa apoiar."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "6 a 8 semanas",
+      "retornar_imediatamente_se": "Inchaço e vermelhidão no calcanhar, dormência, dor após trauma ou que não deixa apoiar.",
+      "seguranca_plantonista": "Idoso, doença renal ou anticoagulado: preferir gel + paracetamol. Gestante: evitar anti-inflamatório após 20 semanas.",
+      "encaminhar_internar": "Sem melhora em 3 meses: fisioterapia ou ortopedia.",
+      "atestado_sugerido": "geralmente não necessário"
+    }
+  },
+  {
+    "id": "ADU-076",
+    "name": "Ferimentos e suturas",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "T14.1",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "corte, pontos, sutura, curativo, neomicina, nebacetin, cefalexina, ferimento, machucado, ralado, escoriação, laceração, ponto Clorexidina spray Sulfato de Neomicina 3,5mg/g Cefalexina 500mg Dipirona 500mg Sulfato de Neomicina 3,5mg/g Cefalexina 500mg Diclofenaco 50 mg Dipirona 500mg Contractubex® Dipirona 500 mg Neomicina + bacitracina pomada Cefalexina 500 mg Amoxicilina + clavulanato 875/125 mg",
+    "gate": "Sempre avaliar a profilaxia do tétano (ver ficha de Tétano). Mordedura de animal: ver ficha própria. Suturar idealmente em até 6 a 8h (rosto até 24h). Ferida muito contaminada ou perfurante profunda: não fechar por completo e reavaliar em 48 a 72h.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso local\n1) Clorexidina spray — 01 frasco\nAplicar 02 jatos na lesão, três vezes ao dia, e cobrir com curativo em seguida até melhora.\n\nUso local\n2) Sulfato de Neomicina 3,5mg/g — 01 bisnaga\nAplicar uma fina camada sobre a lesão após cada troca de curativo por 07 a 14 dias (até cicatrização/melhora completa).\n\nUso oral\n3) Cefalexina 500mg — 28 comprimidos\nTomar 01 comprimido de 6/6h por 07 dias Horário sugerido: 06:00 / 12:00 / 18:00 / 00:00.\n\nUso oral\n4) Dipirona 500mg — 01 caixa\nTomar 02 comprimidos se febre ou dor, podendo repetir de 6/6h.\n\nORIENTAÇÕES:\n- Lavar a ferida diariamente com água e sabão neutro (ou soro fisiológico), secar com gaze limpa, aplicar o antisséptico/pomada e manter o curativo limpo.\n- Tomar a Cefalexina de 6/6h por 07 dias (se prescrita), proteger do sol e usar o Contractubex® somente após retirar os pontos e fechar a ferida.\n- Retirar os pontos no posto de saúde no prazo indicado (5 a 14 dias conforme o local) ou voltar antes se sair pus, abrir os pontos ou dar febre."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso local\n1) Sulfato de Neomicina 3,5mg/g — 01 bisnaga\nAplicar uma fina camada sobre a lesão após cada troca de curativo, duas vezes ao dia por 07 a 14 dias (até cicatrização/melhora completa).\n\nUso oral\n2) Cefalexina 500mg — 28 comprimidos\nTomar 01 comprimido de 6/6h por 07 dias Horário sugerido: 06:00 / 12:00 / 18:00 / 00:00.\n\nUso oral\n3) Diclofenaco 50 mg — 15 comprimidos\nTomar 01 comprimido de 8/8h por 05 dias Horário sugerido (8/8h): 06:00 / 14:00 / 22:00.\n\nUso oral\n4) Dipirona 500mg — 01 caixa\nTomar 02 comprimidos se febre ou dor, podendo repetir de 6/6h.\n\nUso oral\n5) Contractubex® — 01 bisnaga\nApós 10 dias do trauma, aplicar uma fina camada sobre a lesão duas vezes ao dia.\n\nORIENTAÇÕES:\n- Lavar a ferida diariamente com água e sabão neutro (ou soro fisiológico), secar com gaze limpa, aplicar o antisséptico/pomada e manter o curativo limpo.\n- Tomar a Cefalexina de 6/6h por 07 dias (se prescrita), proteger do sol e usar o Contractubex® somente após retirar os pontos e fechar a ferida.\n- Retirar os pontos no posto de saúde no prazo indicado (5 a 14 dias conforme o local) ou voltar antes se sair pus, abrir os pontos ou dar febre."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Dipirona 500 mg — 20 comprimidos\nTomar 1 a 2 comprimidos de 6/6h, se dor.\n\nUso local\n2) Neomicina + bacitracina pomada — 01 bisnaga\nAplicar fina camada sobre a escoriação limpa, 1 a 2 vezes ao dia, por 5 a 7 dias.\n\nORIENTAÇÕES:\n- Lavar a ferida diariamente com água e sabão neutro (ou soro fisiológico), secar com gaze limpa, aplicar o antisséptico/pomada e manter o curativo limpo.\n- Tomar a Cefalexina de 6/6h por 07 dias (se prescrita), proteger do sol e usar o Contractubex® somente após retirar os pontos e fechar a ferida.\n- Retirar os pontos no posto de saúde no prazo indicado (5 a 14 dias conforme o local) ou voltar antes se sair pus, abrir os pontos ou dar febre."
+      },
+      {
+        "id": "esquema-4",
+        "title": "Esquema 4",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Cefalexina 500 mg — 28 cápsulas\nTomar 1 cápsula de 6/6h, por 7 dias.\n\nUso oral\n2) Amoxicilina + clavulanato 875/125 mg — 14 comprimidos\nTomar 1 comprimido de 12/12h, por 7 dias. Ferida muito contaminada (terra, esmagamento).\n\nORIENTAÇÕES:\n- Lavar a ferida diariamente com água e sabão neutro (ou soro fisiológico), secar com gaze limpa, aplicar o antisséptico/pomada e manter o curativo limpo.\n- Tomar a Cefalexina de 6/6h por 07 dias (se prescrita), proteger do sol e usar o Contractubex® somente após retirar os pontos e fechar a ferida.\n- Retirar os pontos no posto de saúde no prazo indicado (5 a 14 dias conforme o local) ou voltar antes se sair pus, abrir os pontos ou dar febre."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "retirada de pontos no prazo; 48h se sinais de infecção",
+      "retornar_imediatamente_se": "Vermelhidão que se espalha, calor, pus, mau cheiro, febre, dor que piora, pontos abrindo, dormência ou dificuldade para mexer os dedos.",
+      "seguranca_plantonista": "Diabético, vasculopata ou imunossuprimido: cicatrização lenta e mais infecção. Reavaliar em 48h. Anticoagulado: hemostasia cuidadosa. Lidocaína: dose máxima de 4,5 mg/kg sem vasoconstritor (7 mg/kg com).",
+      "encaminhar_internar": "Suspeita de lesão de tendão, nervo, vaso ou articulação, ferida extensa ou com perda de tecido no rosto: cirurgia ou cirurgia plástica.",
+      "atestado_sugerido": "1 a 3 dias, conforme o local e o trabalho"
+    }
+  },
+  {
+    "id": "ADU-077",
+    "name": "Fibromialgia e dor neuropática",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "M79.7 / G62.9",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "dor no corpo todo, dor nos nervos, pregabalina, duloxetina, ciclobenzaprina Pregabalina 75 mg Cloridrato de Ciclobenzaprina 5 mg Cloridrato de Duloxetina 30 mg",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Pregabalina 75 mg — 30 cápsulas\nTomar 01 cápsula à noite antes de dormir por 07 dias; se necessário, passar para 01 cápsula de 12/12h continuamente.\n\nUso oral\n2) Cloridrato de Ciclobenzaprina 5 mg — 30 comprimidos\nTomar 01 comprimido à noite, 1 hora antes de dormir, por 30 dias.\n\nORIENTAÇÕES:\n- Tomar a medicação continuamente nos horários indicados (o efeito completo ocorre após 2 a 4 semanas de uso regular).\n- Praticar exercícios físicos leves e regulares (caminhada, hidroginástica, alongamento) e manter rotina de sono reparador.\n- Evitar dirigir se sentir sonolência nos primeiros dias, não beber álcool e nunca suspender a medicação de repente."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Cloridrato de Duloxetina 30 mg — 30 cápsulas\nTomar 01 cápsula pela manhã, após o café, continuamente.\n\nORIENTAÇÕES:\n- Tomar a medicação continuamente nos horários indicados (o efeito completo ocorre após 2 a 4 semanas de uso regular).\n- Praticar exercícios físicos leves e regulares (caminhada, hidroginástica, alongamento) e manter rotina de sono reparador.\n- Evitar dirigir se sentir sonolência nos primeiros dias, não beber álcool e nunca suspender a medicação de repente."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  }
+]
+
+

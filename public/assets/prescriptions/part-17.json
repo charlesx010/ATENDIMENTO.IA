@@ -1,0 +1,352 @@
+[
+  {
+    "id": "ADU-125",
+    "name": "Pielonefrite",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "N10",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "infecção nos rins, itu alta, febre e dor lombar, giordano positivo, ciprofloxacino, levofloxacino, infecção urinária com febre, pielonefrite, dor nas costas com febre, ITU complicada Ciprofloxacino 500 mg Ciprofloxacino 500 mg Levofloxacino 750 mg Sulfametoxazol + Trimetoprima 400/80 mg Ciprofloxacino 500 mg Dipirona 500 mg Ondansetrona 8 mg Levofloxacino 750 mg Sulfametoxazol + trimetoprima 800/160 mg Amoxicilina + clavulanato 875/125 mg Escopolamina 10 mg + dipirona 250 mg (Buscopan Composto)",
+    "gate": "Febre + dor lombar ou Giordano positivo, com ou sem sintomas urinários. Colher urocultura antes do antibiótico, EAS, hemograma e creatinina. USG se não melhorar em 48 a 72h, suspeita de cálculo ou obstrução, sepse ou homem.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Ciprofloxacino 500 mg — 14 cps\nTomar 01 comprimido de 12/12h por 07 dias.\n\nORIENTAÇÕES:\n- Tomar o antibiótico rigorosamente até o último comprimido, beber 2 a 3 litros de água ao dia e manter repouso nos primeiros dias.\n- Evitar anti-inflamatórios (diclofenaco, ibuprofeno, cetoprofeno) para proteger os rins; usar Dipirona ou Paracetamol se tiver dor ou febre.\n- Retornar IMEDIATAMENTE ao pronto-socorro se a febre/dor lombar durarem mais de 72h, ou se tiver vômitos, pressão baixa, tontura ou pouca urina."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Ciprofloxacino 500 mg — 14 cps\nTomar 01 comprimido de 12/12h por 07 dias seguidos Horário sugerido: 08:00 / 20:00.\n\nUso oral\n2) Levofloxacino 750 mg — 07 comprimidos\nTomar 01 comprimido uma vez ao dia, no mesmo horário, por 07 dias seguidos.\n\nUso oral\n3) Sulfametoxazol + Trimetoprima 400/80 mg — 28 comprimidos\nTomar 02 comprimidos de 12/12h por 07 dias Horário sugerido (12/12h): 08:00 / 20:00.\n\nORIENTAÇÕES:\n- Tomar o antibiótico rigorosamente até o último comprimido, beber 2 a 3 litros de água ao dia e manter repouso nos primeiros dias.\n- Evitar anti-inflamatórios (diclofenaco, ibuprofeno, cetoprofeno) para proteger os rins; usar Dipirona ou Paracetamol se tiver dor ou febre.\n- Retornar IMEDIATAMENTE ao pronto-socorro se a febre/dor lombar durarem mais de 72h, ou se tiver vômitos, pressão baixa, tontura ou pouca urina."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Ciprofloxacino 500 mg — 14 comprimidos\nTomar 1 comprimido de 12/12h, por 7 dias.\n\nUso oral\n2) Dipirona 500 mg — 20 comprimidos\nTomar 1 a 2 comprimidos de 6/6h, se febre ou dor.\n\nUso oral\n3) Ondansetrona 8 mg — 10 comprimidos\nTomar 1 comprimido de 8/8h, se náusea ou vômito.\n\nORIENTAÇÕES:\n- Tomar o antibiótico rigorosamente até o último comprimido, beber 2 a 3 litros de água ao dia e manter repouso nos primeiros dias.\n- Evitar anti-inflamatórios (diclofenaco, ibuprofeno, cetoprofeno) para proteger os rins; usar Dipirona ou Paracetamol se tiver dor ou febre.\n- Retornar IMEDIATAMENTE ao pronto-socorro se a febre/dor lombar durarem mais de 72h, ou se tiver vômitos, pressão baixa, tontura ou pouca urina."
+      },
+      {
+        "id": "esquema-4",
+        "title": "Esquema 4",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Levofloxacino 750 mg — 05 comprimidos\nTomar 1 comprimido 1 vez ao dia, por 5 dias.\n\nUso oral\n2) Sulfametoxazol + trimetoprima 800/160 mg — 28 comprimidos\nTomar 1 comprimido de 12/12h, por 14 dias. Só se sensível na urocultura.\n\nUso oral\n3) Amoxicilina + clavulanato 875/125 mg — 28 comprimidos\nTomar 1 comprimido de 12/12h, por 14 dias. Opção se não puder usar quinolona.\n\nUso oral\n4) Escopolamina 10 mg + dipirona 250 mg (Buscopan Composto) — 20 comprimidos\nTomar 1 a 2 comprimidos de 6/6h, se cólica.\n\nORIENTAÇÕES:\n- Tomar o antibiótico rigorosamente até o último comprimido, beber 2 a 3 litros de água ao dia e manter repouso nos primeiros dias.\n- Evitar anti-inflamatórios (diclofenaco, ibuprofeno, cetoprofeno) para proteger os rins; usar Dipirona ou Paracetamol se tiver dor ou febre.\n- Retornar IMEDIATAMENTE ao pronto-socorro se a febre/dor lombar durarem mais de 72h, ou se tiver vômitos, pressão baixa, tontura ou pouca urina."
+      },
+      {
+        "id": "na-unidade",
+        "title": "Prescrição na unidade",
+        "note": "Administração na unidade · separada da receita domiciliar",
+        "prescription": "PRESCRIÇÃO NA UNIDADE\n\nUso EV\n1) Ceftriaxona 1 g — 01 frasco-ampola\nAplicar 1 g EV (ou IM), 1ª dose na unidade antes de iniciar o oral.\n\nUso EV\n2) Dipirona 500 mg/mL — 01 ampola\nAplicar 2 mL (1 g) EV lento, se febre ou dor.\n\nUso EV\n3) Ondansetrona 8 mg/4 mL — 01 ampola\nAplicar 4 a 8 mg EV lento, se vômitos. Desidratado: SF 0,9% 1.000 mL EV."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "48 a 72h com a urocultura",
+      "retornar_imediatamente_se": "Febre que continua após 72h, vômitos que impedem de tomar o remédio, tontura ou pressão baixa, confusão, falta de ar, urina diminuindo, dor muito forte.",
+      "seguranca_plantonista": "Gestante: internar (ceftriaxona EV). Doença renal: ciprofloxacino 500 mg 1 vez ao dia se TFG < 30. Levofloxacino 750 mg a cada 48h se TFG 20 a 49. Idoso: quinolona pode causar lesão de tendão, confusão, alteração do QT e da glicemia. Amamentação: preferir cefalosporina ou amoxicilina + clavulanato se possível. DICA DE PLANTÃO Bacteriúria sem sintomas: tratar só em gestante ou antes de procedimento urológico com sangramento de mucosa.",
+      "encaminhar_internar": "Internar: sepse, vômitos persistentes, gestante, cálculo obstrutivo, rim único, imunossuprimido, idoso frágil ou falha do oral. Esquema EV: ceftriaxona 1 g EV de 24/24h (sepse ou risco de resistência: seguir o protocolo local).",
+      "atestado_sugerido": "5 a 7 dias"
+    }
+  },
+  {
+    "id": "ADU-126",
+    "name": "Pitiríase rósea",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "L42",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "medalhão arauto, manchas rosadas no tronco, hidroxizina Loratadina 10mg Hidrocortisona 1% Cetirizina 10mg Hidrocortisona 1%",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Loratadina 10mg — 01 caixa\nTomar 01 comprimido ao dia por 05 dias. Após este período, tomar 01 comprimido se coceira ou espirros, podendo repetir de 24/24h.\n\nUso local\n2) Hidrocortisona 1% — 01 bisnaga\nAplicar uma fina camada sobre a área afetada três vezes ao dia por 07 a 14 dias seguidos (até melhora das lesões).\n\nUso oral\n3) Cetirizina 10mg — 01 caixa\nTomar 01 comprimido ao dia por 05 dias. Após este período, tomar 01 comprimido se coceira ou espirros, podendo repetir de 24/24h.\n\nORIENTAÇÕES:\n- Quadro benigno e não contagioso que desaparece em 4 a 8 semanas; tomar banhos rápidos de água morna/fria e hidratar a pele.\n- Usar roupas leves de algodão e evitar calor excessivo ou suor intenso (que aumentam a coceira).\n- Retornar ao médico se surgirem manchas nas palmas das mãos/plantas dos pés ou febre."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso local\n1) Hidrocortisona 1% — 01 bisnaga\nAplicar uma fina camada sobre a área afetada três vezes ao dia por 07 a 14 dias seguidos (até melhora das lesões).\n\nORIENTAÇÕES:\n- Quadro benigno e não contagioso que desaparece em 4 a 8 semanas; tomar banhos rápidos de água morna/fria e hidratar a pele.\n- Usar roupas leves de algodão e evitar calor excessivo ou suor intenso (que aumentam a coceira).\n- Retornar ao médico se surgirem manchas nas palmas das mãos/plantas dos pés ou febre."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  },
+  {
+    "id": "ADU-127",
+    "name": "Pitiríase versicolor",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "B36.0",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "pano branco, micose de praia, manchas brancas nas costas, cetoconazol, itraconazol, fluconazol, manchas brancas, pitiríase, manchas que descamam, micose de pele Fluconazol 150 mg Itraconazol 100 mg Fenticonazol spray 20mg/ml Cetoconazol 2% xampu Cetoconazol 2% creme Fluconazol 150 mg Itraconazol 100 mg",
+    "gate": "Manchas claras ou acastanhadas no tronco e pescoço, com descamação fina ao esticar a pele. Volta com frequência (calor, suor, oleosidade). Mancha clara com perda de sensibilidade (ao toque, calor ou dor): pensar em hanseníase e avaliar na UBS.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Fluconazol 150 mg — 04 comprimidos\nTomar 01 comprimido a cada 07 dias até 04 doses.\n\nUso oral\n2) Itraconazol 100 mg — 10 cápsulas\nTomar 01 cápsula de 12/12h por 05 dias seguidos Horário sugerido: 08h00 – 20h00.\n\nUso oral\n3) Fenticonazol spray 20mg/ml — 01 frasco\nAplicar nas manchas à noite, antes de dormir, por 03 semanas seguidas.\n\nORIENTAÇÕES:\n- Se usar Itraconazol, tomar sempre logo após o almoço ou jantar; evitar bebidas alcoólicas durante o tratamento antifúngico.\n- Secar bem o corpo após o banho ou suor, usar roupas de algodão e evitar óleos corporais ou cremes gordurosos.\n- As manchas claras podem levar algumas semanas após o fim do tratamento para recuperar a cor normal da pele."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso local\n1) Cetoconazol 2% xampu — 01 frasco\nAplicar nas manchas e ao redor no banho, deixar 5 minutos e enxaguar, 1 vez ao dia, por 5 dias.\n\nUso local\n2) Cetoconazol 2% creme — 01 bisnaga\nAplicar nas manchas, 1 a 2 vezes ao dia, por 2 a 3 semanas.\n\nORIENTAÇÕES:\n- Se usar Itraconazol, tomar sempre logo após o almoço ou jantar; evitar bebidas alcoólicas durante o tratamento antifúngico.\n- Secar bem o corpo após o banho ou suor, usar roupas de algodão e evitar óleos corporais ou cremes gordurosos.\n- As manchas claras podem levar algumas semanas após o fim do tratamento para recuperar a cor normal da pele."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Fluconazol 150 mg — 04 cápsulas\nTomar 2 cápsulas (300 mg) 1 vez por semana, por 2 semanas.\n\nUso oral\n2) Itraconazol 100 mg — 10 cápsulas\nTomar 2 cápsulas (200 mg) após a refeição, 1 vez ao dia, por 5 dias.\n\nORIENTAÇÕES:\n- Se usar Itraconazol, tomar sempre logo após o almoço ou jantar; evitar bebidas alcoólicas durante o tratamento antifúngico.\n- Secar bem o corpo após o banho ou suor, usar roupas de algodão e evitar óleos corporais ou cremes gordurosos.\n- As manchas claras podem levar algumas semanas após o fim do tratamento para recuperar a cor normal da pele."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "UBS em 4 semanas se não melhorar",
+      "retornar_imediatamente_se": "Mancha com dormência ou perda de sensibilidade, lesões que não descamam ou crescem.",
+      "seguranca_plantonista": "Gestante e amamentação: só tratamento tópico.",
+      "encaminhar_internar": "Mancha com alteração de sensibilidade: avaliação de hanseníase. Recidivas frequentes: dermatologia.",
+      "atestado_sugerido": "não se aplica"
+    }
+  },
+  {
+    "id": "ADU-128",
+    "name": "Pneumonia",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "J18.9",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "infecção no pulmão, tosse com catarro e febre, pac, amoxicilina+clavulanato, azitromicina, levofloxacino, pneumonia, broncopneumonia, BCP, tosse com febre, pneumonia comunitária Claritromicina 500 mg Dipirona 500 mg Omeprazol 20 mg Azitromicina 500 mg Dipirona 500 mg Omeprazol 20 mg Amoxicilina 500 mg Dipirona 500 mg Omeprazol 20 mg Amoxicilina 500mg + Clavulanato 125mg Dipirona 500 mg Omeprazol 20 mg Amoxicilina 500 mg Azitromicina 500 mg Dipirona 500 mg Omeprazol 20 mg Amoxicilina 875 mg + Clavulanato 125 mg Azitromicina 500 mg Dipirona 500 mg Omeprazol 20 mg Cefuroxima 500 mg Azitromicina 500 mg Dipirona 500 mg Omeprazol 20 mg Levofloxacino 500 mg Dipirona 500 mg Omeprazol 20 mg Moxifloxacino 400 mg Dipirona 500 mg Omeprazol 20 mg Amoxicilina 875 mg Dipirona 500 mg Azitromicina 500 mg Amoxicilina + clavulanato 875/125 mg Azitromicina 500 mg Levofloxacino 750 mg Ambroxol 30 mg/5 mL xarope",
+    "gate": "Gravidade pelo CRB-65 (Confusão, FR 30 ou mais, PAS < 90 ou PAD 60 ou menos, idade 65 ou mais). 0 ponto: casa. 1 a 2: considerar internação. 3 a 4: internação urgente. Internar também se SpO2 < 92%, pneumonia em vários lobos, comorbidade descompensada, sem via oral ou sem suporte em casa. Corticoide de rotina não é indicado na pneumonia de tratamento domiciliar.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Claritromicina 500 mg — 10 comprimidos\nTomar 01 comprimido de 12/12 horas por 05 dias seguidos Horário sugerido: 08:00 – 20:00.\n\nUso oral\n2) Dipirona 500 mg — 01 caixa\nTomar 02 comprimidos se dor ou febre, podendo repetir de 06/06 horas se necessário.\n\nUso oral\n3) Omeprazol 20 mg — 01 caixa\nTomar 01 comprimido pela manhã em jejum por 05 dias.\n\nUso oral\n4) Azitromicina 500 mg — 05 comprimidos\nTomar 01 comprimido ao dia, no mesmo horário, por 05 dias seguidos.\n\nORIENTAÇÕES:\n- Completar rigorosamente todos os dias do antibiótico nos horários exatos, fazer repouso e beber 2 a 3 litros de líquidos ao dia.\n- Dormir com a cabeceira elevada, não fumar e ser reavaliado em 48 a 72 horas.\n- Retornar IMEDIATAMENTE ao pronto-socorro se tiver falta de ar, respiração rápida, dor no peito, lábios roxos, confusão, vômitos ou febre após 72h."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Dipirona 500 mg — 01 caixa\nTomar 02 comprimidos se dor ou febre, podendo repetir de 06/06 horas se necessário.\n\nUso oral\n2) Omeprazol 20 mg — 01 caixa\nTomar 01 comprimido pela manhã em jejum por 05 dias.\n\nUso oral\n3) Amoxicilina 500 mg — 15 comprimidos\nTomar 01 comprimido de 8/8 horas por 05 dias seguidos Horário sugerido: 06:00 – 14:00 – 22:00.\n\nORIENTAÇÕES:\n- Completar rigorosamente todos os dias do antibiótico nos horários exatos, fazer repouso e beber 2 a 3 litros de líquidos ao dia.\n- Dormir com a cabeceira elevada, não fumar e ser reavaliado em 48 a 72 horas.\n- Retornar IMEDIATAMENTE ao pronto-socorro se tiver falta de ar, respiração rápida, dor no peito, lábios roxos, confusão, vômitos ou febre após 72h."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Dipirona 500 mg — 01 caixa\nTomar 02 comprimidos se dor ou febre, podendo repetir de 06/06 horas se necessário.\n\nUso oral\n2) Omeprazol 20 mg — 01 caixa\nTomar 01 comprimido pela manhã em jejum por 10 dias.\n\nUso oral\n3) Amoxicilina 500mg + Clavulanato 125mg — 15 comprimidos\nTomar 01 comprimido de 8/8 horas por 05 dias seguidos Horário sugerido: 06:00 – 14:00 – 22:00.\n\nORIENTAÇÕES:\n- Completar rigorosamente todos os dias do antibiótico nos horários exatos, fazer repouso e beber 2 a 3 litros de líquidos ao dia.\n- Dormir com a cabeceira elevada, não fumar e ser reavaliado em 48 a 72 horas.\n- Retornar IMEDIATAMENTE ao pronto-socorro se tiver falta de ar, respiração rápida, dor no peito, lábios roxos, confusão, vômitos ou febre após 72h."
+      },
+      {
+        "id": "esquema-4",
+        "title": "Esquema 4",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Dipirona 500 mg — 01 caixa\nTomar 02 comprimidos se dor ou febre, podendo repetir de 06/06 horas se necessário.\n\nUso oral\n2) Omeprazol 20 mg — 01 caixa\nTomar 01 comprimido pela manhã em jejum por 10 dias.\n\nUso oral\n3) Amoxicilina 500 mg — 60 comprimidos\nTomar 02 comprimido de 8/8 horas por 10 dias seguidos Horário sugerido: 06:00 – 14:00 – 22:00.\n\nUso oral\n4) Azitromicina 500 mg — 05 comprimidos\nTomar 01 comprimido ao dia, no mesmo Horário, por 05 dias seguidos.\n\nORIENTAÇÕES:\n- Completar rigorosamente todos os dias do antibiótico nos horários exatos, fazer repouso e beber 2 a 3 litros de líquidos ao dia.\n- Dormir com a cabeceira elevada, não fumar e ser reavaliado em 48 a 72 horas.\n- Retornar IMEDIATAMENTE ao pronto-socorro se tiver falta de ar, respiração rápida, dor no peito, lábios roxos, confusão, vômitos ou febre após 72h."
+      },
+      {
+        "id": "esquema-5",
+        "title": "Esquema 5",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Dipirona 500 mg — 01 caixa\nTomar 02 comprimidos se dor ou febre, podendo repetir de 06/06 horas se necessário.\n\nUso oral\n2) Omeprazol 20 mg — 01 caixa\nTomar 01 comprimido pela manhã em jejum por 05 dias.\n\nUso oral\n3) Amoxicilina 875 mg + Clavulanato 125 mg — 20 comprimidos\nTomar 01 comprimido de 12/12 horas por 10 dias seguidos Horário sugerido: 08:00 – 20:00.\n\nUso oral\n4) Azitromicina 500 mg — 10 comprimidos\nTomar 01 comprimido ao dia, no mesmo horário, por 10 dias seguidos.\n\nORIENTAÇÕES:\n- Completar rigorosamente todos os dias do antibiótico nos horários exatos, fazer repouso e beber 2 a 3 litros de líquidos ao dia.\n- Dormir com a cabeceira elevada, não fumar e ser reavaliado em 48 a 72 horas.\n- Retor…915 tokens truncated…avaliado em 48 a 72 horas.\n- Retornar IMEDIATAMENTE ao pronto-socorro se tiver falta de ar, respiração rápida, dor no peito, lábios roxos, confusão, vômitos ou febre após 72h."
+      },
+      {
+        "id": "esquema-10",
+        "title": "Esquema 10",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Amoxicilina 875 mg — 21 comprimidos\nTomar 1 comprimido de 8/8h, por 7 dias.\n\nUso oral\n2) Dipirona 500 mg — 20 comprimidos\nTomar 1 a 2 comprimidos de 6/6h, se febre ou dor.\n\nORIENTAÇÕES:\n- Completar rigorosamente todos os dias do antibiótico nos horários exatos, fazer repouso e beber 2 a 3 litros de líquidos ao dia.\n- Dormir com a cabeceira elevada, não fumar e ser reavaliado em 48 a 72 horas.\n- Retornar IMEDIATAMENTE ao pronto-socorro se tiver falta de ar, respiração rápida, dor no peito, lábios roxos, confusão, vômitos ou febre após 72h."
+      },
+      {
+        "id": "esquema-11",
+        "title": "Esquema 11",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Azitromicina 500 mg — 03 comprimidos\nTomar 1 comprimido 1 vez ao dia, por 3 dias. Boa opção se suspeita de atípico (jovem, tosse seca, quadro arrastado).\n\nUso oral\n2) Amoxicilina + clavulanato 875/125 mg — 14 comprimidos\nTomar 1 comprimido de 12/12h, por 7 dias.\n\nUso oral\n3) Azitromicina 500 mg — 03 comprimidos\nTomar 1 comprimido 1 vez ao dia, por 3 dias, junto com o item 1.\n\nUso oral\n4) Levofloxacino 750 mg — 05 comprimidos\nTomar 1 comprimido 1 vez ao dia, por 5 dias. Sozinho, sem associar. Opção para alergia à penicilina.\n\nUso oral\n5) Ambroxol 30 mg/5 mL xarope — 01 frasco\nTomar 5 mL de 8/8h, por 5 dias, se catarro grosso (opcional).\n\nORIENTAÇÕES:\n- Completar rigorosamente todos os dias do antibiótico nos horários exatos, fazer repouso e beber 2 a 3 litros de líquidos ao dia.\n- Dormir com a cabeceira elevada, não fumar e ser reavaliado em 48 a 72 horas.\n- Retornar IMEDIATAMENTE ao pronto-socorro se tiver falta de ar, respiração rápida, dor no peito, lábios roxos, confusão, vômitos ou febre após 72h."
+      },
+      {
+        "id": "na-unidade",
+        "title": "Prescrição na unidade",
+        "note": "Administração na unidade · separada da receita domiciliar",
+        "prescription": "PRESCRIÇÃO NA UNIDADE\n\nUso EV\n1) Dipirona 500 mg/mL — 01 ampola\nAplicar 2 mL (1 g) EV lento, se febre. Primeira dose do antibiótico já na unidade. Se internar: ceftriaxona 1 a 2 g EV 1 vez ao dia + azitromicina 500 mg 1 vez ao dia, ou levofloxacino 750 mg EV 1 vez ao dia."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "48 a 72h (obrigatório)",
+      "retornar_imediatamente_se": "Falta de ar, lábios roxos, confusão, febre que não melhora após 72h, dor no peito, escarro com sangue, não consegue beber ou comer, tontura ou pressão baixa.",
+      "seguranca_plantonista": "Gestante: amoxicilina, amoxicilina + clavulanato e azitromicina são seguras. Evitar levofloxacino. Doença renal: levofloxacino 750 mg a cada 48h (TFG 20 a 49). Amoxicilina 500 mg de 12/12h (TFG < 30). Idoso: azitromicina e levofloxacino prolongam o QT. Limiar menor para internar.",
+      "encaminhar_internar": "CRB-65 de 2 ou mais, SpO2 < 92% ou falha do tratamento oral: internação.",
+      "atestado_sugerido": "5 a 7 dias (até 10, conforme a evolução)"
+    }
+  },
+  {
+    "id": "ADU-129",
+    "name": "Pré-natal — suplementação vitamínica e mineral da gestante",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "Z34",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "vitaminas da gravidez, ácido fólico, ferro na gestação, sulfato ferroso gestante, pré-natal, suplemento gestante Ácido fólico 0,4 mg Sulfato ferroso 40 mg de ferro elementar Carbonato de cálcio 1.250 mg (500 mg de cálcio) Ácido acetilsalicílico 100 mg",
+    "gate": "Ácido fólico: idealmente começar 30 dias antes de engravidar e manter pelo menos até 12 semanas.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Ácido fólico 0,4 mg — 30 comprimidos\nTomar 1 comprimido 1 vez ao dia, até 12 semanas de gestação.\n\nUso oral\n2) Sulfato ferroso 40 mg de ferro elementar — 30 comprimidos\nTomar 1 comprimido 1 vez ao dia, 30 minutos antes do almoço, durante toda a gestação e até 3 meses após o parto.\n\nORIENTAÇÕES:\n- Ferro: tomar longe de leite, café, chá e do cálcio (2h de intervalo), de preferência com suco de laranja. Fezes escuras são normais. Se der enjoo, tomar à noite.\n- Comer feijão, carnes, folhas verde-escuras e frutas. Sem álcool e cigarro. Café com moderação.\n- Retornar imediatamente ao pronto-socorro se: sangramento vaginal, perda de líquido, dor de cabeça forte, visão embaçada, inchaço súbito no rosto e nas mãos, febre, bebê mexendo menos, contrações antes de 37 semanas."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Carbonato de cálcio 1.250 mg (500 mg de cálcio) — 60 comprimidos\nTomar 1 comprimido de 12/12h, a partir de 12 semanas, se a dieta tiver pouco cálcio ou houver risco de pré-eclâmpsia, conforme o protocolo local.\n\nUso oral\n2) Ácido acetilsalicílico 100 mg — 30 comprimidos\nTomar 1 a 1 e meio comprimido (100 a 150 mg) à noite, de 12 a 36 semanas.\n\nORIENTAÇÕES:\n- Ferro: tomar longe de leite, café, chá e do cálcio (2h de intervalo), de preferência com suco de laranja. Fezes escuras são normais. Se der enjoo, tomar à noite.\n- Comer feijão, carnes, folhas verde-escuras e frutas. Sem álcool e cigarro. Café com moderação.\n- Retornar imediatamente ao pronto-socorro se: sangramento vaginal, perda de líquido, dor de cabeça forte, visão embaçada, inchaço súbito no rosto e nas mãos, febre, bebê mexendo menos, contrações antes de 37 semanas."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "conforme o pré-natal",
+      "retornar_imediatamente_se": "Sangramento vaginal, perda de líquido, dor de cabeça forte, visão embaçada, inchaço súbito no rosto e nas mãos, febre, bebê mexendo menos, contrações antes de 37 semanas.",
+      "seguranca_plantonista": "Pós-bariátrica, anemia falciforme ou epilepsia: suplementação diferente. Pré-natal de alto risco.",
+      "encaminhar_internar": "Hipertensão, diabetes, Hb abaixo de 8 g/dL, gestação múltipla e outras condições de risco: pré- natal de alto risco.",
+      "atestado_sugerido": "não se aplica"
+    }
+  },
+  {
+    "id": "ADU-130",
+    "name": "Prostatite bacteriana aguda",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "N41.0",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "infecção na próstata, febre e disúria no homem, ciprofloxacino 21 dias, prostatite, dor no períneo, febre com dor para urinar em homem Ciprofloxacino 500mg Ciprofloxacino 500 mg Ibuprofeno 600 mg Tansulosina 0,4 mg Levofloxacino 500 mg Sulfametoxazol + trimetoprima 800/160 mg Ciprofloxacino 500 mg",
+    "gate": "Aguda: febre, calafrio, ardência para urinar, dor no períneo ou no pé da barriga, próstata muito dolorosa ao toque (não massagear). Colher urocultura antes do antibiótico. Homem com menos de 35 anos e vida sexual ativa: pensar também em gonococo e clamídia (ceftriaxona 500 mg IM + doxiciclina 100 mg de 12/12h por 10 dias).",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Ciprofloxacino 500mg — 42 cps\nTomar 01 comprimido de 12/12h por 21 dias Horário sugerido: 08h00 – 20h00.\n\nORIENTAÇÕES:\n- Cumprir todos os 21 dias de Ciprofloxacino (não parar antes para não cronificar), beber bastante água e fazer banhos de assento mornos.\n- Evitar andar de bicicleta/moto, bebidas alcoólicas, café e pimenta durante o tratamento.\n- Retornar imediatamente à emergência se não conseguir urinar (retenção urinária), ou se tiver febre alta e calafrios após 72h."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Ciprofloxacino 500 mg — 28 comprimidos\nTomar 1 comprimido de 12/12h, por 14 dias.\n\nUso oral\n2) Ibuprofeno 600 mg — 15 comprimidos\nTomar 1 comprimido de 8/8h, após as refeições, por 5 dias.\n\nUso oral\n3) Tansulosina 0,4 mg — 30 cápsulas\nTomar 1 cápsula 1 vez ao dia, após a mesma refeição, se dificuldade para urinar.\n\nORIENTAÇÕES:\n- Cumprir todos os 21 dias de Ciprofloxacino (não parar antes para não cronificar), beber bastante água e fazer banhos de assento mornos.\n- Evitar andar de bicicleta/moto, bebidas alcoólicas, café e pimenta durante o tratamento.\n- Retornar imediatamente à emergência se não conseguir urinar (retenção urinária), ou se tiver febre alta e calafrios após 72h."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Levofloxacino 500 mg — 14 comprimidos\nTomar 1 comprimido 1 vez ao dia, por 14 dias.\n\nUso oral\n2) Sulfametoxazol + trimetoprima 800/160 mg — 28 comprimidos\nTomar 1 comprimido de 12/12h, por 14 dias. Se sensível na urocultura.\n\nUso oral\n3) Ciprofloxacino 500 mg — 56 comprimidos\nTomar 1 comprimido de 12/12h, por 4 semanas. Guiar pela cultura.\n\nORIENTAÇÕES:\n- Cumprir todos os 21 dias de Ciprofloxacino (não parar antes para não cronificar), beber bastante água e fazer banhos de assento mornos.\n- Evitar andar de bicicleta/moto, bebidas alcoólicas, café e pimenta durante o tratamento.\n- Retornar imediatamente à emergência se não conseguir urinar (retenção urinária), ou se tiver febre alta e calafrios após 72h."
+      },
+      {
+        "id": "na-unidade",
+        "title": "Prescrição na unidade",
+        "note": "Administração na unidade · separada da receita domiciliar",
+        "prescription": "PRESCRIÇÃO NA UNIDADE\n\nUso EV ou IM\n1) Ceftriaxona 1 g — 01 frasco-ampola\nAplicar 1 g EV ou IM, se febre alta ou vômitos, antes de iniciar o oral.\n\nUso EV\n2) Cetoprofeno 100 mg — 01 frasco-ampola\nDiluir em 100 mL de SF 0,9% e correr EV em 20 min.\n\nUso EV\n3) Dipirona 500 mg/mL — 01 ampola\nAplicar 2 mL (1 g) EV lento, se febre. Retenção urinária: sondagem cuidadosa (ou cistostomia, conforme o serviço)."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "48 a 72h; urologia ao final",
+      "retornar_imediatamente_se": "Não conseguir urinar, febre alta com calafrios, pressão baixa, dor muito forte no períneo.",
+      "seguranca_plantonista": "Doença renal: ajustar a quinolona pela TFG. Idoso: quinolona pode causar lesão de tendão e confusão.",
+      "encaminhar_internar": "Internar: sepse, retenção urinária, não tolera via oral ou imunossuprimido. Sem melhora em 48 a 72h: imagem para descartar abscesso. Prostatite crônica: urologia.",
+      "atestado_sugerido": "3 a 7 dias"
+    }
+  },
+  {
+    "id": "ADU-131",
+    "name": "Psoríase em placas leve a moderada",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "L40.0",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "psoríase, placas com escamas, descamação no cotovelo e joelho, caspa grossa Clobetasol 0,05% pomada 1 bisnaga (30 g) Ureia 10% creme Clobetasol 0,05% solução capilar Xampu de coaltar Hidrocortisona 1% creme",
+    "gate": "Leve: menos de 10% do corpo (a palma da mão do paciente equivale a 1%). Dor e inchaço nas articulações: pensar em artrite psoriásica (reumatologia). Não usar corticoide oral ou injetável: ao suspender, a psoríase pode piorar muito (pustulosa ou eritrodérmica).",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso local\n1) Clobetasol 0,05% pomada 1 bisnaga (30 g) — 01 unidade / conforme orientação\nAplicar fina camada nas placas, 1 a 2 vezes ao dia, por até 4 semanas. Depois, só nos fins de semana. Não usar no rosto e nas dobras.\n\nUso local\n2) Ureia 10% creme — 01 bisnaga\nAplicar nas placas grossas à noite, para soltar as escamas.\n\nORIENTAÇÕES:\n- Hidratar a pele todos os dias, logo após o banho. Banho morno e curto. Não arrancar as escamas.\n- Sol moderado ajuda (sem queimar).\n- Retornar imediatamente ao pronto-socorro se: pele vermelha no corpo todo, bolinhas de pus espalhadas com febre, dor e inchaço nas articulações."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso local\n1) Clobetasol 0,05% solução capilar — 01 frasco\nAplicar no couro cabeludo à noite, por 2 a 4 semanas.\n\nUso local\n2) Xampu de coaltar — 01 frasco\nLavar o cabelo, deixar agir por 5 minutos e enxaguar, 3 vezes por semana.\n\nUso local\n3) Hidrocortisona 1% creme — 01 bisnaga\nAplicar fina camada, 1 a 2 vezes ao dia, por até 2 semanas.\n\nORIENTAÇÕES:\n- Hidratar a pele todos os dias, logo após o banho. Banho morno e curto. Não arrancar as escamas.\n- Sol moderado ajuda (sem queimar).\n- Retornar imediatamente ao pronto-socorro se: pele vermelha no corpo todo, bolinhas de pus espalhadas com febre, dor e inchaço nas articulações."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "UBS em 4 semanas",
+      "retornar_imediatamente_se": "Pele vermelha no corpo todo, bolinhas de pus espalhadas com febre, dor e inchaço nas articulações.",
+      "seguranca_plantonista": "Gestante: corticoide tópico de baixa ou média potência e hidratante. Evitar clobetasol em áreas grandes.",
+      "encaminhar_internar": "Mais de 10% do corpo, unhas ou articulações acometidas ou falha do tópico: dermatologia. Psoríase eritrodérmica ou pustulosa: internação.",
+      "atestado_sugerido": "não se aplica"
+    }
+  },
+  {
+    "id": "ADU-132",
+    "name": "Queimaduras",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "T30.0",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "queimadura de 1º e 2º grau, água quente, sol, sulfadiazina de prata, queimadura, queimadura de sol, queimadura com água quente, bolha de queimadura, queimadura de 1º grau, queimadura de 2º grau Sulfadiazina de Prata 10mg/g Sulfadiazina de prata 1% creme Ibuprofeno 600 mg Dipirona 500 mg Loção hidratante com aloe vera, sem álcool Ibuprofeno 400 mg Gaze não aderente com petrolato",
+    "gate": "Tratamento em casa só se: 1º grau (vermelho, sem bolha) ou 2º grau superficial pequeno (menos de 10% do corpo no adulto, menos de 5% na criança), fora de rosto, mãos, pés, genitais, períneo e grandes articulações, sem queimadura elétrica, química, por inalação ou circular. Palma da mão do paciente = 1%.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso local\n1) Sulfadiazina de Prata 10mg/g — 01 bisnaga\nLavar a ferida com soro, depois aplicar uma camada de pomada na lesão e cobrir com curativo com gaze, duas vezes ao dia, até melhora.\n\nORIENTAÇÕES:\n- Lavar a queimadura com Soro Fisiológico 0,9% em jato, aplicar camada de Sulfadiazina de Prata e cobrir com gaze estéril 2 vezes ao dia.\n- NUNCA furar as bolhas nem passar pasta de dente, manteiga ou café; proteger o local do sol e manter vacina antitetânica em dia.\n- Retornar ao pronto-socorro se aumentar a vermelhidão e inchaço ao redor, sair pus com mau cheiro ou surgir febre."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso local\n1) Sulfadiazina de prata 1% creme — 01 unidade / conforme orientação\n1 pote Lavar com água e sabão neutro, aplicar camada fina sobre a queimadura e cobrir com gaze, 1 vez ao dia, até cicatrizar.\n\nUso oral\n2) Ibuprofeno 600 mg — 15 comprimidos\nTomar 1 comprimido de 8/8h, após as refeições, por 5 dias.\n\nUso oral\n3) Dipirona 500 mg — 20 comprimidos\nTomar 1 a 2 comprimidos de 6/6h, se dor.\n\nORIENTAÇÕES:\n- Lavar a queimadura com Soro Fisiológico 0,9% em jato, aplicar camada de Sulfadiazina de Prata e cobrir com gaze estéril 2 vezes ao dia.\n- NUNCA furar as bolhas nem passar pasta de dente, manteiga ou café; proteger o local do sol e manter vacina antitetânica em dia.\n- Retornar ao pronto-socorro se aumentar a vermelhidão e inchaço ao redor, sair pus com mau cheiro ou surgir febre."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso local\n1) Loção hidratante com aloe vera, sem álcool — 01 unidade\nAplicar nas áreas queimadas várias vezes ao dia.\n\nUso oral\n2) Ibuprofeno 400 mg — 09 comprimidos\nTomar 1 comprimido de 8/8h, após as refeições, por 3 dias. 2º GRAU SUPERFICIAL (COM BOLHAS)\n\nUso oral\n3) Gaze não aderente com petrolato — 01 caixa\nCobrir a queimadura limpa e trocar a cada 1 a 2 dias. Boa opção para o rosto.\n\nORIENTAÇÕES:\n- Lavar a queimadura com Soro Fisiológico 0,9% em jato, aplicar camada de Sulfadiazina de Prata e cobrir com gaze estéril 2 vezes ao dia.\n- NUNCA furar as bolhas nem passar pasta de dente, manteiga ou café; proteger o local do sol e manter vacina antitetânica em dia.\n- Retornar ao pronto-socorro se aumentar a vermelhidão e inchaço ao redor, sair pus com mau cheiro ou surgir febre."
+      },
+      {
+        "id": "na-unidade",
+        "title": "Prescrição na unidade",
+        "note": "Administração na unidade · separada da receita domiciliar",
+        "prescription": "PRESCRIÇÃO NA UNIDADE\n\nUso EV ou IM\n1) Dipirona 500 mg/mL — 01 ampola\nAplicar 2 mL (1 g) EV lento ou IM. Dor intensa: tramadol 50 a 100 mg diluído em 100 mL de SF 0,9%, EV em 30 min. Avaliar profilaxia do tétano (ver ficha)."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "48h para a 1ª troca de curativo",
+      "retornar_imediatamente_se": "Febre, pus, mau cheiro, vermelhidão se espalhando, dor que piora, novas bolhas grandes, pouca urina ou tontura, área branca ou sem dor (queimadura mais profunda).",
+      "seguranca_plantonista": "Gestante: evitar sulfadiazina no fim da gestação (usar gaze com petrolato). Alergia a sulfa: não usar sulfadiazina. Diabético ou idoso: cicatrização mais lenta. Reavaliar em 48h.",
+      "encaminhar_internar": "Centro de queimados: 2º grau acima de 10% (adulto) ou 5% (criança), qualquer 3º grau, rosto, mãos, pés, genitais ou articulações, queimadura elétrica, química, por inalação ou circular, criança pequena ou idoso com comorbidade.",
+      "atestado_sugerido": "2 a 7 dias, conforme a extensão e o local"
+    }
+  }
+]
+
+

@@ -1,0 +1,298 @@
+[
+  {
+    "id": "ADU-187",
+    "name": "Patologia não especificada — Cremes ginecológicos",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "Z00.0",
+    "category": "CLASSE_FARMACOLOGICA",
+    "tags": "patologia não especificada — cremes ginecológicos Metronidazol geleia vaginal 100mg/g Nistatina creme vaginal 25.000 UI/g Crevagin",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso vaginal\n1) Metronidazol geleia vaginal 100mg/g — 01 bisnaga\nAplicar o conteúdo de um aplicador cheio dentro da vagina, à noite ao deitar, por 14 dias.\n\nUso vaginal\n2) Nistatina creme vaginal 25.000 UI/g — 01 bisnaga\nAplicar o conteúdo de um aplicador cheio dentro da vagina, à noite ao deitar, por 14 dias.\n\nUso vaginal\n3) Crevagin — 01 bisnaga\nAplicar o conteúdo de um aplicador cheio dentro da vagina, à noite ao deitar, por 14 dias.\n\nORIENTAÇÕES:\n- Aplicar profundamente na vagina todas as noites ao deitar pelos 14 dias e lavar o aplicador com água e sabão neutro.\n- Evitar relações sexuais e bebidas alcoólicas durante o tratamento; usar calcinha de algodão.\n- Retornar ao médico se surgir febre, dor pélvica ou ausência de melhora."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  },
+  {
+    "id": "ADU-188",
+    "name": "Patologia não especificada — Fosfomicina",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "Z00.0",
+    "category": "CLASSE_FARMACOLOGICA",
+    "tags": "patologia não especificada — fosfomicina Fosfomicina Granulado 03 g Fosfomicina granulado 03 g",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Fosfomicina Granulado 03 g — 01 caixa\nDiluir o envelope em um copo d’água e ingerir em dose única.\n\nORIENTAÇÕES:\n- Tomar rigorosamente nos horários prescritos até o último comprimido, mesmo que os sintomas melhorem antes.\n- Beber bastante água e NÃO ingerir bebidas alcoólicas (especialmente com Metronidazol/Secnidazol até 72h após o fim).\n- Procurar o médico se surgir alergia na pele (placas/coceira), diarreia intensa ou febre persistente após 72h."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Fosfomicina granulado 03 g — 03 envelopes\nDiluir o envelope em um copo d’água e ingerir 01 vez da cada 48h até 03 doses (primeiro, terceiro e quinto dia de tratamento).\n\nORIENTAÇÕES:\n- Tomar rigorosamente nos horários prescritos até o último comprimido, mesmo que os sintomas melhorem antes.\n- Beber bastante água e NÃO ingerir bebidas alcoólicas (especialmente com Metronidazol/Secnidazol até 72h após o fim).\n- Procurar o médico se surgir alergia na pele (placas/coceira), diarreia intensa ou febre persistente após 72h."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  },
+  {
+    "id": "ADU-189",
+    "name": "Patologia não especificada — Laxativos e fibras",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "Z00.0",
+    "category": "CLASSE_FARMACOLOGICA",
+    "tags": "patologia não especificada — laxativos e fibras Benefiber ® Bisacodil 5mg Picossulfato de Sódio 7,5mg/ml Muvinlax ® Muvinlax ® Muvinlax ® Lactulose xarope 667mg/ml",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Benefiber ® — 01 caixa\nDissolver o conteúdo de um envelope em um copo de água ou suco e tomar às refeições 02 vezes ao dia por 03 dias.\n\nUso oral\n2) Bisacodil 5mg — 01 caixa\nTomar 01 comprimido uma vez ao dia à noite por até 05 a 07 dias (até regularização da evacuação).\n\nUso oral\n3) Picossulfato de Sódio 7,5mg/ml — 01 frasco\nTomar 15 gotas uma vez ao dia por até 05 a 07 dias (até regularização da evacuação).\n\nUso oral\n4) Muvinlax ® — 01 caixa\nDissolver o conteúdo de um envelope em um copo de água e tomar uma vez ao dia pela manhã por até 05 a 07 dias (até regularização da evacuação).\n\nORIENTAÇÕES:\n- Beber de 8 a 10 copos de água por dia, comer frutas/verduras ricas em fibras e caminhar diariamente.\n- Manter a solução de Muvinlax® refrigerada quando diluída em 1 litro de água.\n- Suspender o uso e procurar o médico se houver dor abdominal forte, vômitos ou parada de gases."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Muvinlax ® — 01 caixa\nDissolver o conteúdo de oito envelopes em um litro de água e tomar 250ml da solução de 6/6 horas por 3 dias.\n\nORIENTAÇÕES:\n- Beber de 8 a 10 copos de água por dia, comer frutas/verduras ricas em fibras e caminhar diariamente.\n- Manter a solução de Muvinlax® refrigerada quando diluída em 1 litro de água.\n- Suspender o uso e procurar o médico se houver dor abdominal forte, vômitos ou parada de gases."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Muvinlax ® — 01 caixa\nDissolver o conteúdo de oito envelopes em um litro de água e tomar 250ml da solução de 10/10 minutos até que o líquido eliminado nas evacuações seja claro e livre de partículas sólidas, ou até que tenham sido consumidos 04 litros de solução.\n\nUso oral\n2) Lactulose xarope 667mg/ml — 01 frasco\nTomar 05ml de 8/8h Horário sugerido (8/8h): 06:00 / 14:00 / 22:00.\n\nORIENTAÇÕES:\n- Beber de 8 a 10 copos de água por dia, comer frutas/verduras ricas em fibras e caminhar diariamente.\n- Manter a solução de Muvinlax® refrigerada quando diluída em 1 litro de água.\n- Suspender o uso e procurar o médico se houver dor abdominal forte, vômitos ou parada de gases."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  },
+  {
+    "id": "ADU-190",
+    "name": "Patologia não especificada — Lincosamidas",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "Z00.0",
+    "category": "CLASSE_FARMACOLOGICA",
+    "tags": "patologia não especificada — lincosamidas Clindamicina 300mg Clindamicina 300mg Clindamicina 300mg Clindamicina 300mg",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Clindamicina 300mg — 21 cápsulas\nTomar 01 cápsula de 12/12 horas por 07 dias Horário sugerido: 08:00 / 20:00.\n\nORIENTAÇÕES:\n- Tomar rigorosamente nos horários prescritos até o último comprimido, mesmo que os sintomas melhorem antes.\n- Beber bastante água e NÃO ingerir bebidas alcoólicas (especialmente com Metronidazol/Secnidazol até 72h após o fim).\n- Procurar o médico se surgir alergia na pele (placas/coceira), diarreia intensa ou febre persistente após 72h."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Clindamicina 300mg — 21 cápsulas\nTomar 01 cápsula de 8/8 horas por 07 dias Horário sugerido: 06:00 / 14:00 / 22:00.\n\nORIENTAÇÕES:\n- Tomar rigorosamente nos horários prescritos até o último comprimido, mesmo que os sintomas melhorem antes.\n- Beber bastante água e NÃO ingerir bebidas alcoólicas (especialmente com Metronidazol/Secnidazol até 72h após o fim).\n- Procurar o médico se surgir alergia na pele (placas/coceira), diarreia intensa ou febre persistente após 72h."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Clindamicina 300mg — 28 cápsulas\nTomar 01 cápsula de 6/6 horas por 07 dias Horário sugerido: 05:00 / 11:00 / 17:00 / 23:00.\n\nORIENTAÇÕES:\n- Tomar rigorosamente nos horários prescritos até o último comprimido, mesmo que os sintomas melhorem antes.\n- Beber bastante água e NÃO ingerir bebidas alcoólicas (especialmente com Metronidazol/Secnidazol até 72h após o fim).\n- Procurar o médico se surgir alergia na pele (placas/coceira), diarreia intensa ou febre persistente após 72h."
+      },
+      {
+        "id": "esquema-4",
+        "title": "Esquema 4",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Clindamicina 300mg — 42 cápsulas\nTomar 02 cápsulas de 8/8 horas por 07 dias Horário sugerido: 06:00 / 14:00 / 22:00.\n\nORIENTAÇÕES:\n- Tomar rigorosamente nos horários prescritos até o último comprimido, mesmo que os sintomas melhorem antes.\n- Beber bastante água e NÃO ingerir bebidas alcoólicas (especialmente com Metronidazol/Secnidazol até 72h após o fim).\n- Procurar o médico se surgir alergia na pele (placas/coceira), diarreia intensa ou febre persistente após 72h."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  },
+  {
+    "id": "ADU-191",
+    "name": "Patologia não especificada — Macrolídeos",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "Z00.0",
+    "category": "CLASSE_FARMACOLOGICA",
+    "tags": "patologia não especificada — macrolídeos Azitromicina 500 mg Azitromicina 500 mg Azitromicina 500 mg Claritromicina 500 mg Claritromicina 500 mg Eritromicina 500 mg",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Azitromicina 500 mg — 03 comprimidos\nTomar 01 comprimido ao dia por 3 dias Horário sugerido: 08:00.\n\nORIENTAÇÕES:\n- Tomar rigorosamente nos horários prescritos até o último comprimido, mesmo que os sintomas melhorem antes.\n- Beber bastante água e NÃO ingerir bebidas alcoólicas (especialmente com Metronidazol/Secnidazol até 72h após o fim).\n- Procurar o médico se surgir alergia na pele (placas/coceira), diarreia intensa ou febre persistente após 72h."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Azitromicina 500 mg — 07 comprimidos\nTomar 01 comprimido ao dia por 07 dias Horário sugerido: 08:00.\n\nORIENTAÇÕES:\n- Tomar rigorosamente nos horários prescritos até o último comprimido, mesmo que os sintomas melhorem antes.\n- Beber bastante água e NÃO ingerir bebidas alcoólicas (especialmente com Metronidazol/Secnidazol até 72h após o fim).\n- Procurar o médico se surgir alergia na pele (placas/coceira), diarreia intensa ou febre persistente após 72h."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Azitromicina 500 mg — 14 comprimidos\nTomar 01 comprimido ao dia por 14 dias Horário sugerido: 08:00 / 20:00.\n\nUso oral\n2) Claritromicina 500 mg — 14 comprimidos\nTomar 01 comprimido de 12/12h por 07 dias Horário sugerido: 08:00 / 20:00.\n\nORIENTAÇÕES:\n- Tomar rigorosamente nos horários prescritos até o último comprimido, mesmo que os sintomas melhorem antes.\n- Beber bastante água e NÃO ingerir bebidas alcoólicas (especialmente com Metronidazol/Secnidazol até 72h após o fim).\n- Procurar o médico se surgir alergia na pele (placas/coceira), diarreia intensa ou febre persistente após 72h."
+      },
+      {
+        "id": "esquema-4",
+        "title": "Esquema 4",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Claritromicina 500 mg — 28 comprimidos\nTomar 01 comprimido de 12/12h por 14 dias Horário sugerido: 08:00 / 20:00.\n\nUso oral\n2) Eritromicina 500 mg — 40 comprimidos\nTomar 01 comprimido de 6/6h por 10 dias Horário sugerido: 06:00 / 12:00 / 18:00 / 00:00.\n\nORIENTAÇÕES:\n- Tomar rigorosamente nos horários prescritos até o último comprimido, mesmo que os sintomas melhorem antes.\n- Beber bastante água e NÃO ingerir bebidas alcoólicas (especialmente com Metronidazol/Secnidazol até 72h após o fim).\n- Procurar o médico se surgir alergia na pele (placas/coceira), diarreia intensa ou febre persistente após 72h."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  },
+  {
+    "id": "ADU-192",
+    "name": "Patologia não especificada — Medicamentos tópicos",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "Z00.0",
+    "category": "CLASSE_FARMACOLOGICA",
+    "tags": "patologia não especificada — medicamentos tópicos Sulfadiazina de Prata 10mg/g Sulfato de Neomicina 3,5mg/g Dipropionato de Betametasona 0,5mg/g + Sulfato de Gentamicina 0,1mg/g Cetoconazol 20mg/g + Dipropionato de Betametasona 0,5mg/g + Sulfato de Neomicina 2,5mg/g Clorafenicol 0,6u/g + Colagenase 0,01g/g",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso local\n1) Sulfadiazina de Prata 10mg/g — 01 bisnaga\nAplicar uma fina camada sobre as lesões, duas vezes ao dia por 07 a 14 dias (até cicatrização/melhora completa).\n\nUso local\n2) Sulfato de Neomicina 3,5mg/g — 01 bisnaga\nAplicar uma fina camada sobre as lesões, duas a três vezes ao dia por 07 a 14 dias (até cicatrização/melhora completa).\n\nUso oral\n3) Dipropionato de Betametasona 0,5mg/g + Sulfato de Gentamicina 0,1mg/g — 01 bisnaga\nAplicar uma fina camada sobre a área afetada de 12/12h.\n\nUso local\n4) Cetoconazol 20mg/g + Dipropionato de Betametasona 0,5mg/g + Sulfato de Neomicina 2,5mg/g — 01 bisnaga\nAplicar uma fina camada sobre a área afetada de 12/12h.\n\nUso local\n5) Clorafenicol 0,6u/g + Colagenase 0,01g/g — 01 bisnaga\nAplicar uma fina camada sobre a lesão, a cada troca de curativo, duas vezes ao dia.\n\nORIENTAÇÕES:\n- Lavar e secar bem a região antes de aplicar uma camada fina do creme/pomada pelo tempo indicado.\n- Evitar usar corticoides potentes no rosto ou dobras sem orientação médica.\n- Retornar ao médico se surgir pus, aumento da vermelhidão ou febre."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  },
+  {
+    "id": "ADU-193",
+    "name": "Patologia não especificada — Mucolíticos",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "Z00.0",
+    "category": "CLASSE_FARMACOLOGICA",
+    "tags": "patologia não especificada — mucolíticos Acetilcisteína xarope 40mg/ml Cloridrato de Ambroxol xarope 30mg/5ml",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Acetilcisteína xarope 40mg/ml — 01 frasco\nTomar 15 ml à noite por 5 dias.\n\nUso oral\n2) Cloridrato de Ambroxol xarope 30mg/5ml — 01 frasco\nTomar 5 ml, 3 vezes ao dia por 05 dias.\n\nORIENTAÇÕES:\n- Beber pelo menos 2 litros de água por dia para que o medicamento consiga afinar o catarro.\n- Associar lavagem nasal com Soro Fisiológico 0,9% e manter ambientes arejados.\n- Procurar o médico se surgir falta de ar, febre alta persistente ou catarro com sangue."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  },
+  {
+    "id": "ADU-194",
+    "name": "Patologia não especificada — Nitroimidazóis",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "Z00.0",
+    "category": "CLASSE_FARMACOLOGICA",
+    "tags": "patologia não especificada — nitroimidazóis Metronidazol 250 mg Metronidazol 250 mg Metronidazol 250 mg Metronidazol 250 mg Metronidazol 250 mg Metronidazol geleia vaginal 100mg/g Secnidazol 1000 mg",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Metronidazol 250 mg — 40 comprimidos\nTomar 01 comprimido de 6/6h por 10 dias Horário sugerido: 06:00 / 12:00 / 18:00 / 00:00.\n\nORIENTAÇÕES:\n- Tomar rigorosamente nos horários prescritos até o último comprimido, mesmo que os sintomas melhorem antes.\n- Beber bastante água e NÃO ingerir bebidas alcoólicas (especialmente com Metronidazol/Secnidazol até 72h após o fim).\n- Procurar o médico se surgir alergia na pele (placas/coceira), diarreia intensa ou febre persistente após 72h."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Metronidazol 250 mg — 42 comprimidos\nTomar 02 comprimidos de 8/8h por 07 dias Horário sugerido: 06:00 / 14:00 / 22:00.\n\nORIENTAÇÕES:\n- Tomar rigorosamente nos horários prescritos até o último comprimido, mesmo que os sintomas melhorem antes.\n- Beber bastante água e NÃO ingerir bebidas alcoólicas (especialmente com Metronidazol/Secnidazol até 72h após o fim).\n- Procurar o médico se surgir alergia na pele (placas/coceira), diarreia intensa ou febre persistente após 72h."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Metronidazol 250 mg — 84 comprimidos\nTomar 02 comprimidos de 8/8h por 14 dias.\n\nORIENTAÇÕES:\n- Tomar rigorosamente nos horários prescritos até o último comprimido, mesmo que os sintomas melhorem antes.\n- Beber bastante água e NÃO ingerir bebidas alcoólicas (especialmente com Metronidazol/Secnidazol até 72h após o fim).\n- Procurar o médico se surgir alergia na pele (placas/coceira), diarreia intensa ou febre persistente após 72h."
+      },
+      {
+        "id": "esquema-4",
+        "title": "Esquema 4",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Metronidazol 250 mg — 28 comprimidos\nTomar 02 comprimidos de 12/12h por 07 dias Horário sugerido: 08:00 / 22:00.\n\nORIENTAÇÕES:\n- Tomar rigorosamente nos horários prescritos até o último comprimido, mesmo que os sintomas melhorem antes.\n- Beber bastante água e NÃO ingerir bebidas alcoólicas (especialmente com Metronidazol/Secnidazol até 72h após o fim).\n- Procurar o médico se surgir alergia na pele (placas/coceira), diarreia intensa ou febre persistente após 72h."
+      },
+      {
+        "id": "esquema-5",
+        "title": "Esquema 5",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Metronidazol 250 mg — 08 comprimidos\nTomar 08 comprimidos em dose única.\n\nUso vaginal\n2) Metronidazol geleia vaginal 100mg/g — 01 bisnaga\nAplicar o conteúdo de um aplicador cheio dentro da vagina, pela manhã ao acordar e à noite ao deitar, por 05 dias.\n\nUso oral\n3) Secnidazol 1000 mg — 02 comprimidos\nTomar 02 comprimidos em dose única.\n\nORIENTAÇÕES:\n- Tomar rigorosamente nos horários prescritos até o último comprimido, mesmo que os sintomas melhorem antes.\n- Beber bastante água e NÃO ingerir bebidas alcoólicas (especialmente com Metronidazol/Secnidazol até 72h após o fim).\n- Procurar o médico se surgir alergia na pele (placas/coceira), diarreia intensa ou febre persistente após 72h."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  }
+]
+
+

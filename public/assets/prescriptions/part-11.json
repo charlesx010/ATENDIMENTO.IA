@@ -1,0 +1,292 @@
+[
+  {
+    "id": "ADU-078",
+    "name": "Fissura anal aguda e crônica",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "K60.2",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "fissura anal, dor ao evacuar, sangue vivo no papel, rachadura no ânus, ferida no ânus Psyllium 5 g sachê Lidocaína 2% gel Diltiazem 2% pomada (manipulada) Paracetamol 750 mg",
+    "gate": "Dor forte ao evacuar com sangue vivo no papel. Fissura típica fica na linha média, atrás. Fissura lateral, múltipla ou sem dor: pensar em doença de Crohn, IST ou câncer.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Psyllium 5 g sachê — 30 sachês\nDissolver 1 sachê em 1 copo grande de água e tomar 1 a 2 vezes ao dia. Fezes macias são a base do tratamento.\n\nUso local\n2) Lidocaína 2% gel — 01 bisnaga\nAplicar pequena quantidade no ânus antes de evacuar e 2 a 3 vezes ao dia, por até 14 dias.\n\nUso local\n3) Diltiazem 2% pomada (manipulada) — 01 bisnaga\nAplicar pequena quantidade no ânus, 2 vezes ao dia, por 6 a 8 semanas.\n\nORIENTAÇÕES:\n- Banho de assento com água morna por 10 a 15 minutos, 2 a 3 vezes ao dia e após evacuar.\n- Beber 2 litros de água. Não fazer força e não segurar a vontade de evacuar.\n- Retornar imediatamente ao pronto-socorro se: sangramento volumoso, febre, caroço doloroso e quente ao lado do ânus (abscesso), dor que não melhora."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Paracetamol 750 mg — 20 comprimidos\nTomar 1 comprimido de 6/6h, se dor. Evitar codeína e tramadol (prendem o intestino).\n\nORIENTAÇÕES:\n- Banho de assento com água morna por 10 a 15 minutos, 2 a 3 vezes ao dia e após evacuar.\n- Beber 2 litros de água. Não fazer força e não segurar a vontade de evacuar.\n- Retornar imediatamente ao pronto-socorro se: sangramento volumoso, febre, caroço doloroso e quente ao lado do ânus (abscesso), dor que não melhora."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "6 a 8 semanas",
+      "retornar_imediatamente_se": "Sangramento volumoso, febre, caroço doloroso e quente ao lado do ânus (abscesso), dor que não melhora.",
+      "seguranca_plantonista": "Gestante e puérpera: fibras, banho de assento e lidocaína tópica. Diltiazem tópico: discutir com o obstetra.",
+      "encaminhar_internar": "Sem melhora em 8 semanas: coloproctologia (toxina botulínica ou cirurgia).",
+      "atestado_sugerido": "geralmente não necessário (1 dia se dor intensa)"
+    }
+  },
+  {
+    "id": "ADU-079",
+    "name": "Foliculite superficial e pseudofoliculite",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "L73.9",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "foliculite, espinhas no corpo, pelo encravado inflamado, bolinhas de pus, foliculite da barba, pseudofoliculite Mupirocina 2% pomada 1 bisnaga (15 g) Sabonete antisséptico com clorexidina 2% Ácido fusídico 2% creme Cefalexina 500 mg Sulfametoxazol + trimetoprima 800/160 mg Cetoconazol 2% xampu",
+    "gate": "Superficial e localizada: geralmente só tratamento tópico. Antibiótico oral se extensa, recorrente ou com celulite ao redor. Coceira intensa no tronco, sem pus, que piora com calor e suor: pensar em foliculite por fungo (Malassezia).",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso local\n1) Mupirocina 2% pomada 1 bisnaga (15 g) — 01 unidade / conforme orientação\nAplicar nas lesões após lavar com água e sabão, 3 vezes ao dia, por 7 dias.\n\nUso local\n2) Sabonete antisséptico com clorexidina 2% — 01 unidade\nUsar na área afetada no banho, 1 vez ao dia, por 7 dias.\n\nORIENTAÇÕES:\n- Não raspar a área durante o tratamento. Depois, barbear a favor do pelo, com lâmina nova e sem esticar a pele (ou usar máquina).\n- Toalha individual e roupas folgadas. Não espremer.\n- Retornar imediatamente ao pronto-socorro se: lesão grande e dolorosa (furúnculo), vermelhidão que se espalha, febre."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso local\n1) Ácido fusídico 2% creme — 01 bisnaga\nAplicar nas lesões, 3 vezes ao dia, por 7 dias.\n\nUso oral\n2) Cefalexina 500 mg — 28 cápsulas\nTomar 1 cápsula de 6/6h, por 7 dias.\n\nUso oral\n3) Sulfametoxazol + trimetoprima 800/160 mg — 14 comprimidos\nTomar 1 comprimido de 12/12h, por 7 dias. Se suspeita de MRSA.\n\nUso local\n4) Cetoconazol 2% xampu — 01 frasco\nUsar como sabonete nas lesões, deixar 5 minutos e enxaguar, 1 vez ao dia, por 2 a 4 semanas.\n\nORIENTAÇÕES:\n- Não raspar a área durante o tratamento. Depois, barbear a favor do pelo, com lâmina nova e sem esticar a pele (ou usar máquina).\n- Toalha individual e roupas folgadas. Não espremer.\n- Retornar imediatamente ao pronto-socorro se: lesão grande e dolorosa (furúnculo), vermelhidão que se espalha, febre."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "se não melhorar em 7 dias",
+      "retornar_imediatamente_se": "Lesão grande e dolorosa (furúnculo), vermelhidão que se espalha, febre.",
+      "seguranca_plantonista": "Gestante: tópicos são seguros. Evitar sulfametoxazol + trimetoprima no 1º trimestre e no fim da gestação.",
+      "encaminhar_internar": "Recorrente: descolonização (mupirocina nasal de 12/12h por 5 dias) e dermatologia.",
+      "atestado_sugerido": "não se aplica"
+    }
+  },
+  {
+    "id": "ADU-080",
+    "name": "Furunculose e abscesso cutâneo simples",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "L02.9",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "furúnculo, carnegão, abscesso na pele, cefalexina, mupirocina, carbúnculo, abscesso de pele, nascida, leicenço, tumor de pele com pus Cefalexina 500 mg Mupirocina 20 mg/g pomada Dipirona 500 mg Cefalexina 500 mg Dipirona 500 mg Ibuprofeno 600 mg Sulfametoxazol + trimetoprima 800/160 mg Clindamicina 300 mg",
+    "gate": "Abscesso com flutuação: o tratamento principal é drenar. Antibiótico só se celulite ao redor, febre, lesão maior que 2 cm, várias lesões, face, mãos ou genitais, imunossupressão ou falha da drenagem.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Cefalexina 500 mg — 28 comprimidos\nTomar 01 comprimido de 6/6h por 07 dias (Horário sugerido: 06:00 / 12:00 / 18:00 / 00:00).\n\nUso local\n2) Mupirocina 20 mg/g pomada — 01 bisnaga\nAplicar uma fina camada sobre a lesão de 8/8h por 07 dias.\n\nUso oral\n3) Dipirona 500 mg — 01 caixa\nTomar 02 comprimidos se dor ou febre, podendo repetir de 6/6h.\n\nORIENTAÇÕES:\n- Aplicar compressas de água morna sobre a lesão por 15 minutos, 3 a 4 vezes ao dia, para facilitar a drenagem espontânea.\n- NUNCA espremer o furúnculo com as mãos, lavar com água e sabonete antisséptico, aplicar a pomada e não compartilhar toalhas.\n- Retornar ao pronto-socorro se a lesão for no centro do rosto/nariz, aumentar muito com ponto de flutuação (para drenagem médica) ou causar febre."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Cefalexina 500 mg — 28 cápsulas\nTomar 1 cápsula de 6/6h, por 7 dias.\n\nUso oral\n2) Dipirona 500 mg — 20 comprimidos\nTomar 1 a 2 comprimidos de 6/6h, se dor ou febre.\n\nUso oral\n3) Ibuprofeno 600 mg — 15 comprimidos\nTomar 1 comprimido de 8/8h, após as refeições, por 5 dias.\n\nORIENTAÇÕES:\n- Aplicar compressas de água morna sobre a lesão por 15 minutos, 3 a 4 vezes ao dia, para facilitar a drenagem espontânea.\n- NUNCA espremer o furúnculo com as mãos, lavar com água e sabonete antisséptico, aplicar a pomada e não compartilhar toalhas.\n- Retornar ao pronto-socorro se a lesão for no centro do rosto/nariz, aumentar muito com ponto de flutuação (para drenagem médica) ou causar febre."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Sulfametoxazol + trimetoprima 800/160 mg — 14 comprimidos\nTomar 1 comprimido de 12/12h, por 7 dias. Boa opção se suspeita de MRSA comunitário (lesões de repetição, contactantes com lesões).\n\nUso oral\n2) Clindamicina 300 mg — 28 cápsulas\nTomar 1 cápsula de 6/6h, por 7 dias. Opção para alérgicos à penicilina.\n\nORIENTAÇÕES:\n- Aplicar compressas de água morna sobre a lesão por 15 minutos, 3 a 4 vezes ao dia, para facilitar a drenagem espontânea.\n- NUNCA espremer o furúnculo com as mãos, lavar com água e sabonete antisséptico, aplicar a pomada e não compartilhar toalhas.\n- Retornar ao pronto-socorro se a lesão for no centro do rosto/nariz, aumentar muito com ponto de flutuação (para drenagem médica) ou causar febre."
+      },
+      {
+        "id": "na-unidade",
+        "title": "Prescrição na unidade",
+        "note": "Administração na unidade · separada da receita domiciliar",
+        "prescription": "PRESCRIÇÃO NA UNIDADE\n\nUso EV ou IM\n1) Dipirona 500 mg/mL — 01 ampola\nAplicar 2 mL (1 g) IM ou EV lento, dose única, se dor. Furúnculo pequeno, sem flutuação: não incisar. Compressa morna e reavaliar em 48h."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "48 a 72h para reavaliar a ferida",
+      "retornar_imediatamente_se": "Febre, vermelhidão que se espalha, riscos vermelhos subindo pela pele, dor que piora, pus que volta a acumular.",
+      "seguranca_plantonista": "Gestante: cefalexina ou clindamicina. Evitar sulfametoxazol + trimetoprima no 1º trimestre e no fim da gestação. Amamentação: cefalexina e clindamicina são compatíveis. Doença renal: TFG < 30: cefalexina 500 mg de 12/12h. Sulfametoxazol + trimetoprima: metade da dose se TFG 15 a 30, evitar abaixo de 15. Diabético ou imunossuprimido: limiar menor para antibiótico e reavaliação em 48h.",
+      "encaminhar_internar": "Sinais de sepse, abscesso profundo ou extenso, perianal, mamário ou em mão: avaliação cirúrgica. Furunculose de repetição: pesquisar diabetes e fazer descolonização (mupirocina nasal de 12/12h por 5 dias + banho com clorexidina).",
+      "atestado_sugerido": "1 a 3 dias, conforme o local e o trabalho"
+    }
+  },
+  {
+    "id": "ADU-081",
+    "name": "Gastrite e DRGE",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "K29.7 / K21.9",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "azia, queimação, refluxo, dor no estômago, omeprazol, domperidona, hidróxido de alumínio, gastrite, DRGE, má digestão, epigastralgia, estufamento Omeprazol 20 mg Domperidona 10 mg Simeticona 40 mg Omeprazol 20 mg Domperidona 10 mg Simeticona 40 mg Omeprazol 20 mg Hidróxido de alumínio + hidróxido de magnésio + simeticona suspensão Domperidona 10 mg Bromoprida 10 mg",
+    "gate": "Dor epigástrica no PS: lembrar de infarto (ECG se mais de 40 anos, diabético ou com fatores de risco) e pancreatite. Endoscopia se: mais de 60 anos com dispepsia nova, perda de peso, dificuldade para engolir, vômitos persistentes, anemia, sangramento (fezes pretas, vômito com sangue), massa abdominal ou história familiar de câncer gástrico.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Omeprazol 20 mg — 56 comprimidos\nTomar 01 comprimido pela manhã em jejum, 30 minutos antes do café-da-manhã, por 08 semanas.\n\nUso oral\n2) Domperidona 10 mg — 01 caixa\nTomar 01 comprimido 30 minutos antes do almoço por 04 a 08 semanas.\n\nUso oral\n3) Simeticona 40 mg — 01 Caixa\nTomar 01 comprimido se dor (gases), podendo repetir de 6/6h.\n\nORIENTAÇÕES:\n- Tomar o Omeprazol pela manhã em jejum com água, aguardando 30 minutos antes de tomar o café da manhã.\n- Comer em pequenas porções, não se deitar nas 2 a 3 horas após comer, elevar a cabeceira da cama e evitar café, frituras, refrigerante, pimenta e álcool.\n- Retornar ao pronto-socorro se tiver dor no peito, dificuldade para engolir, vômitos com sangue ou fezes pretas."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Omeprazol 20 mg — 128 comprimidos\nTomar 02 comprimidos pela manhã em jejum, 30 minutos antes do café-da-manhã, por 08 semanas.\n\nUso oral\n2) Domperidona 10 mg — 01 caixa\nTomar 01 comprimido 30 minutos antes do almoço por 04 a 08 semanas.\n\nUso oral\n3) Simeticona 40 mg — 01 caixa\nTomar 01 comprimido se dor (gases), podendo repetir de 6/6h.\n\nORIENTAÇÕES:\n- Tomar o Omeprazol pela manhã em jejum com água, aguardando 30 minutos antes de tomar o café da manhã.\n- Comer em pequenas porções, não se deitar nas 2 a 3 horas após comer, elevar a cabeceira da cama e evitar café, frituras, refrigerante, pimenta e álcool.\n- Retornar ao pronto-socorro se tiver dor no peito, dificuldade para engolir, vômitos com sangue ou fezes pretas."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Omeprazol 20 mg — 28 cápsulas\nTomar 1 cápsula em jejum, 30 minutos antes do café da manhã, por 4 semanas.\n\nUso oral\n2) Hidróxido de alumínio + hidróxido de magnésio + simeticona suspensão — 01 frasco\nTomar 10 mL 1h após as refeições e ao deitar, se queimação.\n\nORIENTAÇÕES:\n- Tomar o Omeprazol pela manhã em jejum com água, aguardando 30 minutos antes de tomar o café da manhã.\n- Comer em pequenas porções, não se deitar nas 2 a 3 horas após comer, elevar a cabeceira da cama e evitar café, frituras, refrigerante, pimenta e álcool.\n- Retornar ao pronto-socorro se tiver dor no peito, dificuldade para engolir, vômitos com sangue ou fezes pretas."
+      },
+      {
+        "id": "esquema-4",
+        "title": "Esquema 4",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Domperidona 10 mg — 21 comprimidos\nTomar 1 comprimido 15 a 30 minutos antes das refeições, 3 vezes ao dia, por até 7 dias. Para estufamento e empachamento.\n\nUso oral\n2) Bromoprida 10 mg — 21 comprimidos\nTomar 1 comprimido 15 a 30 minutos antes das refeições, 3 vezes ao dia, por até 7 dias. Pesquisar H. pylori. Se positivo, ver ficha \"Helicobacter pylori / úlcera péptica\".\n\nORIENTAÇÕES:\n- Tomar o Omeprazol pela manhã em jejum com água, aguardando 30 minutos antes de tomar o café da manhã.\n- Comer em pequenas porções, não se deitar nas 2 a 3 horas após comer, elevar a cabeceira da cama e evitar café, frituras, refrigerante, pimenta e álcool.\n- Retornar ao pronto-socorro se tiver dor no peito, dificuldade para engolir, vômitos com sangue ou fezes pretas."
+      },
+      {
+        "id": "na-unidade",
+        "title": "Prescrição na unidade",
+        "note": "Administração na unidade · separada da receita domiciliar",
+        "prescription": "PRESCRIÇÃO NA UNIDADE\n\nUso EV\n1) Omeprazol 40 mg — 01 frasco-ampola\nAplicar 40 mg EV lento, diluído no diluente próprio.\n\nUso oral\n2) Hidróxido de alumínio + hidróxido de magnésio suspensão — 01 frasco\nTomar 10 a 20 mL, via oral, dose única.\n\nUso EV ou IM\n3) Bromoprida 10 mg/2 mL — 01 ampola\nAplicar 10 mg EV lento ou IM, se náusea.\n\nUso EV\n4) Escopolamina 20 mg + dipirona 2,5 g (Buscopan Composto) — 01 ampola\nDiluir em 100 mL de SF 0,9% e correr EV, se cólica."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "UBS em 4 a 8 semanas",
+      "retornar_imediatamente_se": "Vômito com sangue ou \"borra de café\", fezes pretas, dor forte que vai para as costas ou o peito, dificuldade para engolir, perda de peso, desmaio.",
+      "seguranca_plantonista": "Gestante: antiácido e omeprazol são seguros. Metoclopramida pode ser usada. Idoso: usar omeprazol na menor dose e pelo menor tempo (B12, osteoporose, infecções). Bromoprida e metoclopramida causam efeitos extrapiramidais. Domperidona: evitar se QT longo, cardiopatia ou uso de outros remédios que prolongam o QT. Máximo de 30 mg/dia por até 7 dias.",
+      "encaminhar_internar": "Sinais de alarme ou sem melhora em 4 a 8 semanas: endoscopia digestiva alta.",
+      "atestado_sugerido": "1 dia, se necessário"
+    }
+  },
+  {
+    "id": "ADU-082",
+    "name": "H1N1 (Influenza) — Tratamento e Profilaxia",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "Z00.0",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "h1n1 (influenza) — tratamento e profilaxia Oseltamivir 75 mg",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Oseltamivir 75 mg — 10 comprimidos\nTomar 01 comprimido de 12/12 horas por 05 dias seguidos Horários sugerido: 08h00 – 20h00.\n\nORIENTAÇÕES:\n- Iniciar o Oseltamivir imediatamente e completar os 05 dias (tomar junto com alimento leve para evitar enjoo).\n- Manter hidratação abundante, repouso, lavagem frequente das mãos e ambientes bem ventilados.\n- Retornar imediatamente à emergência se surgir falta de ar, dor no peito, tontura, confusão ou febre persistente após 72h."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  },
+  {
+    "id": "ADU-083",
+    "name": "Helicobacter pylori (erradicação) e úlcera péptica",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "B98.0 / K27.9",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "H pylori, helicobacter, úlcera, úlcera duodenal, úlcera gástrica, erradicação, pyloripac Omeprazol 20 mg Amoxicilina 500 mg Claritromicina 500 mg Omeprazol 20 mg Subcitrato de bismuto coloidal 120 mg Tetraciclina 500 mg Metronidazol 400 mg Omeprazol 20 mg Amoxicilina 500 mg Levofloxacino 500 mg",
+    "gate": "Tratar se: úlcera péptica, dispepsia com H. pylori positivo, uso crônico de AAS ou anti-inflamatório com história de úlcera, parente de 1º grau com câncer gástrico, anemia ferropriva sem causa, linfoma MALT. Confirmar a cura com teste respiratório, antígeno fecal ou endoscopia com biópsia, pelo menos 4 semanas após o antibiótico e 2 semanas sem omeprazol.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Omeprazol 20 mg — 28 cápsulas\nTomar 1 cápsula de 12/12h, 30 minutos antes do café e do jantar, por 14 dias.\n\nUso oral\n2) Amoxicilina 500 mg — 56 cápsulas\nTomar 2 cápsulas (1 g) de 12/12h, por 14 dias.\n\nUso oral\n3) Claritromicina 500 mg — 28 comprimidos\nTomar 1 comprimido de 12/12h, por 14 dias.\n\nORIENTAÇÕES:\n- Tomar todos os remédios nos horários pelos 14 dias completos, mesmo melhorando. Esquecer doses derruba a chance de cura.\n- Pode dar gosto metálico, náusea, diarreia leve e fezes escuras (bismuto). Não beber álcool durante o tratamento (metronidazol).\n- Retornar imediatamente ao pronto-socorro se: fezes pretas, vômito com sangue, dor súbita e muito forte na barriga, desmaio."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Omeprazol 20 mg — 28 cápsulas\nTomar 1 cápsula de 12/12h, por 14 dias.\n\nUso oral\n2) Subcitrato de bismuto coloidal 120 mg — 56 comprimidos\nTomar 2 comprimidos (240 mg) de 12/12h, por 14 dias.\n\nUso oral\n3) Tetraciclina 500 mg — 56 cápsulas\nTomar 1 cápsula de 6/6h, por 14 dias.\n\nUso oral\n4) Metronidazol 400 mg — 42 comprimidos\nTomar 1 comprimido de 8/8h, por 14 dias. FALHA DA 1ª OPÇÃO, SEM ALERGIA (14 DIAS)\n\nUso oral\n5) Omeprazol 20 mg — 28 cápsulas\nTomar 1 cápsula de 12/12h, por 14 dias.\n\nUso oral\n6) Amoxicilina 500 mg — 56 cápsulas\nTomar 2 cápsulas (1 g) de 12/12h, por 14 dias.\n\nUso oral\n7) Levofloxacino 500 mg — 14 comprimidos\nTomar 1 comprimido 1 vez ao dia, por 14 dias. Manter omeprazol 20 a 40 mg 1 vez ao dia por mais 4 semanas (úlcera duodenal) a 8 semanas (úlcera gástrica). Úlcera gástrica: endoscopia de controle em 8 a 12 semanas.\n\nORIENTAÇÕES:\n- Tomar todos os remédios nos horários pelos 14 dias completos, mesmo melhorando. Esquecer doses derruba a chance de cura.\n- Pode dar gosto metálico, náusea, diarreia leve e fezes escuras (bismuto). Não beber álcool durante o tratamento (metronidazol).\n- Retornar imediatamente ao pronto-socorro se: fezes pretas, vômito com sangue, dor súbita e muito forte na barriga, desmaio."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "teste de controle 4 semanas após o antibiótico",
+      "retornar_imediatamente_se": "Fezes pretas, vômito com sangue, dor súbita e muito forte na barriga, desmaio.",
+      "seguranca_plantonista": "Gestante: adiar a erradicação para depois do parto (tetraciclina é contraindicada). Usar só omeprazol se precisar. Alergia à penicilina: quádrupla com bismuto. Interações: claritromicina com sinvastatina (suspender a estatina nos 14 dias), varfarina e colchicina.",
+      "encaminhar_internar": "Sangramento ou perfuração: urgência. Falha de 2 tratamentos: gastroenterologia.",
+      "atestado_sugerido": "não se aplica"
+    }
+  },
+  {
+    "id": "ADU-084",
+    "name": "Herpes genital",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "A60.0",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "vesículas genitais, úlcera genital dolorosa, aciclovir Aciclovir 200 mg",
+    "gate": "Herpes genital: oferecer testes rápidos de HIV, sífilis e hepatites. Gestante com herpes genital: avisar o pré- natal (supressão a partir de 36 semanas).",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Aciclovir 200 mg — 50 comprimidos\nTomar 01 comprimido de 4/4h, excetuando- se uma dose noturna, por 10 dias Horário sugerido: 06:00 / 10:00 / 14:00 / 18:00 / 22:00.\n\nORIENTAÇÕES:\n- Tomar o Aciclovir nas 5 doses diárias (06h, 10h, 14h, 18h, 22h) bebendo bastante água ao longo do dia.\n- Lavar a região com água e sabonete neutro, secar sem esfregar, usar roupa íntima de algodão e manter abstinência sexual até cicatrizar tudo.\n- Retornar ao pronto-socorro se tiver dificuldade para urinar, febre alta, dor de cabeça forte ou pus nas lesões."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "se as lesões não cicatrizarem em 10 dias",
+      "retornar_imediatamente_se": "Lesão perto do olho, olho vermelho ou doendo, febre alta, dor de cabeça forte com nuca dura ou confusão, dificuldade para urinar, lesões muito extensas.",
+      "seguranca_plantonista": "Gestante: aciclovir é seguro. Primeiro episódio genital no 3º trimestre: avisar o obstetra (risco para o bebê no parto). Amamentação: aciclovir e valaciclovir são compatíveis. Lesão na mama: não amamentar daquele lado até cicatrizar. Doença renal: ajustar aciclovir e valaciclovir pela TFG.",
+      "encaminhar_internar": "Herpes no olho: oftalmologia com urgência. Imunossuprimido com lesões extensas: avaliar internação e aciclovir EV.",
+      "atestado_sugerido": "1 a 2 dias se primeiro episódio genital intenso"
+    }
+  },
+  {
+    "id": "ADU-085",
+    "name": "Herpes simples labial",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "B00.1",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "bolhas no lábio, herpes na boca, aciclovir, herpes labial, herpes genital, bolhinhas na boca, feridas genitais, HSV, febre na boca Aciclovir 200 mg Aciclovir 50 mg/g creme Valaciclovir 500 mg Aciclovir 5% creme Aciclovir 400 mg Aciclovir 400 mg Aciclovir 400 mg Paracetamol 750 mg Lidocaína 2% gel",
+    "gate": "Herpes genital: oferecer testes rápidos de HIV, sífilis e hepatites. Gestante com herpes genital: avisar o pré- natal (supressão a partir de 36 semanas).",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Aciclovir 200 mg — 25 comprimidos\nTomar 01 comprimido 5 vezes ao dia (06:00, 10:00, 14:00, 18:00 e 22:00) por 05 dias.\n\nUso local\n2) Aciclovir 50 mg/g creme — 01 bisnaga\nAplicar sobre a lesão labial 5 vezes ao dia por 05 dias.\n\nORIENTAÇÕES:\n- Iniciar a medicação logo no primeiro sinal de formigamento/coceira no lábio e beber bastante água durante o uso do Aciclovir.\n- Não furar as bolhas, não arrancar as crostas, lavar bem as mãos após tocar no lábio e não compartilhar copos, talheres, batom ou toalhas.\n- Aplicar protetor labial com filtro solar após a cicatrização; procurar o médico se a lesão for próxima aos olhos ou tiver pus."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Valaciclovir 500 mg — 08 comprimidos\nTomar 4 comprimidos (2 g) de 12/12h, por 1 dia.\n\nORIENTAÇÕES:\n- Iniciar a medicação logo no primeiro sinal de formigamento/coceira no lábio e beber bastante água durante o uso do Aciclovir.\n- Não furar as bolhas, não arrancar as crostas, lavar bem as mãos após tocar no lábio e não compartilhar copos, talheres, batom ou toalhas.\n- Aplicar protetor labial com filtro solar após a cicatrização; procurar o médico se a lesão for próxima aos olhos ou tiver pus."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso local\n1) Aciclovir 5% creme — 01 bisnaga\nAplicar nas lesões 5 vezes ao dia, por 5 dias.\n\nUso oral\n2) Aciclovir 400 mg — 21 comprimidos\nTomar 1 comprimido de 8/8h, por 7 dias. Estender até 10 dias se as lesões não cicatrizarem.\n\nUso oral\n3) Aciclovir 400 mg — 15 comprimidos\nTomar 1 comprimido de 8/8h, por 5 dias.\n\nUso oral\n4) Aciclovir 400 mg — 60 comprimidos\nTomar 1 comprimido de 12/12h, por 6 meses (60 comprimidos por mês). Reavaliar na UBS.\n\nUso oral\n5) Paracetamol 750 mg — 20 comprimidos\nTomar 1 comprimido de 6/6h, se dor.\n\nUso local\n6) Lidocaína 2% gel — 01 bisnaga\nAplicar fina camada nas lesões genitais antes de urinar, se dor.\n\nORIENTAÇÕES:\n- Iniciar a medicação logo no primeiro sinal de formigamento/coceira no lábio e beber bastante água durante o uso do Aciclovir.\n- Não furar as bolhas, não arrancar as crostas, lavar bem as mãos após tocar no lábio e não compartilhar copos, talheres, batom ou toalhas.\n- Aplicar protetor labial com filtro solar após a cicatrização; procurar o médico se a lesão for próxima aos olhos ou tiver pus."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "se as lesões não cicatrizarem em 10 dias",
+      "retornar_imediatamente_se": "Lesão perto do olho, olho vermelho ou doendo, febre alta, dor de cabeça forte com nuca dura ou confusão, dificuldade para urinar, lesões muito extensas.",
+      "seguranca_plantonista": "Gestante: aciclovir é seguro. Primeiro episódio genital no 3º trimestre: avisar o obstetra (risco para o bebê no parto). Amamentação: aciclovir e valaciclovir são compatíveis. Lesão na mama: não amamentar daquele lado até cicatrizar. Doença renal: ajustar aciclovir e valaciclovir pela TFG.",
+      "encaminhar_internar": "Herpes no olho: oftalmologia com urgência. Imunossuprimido com lesões extensas: avaliar internação e aciclovir EV.",
+      "atestado_sugerido": "1 a 2 dias se primeiro episódio genital intenso"
+    }
+  }
+]
+
+

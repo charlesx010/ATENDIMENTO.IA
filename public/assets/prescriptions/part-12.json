@@ -1,0 +1,292 @@
+[
+  {
+    "id": "ADU-086",
+    "name": "Herpes zóster",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "B02.9",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "cobreiro, vesículas em faixa, dor queimante, aciclovir, prednisona, zona, herpes zoster, bolhas em faixa, dor em faixa, zoster Aciclovir 400 mg Diclofenaco 50 mg Dipirona 500 mg Diprogenta® Aciclovir 400 mg Prednisona 20 mg Dipirona 500 mg Diprogenta® Aciclovir 400 mg Dipirona 500 mg Valaciclovir 500 mg Tramadol 50 mg Amitriptilina 25 mg",
+    "gate": "Antiviral idealmente nas primeiras 72h das lesões. Depois disso, ainda vale se surgem lesões novas, mais de 50 anos, imunossuprimido ou acometimento do olho. Lesão na ponta do nariz, olho vermelho ou dor no olho (zoster oftálmico): oftalmologia no mesmo dia. Zoster disseminado ou imunossuprimido grave: aciclovir EV e internação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Aciclovir 400 mg — 70 comprimidos\nTomar 02 comprimidos de 4/4h, excetuando-se uma dose noturna, por 07 dias seguidos Horário sugerido: 06:00 – 10:00 – 14:00 – 18:00 – 22:00.\n\nUso oral\n2) Diclofenaco 50 mg — 15 comprimidos\nTomar 01 comprimido de 8/8h por 05 dias seguidos Horário sugerido: 06:00 – 14:00 – 22:00.\n\nUso oral\n3) Dipirona 500 mg — 01 caixa\nTomar 02 comprimidos se dor, podendo repetir de 6/6h se necessário.\n\nUso oral\n4) Diprogenta® — 01 bisnaga\nAplicar na lesão duas vezes ao dia até melhora.\n\nORIENTAÇÕES:\n- Tomar o Aciclovir rigorosamente 5 vezes ao dia por 07 dias e beber pelo menos 2 litros de água por dia para proteger os rins.\n- Lavar as lesões com água e sabonete neutro, não estourar as bolhas e evitar contato com gestantes, bebês e imunossuprimidos até secarem as crostas.\n- Retornar imediatamente à emergência se surgirem lesões perto do olho/ponta do nariz, dor de cabeça forte, febre alta ou pus."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Aciclovir 400 mg — 70 comprimidos\nTomar 02 comprimidos de 4/4h, excetuando-se uma dose noturna, por 07 dias seguidos Horário sugerido: 06:00 – 10:00 – 14:00 – 18:00 – 22:00.\n\nUso oral\n2) Prednisona 20 mg — 10 comprimidos\nTomar 01 comprimido de 12/12h por 05 dias seguidos Horário sugerido: 08:00 – 20:00.\n\nUso oral\n3) Dipirona 500 mg — 01 caixa\nTomar 02 comprimidos se dor, podendo repetir de 6/6h se necessário.\n\nUso oral\n4) Diprogenta® — 01 bisnaga\nAplicar na lesão duas vezes ao dia até melhora.\n\nORIENTAÇÕES:\n- Tomar o Aciclovir rigorosamente 5 vezes ao dia por 07 dias e beber pelo menos 2 litros de água por dia para proteger os rins.\n- Lavar as lesões com água e sabonete neutro, não estourar as bolhas e evitar contato com gestantes, bebês e imunossuprimidos até secarem as crostas.\n- Retornar imediatamente à emergência se surgirem lesões perto do olho/ponta do nariz, dor de cabeça forte, febre alta ou pus."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Aciclovir 400 mg — 70 comprimidos\nTomar 2 comprimidos (800 mg) 5 vezes ao dia (7h, 11h, 15h, 19h e 23h), por 7 dias.\n\nUso oral\n2) Dipirona 500 mg — 20 comprimidos\nTomar 1 a 2 comprimidos de 6/6h, se dor.\n\nORIENTAÇÕES:\n- Tomar o Aciclovir rigorosamente 5 vezes ao dia por 07 dias e beber pelo menos 2 litros de água por dia para proteger os rins.\n- Lavar as lesões com água e sabonete neutro, não estourar as bolhas e evitar contato com gestantes, bebês e imunossuprimidos até secarem as crostas.\n- Retornar imediatamente à emergência se surgirem lesões perto do olho/ponta do nariz, dor de cabeça forte, febre alta ou pus."
+      },
+      {
+        "id": "esquema-4",
+        "title": "Esquema 4",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Valaciclovir 500 mg — 42 comprimidos\nTomar 2 comprimidos (1 g) de 8/8h, por 7 dias.\n\nUso oral\n2) Tramadol 50 mg — 15 comprimidos\nTomar 1 comprimido de 8/8h, se dor forte.\n\nUso oral\n3) Amitriptilina 25 mg — 30 comprimidos\nTomar meio a 1 comprimido à noite, se dor em queimação ou choque.\n\nORIENTAÇÕES:\n- Tomar o Aciclovir rigorosamente 5 vezes ao dia por 07 dias e beber pelo menos 2 litros de água por dia para proteger os rins.\n- Lavar as lesões com água e sabonete neutro, não estourar as bolhas e evitar contato com gestantes, bebês e imunossuprimidos até secarem as crostas.\n- Retornar imediatamente à emergência se surgirem lesões perto do olho/ponta do nariz, dor de cabeça forte, febre alta ou pus."
+      },
+      {
+        "id": "na-unidade",
+        "title": "Prescrição na unidade",
+        "note": "Administração na unidade · separada da receita domiciliar",
+        "prescription": "PRESCRIÇÃO NA UNIDADE\n\nUso EV ou IM\n1) Dipirona 500 mg/mL — 01 ampola\nAplicar 2 mL (1 g) EV lento ou IM. Dor intensa: tramadol 100 mg diluído em 100 mL de SF 0,9%, EV em 30 min."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "7 dias; imediato se acometer o olho",
+      "retornar_imediatamente_se": "Lesões no rosto perto do olho ou na ponta do nariz, olho vermelho, dor ou visão embaçada, lesões espalhando pelo corpo, febre alta, dor de cabeça forte, boca torta, confusão.",
+      "seguranca_plantonista": "Doença renal: valaciclovir 1 g de 12/12h (TFG 30 a 49) ou 1 g ao dia (TFG 10 a 29). Aciclovir 800 mg de 8/8h se TFG 10 a 25. Idoso: amitriptilina e tramadol aumentam o risco de queda e confusão. Usar a menor dose. Gestante: aciclovir é seguro. Avisar o pré-natal.",
+      "encaminhar_internar": "Zoster oftálmico ou no ouvido com paralisia facial (Ramsay Hunt): especialista no mesmo dia. Imunossuprimido ou disseminado: internação.",
+      "atestado_sugerido": "3 a 7 dias, ou até virar crosta se trabalha com gestantes, bebês ou imunossuprimidos"
+    }
+  },
+  {
+    "id": "ADU-087",
+    "name": "Hiperplasia prostática benigna (HPB)",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "N40",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "próstata aumentada, HPB, jato urinário fraco, levantar à noite para urinar, prostatismo, próstata Tansulosina 0,4 mg Doxazosina 2 mg Finasterida 5 mg",
+    "gate": "Antes: EAS (excluir infecção e sangue na urina), creatinina, toque retal e PSA (decisão compartilhada, se expectativa de vida acima de 10 anos).",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Tansulosina 0,4 mg — 30 cápsulas\nTomar 1 cápsula 1 vez ao dia, sempre após a mesma refeição. Uso contínuo.\n\nORIENTAÇÕES:\n- Reduzir líquidos após as 18h, evitar café e álcool à noite. Urinar duas vezes seguidas antes de deitar.\n- Tansulosina e doxazosina podem dar tontura ao levantar (levantar devagar) e diminuir o volume da ejaculação.\n- Retornar imediatamente ao pronto-socorro se: não conseguir urinar, dor com barriga estufada embaixo do umbigo, sangue na urina, febre, ardência para urinar."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Doxazosina 2 mg — 30 comprimidos\nTomar meio comprimido à noite, por 7 dias. Depois, 1 comprimido à noite. Pode subir para 4 mg após 2 a 4 semanas.\n\nUso oral\n2) Finasterida 5 mg — 30 comprimidos\nTomar 1 comprimido 1 vez ao dia. Uso contínuo (efeito completo em 6 meses).\n\nORIENTAÇÕES:\n- Reduzir líquidos após as 18h, evitar café e álcool à noite. Urinar duas vezes seguidas antes de deitar.\n- Tansulosina e doxazosina podem dar tontura ao levantar (levantar devagar) e diminuir o volume da ejaculação.\n- Retornar imediatamente ao pronto-socorro se: não conseguir urinar, dor com barriga estufada embaixo do umbigo, sangue na urina, febre, ardência para urinar."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "UBS em 4 a 6 semanas para avaliar resposta",
+      "retornar_imediatamente_se": "Não conseguir urinar, dor com barriga estufada embaixo do umbigo, sangue na urina, febre, ardência para urinar.",
+      "seguranca_plantonista": "Idoso: alfa-bloqueador pode baixar a pressão ao levantar. Começar à noite. Cirurgia de catarata planejada: avisar o oftalmologista (síndrome da íris flácida). Finasterida: gestante não deve manipular comprimido quebrado.",
+      "encaminhar_internar": "Retenção urinária, infecção de repetição, cálculo na bexiga, hidronefrose, sangue na urina, PSA alterado ou falha do tratamento: urologia.",
+      "atestado_sugerido": "não se aplica"
+    }
+  },
+  {
+    "id": "ADU-088",
+    "name": "Hipertensão arterial sistêmica (início do tratamento)",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "I10",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "pressão alta, hipertensão, HAS, começar remédio de pressão, losartana, anlodipino Losartana 50 mg Anlodipino 5 mg Hidroclorotiazida 25 mg Enalapril 10 mg",
+    "gate": "Diagnóstico: PA de 140/90 ou mais em 2 ou mais consultas, de preferência confirmada por MRPA (130/80 ou mais) ou MAPA. Exames iniciais: creatinina, potássio, glicemia, lipidograma, ácido úrico, EAS e ECG. Meta: abaixo de 140/90 na maioria. Abaixo de 130/80 se alto risco (diabetes, doença renal, doença cardiovascular), se tolerado.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Losartana 50 mg — 30 comprimidos\nTomar 1 comprimido 1 vez ao dia.\n\nUso oral\n2) Anlodipino 5 mg — 30 comprimidos\nTomar 1 comprimido 1 vez ao dia.\n\nORIENTAÇÕES:\n- Medir a PA em casa ou na farmácia/UBS: 3 medidas pela manhã e 3 à noite por 5 a 7 dias antes da consulta.\n- Sal: no máximo 1 colher de chá rasa por dia, somando tudo. Evitar embutidos, enlatados e temperos prontos.\n- Retornar imediatamente ao pronto-socorro se: dor no peito, falta de ar, fraqueza ou formigamento em um lado do corpo, boca torta, fala enrolada, perda de visão, dor de cabeça muito forte."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Hidroclorotiazida 25 mg — 30 comprimidos\nTomar meio a 1 comprimido (12,5 a 25 mg) pela manhã.\n\nUso oral\n2) Enalapril 10 mg — 60 comprimidos\nTomar 1 comprimido de 12/12h. Tosse seca em cerca de 1 em cada 10 pessoas. Não associar enalapril (ou captopril) com losartana.\n\nORIENTAÇÕES:\n- Medir a PA em casa ou na farmácia/UBS: 3 medidas pela manhã e 3 à noite por 5 a 7 dias antes da consulta.\n- Sal: no máximo 1 colher de chá rasa por dia, somando tudo. Evitar embutidos, enlatados e temperos prontos.\n- Retornar imediatamente ao pronto-socorro se: dor no peito, falta de ar, fraqueza ou formigamento em um lado do corpo, boca torta, fala enrolada, perda de visão, dor de cabeça muito forte."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "4 semanas para ajustar a dose",
+      "retornar_imediatamente_se": "Dor no peito, falta de ar, fraqueza ou formigamento em um lado do corpo, boca torta, fala enrolada, perda de visão, dor de cabeça muito forte.",
+      "seguranca_plantonista": "Gestante ou planejando engravidar: suspender enalapril, captopril e losartana. Usar metildopa ou nifedipino de liberação prolongada. Mulher em idade fértil: preferir anlodipino, ou garantir anticoncepção se usar enalapril ou losartana. Doença renal: enalapril ou losartana com potássio e creatinina em 1 a 2 semanas (aumento de até 30% na creatinina é aceitável). Idoso: começar com dose menor. Atenção à queda da pressão ao levantar e ao sódio baixo com tiazídico. Gota: evitar hidroclorotiazida (losartana ajuda a baixar o ácido úrico).",
+      "encaminhar_internar": "Hipertensão resistente (3 remédios incluindo diurético), suspeita de causa secundária ou gestante: especialista ou alto risco.",
+      "atestado_sugerido": "não se aplica"
+    }
+  },
+  {
+    "id": "ADU-089",
+    "name": "Hipertireoidismo (doença de Graves e tireotoxicose)",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "E05.9",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "tireoide acelerada, hipertireoidismo, doença de Graves, TSH baixo, T4 alto, bócio, palpitação e emagrecimento Tiamazol 10 mg Propranolol 40 mg Propiltiouracil 100 mg",
+    "gate": "Confirmar: TSH suprimido + T4 livre (ou T3) elevado. Antes de iniciar: hemograma e TGO/TGP. Febre alta, taquicardia ou fibrilação atrial, agitação e confusão: tempestade tireoidiana (emergência).",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Tiamazol 10 mg — 60 comprimidos\nTomar 1 a 2 comprimidos (10 a 20 mg) 1 vez ao dia, conforme o T4 livre.\n\nUso oral\n2) Propranolol 40 mg — 60 comprimidos\nTomar 1 comprimido de 12/12h, enquanto houver palpitação e tremor.\n\nORIENTAÇÕES:\n- Tiamazol e propiltiouracil podem, raramente, baixar a imunidade: se febre, dor de garganta ou feridas na boca, parar o remédio e fazer hemograma no mesmo dia.\n- Olhos ou pele amarelados ou urina escura: parar e procurar atendimento.\n- Retornar imediatamente ao pronto-socorro se: febre com dor de garganta, palpitação intensa ou batimento irregular, falta de ar, febre alta com agitação ou confusão, olhos amarelados, olhos muito vermelhos ou visão dupla."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Propiltiouracil 100 mg — 90 comprimidos\nTomar 1 comprimido de 8/8h. Preferir no 1º trimestre da gestação.\n\nORIENTAÇÕES:\n- Tiamazol e propiltiouracil podem, raramente, baixar a imunidade: se febre, dor de garganta ou feridas na boca, parar o remédio e fazer hemograma no mesmo dia.\n- Olhos ou pele amarelados ou urina escura: parar e procurar atendimento.\n- Retornar imediatamente ao pronto-socorro se: febre com dor de garganta, palpitação intensa ou batimento irregular, falta de ar, febre alta com agitação ou confusão, olhos amarelados, olhos muito vermelhos ou visão dupla."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "TSH e T4 livre em 4 a 6 semanas",
+      "retornar_imediatamente_se": "Febre com dor de garganta, palpitação intensa ou batimento irregular, falta de ar, febre alta com agitação ou confusão, olhos amarelados, olhos muito vermelhos ou visão dupla.",
+      "seguranca_plantonista": "Gestante: propiltiouracil no 1º trimestre e tiamazol depois. Pré-natal de alto risco. Amamentação: tiamazol até 20 mg/dia é compatível. Asma: trocar propranolol por atenolol.",
+      "encaminhar_internar": "Endocrinologia (tratamento definitivo com iodo radioativo ou cirurgia). Gestante: pré-natal de alto risco. Olhos afetados: oftalmologia.",
+      "atestado_sugerido": "conforme os sintomas"
+    }
+  },
+  {
+    "id": "ADU-090",
+    "name": "Hipoglicemia (reversão oral e ajuste de alta)",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "E16.2",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "hipoglicemia, glicose baixa, açúcar baixo, desmaio em diabético, glicemia baixa Glicose 50% (5 g/10 mL) Tiamina 100 mg Glucagon 1 mg",
+    "gate": "Glicemia abaixo de 70 mg/dL com sintomas (tremor, suor frio, palpitação, confusão, convulsão, coma). Com sulfonilureia (glibenclamida, gliclazida) ou insulina de ação longa, a hipoglicemia pode voltar: observar por mais tempo.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Glicose 50% (5 g/10 mL) — 04 ampolas\nAplicar 40 mL (20 g) em bolus, em veia calibrosa.\n\nUso oral\n2) Tiamina 100 mg — 01 ampola\nAplicar 100 mg ou antes da glicose em etilista, desnutrido ou pós-bariátrico.\n\nUso oral\n3) Glucagon 1 mg — 01 frasco\nSem acesso venoso: aplicar 1 mg ou. Funciona pouco em etilista e hepatopata. Após recuperar: soro glicosado 5% ou 10% de manutenção se sulfonilureia ou insulina de ação longa, com glicemia de 1/1h.\n\nORIENTAÇÕES:\n- Sempre ter açúcar ou bala por perto. Não pular refeição se usa insulina ou glibenclamida.\n- Cuidado com exercício intenso e álcool.\n- Retornar imediatamente ao pronto-socorro se: novos episódios, confusão, desmaio, convulsão, hipoglicemia que não melhora com açúcar."
+      },
+      {
+        "id": "na-unidade",
+        "title": "Prescrição na unidade",
+        "note": "Administração na unidade · separada da receita domiciliar",
+        "prescription": "PRESCRIÇÃO NA UNIDADE\n\nUso EV\n1) Glicose 50% (5 g/10 mL) — 04 ampolas\nAplicar 40 mL (20 g) EV em bolus, em veia calibrosa.\n\nUso EV ou IM\n2) Tiamina 100 mg — 01 ampola\nAplicar 100 mg EV ou IM antes da glicose em etilista, desnutrido ou pós-bariátrico.\n\nUso EV\n3) Glucagon 1 mg — 01 frasco\nSem acesso venoso: aplicar 1 mg IM ou SC. Funciona pouco em etilista e hepatopata. Após recuperar: soro glicosado 5% ou 10% de manutenção se sulfonilureia ou insulina de ação longa, com glicemia de 1/1h."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "UBS em até 7 dias para ajustar a medicação",
+      "retornar_imediatamente_se": "Novos episódios, confusão, desmaio, convulsão, hipoglicemia que não melhora com açúcar.",
+      "seguranca_plantonista": "Idoso e doença renal: risco maior com sulfonilureia e insulina. Trocar glibenclamida. Etilista ou desnutrido: tiamina antes da glicose.",
+      "encaminhar_internar": "Observar 12 a 24h ou internar: hipoglicemia por sulfonilureia ou insulina de ação longa, doença renal, episódios repetidos, ingestão intencional ou sem causa aparente (investigar).",
+      "atestado_sugerido": "1 dia"
+    }
+  },
+  {
+    "id": "ADU-091",
+    "name": "Hipotireoidismo (reposição com levotiroxina)",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "E03.9",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "tireoide lenta, hipotireoidismo, TSH alto, levotiroxina, Hashimoto, puran Levotiroxina 50 mcg",
+    "gate": "Confirmar com TSH alto + T4 livre baixo. Subclínico (T4 livre normal): tratar se TSH 10 ou mais, gestante ou tentando engravidar; nos demais casos, individualizar.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Levotiroxina 50 mcg — 30 comprimidos\nTomar 1 comprimido em jejum, 30 a 60 minutos antes do café, sempre no mesmo horário.\n\nORIENTAÇÕES:\n- Tomar sempre em jejum, só com água, e esperar 30 a 60 minutos para comer.\n- Não tomar junto com cálcio, ferro, omeprazol, antiácido ou café (cálcio e ferro: 4h de intervalo).\n- Retornar imediatamente ao pronto-socorro se: palpitação, tremor, insônia e perda de peso (dose alta), dor no peito, sonolência extrema, muito frio, inchaço e confusão."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "TSH 6 a 8 semanas após cada ajuste",
+      "retornar_imediatamente_se": "Palpitação, tremor, insônia e perda de peso (dose alta), dor no peito, sonolência extrema, muito frio, inchaço e confusão.",
+      "seguranca_plantonista": "Gestante: dose maior e meta de TSH por trimestre, com o pré-natal. Idoso ou cardiopata: começar com dose baixa (12,5 a 25 mcg). Interações: cálcio, ferro, omeprazol e antiácidos reduzem a absorção.",
+      "encaminhar_internar": "Gestante, nódulo, bócio grande, cardiopata ou dificuldade de controle: endocrinologia.",
+      "atestado_sugerido": "não se aplica"
+    }
+  },
+  {
+    "id": "ADU-092",
+    "name": "Hordéolo / Blefarite",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "H00.0 / H01.0",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "terçol, inflamação na pálpebra, tobramicina, compressa morna, hordéolo, calázio, bolinha na pálpebra, pálpebra inchada, olho inchado Ciprofloxacino 1mg/ml + dexametasona 3mg/ml pomada oftálmica estéril Tobramicina 0,3% pomada oftálmica Paracetamol 750 mg Amoxicilina + clavulanato 875/125 mg",
+    "gate": "Hordéolo: caroço doloroso e vermelho na borda da pálpebra (infecção aguda). Calázio: caroço firme, sem dor, mais afastado da borda (crônico). Pálpebra toda inchada com febre, dor ao mexer o olho, olho saltado ou visão alterada: celulite orbitária (urgência).",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oftálmico\n1) Ciprofloxacino 1mg/ml + dexametasona 3mg/ml pomada oftálmica estéril — 01 bisnaga\nAplicar na borda dos cílios afetados três vezes ao dia por 15 dias.\n\nORIENTAÇÕES:\n- Aplicar compressas de água morna sobre o olho fechado por 10 a 15 minutos, 3 a 4 vezes ao dia, e limpar a base dos cílios com xampu neutro infantil diluído.\n- NUNCA espremer ou furar o terçol e suspender maquiagem ocular e lentes de contato durante o tratamento.\n- Retornar à emergência se toda a pálpebra ficar muito inchada e vermelha, houver dor ao mover o olho, febre ou alteração da visão."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oftálmico\n1) Tobramicina 0,3% pomada oftálmica — 01 bisnaga\nAplicar na borda da pálpebra, 3 vezes ao dia, por 7 dias, se secreção ou blefarite associada.\n\nUso oral\n2) Paracetamol 750 mg — 20 comprimidos\nTomar 1 comprimido de 6/6h, se dor.\n\nORIENTAÇÕES:\n- Aplicar compressas de água morna sobre o olho fechado por 10 a 15 minutos, 3 a 4 vezes ao dia, e limpar a base dos cílios com xampu neutro infantil diluído.\n- NUNCA espremer ou furar o terçol e suspender maquiagem ocular e lentes de contato durante o tratamento.\n- Retornar à emergência se toda a pálpebra ficar muito inchada e vermelha, houver dor ao mover o olho, febre ou alteração da visão."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Amoxicilina + clavulanato 875/125 mg — 14 comprimidos\nTomar 1 comprimido de 12/12h, por 7 dias.\n\nORIENTAÇÕES:\n- Aplicar compressas de água morna sobre o olho fechado por 10 a 15 minutos, 3 a 4 vezes ao dia, e limpar a base dos cílios com xampu neutro infantil diluído.\n- NUNCA espremer ou furar o terçol e suspender maquiagem ocular e lentes de contato durante o tratamento.\n- Retornar à emergência se toda a pálpebra ficar muito inchada e vermelha, houver dor ao mover o olho, febre ou alteração da visão."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "1 a 2 semanas se não melhorar",
+      "retornar_imediatamente_se": "Pálpebra toda inchada e vermelha, febre, dor ao mexer o olho, olho saltado, visão embaçada ou dupla.",
+      "seguranca_plantonista": "Gestante e amamentação: compressas e pomada oftálmica são seguras. Amoxicilina + clavulanato também.",
+      "encaminhar_internar": "Calázio por mais de 4 a 6 semanas, recorrente no mesmo lugar ou que atrapalha a visão: oftalmologia. Celulite orbitária: internação.",
+      "atestado_sugerido": "não se aplica"
+    }
+  },
+  {
+    "id": "ADU-093",
+    "name": "Impetigo crostoso",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "L01.0",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "ferida com crosta cor de mel, infecção de pele, mupirocina, bactroban, cefalexina, impetigo, crosta amarelada, piodermite, ectima, ferida infeccionada na criança Mupirocina pomada 2% Cefalexina 500mg Mupirocina pomada 2% Ácido fusídico 2% creme Cefalexina 500 mg Cefalexina 250 mg/5 mL suspensão Penicilina G benzatina 1.200.000 UI Azitromicina 200 mg/5 mL suspensão",
+    "gate": "Impetigo: crostas amareladas (cor de mel) ou bolhas que estouram, comum em crianças, ao redor do nariz e da boca. Ectima: úlcera mais profunda com crosta, geralmente nas pernas.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso local\n1) Mupirocina pomada 2% — 01 bisnaga\nAplicar nas lesões três vezes ao dia, até melhora clínica.\n\nUso oral\n2) Cefalexina 500mg — 28 comprimidos\nTomar 01 comprimido de 6/6h por 07 dias Horário sugerido: 06:00 / 12:00 / 18:00 / 00:00.\n\nORIENTAÇÕES:\n- Lavar as feridas com água morna e sabonete neutro para remover suavemente as crostas antes de aplicar a pomada de Mupirocina.\n- Manter unhas curtas, lavar bem as mãos após cuidar das lesões, não compartilhar toalhas e completar todo o antibiótico oral (se prescrito).\n- Retornar ao médico se surgir febre, vermelhidão se espalhando rapidamente ou inchaço no rosto/urina escura."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso local\n1) Mupirocina pomada 2% — 01 bisnaga\nAplicar nas lesões três vezes ao dia, até melhora.\n\nORIENTAÇÕES:\n- Lavar as feridas com água morna e sabonete neutro para remover suavemente as crostas antes de aplicar a pomada de Mupirocina.\n- Manter unhas curtas, lavar bem as mãos após cuidar das lesões, não compartilhar toalhas e completar todo o antibiótico oral (se prescrito).\n- Retornar ao médico se surgir febre, vermelhidão se espalhando rapidamente ou inchaço no rosto/urina escura."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso local\n1) Ácido fusídico 2% creme — 01 bisnaga\nAplicar nas lesões limpas, 3 vezes ao dia, por 7 dias.\n\nUso oral\n2) Cefalexina 500 mg — 28 cápsulas\nAdulto: tomar 1 cápsula de 6/6h, por 7 dias.\n\nUso oral\n3) Cefalexina 250 mg/5 mL suspensão — 02 frascos\nCriança: dar 0,25 mL/kg por dose (12,5 mg/kg) de 6/6h, por 7 dias. Máx. 10 mL por dose.\n\nUso IM\n4) Penicilina G benzatina 1.200.000 UI — 01 frasco-ampola\nAplicar profundamente na região muscular profundo, dose única (abaixo de 27 kg: 600.000 UI). Boa opção para ectima.\n\nUso oral\n5) Azitromicina 200 mg/5 mL suspensão — 01 frasco\nCriança: dar 0,25 mL/kg (10 mg/kg) 1 vez ao dia, por 5 dias. Adulto: azitromicina 500 mg 1 vez ao dia por 5 dias.\n\nORIENTAÇÕES:\n- Lavar as feridas com água morna e sabonete neutro para remover suavemente as crostas antes de aplicar a pomada de Mupirocina.\n- Manter unhas curtas, lavar bem as mãos após cuidar das lesões, não compartilhar toalhas e completar todo o antibiótico oral (se prescrito).\n- Retornar ao médico se surgir febre, vermelhidão se espalhando rapidamente ou inchaço no rosto/urina escura."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "48 a 72h se não melhorar",
+      "retornar_imediatamente_se": "Febre, lesões se espalhando, vermelhidão ao redor. De 1 a 3 semanas depois: urina escura ou com espuma, inchaço no rosto ou nos olhos, pressão alta.",
+      "seguranca_plantonista": "Gestante: mupirocina tópica e cefalexina são seguras. Doença renal: TFG < 30: cefalexina 500 mg de 12/12h.",
+      "encaminhar_internar": "Episódios de repetição: descolonização (mupirocina nasal de 12/12h por 5 dias) e dermatologia.",
+      "atestado_sugerido": "1 dia (até 24h de antibiótico); declaração escolar"
+    }
+  }
+]
+
+

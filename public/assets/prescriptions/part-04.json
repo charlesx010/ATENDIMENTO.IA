@@ -1,0 +1,292 @@
+[
+  {
+    "id": "ADU-024",
+    "name": "Cefaleia tensional",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "G44.2",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "dor de cabeça, peso na cabeça, tensão muscular, dipirona, paracetamol, cefaleia, dor na nuca, dor em aperto na cabeça, cefaleia tipo tensão Dipirona 500 mg Metoclopramida 10 mg Naproxeno sódico 500 mg Metoclopramida 10 mg Dipirona 500 mg Naproxeno sódico 500 mg Metoclopramida 10 mg Dipirona 500 mg Ibuprofeno 400 mg Paracetamol 750 mg Amitriptilina 25 mg",
+    "gate": "Investigue antes de tratar como primária: dor súbita e muito forte (pior da vida), febre com rigidez de nuca, déficit neurológico, após trauma, cefaleia nova após 50 anos, gestante ou puérpera, imunossuprimido, piora progressiva ou que acorda o paciente.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Dipirona 500 mg — 01 caixa\nTomar 02 comprimidos se febre ou dor, podendo repetir de 6/6h.\n\nUso oral\n2) Metoclopramida 10 mg — 01 caixa\nTomar 01 comprimido se náuseas ou vômitos, podendo repetir de 8/8h.\n\nUso oral\n3) Naproxeno sódico 500 mg — 10 cps\nTomar um comprimido se dor, podendo repetir de 12/12h por até 05 dias seguidos.\n\nORIENTAÇÕES:\n- Descansar em local calmo, aplicar compressa morna na nuca/ombros e evitar ficar muitas horas em jejum.\n- Evitar usar analgésicos por conta própria mais de 2 a 3 dias por semana para não cronificar a dor.\n- Retornar imediatamente à emergência se a dor ficar súbita e muito forte, ou se houver febre, nuca rígida, alteração visual ou perda de força."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Metoclopramida 10 mg — 01 caixa\nTomar 01 comprimido se náuseas ou vômitos, podendo repetir de 8/8h.\n\nUso oral\n2) Dipirona 500 mg — 01 caixa\nTomar 02 comprimidos se febre ou dor, podendo repetir de 6/6h.\n\nUso oral\n3) Naproxeno sódico 500 mg — 10 cps\nTomar um comprimido se dor, podendo repetir de 12/12h por até 05 dias seguidos.\n\nORIENTAÇÕES:\n- Descansar em local calmo, aplicar compressa morna na nuca/ombros e evitar ficar muitas horas em jejum.\n- Evitar usar analgésicos por conta própria mais de 2 a 3 dias por semana para não cronificar a dor.\n- Retornar imediatamente à emergência se a dor ficar súbita e muito forte, ou se houver febre, nuca rígida, alteração visual ou perda de força."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Metoclopramida 10 mg — 01 caixa\nTomar 01 comprimido se náuseas ou vômitos, podendo repetir de 8/8h.\n\nORIENTAÇÕES:\n- Descansar em local calmo, aplicar compressa morna na nuca/ombros e evitar ficar muitas horas em jejum.\n- Evitar usar analgésicos por conta própria mais de 2 a 3 dias por semana para não cronificar a dor.\n- Retornar imediatamente à emergência se a dor ficar súbita e muito forte, ou se houver febre, nuca rígida, alteração visual ou perda de força."
+      },
+      {
+        "id": "esquema-4",
+        "title": "Esquema 4",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Dipirona 500 mg — 20 comprimidos\nTomar 1 a 2 comprimidos de 6/6h, se dor.\n\nUso oral\n2) Ibuprofeno 400 mg — 09 comprimidos\nTomar 1 comprimido de 8/8h, após as refeições, se dor forte, por até 3 dias.\n\nORIENTAÇÕES:\n- Descansar em local calmo, aplicar compressa morna na nuca/ombros e evitar ficar muitas horas em jejum.\n- Evitar usar analgésicos por conta própria mais de 2 a 3 dias por semana para não cronificar a dor.\n- Retornar imediatamente à emergência se a dor ficar súbita e muito forte, ou se houver febre, nuca rígida, alteração visual ou perda de força."
+      },
+      {
+        "id": "esquema-5",
+        "title": "Esquema 5",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Paracetamol 750 mg — 20 comprimidos\nTomar 1 comprimido de 6/6h, se dor.\n\nUso oral\n2) Amitriptilina 25 mg — 30 comprimidos\nTomar meio comprimido (12,5 mg) à noite, por 7 dias. Depois, 1 comprimido à noite.\n\nORIENTAÇÕES:\n- Descansar em local calmo, aplicar compressa morna na nuca/ombros e evitar ficar muitas horas em jejum.\n- Evitar usar analgésicos por conta própria mais de 2 a 3 dias por semana para não cronificar a dor.\n- Retornar imediatamente à emergência se a dor ficar súbita e muito forte, ou se houver febre, nuca rígida, alteração visual ou perda de força."
+      },
+      {
+        "id": "na-unidade",
+        "title": "Prescrição na unidade",
+        "note": "Administração na unidade · separada da receita domiciliar",
+        "prescription": "PRESCRIÇÃO NA UNIDADE\n\nUso EV\n1) Dipirona 500 mg/mL — 01 ampola\nAplicar 2 mL (1 g) EV lento, diluído em 8 mL de água destilada, ou IM.\n\nUso EV\n2) Cetoprofeno 100 mg — 01 frasco-ampola\nDiluir em 100 mL de SF 0,9% e correr EV em 20 min. Evitar se gastrite, doença renal ou gestação."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "UBS se dor em mais de 10 dias por mês ou sinal de alarme",
+      "retornar_imediatamente_se": "Dor súbita e muito forte, febre com nuca dura, vômitos em jato, fraqueza ou formigamento em um lado do corpo, fala enrolada, alteração da visão, confusão, convulsão ou desmaio.",
+      "seguranca_plantonista": "Gestante: paracetamol é a 1ª escolha. Evitar anti-inflamatório após 20 semanas. Evitar dipirona no 1º e no 3º trimestre. Amamentação: paracetamol e ibuprofeno são compatíveis. Idoso: cefaleia nova deve ser investigada. Evitar amitriptilina (confusão, boca seca, retenção urinária). Doença renal ou úlcera: evitar anti-inflamatório.",
+      "encaminhar_internar": "Cefaleia nova após 50 anos, mudança de padrão, refratária ou com sinal de alarme: neuroimagem e neurologia. Cefaleia crônica: UBS para profilaxia e reavaliação em 4 a 6 semanas.",
+      "atestado_sugerido": "1 dia, se necessário"
+    }
+  },
+  {
+    "id": "ADU-025",
+    "name": "Ceratite fotoelétrica",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "H16.1",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "queimadura ocular por solda, olho de soldador, dor no olho, epitezan, regencel Regencel® pomada oftálmica Optocare",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oftálmico\n1) Regencel® pomada oftálmica — 01 bisnaga\nAplicar 01cm da pomada dentro da pálpebra inferior, 02 vezes ao dia por 05 a 07 dias (até cicatrização completa).\n\nUso oftálmico\n2) Optocare — 01 frasco\nAplicar uma ou duas gotas no olho afetado 06 vezes ao dia por 05 a 07 dias (até cicatrização completa).\n\nORIENTAÇÕES:\n- Ficar em ambiente com pouca luz, usar óculos escuros ao sair e não coçar os olhos nem usar lentes de contato.\n- Nunca utilizar colírios anestésicos em casa (retardam a cicatrização e causam lesão grave na córnea).\n- Retornar à emergência oftalmológica se a dor piorar após 24 a 48 horas, sair pus ou diminuir a visão."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  },
+  {
+    "id": "ADU-026",
+    "name": "Cerume impactado",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "H61.2",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "rolha de cera, ouvido tampado, cerumin, lavagem otológica, cera no ouvido, ouvido entupido Hidroxiquinolina + Trietanolamina (Cerumin®) gotas Cerumin solução otológica Óleo mineral (ou azeite de oliva)",
+    "gate": "Antes de lavar: perguntar sobre perfuração prévia, cirurgia de ouvido, otite atual ou saída de secreção. Se houver, não lavar e não usar gotas.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso otológico\n1) Hidroxiquinolina + Trietanolamina (Cerumin®) gotas — 01 frasco\nPingar 05 gotas no ouvido acometido de 8/8h por 05 a 07 dias antes da remoção médica.\n\nORIENTAÇÕES:\n- Pingar as gotas mantendo a cabeça inclinada por 5 minutos para amolecer o cerume antes da lavagem médica.\n- Nunca usar cotonetes, grampos ou objetos dentro do ouvido, pois empurram a cera e machucam o tímpano.\n- Suspender o uso e procurar o médico se sentir dor de ouvido forte, tontura ou saída de secreção/sangue."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso otológico\n1) Cerumin solução otológica — 01 frasco\nPingar 5 gotas no ouvido afetado e ficar deitado de lado por 5 minutos, de 8/8h, por 4 dias. Depois, retornar para lavagem.\n\nORIENTAÇÕES:\n- Pingar as gotas mantendo a cabeça inclinada por 5 minutos para amolecer o cerume antes da lavagem médica.\n- Nunca usar cotonetes, grampos ou objetos dentro do ouvido, pois empurram a cera e machucam o tímpano.\n- Suspender o uso e procurar o médico se sentir dor de ouvido forte, tontura ou saída de secreção/sangue."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso otológico\n1) Óleo mineral (ou azeite de oliva) — 01 frasco\nPingar 3 a 5 gotas no ouvido afetado, em temperatura ambiente, 2 vezes ao dia, por 5 dias.\n\nORIENTAÇÕES:\n- Pingar as gotas mantendo a cabeça inclinada por 5 minutos para amolecer o cerume antes da lavagem médica.\n- Nunca usar cotonetes, grampos ou objetos dentro do ouvido, pois empurram a cera e machucam o tímpano.\n- Suspender o uso e procurar o médico se sentir dor de ouvido forte, tontura ou saída de secreção/sangue."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "para lavagem após 4 a 5 dias de gotas",
+      "retornar_imediatamente_se": "Dor forte, saída de secreção ou sangue, febre, tontura intensa, perda súbita de audição ou zumbido novo.",
+      "seguranca_plantonista": "Diabético ou imunossuprimido: preferir remoção sob visão (risco de otite externa grave após lavagem). Anticoagulado: remoção cuidadosa.",
+      "encaminhar_internar": "Perfuração, falha após 2 tentativas ou rolha recorrente: otorrino para remoção sob visão. Perda auditiva súbita sem cera: otorrino com urgência (o tratamento precoce muda o prognóstico).",
+      "atestado_sugerido": "não se aplica"
+    }
+  },
+  {
+    "id": "ADU-027",
+    "name": "Chikungunya",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "A92.0",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "arbovirose, febre, dor articular intensa, artralgia, aedes, chikungunya, zika, dor nas juntas com febre, manchas com coceira Paracetamol 750 mg Dipirona 500 mg Paracetamol 500 mg + Codeína 30 mg Tramadol 50 mg Naproxeno 500 mg Prednisona 20 mg Loratadina 10 mg",
+    "gate": "Chikungunya: febre alta e dor articular intensa e simétrica (mãos, punhos, tornozelos). Zika: manchas com coceira, olhos vermelhos, febre baixa. Até descartar dengue: não usar anti-inflamatório, AAS nem corticoide (ver ficha Dengue). Notificação compulsória.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Paracetamol 750 mg — 01 caixa\nTomar 01 comprimidos se dor ou febre, podendo repetir de 6/6h. intercalar com dipirona, se necessário.\n\nUso oral\n2) Dipirona 500 mg — 01 caixa\nTomar 02 comprimidos se dor ou febre, podendo repetir de 6/6h.\n\nUso oral\n3) Paracetamol 500 mg + Codeína 30 mg — 01 caixa\nTomar 01 comprimido se dor intensa, podendo repetir de 6/6h.\n\nORIENTAÇÕES:\n- Beber bastante líquido (2 a 3 litros/dia), manter repouso articular e aplicar compressas frias nas juntas doloridas.\n- PROIBIDO usar AAS (Aspirina) e anti-inflamatórios (ibuprofeno, diclofenaco, nimesulida, cetoprofeno) até descartar dengue.\n- Retornar imediatamente à emergência se houver dor de barriga forte, vômitos persistentes, sangramentos ou tontura."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Tramadol 50 mg — 15 comprimidos\nTomar 1 comprimido de 8/8h, se dor forte que não melhora.\n\nUso oral\n2) Naproxeno 500 mg — 14 comprimidos\nTomar 1 comprimido de 12/12h, após as refeições, por 7 dias.\n\nUso oral\n3) Prednisona 20 mg — 18 comprimidos\nSe dor intensa sem resposta: tomar 2 comprimidos pela manhã por 5 dias, 1 comprimido por 5 dias e meio comprimido por 5 dias.\n\nUso oral\n4) Loratadina 10 mg — 07 comprimidos\nTomar 1 comprimido 1 vez ao dia, por 7 dias.\n\nORIENTAÇÕES:\n- Beber bastante líquido (2 a 3 litros/dia), manter repouso articular e aplicar compressas frias nas juntas doloridas.\n- PROIBIDO usar AAS (Aspirina) e anti-inflamatórios (ibuprofeno, diclofenaco, nimesulida, cetoprofeno) até descartar dengue.\n- Retornar imediatamente à emergência se houver dor de barriga forte, vômitos persistentes, sangramentos ou tontura."
+      },
+      {
+        "id": "na-unidade",
+        "title": "Prescrição na unidade",
+        "note": "Administração na unidade · separada da receita domiciliar",
+        "prescription": "PRESCRIÇÃO NA UNIDADE\n\nUso EV\n1) Dipirona 500 mg/mL — 01 ampola\nAplicar 2 mL (1 g) EV lento, se febre ou dor. Hidratação oral ou EV conforme a aceitação."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "7 dias; imediato se sinal de alarme",
+      "retornar_imediatamente_se": "Sinais de alarme da dengue (dor forte na barriga, vômitos, sangramentos, tontura), fraqueza nas pernas que sobe pelo corpo, confusão, convulsão.",
+      "seguranca_plantonista": "Gestante: paracetamol e hidratação. Sem anti-inflamatório. Suspeita de zika: pré-natal de alto risco (risco para o bebê). Idoso e comorbidades: mais formas graves e atípicas. Reavaliar com frequência. Diabético: prednisona sobe a glicemia.",
+      "encaminhar_internar": "Dor articular por mais de 3 meses: reumatologia. Fraqueza ascendente (Guillain-Barré): urgência.",
+      "atestado_sugerido": "7 a 14 dias na fase aguda, conforme a dor"
+    }
+  },
+  {
+    "id": "ADU-028",
+    "name": "Cinetose (enjoo de movimento)",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "T75.3",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "enjoo de viagem, enjoo no carro, enjoo no navio, avião, mal do movimento Dimenidrinato 50 mg + piridoxina 10 mg (Dramin B6) Meclizina 25 mg",
+    "gate": "",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Dimenidrinato 50 mg + piridoxina 10 mg (Dramin B6) — 10 comprimidos\nTomar 1 comprimido 30 a 60 minutos antes da viagem. Se necessário, repetir de 6/6h.\n\nORIENTAÇÕES:\n- Sentar na frente do carro, no meio do ônibus ou do navio, olhando para o horizonte. Evitar ler ou usar celular durante a viagem.\n- Refeição leve antes de viajar. Evitar álcool e comida gordurosa.\n- Retornar imediatamente ao pronto-socorro se: vômitos que não param, sinais de desidratação (boca seca, pouca urina), tontura que continua mesmo parado, dor de cabeça forte."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Meclizina 25 mg — 10 comprimidos\nTomar 1 comprimido 1 hora antes da viagem. Em viagem longa, repetir após 24h.\n\nORIENTAÇÕES:\n- Sentar na frente do carro, no meio do ônibus ou do navio, olhando para o horizonte. Evitar ler ou usar celular durante a viagem.\n- Refeição leve antes de viajar. Evitar álcool e comida gordurosa.\n- Retornar imediatamente ao pronto-socorro se: vômitos que não param, sinais de desidratação (boca seca, pouca urina), tontura que continua mesmo parado, dor de cabeça forte."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Se persistência ou piora dos sintomas",
+      "retornar_imediatamente_se": "Vômitos que não param, sinais de desidratação (boca seca, pouca urina), tontura que continua mesmo parado, dor de cabeça forte.",
+      "seguranca_plantonista": "Gestante: dimenidrinato e meclizina podem ser usados. Idoso: evitar (confusão, retenção urinária, quedas). Glaucoma de ângulo fechado e aumento da próstata: evitar.",
+      "encaminhar_internar": "",
+      "atestado_sugerido": "Conforme avaliação clínica"
+    }
+  },
+  {
+    "id": "ADU-029",
+    "name": "Cisticercose",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "B69.9",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "taenia solium, praziquantel, albendazol Praziquantel 500 mg Prednisona 20 mg Dipirona 500 mg Metoclopramida 10 mg",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Praziquantel 500 mg — 35 comprimidos\nTomar 02 comprimidos pela manhã, 01 comprimido à tarde e 02 comprimidos à noite, por 07 dias seguidos.\n\nUso oral\n2) Prednisona 20 mg — 05 comprimidos\nTomar 01 comprimido às 08:00 da manhã um dia antes de iniciar o praziquantel e manter até quatro dias depois (5 dias ao total).\n\nUso oral\n3) Dipirona 500 mg — 01 caixa\nTomar 02 comprimidos se febre ou dor, podendo repetir de 6/6h.\n\nUso oral\n4) Metoclopramida 10 mg — 01 caixa\nTomar 01 comprimido se náuseas ou vômitos, podendo repetir de 8/8h.\n\nORIENTAÇÕES:\n- Iniciar obrigatoriamente a Prednisona 1 dia antes do Praziquantel e tomar o Praziquantel junto às refeições sem mastigar.\n- Beber apenas água filtrada/fervida, higienizar verduras com hipoclorito e comer apenas carnes bem cozidas; evitar álcool.\n- Retornar imediatamente ao pronto-socorro se apresentar dor de cabeça forte, vômitos, alteração visual ou convulsão."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  },
+  {
+    "id": "ADU-030",
+    "name": "Cistite e bacteriúria assintomática na gestante",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "O23.4",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "infecção urinária na gravidez, ITU gestante, bacteriúria assintomática, cistite gestação Cefalexina 500 mg Paracetamol 750 mg Escopolamina 10 mg (Buscopan simples) Nitrofurantoína 100 mg Amoxicilina + clavulanato 500/125 mg Fosfomicina trometamol 3 g",
+    "gate": "Toda gestante com ITU: colher urocultura antes de iniciar e repetir 7 a 10 dias após o fim do tratamento. Bacteriúria assintomática também se trata, guiada pelo antibiograma. Evitar: ciprofloxacino e doxiciclina (toda a gestação), sulfametoxazol + trimetoprima (1º trimestre e final da gestação), nitrofurantoína a partir de 38 semanas.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Cefalexina 500 mg — 28 cápsulas\nTomar 1 cápsula de 6/6h, por 7 dias.\n\nUso oral\n2) Paracetamol 750 mg — 20 comprimidos\nTomar 1 comprimido de 6/6h, se dor ou febre.\n\nUso oral\n3) Escopolamina 10 mg (Buscopan simples) — 01 unidade / conforme orientação\n20 drágeas Tomar 1 drágea de 8/8h, se cólica.\n\nORIENTAÇÕES:\n- Beber 2 a 3 litros de água por dia, não segurar a urina, urinar após a relação.\n- Levar o resultado da urocultura ao pré-natal e fazer a urocultura de controle.\n- Retornar imediatamente ao pronto-socorro se: febre, dor nas costas, vômitos, contrações, perda de líquido ou sangramento pela vagina, bebê mexendo menos."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Nitrofurantoína 100 mg — 28 cápsulas\nTomar 1 cápsula de 6/6h, junto das refeições, por 7 dias. Evitar a partir de 38 semanas.\n\nUso oral\n2) Amoxicilina + clavulanato 500/125 mg — 21 comprimidos\nTomar 1 comprimido de 8/8h, por 7 dias.\n\nUso oral\n3) Fosfomicina trometamol 3 g — 01 envelope\nDissolver em meio copo de água e tomar à noite, após esvaziar a bexiga, dose única.\n\nORIENTAÇÕES:\n- Beber 2 a 3 litros de água por dia, não segurar a urina, urinar após a relação.\n- Levar o resultado da urocultura ao pré-natal e fazer a urocultura de controle.\n- Retornar imediatamente ao pronto-socorro se: febre, dor nas costas, vômitos, contrações, perda de líquido ou sangramento pela vagina, bebê mexendo menos."
+      },
+      {
+        "id": "na-unidade",
+        "title": "Prescrição na unidade",
+        "note": "Administração na unidade · separada da receita domiciliar",
+        "prescription": "PRESCRIÇÃO NA UNIDADE\n\nUso EV ou IM\n1) Escopolamina 20 mg/mL (Buscopan simples) — 01 ampola\nAplicar 1 mL (20 mg) EV lento ou IM, se cólica.\n\nUso oral\n2) Paracetamol 750 mg — 01 comprimido\nTomar 1 comprimido, via oral, se dor ou febre."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "urocultura de controle 7 a 10 dias após o tratamento",
+      "retornar_imediatamente_se": "Febre, dor nas costas, vômitos, contrações, perda de líquido ou sangramento pela vagina, bebê mexendo menos.",
+      "seguranca_plantonista": "Alergia à penicilina: fosfomicina ou nitrofurantoína (antes de 38 semanas). Após o parto (amamentando): cefalexina, fosfomicina e nitrofurantoína seguem compatíveis.",
+      "encaminhar_internar": "Pielonefrite na gestante: internar para antibiótico EV (ceftriaxona 1 g EV de 24/24h). 2 ou mais episódios na gestação: profilaxia até o parto (cefalexina 500 mg ou nitrofurantoína 100 mg à noite), junto com o pré-natal.",
+      "atestado_sugerido": "1 a 2 dias"
+    }
+  },
+  {
+    "id": "ADU-031",
+    "name": "Cistite em homens",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "N30.0",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "infecção urinária masculina, ardor para urinar, disúria, ciprofloxacino, fosfomicina Fosfomicina granulado 03 g Ciprofloxacino 500 mg",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Fosfomicina granulado 03 g — 03 envelopes\nDiluir o envelope em um copo d’água e ingerir 01 vez da cada 48h até 03 doses (primeiro, terceiro e quinto dia de tratamento).\n\nUso oral\n2) Ciprofloxacino 500 mg — 14 cps\nTomar 01 comprimido de 12/12h por 07 dias.\n\nORIENTAÇÕES:\n- Completar rigorosamente todo o antibiótico prescrito, beber 2 a 3 litros de água ao dia e não segurar a urina.\n- Agendar consulta com urologista para investigar a causa da infecção urinária.\n- Retornar imediatamente à emergência se surgir febre, calafrios, dor lombar/testicular ou dificuldade para urinar."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  }
+]
+
+

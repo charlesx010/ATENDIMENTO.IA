@@ -1,0 +1,322 @@
+[
+  {
+    "id": "ADU-117",
+    "name": "Otite média aguda",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "H66.9",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "dor de ouvido, infecção no ouvido médio, amoxicilina, amoxicilina+clavulanato, otite, otite média, ouvido inflamado, OMA Amoxicilina 500 mg Dipirona 500 mg Amoxicilina 875mg + Clavulanato 125mg Dipirona 500 mg Amoxicilina 500 mg Ibuprofeno 600 mg Dipirona 500 mg Amoxicilina + clavulanato 875/125 mg Azitromicina 500 mg",
+    "gate": "Diagnóstico: membrana timpânica abaulada (ou secreção nova saindo do ouvido) + dor. Membrana só vermelha não fecha o diagnóstico. Quadro leve (dor leve há menos de 48h, febre abaixo de 39 °C): observar 48 a 72h só com analgesia é uma opção, desde que o retorno seja garantido.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Amoxicilina 500 mg — 30 comprimidos\nTomar 01 comprimido de 8/8h por 10 dias Horário sugerido: 06:00 / 14:00 / 22:00.\n\nUso oral\n2) Dipirona 500 mg — 01 caixa\nTomar 02 comprimidos se dor ou febre, podendo repetir de 6/6h.\n\nUso oral\n3) Amoxicilina 875mg + Clavulanato 125mg — 20 comprimidos\nTomar 01 comprimido de 12/12h por 10 dias Horário sugerido: 08:00 / 20:00.\n\nORIENTAÇÕES:\n- Completar todos os 10 dias do antibiótico nos horários exatos e lavar o nariz várias vezes ao dia com Soro Fisiológico 0,9%.\n- Aplicar compressa morna e seca sobre a orelha para aliviar a dor e evitar viagens de avião ou mergulho.\n- Retornar imediatamente à emergência se inchar ou ficar vermelho atrás da orelha, sair pus, tiver dor de cabeça forte ou febre após 72h."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Dipirona 500 mg — 01 caixa\nTomar 02 comprimidos se dor ou febre, podendo repetir de 6/6h.\n\nORIENTAÇÕES:\n- Completar todos os 10 dias do antibiótico nos horários exatos e lavar o nariz várias vezes ao dia com Soro Fisiológico 0,9%.\n- Aplicar compressa morna e seca sobre a orelha para aliviar a dor e evitar viagens de avião ou mergulho.\n- Retornar imediatamente à emergência se inchar ou ficar vermelho atrás da orelha, sair pus, tiver dor de cabeça forte ou febre após 72h."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Amoxicilina 500 mg — 21 cápsulas\nTomar 1 cápsula de 8/8h, por 7 dias.\n\nUso oral\n2) Ibuprofeno 600 mg — 09 comprimidos\nTomar 1 comprimido de 8/8h, após as refeições, por 3 dias.\n\nUso oral\n3) Dipirona 500 mg — 20 comprimidos\nTomar 1 a 2 comprimidos de 6/6h, se dor ou febre.\n\nORIENTAÇÕES:\n- Completar todos os 10 dias do antibiótico nos horários exatos e lavar o nariz várias vezes ao dia com Soro Fisiológico 0,9%.\n- Aplicar compressa morna e seca sobre a orelha para aliviar a dor e evitar viagens de avião ou mergulho.\n- Retornar imediatamente à emergência se inchar ou ficar vermelho atrás da orelha, sair pus, tiver dor de cabeça forte ou febre após 72h."
+      },
+      {
+        "id": "esquema-4",
+        "title": "Esquema 4",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Amoxicilina + clavulanato 875/125 mg — 14 comprimidos\nTomar 1 comprimido de 12/12h, por 7 dias. Se antibiótico nos últimos 30 dias ou falha.\n\nUso oral\n2) Azitromicina 500 mg — 03 comprimidos\nTomar 1 comprimido 1 vez ao dia, por 3 dias. Alergia à penicilina.\n\nORIENTAÇÕES:\n- Completar todos os 10 dias do antibiótico nos horários exatos e lavar o nariz várias vezes ao dia com Soro Fisiológico 0,9%.\n- Aplicar compressa morna e seca sobre a orelha para aliviar a dor e evitar viagens de avião ou mergulho.\n- Retornar imediatamente à emergência se inchar ou ficar vermelho atrás da orelha, sair pus, tiver dor de cabeça forte ou febre após 72h."
+      },
+      {
+        "id": "na-unidade",
+        "title": "Prescrição na unidade",
+        "note": "Administração na unidade · separada da receita domiciliar",
+        "prescription": "PRESCRIÇÃO NA UNIDADE\n\nUso EV ou IM\n1) Dipirona 500 mg/mL — 01 ampola\nAplicar 2 mL (1 g) IM ou EV lento. Corticoide (dexametasona) não é indicado na otite média aguda."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "48 a 72h se não melhorar",
+      "retornar_imediatamente_se": "Febre alta após 48 a 72h de antibiótico, inchaço e vermelhidão atrás da orelha com a orelha \"descolando\", boca torta, dor de cabeça forte, nuca dura, vômitos, sonolência, tontura intensa.",
+      "seguranca_plantonista": "Gestante: amoxicilina, amoxicilina + clavulanato e azitromicina são seguras. Doença renal: TFG < 30: amoxicilina 500 mg de 12/12h e evitar amoxicilina + clavulanato 875 mg.",
+      "encaminhar_internar": "Mastoidite ou outra complicação: internação. Otite de repetição (3 em 6 meses ou 4 em 1 ano) ou secreção atrás do tímpano por mais de 3 meses: otorrino.",
+      "atestado_sugerido": "1 a 2 dias"
+    }
+  },
+  {
+    "id": "ADU-118",
+    "name": "Oxiuríase (enterobíase)",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "B80",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "oxiúros, enterobíase, coceira no ânus à noite, verme branco pequeno, lombriga pequena Albendazol 400 mg Albendazol 400 mg/10 mL suspensão Mebendazol 100 mg Pamoato de pirvínio 10 mg/mL suspensão",
+    "gate": "Coceira anal à noite, principalmente em crianças, com vermes brancos e finos nas fezes ou ao redor do ânus. Tratar toda a família ao mesmo tempo e repetir em 2 semanas (reinfecção é muito comum).",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Albendazol 400 mg — 02 comprimidos\nTomar 1 comprimido dose única. Repetir após 14 dias.\n\nORIENTAÇÕES:\n- Unhas curtas, lavar as mãos e escovar as unhas, não coçar. Banho pela manhã (remove os ovos).\n- Trocar e lavar todos os dias as roupas íntimas, pijamas, toalhas e roupa de cama nos dias do tratamento.\n- Retornar imediatamente ao pronto-socorro se: dor forte na barriga, corrimento ou irritação vaginal em menina, feridas com pus na região anal."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Albendazol 400 mg/10 mL suspensão — 02 frascos\nCriança a partir de 2 anos: dar 10 mL dose única. Repetir após 14 dias.\n\nUso oral\n2) Mebendazol 100 mg — 02 comprimidos\nTomar 1 comprimido dose única. Repetir após 14 dias. Suspensão 100 mg/5 mL: 5 mL na criança.\n\nUso oral\n3) Pamoato de pirvínio 10 mg/mL suspensão — 01 frasco\nDar 1 mL/kg (10 mg/kg) dose única. Repetir após 14 dias. Adulto: drágeas de 100 mg, 1 a cada 10 kg (máx. 6). Opção mais usada na gestação.\n\nORIENTAÇÕES:\n- Unhas curtas, lavar as mãos e escovar as unhas, não coçar. Banho pela manhã (remove os ovos).\n- Trocar e lavar todos os dias as roupas íntimas, pijamas, toalhas e roupa de cama nos dias do tratamento.\n- Retornar imediatamente ao pronto-socorro se: dor forte na barriga, corrimento ou irritação vaginal em menina, feridas com pus na região anal."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "se os sintomas voltarem após a 2ª dose",
+      "retornar_imediatamente_se": "Dor forte na barriga, corrimento ou irritação vaginal em menina, feridas com pus na região anal.",
+      "seguranca_plantonista": "Gestante: preferir pirvínio (após o 1º trimestre) ou adiar. Evitar albendazol e mebendazol no 1º trimestre. Amamentação: albendazol e mebendazol são compatíveis.",
+      "encaminhar_internar": "",
+      "atestado_sugerido": "não se aplica"
+    }
+  },
+  {
+    "id": "ADU-119",
+    "name": "Paralisia Facial Periférica (de Bell)",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "G51.0",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "boca torta, olho que não fecha, paralisia de bell, prednisona, valaciclovir, colírio lubrificante, rosto paralisado, paralisia facial, nervo facial Valaciclovir 500 mg Prednisona 20 mg Lácrima plus® Regenom® Prednisona 20 mg Omeprazol 20 mg Lágrima artificial (carmelose 0,5%) colírio Pomada oftálmica lubrificante (retinol + aminoácidos) Valaciclovir 500 mg",
+    "gate": "Periférica: pega toda a metade do rosto, inclusive a testa (não consegue franzir a testa). Testa preservada, fraqueza em braço ou perna, fala alterada: pensar em AVC (central) e seguir o protocolo de AVC. Procure causas: bolhas no ouvido (Ramsay Hunt), otite, trauma, paralisia dos dois lados (Guillain-Barré), gestante.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Valaciclovir 500 mg — 42 comprimidos\nTomar 02 comprimidos de 8/8h, por 07 dias seguidos Horário sugerido: 06:00 – 14:00 – 22:00.\n\nUso oral\n2) Prednisona 20 mg — 10 comprimidos\nTomar 01 comprimido de 12/12h por 05 dias seguidos Horário sugerido: 08:00 – 20:00.\n\nUso oral\n3) Lácrima plus® — 01 frasco\nPingar uma gota no olho paralisado, de 30/30 minutos diariamente enquanto persistir a paralisia palpebral.\n\nUso oral\n4) Regenom® — 01 frasco\nAplicar no olho paralisado à noite, antes de dormir, e cobrir com curativo oclusivo (gaze e esparadrapo, sem apertar) diariamente enquanto persistir a paralisia palpebral.\n\nORIENTAÇÕES:\n- PROTEGER O OLHO PARALISADO: pingar o colírio lubrificante de 30/30 min de dia, usar óculos escuros e aplicar a pomada à noite fechando a pálpebra com gaze e micropore.\n- Tomar a Prednisona e o Valaciclovir nos horários exatos e iniciar fisioterapia facial conforme orientação médica.\n- Retornar IMEDIATAMENTE ao pronto-socorro se o olho ficar vermelho/dolorido, ou se surgir perda de força no braço/perna, engasgos ou tontura."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Prednisona 20 mg — 21 comprimidos\nTomar 3 comprimidos (60 mg) pela manhã, após o café, por 7 dias.\n\nUso oral\n2) Omeprazol 20 mg — 07 cápsulas\nTomar 1 cápsula em jejum, por 7 dias.\n\nUso oftálmico\n3) Lágrima artificial (carmelose 0,5%) colírio — 02 frascos\nPingar 1 gota no olho afetado, de 2/2h, enquanto acordado.\n\nUso oftálmico\n4) Pomada oftálmica lubrificante (retinol + aminoácidos) — 01 bisnaga\nAplicar no olho afetado à noite, ao deitar.\n\nORIENTAÇÕES:\n- PROTEGER O OLHO PARALISADO: pingar o colírio lubrificante de 30/30 min de dia, usar óculos escuros e aplicar a pomada à noite fechando a pálpebra com gaze e micropore.\n- Tomar a Prednisona e o Valaciclovir nos horários exatos e iniciar fisioterapia facial conforme orientação médica.\n- Retornar IMEDIATAMENTE ao pronto-socorro se o olho ficar vermelho/dolorido, ou se surgir perda de força no braço/perna, engasgos ou tontura."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Valaciclovir 500 mg — 42 comprimidos\nTomar 2 comprimidos (1 g) de 8/8h, por 7 dias. Se o olho não fecha: ocluir à noite com fita microporosa, com a pálpebra fechada.\n\nORIENTAÇÕES:\n- PROTEGER O OLHO PARALISADO: pingar o colírio lubrificante de 30/30 min de dia, usar óculos escuros e aplicar a pomada à noite fechando a pálpebra com gaze e micropore.\n- Tomar a Prednisona e o Valaciclovir nos horários exatos e iniciar fisioterapia facial conforme orientação médica.\n- Retornar IMEDIATAMENTE ao pronto-socorro se o olho ficar vermelho/dolorido, ou se surgir perda de força no braço/perna, engasgos ou tontura."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "7 dias e depois em 3 semanas",
+      "retornar_imediatamente_se": "Fraqueza ou formigamento em braço ou perna, fala enrolada, dor de cabeça forte, visão dupla, olho vermelho e doendo, paralisia dos dois lados, bolhas no ouvido.",
+      "seguranca_plantonista": "Diabético: prednisona sobe a glicemia. Monitorar e ajustar o tratamento. Gestante: prednisona pode ser usada. No 3º trimestre, checar a PA (pré-eclâmpsia). Doença renal: ajustar o valaciclovir.",
+      "encaminhar_internar": "Sem nenhuma melhora em 3 semanas ou recuperação incompleta em 3 meses: neurologia ou otorrino. Olho vermelho ou dolorido (exposição da córnea): oftalmologia.",
+      "atestado_sugerido": "7 a 14 dias, conforme o trabalho e a proteção do olho"
+    }
+  },
+  {
+    "id": "ADU-120",
+    "name": "Parasitoses intestinais",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "B82.9",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "verminose, vermes, giardia, ascaris, oxiúrus, albendazol, annita, nitazoxanida, secnidazol, verme, lombriga, vermífugo, ameba, ascaridíase, solitária, teníase, estrongiloidíase, ancilostomíase, amarelão Ivermectina 06 mg Albendazol 400 mg Albendazol 400 mg Albendazol 400 mg Secnidazol 1000 mg Secnidazol 1000 mg Nitazoxanida 500 mg Praziquantel 500 mg Praziquantel 500 mg Albendazol 400 mg/10 mL suspensão Mebendazol 100 mg Ivermectina 6 mg Secnidazol 1.000 mg Metronidazol 250 mg Metronidazol (benzoilmetronidazol) 40 mg/mL suspensão Nitazoxanida 20 mg/mL suspensão Metronidazol 250 mg Secnidazol 1.000 mg Praziquantel 150 mg conforme o peso Albendazol 400 mg",
+    "gate": "O ideal é tratar guiado pelo parasitológico de fezes (3 amostras). Tratamento empírico em área de risco é aceitável.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Ivermectina 06 mg — 04 comprimidos\nTomar os 02 comprimidos em dose única, e repetir após 07 dias.\n\nUso oral\n2) Albendazol 400 mg — 02 comprimidos\nTomar 01 comprimido em dose única e depois repetir após 10 dias.\n\nORIENTAÇÕES:\n- Seguir a posologia exata (repetindo a 2ª dose após 7, 10 ou 21 dias conforme prescrito) e evitar álcool por 72h se usar Secnidazol/Nitazoxanida.\n- Lavar bem as mãos antes de comer e após ir ao banheiro, cortar as unhas, beber água filtrada, sanitizar verduras com hipoclorito e andar calçado.\n- Procurar o médico se houver vômitos persistentes, dor abdominal forte, barriga inchada ou febre."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Albendazol 400 mg — 04 comprimidos\nTomar 01 comprimido ao dia por 03 dias seguidos, no mesmo horário, e depois repetir após 10 dias.\n\nORIENTAÇÕES:\n- Seguir a posologia exata (repetindo a 2ª dose após 7, 10 ou 21 dias conforme prescrito) e evitar álcool por 72h se usar Secnidazol/Nitazoxanida.\n- Lavar bem as mãos antes de comer e após ir ao banheiro, cortar as unhas, beber água filtrada, sanitizar verduras com hipoclorito e andar calçado.\n- Procurar o médico se houver vômitos persistentes, dor abdominal forte, barriga inchada ou febre."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Albendazol 400 mg — 05 comprimidos\nTomar 01 comprimido ao dia por 05 dias seguidos, no mesmo horário.\n\nUso oral\n2) Secnidazol 1000 mg — 02 comprimidos\nTomar os 02 comprimidos em dose única.\n\nORIENTAÇÕES:\n- Seguir a posologia exata (repetindo a 2ª dose após 7, 10 ou 21 dias conforme prescrito) e evitar álcool por 72h se usar Secnidazol/Nitazoxanida.\n- Lavar bem as mãos antes de comer e após ir ao banheiro, cortar as unhas, beber água filtrada, sanitizar verduras com hipoclorito e andar calçado.\n- Procurar o médico se houver vômitos persistentes, dor abdominal forte, barriga inchada ou febre."
+      },
+      {
+        "id": "esquema-4",
+        "title": "Esquema 4",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Secnidazol 1000 mg — 10 comprimidos\nTomar os 02 comprimidos ao dia por 05 dias seguidos, no mesmo horário.\n\nUso oral\n2) Nitazoxanida 500 mg — 06 comprimidos\nTomar 01 comprimido de 12/12 horas por 03 dias seguidos Horário sugerido (12/12h): 08:00 / 20:00.\n\nUso oral\n3) Praziquantel 500 mg — 07 comprimidos\nTomar 04 comprimidos e, após 12 horas, mais 03 comprimidos Horário sugerido: 04 comprimidos às 08:00 e 03 comprimidos às 20:00.\n\nORIENTAÇÕES:\n- Seguir a posologia exata (repetindo a 2ª dose após 7, 10 ou 21 dias conforme prescrito) e evitar álcool por 72h se usar Secnidazol/Nitazoxanida.\n- Lavar bem as mãos antes de comer e após ir ao banheiro, cortar as unhas, beber água filtrada, sanitizar verduras com hipoclorito e andar calçado.\n- Procurar o médico se houver vômitos persistentes, dor abdominal forte, barriga inchada ou febre."
+      },
+      {
+        "id": "esquema-5",
+        "title": "Esquema 5",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Praziquantel 500 mg — 02 comprimidos\nTomar 02 comprimidos em dose única.\n\nORIENTAÇÕES:\n- Seguir a posologia exata (repetindo a 2ª dose após 7, 10 ou 21 dias conforme prescrito) e evitar álcool por 72h se usar Secnidazol/Nitazoxanida.\n- Lavar bem as mãos antes de comer e após ir ao banheiro, cortar as unhas, beber água filtrada, sanitizar verduras com hipoclorito e andar calçado.\n- Procurar o médico se houver vômitos persistentes, dor abdominal forte, barriga inchada ou febre."
+      },
+      {
+        "id": "esquema-6",
+        "title": "Esquema 6",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Albendazol 400 mg/10 mL suspensão — 01 frasco\nCriança a partir de 2 anos: dar 10 mL dose única.\n\nUso oral\n2) Mebendazol 100 mg — 06 comprimidos\nTomar 1 comprimido de 12/12h, por 3 dias. Suspensão 100 mg/5 mL: 5 mL de 12/12h na criança.\n\nUso oral\n3) Ivermectina 6 mg — 01 unidade / conforme orientação\nconforme o peso Tomar 1 vez ao dia, por 2 dias (15 kg ou mais, não gestante). 15 a 24 kg: meio comprimido. 25 a 35 kg: 1. 36 a 50 kg: 1 e meio. 51 a 65 kg: 2. 66 a 79 kg: 2 e meio. 80 kg ou mais: 3 comprimidos.\n\nUso oral\n4) Secnidazol 1.000 mg — 02 comprimidos\nAdulto: tomar 2 comprimidos (2 g) dose única, junto de uma refeição.\n\nUso oral\n5) Metronidazol 250 mg — 15 comprimidos\nAdulto: tomar 1 comprimido de 8/8h, por 5 dias.\n\nUso oral\n6) Metronidazol (benzoilmetronidazol) 40 mg/mL suspensão — 01 frasco\nCriança: dar 0,125 mL/kg por dose (15 mg/kg/dia) de 8/8h, por 5 dias.\n\nUso oral\n7) Nitazoxanida 20 mg/mL suspensão — 01 frasco\nCriança de 1 a 3 anos: 5 mL. De 4 a 11 anos: 10 mL. de 12/12h, por 3 dias, com alimento. Adulto: nitazoxanida 500 mg de 12/12h por 3 dias.\n\nUso oral\n8) Metronidazol 250 mg — 42 comprimidos\nTomar 2 comprimidos (500 mg) de 8/8h, por 7 dias.\n\nUso oral\n9) Secnidazol 1.000 mg — 02 comprimidos\nTomar 2 comprimidos (2 g) dose única.\n\nUso oral\n10) Praziquantel 150 mg conforme o peso — 01 unidade / conforme orientação\nTomar 10 mg/kg (1 comprimido a cada 15 kg) dose única, no café da manhã.\n\nUso oral\n11) Albendazol 400 mg — 03 comprimidos\nTomar 1 comprimido 1 vez ao dia, por 3 dias. Dor de cabeça ou convulsão em paciente com teníase: suspeitar de neurocisticercose. Não tratar sem neuroimagem.\n\nORIENTAÇÕES:\n- Seguir a posologia exata (repetindo a 2ª dose após 7, 10 ou 21 dias conforme prescrito) e evitar álcool por 72h se usar Secnidazol/Nitazoxanida.\n- Lavar bem as mãos antes de comer e após ir ao banheiro, cortar as unhas, beber água filtrada, sanitizar verduras com hipoclorito e andar calçado.\n- Procurar o médico se houver vômitos persistentes, dor abdominal forte, barriga inchada ou febre."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "parasitológico de controle se sintomas persistirem",
+      "retornar_imediatamente_se": "Sangue nas fezes, vômitos persistentes, barriga muito inchada e dura, verme saindo pela boca ou nariz, febre alta, perda de peso, convulsão.",
+      "seguranca_plantonista": "Gestante: tratar após o 1º trimestre sempre que possível. Evitar ivermectina. Amamentação: albendazol em dose única é compatível. Vai usar corticoide ou imunossupressor: tratar estrongiloides antes (risco de hiperinfecção).",
+      "encaminhar_internar": "Suspeita de obstrução intestinal por lombriga: cirurgia ou pediatria com urgência. Neurocisticercose: neurologia.",
+      "atestado_sugerido": "não se aplica"
+    }
+  },
+  {
+    "id": "ADU-121",
+    "name": "Paroníquia aguda (panarício / unheiro)",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "L03.0",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "unheiro, panarício, inflamação na unha, pus no canto da unha, dedo inflamado Mupirocina 2% pomada Cefalexina 500 mg Sulfametoxazol + trimetoprima 800/160 mg Betametasona 0,1% creme Miconazol 2% creme Paracetamol 750 mg",
+    "gate": "Aguda: dor, vermelhidão e pus ao redor da unha. Crônica (mais de 6 semanas): manicure, mãos molhadas, fungo. Dor pulsátil na polpa do dedo (panarício) ou dor ao mexer o dedo (tenossinovite): cirurgia de mão.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso local\n1) Mupirocina 2% pomada — 01 bisnaga\nAplicar ao redor da unha, 3 vezes ao dia, por 5 a 7 dias. Compressa morna antes.\n\nORIENTAÇÕES:\n- Deixar o dedo de molho em água morna por 15 minutos, 3 a 4 vezes ao dia.\n- Não tirar cutícula. Usar luvas em trabalho com água e produtos de limpeza. Secar bem as mãos.\n- Retornar imediatamente ao pronto-socorro se: vermelhidão subindo pelo dedo ou pela mão, febre, dor latejante na polpa do dedo, dificuldade para mexer o dedo."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Cefalexina 500 mg — 28 cápsulas\nTomar 1 cápsula de 6/6h, por 7 dias.\n\nUso oral\n2) Sulfametoxazol + trimetoprima 800/160 mg — 14 comprimidos\nTomar 1 comprimido de 12/12h, por 7 dias. Se risco de MRSA. CRÔNICA\n\nUso local\n3) Betametasona 0,1% creme — 01 bisnaga\nAplicar ao redor da unha, 2 vezes ao dia, por 2 a 3 semanas.\n\nUso local\n4) Miconazol 2% creme — 01 bisnaga\nAplicar junto, 2 vezes ao dia, se suspeita de fungo.\n\nUso oral\n5) Paracetamol 750 mg — 20 comprimidos\nTomar 1 comprimido de 6/6h, se dor.\n\nORIENTAÇÕES:\n- Deixar o dedo de molho em água morna por 15 minutos, 3 a 4 vezes ao dia.\n- Não tirar cutícula. Usar luvas em trabalho com água e produtos de limpeza. Secar bem as mãos.\n- Retornar imediatamente ao pronto-socorro se: vermelhidão subindo pelo dedo ou pela mão, febre, dor latejante na polpa do dedo, dificuldade para mexer o dedo."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "48h",
+      "retornar_imediatamente_se": "Vermelhidão subindo pelo dedo ou pela mão, febre, dor latejante na polpa do dedo, dificuldade para mexer o dedo.",
+      "seguranca_plantonista": "Diabético: limiar menor para antibiótico e reavaliação em 48h. Gestante: cefalexina e mupirocina são seguras.",
+      "encaminhar_internar": "Panarício ou tenossinovite: cirurgia de mão.",
+      "atestado_sugerido": "1 a 2 dias, conforme o trabalho manual"
+    }
+  },
+  {
+    "id": "ADU-122",
+    "name": "Pé diabético infectado (infecção leve)",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "E11.5 / L08.9",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "pé diabético, ferida no pé de diabético, úlcera no pé, infecção no pé diabético, mal perfurante Cefalexina 500 mg Paracetamol 750 mg Amoxicilina + clavulanato 875/125 mg Clindamicina 300 mg",
+    "gate": "Classificação: leve = vermelhidão até 2 cm ao redor da ferida, sem sinais sistêmicos. Moderada = mais de 2 cm ou estruturas profundas (abscesso, osso). Grave = febre, taquicardia, sinais de sepse. Moderada e grave: internação. Osso exposto ou palpável com a sonda: osteomielite (RX do pé). Pulsos ausentes: isquemia (avaliação vascular).",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Cefalexina 500 mg — 40 cápsulas\nTomar 1 cápsula de 6/6h, por 10 dias.\n\nUso oral\n2) Paracetamol 750 mg — 20 comprimidos\nTomar 1 comprimido de 6/6h, se dor.\n\nORIENTAÇÕES:\n- Olhar os pés todos os dias (com espelho). Nunca andar descalço. Não usar bolsa quente no pé.\n- Trocar o curativo todo dia. Calçado fechado, macio e sem costura por dentro.\n- Retornar imediatamente ao pronto-socorro se: febre, vermelhidão que sobe pela perna, mau cheiro, pele escura ou preta, dor nova, glicemia descontrolada."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Amoxicilina + clavulanato 875/125 mg — 20 comprimidos\nTomar 1 comprimido de 12/12h, por 10 dias. Se ferida crônica ou antibiótico recente.\n\nUso oral\n2) Clindamicina 300 mg — 40 cápsulas\nTomar 1 cápsula de 6/6h, por 10 dias. Alergia à penicilina. Tirar o peso do pé (sandália ou bota de descarga) e curativo úmido diário.\n\nORIENTAÇÕES:\n- Olhar os pés todos os dias (com espelho). Nunca andar descalço. Não usar bolsa quente no pé.\n- Trocar o curativo todo dia. Calçado fechado, macio e sem costura por dentro.\n- Retornar imediatamente ao pronto-socorro se: febre, vermelhidão que sobe pela perna, mau cheiro, pele escura ou preta, dor nova, glicemia descontrolada."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "48 a 72h (obrigatório)",
+      "retornar_imediatamente_se": "Febre, vermelhidão que sobe pela perna, mau cheiro, pele escura ou preta, dor nova, glicemia descontrolada.",
+      "seguranca_plantonista": "Doença renal: TFG < 30: cefalexina 500 mg de 12/12h; amoxicilina + clavulanato 500/125 mg de 12/12h. Usa metformina com infecção e mal-estar: avaliar suspensão temporária.",
+      "encaminhar_internar": "Infecção moderada ou grave, isquemia ou osteomielite: internação, cirurgia vascular ou ortopedia. Seguimento em ambulatório de pé diabético.",
+      "atestado_sugerido": "3 a 7 dias (tirar o peso do pé)"
+    }
+  },
+  {
+    "id": "ADU-123",
+    "name": "Pediculose (piolho do couro cabeludo e ftiríase)",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "B85.0 / B85.3",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "piolho, lêndea, pediculose, chato, piolho pubiano, coceira na cabeça Permetrina 1% loção Ivermectina 6 mg Loratadina 1 mg/mL xarope Permetrina 5% loção",
+    "gate": "",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso local\n1) Permetrina 1% loção — 01 unidade / conforme orientação\n1 frasco (60 mL) Lavar o cabelo com xampu comum, enxaguar e secar com toalha. Aplicar a loção em todo o cabelo úmido e no couro cabeludo, principalmente nuca e atrás das orelhas. Deixar 10 minutos, enxaguar com água morna e passar pente fino. Repetir após 7 dias.\n\nORIENTAÇÕES:\n- Pente fino no cabelo úmido (com condicionador) todos os dias por 2 semanas, mecha por mecha.\n- Lavar roupas de cama, toalhas, bonés, pentes e escovas em água quente, ou fechar em saco plástico por 2 semanas.\n- Retornar imediatamente ao pronto-socorro se: feridas com pus no couro cabeludo, ínguas no pescoço, febre, irritação forte após o produto."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Ivermectina 6 mg — 01 unidade / conforme orientação\nconforme o peso Dose única, repetir após 7 dias. 15 a 24 kg: meio comprimido. 25 a 35 kg: 1. 36 a 50 kg: 1 e meio. 51 a 65 kg: 2. 66 a 79 kg: 2 e meio. 80 kg ou mais: 3 comprimidos.\n\nUso oral\n2) Loratadina 1 mg/mL xarope — 01 frasco\nAté 30 kg: 5 mL. Acima de 30 kg: 10 mL. 1 vez ao dia, por 5 dias. Evitar antialérgico de 1ª geração em menor de 2 anos.\n\nUso local\n3) Permetrina 5% loção — 01 frasco\nAplicar nas áreas com pelos (púbis, períneo, coxas e axilas), deixar 8 a 12h e retirar no banho. Repetir após 7 dias. Tratar a parceria e oferecer testes para IST. Piolho nos cílios: vaselina sólida na borda das pálpebras, 2 vezes ao dia, por 10 dias.\n\nORIENTAÇÕES:\n- Pente fino no cabelo úmido (com condicionador) todos os dias por 2 semanas, mecha por mecha.\n- Lavar roupas de cama, toalhas, bonés, pentes e escovas em água quente, ou fechar em saco plástico por 2 semanas.\n- Retornar imediatamente ao pronto-socorro se: feridas com pus no couro cabeludo, ínguas no pescoço, febre, irritação forte após o produto."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "se persistir após a 2ª aplicação",
+      "retornar_imediatamente_se": "Feridas com pus no couro cabeludo, ínguas no pescoço, febre, irritação forte após o produto.",
+      "seguranca_plantonista": "Gestante e amamentação: permetrina 1% é segura. Não usar ivermectina na gestação.",
+      "encaminhar_internar": "",
+      "atestado_sugerido": "não se aplica (pode ir à escola após a 1ª aplicação)"
+    }
+  },
+  {
+    "id": "ADU-124",
+    "name": "Picada de inseto (reação alérgica local e estrófulo)",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "T63.4 / W57",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "picada de inseto, picada de abelha, marimbondo, formiga, mosquito, reação alérgica local, inchaço após picada Loratadina 10 mg Dexametasona 0,1% creme Dipirona 500 mg Prednisona 20 mg",
+    "gate": "Reação local grande é comum e não é anafilaxia. Sintomas no corpo (urticária espalhada, falta de ar, inchaço de lábios ou garganta, tontura, vômitos): ver ficha de Anafilaxia. Ferrão de abelha: retirar raspando com um cartão ou lâmina, sem apertar com pinça.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Loratadina 10 mg — 07 comprimidos\nTomar 1 comprimido 1 vez ao dia, por 7 dias.\n\nUso local\n2) Dexametasona 0,1% creme — 01 bisnaga\nAplicar fina camada no local, 2 vezes ao dia, por 5 dias.\n\nUso oral\n3) Dipirona 500 mg — 20 comprimidos\nTomar 1 a 2 comprimidos de 6/6h, se dor.\n\nORIENTAÇÕES:\n- Gelo ou compressa fria por 10 a 15 minutos, várias vezes ao dia. Elevar o membro e não coçar.\n- A reação local grande pode durar de 5 a 10 dias.\n- Retornar imediatamente ao pronto-socorro se: falta de ar, chiado, inchaço no rosto, lábios ou garganta, manchas pelo corpo, tontura, vômitos. Vermelhidão quente que cresce com febre após 2 a 3 dias (infecção)."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Prednisona 20 mg — 06 comprimidos\nTomar 2 comprimidos pela manhã, por 3 dias. Só se a reação local for extensa.\n\nORIENTAÇÕES:\n- Gelo ou compressa fria por 10 a 15 minutos, várias vezes ao dia. Elevar o membro e não coçar.\n- A reação local grande pode durar de 5 a 10 dias.\n- Retornar imediatamente ao pronto-socorro se: falta de ar, chiado, inchaço no rosto, lábios ou garganta, manchas pelo corpo, tontura, vômitos. Vermelhidão quente que cresce com febre após 2 a 3 dias (infecção)."
+      },
+      {
+        "id": "na-unidade",
+        "title": "Prescrição na unidade",
+        "note": "Administração na unidade · separada da receita domiciliar",
+        "prescription": "PRESCRIÇÃO NA UNIDADE\n\nUso IM\n1) Prometazina 50 mg/2 mL — 01 ampola\nAplicar 1 mL (25 mg) IM profundo, se coceira e inchaço importantes.\n\nUso EV\n2) Hidrocortisona 100 mg — 01 frasco-ampola\nAplicar 100 mg EV, se reação local extensa.\n\nUso EV ou IM\n3) Dipirona 500 mg/mL — 01 ampola\nAplicar 2 mL (1 g) IM ou EV lento, se dor."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "48 a 72h se vermelhidão crescer com febre",
+      "retornar_imediatamente_se": "Falta de ar, chiado, inchaço no rosto, lábios ou garganta, manchas pelo corpo, tontura, vômitos. Vermelhidão quente que cresce com febre após 2 a 3 dias (infecção).",
+      "seguranca_plantonista": "Gestante: loratadina e corticoide tópico são seguros.",
+      "encaminhar_internar": "Reação no corpo todo em picada anterior: alergologista (imunoterapia com veneno). Infecção secundária: ver ficha de Erisipela / celulite.",
+      "atestado_sugerido": "não se aplica"
+    }
+  }
+]
+
+

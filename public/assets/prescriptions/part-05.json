@@ -1,0 +1,337 @@
+[
+  {
+    "id": "ADU-032",
+    "name": "Cistite não complicada",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "N30.0",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "infecção urinária, itu baixa, ardência ao urinar, fosfomicina, monuril, nitrofurantoína, macrodantina, ITU, infecção de urina, ardência para urinar, disúria, cistite, urina com sangue, polaciúria Sulfametoxazol + Trimetoprima 400/80 mg Sulfametoxazol + Trimetoprima 400/80 mg Fosfomicina granulado 3 g Nitrofurantoína 100 mg Nitrofurantoína 100 mg Amoxicilina-Clavulanato 125/500mg Norfloxacino 400 mg Norfloxacino 400 mg Ciprofloxacino 500 mg Fosfomicina trometamol 3 g Fenazopiridina 200 mg Escopolamina 10 mg + dipirona 250 mg (Buscopan Composto) Nitrofurantoína 100 mg Cefalexina 500 mg Sulfametoxazol + trimetoprima 800/160 mg Sulfametoxazol + trimetoprima 800/160 mg",
+    "gate": "Cistite não complicada: mulher não gestante, sem febre, sem dor lombar, sem alteração do trato urinário. Quadro típico dispensa exames. Urocultura se: recorrência, falha de tratamento, homem, gestante ou ITU complicada. Ciprofloxacino não é primeira escolha para cistite: reservar para pielonefrite.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Sulfametoxazol + Trimetoprima 400/80 mg — 12 comprimidos\nTomar 02 comprimidos de 12/12h por 03 dias Horário sugerido (12/12h): 08:00 / 20:00.\n\nORIENTAÇÕES:\n- Beber 2 a 3 litros de água por dia, urinar com frequência (especialmente após relações) e limpar-se sempre da frente para trás.\n- Se usar Fosfomicina (envelope), dissolver em meio copo de água e tomar à noite ao deitar, logo após esvaziar a bexiga.\n- Retornar imediatamente ao pronto-socorro se surgir febre, calafrios, dor forte nas costas ou vômitos."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Sulfametoxazol + Trimetoprima 400/80 mg — 20 comprimidos\nTomar 02 comprimidos de 12/12h por 05 dias Horário sugerido (12/12h): 08:00 / 20:00.\n\nUso oral\n2) Fosfomicina granulado 3 g — 01 caixa\nDiluir o envelope em um copo d’água e ingerir em dose única.\n\nUso oral\n3) Nitrofurantoína 100 mg — 12 cps\nTomar 01 comprimido de 06/06h por 03 dias seguidos Horário sugerido: 06:00 / 12:00 / 18:00 / 00:00.\n\nORIENTAÇÕES:\n- Beber 2 a 3 litros de água por dia, urinar com frequência (especialmente após relações) e limpar-se sempre da frente para trás.\n- Se usar Fosfomicina (envelope), dissolver em meio copo de água e tomar à noite ao deitar, logo após esvaziar a bexiga.\n- Retornar imediatamente ao pronto-socorro se surgir febre, calafrios, dor forte nas costas ou vômitos."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Nitrofurantoína 100 mg — 20 cps\nTomar 01 comprimido de 06/06h por 05 dias seguidos Horário sugerido: 06:00 / 12:00 / 18:00 / 00:00.\n\nUso oral\n2) Amoxicilina-Clavulanato 125/500mg — 09 comprimidos\nTomar 01 comprimido de 08/08h por 03 dias Horário sugerido (08/08h): 08:00 / 14:00 / 22:00.\n\nUso oral\n3) Norfloxacino 400 mg — 06 comprimidos\nTomar 01 comprimido de 12/12h por 03 dias.\n\nORIENTAÇÕES:\n- Beber 2 a 3 litros de água por dia, urinar com frequência (especialmente após relações) e limpar-se sempre da frente para trás.\n- Se usar Fosfomicina (envelope), dissolver em meio copo de água e tomar à noite ao deitar, logo após esvaziar a bexiga.\n- Retornar imediatamente ao pronto-socorro se surgir febre, calafrios, dor forte nas costas ou vômitos."
+      },
+      {
+        "id": "esquema-4",
+        "title": "Esquema 4",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Norfloxacino 400 mg — 10 comprimidos\nTomar 01 comprimido de 12/12h por 05 dias.\n\nUso oral\n2) Ciprofloxacino 500 mg — 06 cps\nTomar 01 comprimido de 12/12h por 03 dias.\n\nORIENTAÇÕES:\n- Beber 2 a 3 litros de água por dia, urinar com frequência (especialmente após relações) e limpar-se sempre da frente para trás.\n- Se usar Fosfomicina (envelope), dissolver em meio copo de água e tomar à noite ao deitar, logo após esvaziar a bexiga.\n- Retornar imediatamente ao pronto-socorro se surgir febre, calafrios, dor forte nas costas ou vômitos."
+      },
+      {
+        "id": "esquema-5",
+        "title": "Esquema 5",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Fosfomicina trometamol 3 g — 01 envelope\nDissolver em meio copo de água e tomar à noite, após esvaziar a bexiga, dose única.\n\nUso oral\n2) Fenazopiridina 200 mg — 06 comprimidos\nTomar 1 comprimido de 8/8h, após as refeições, por 2 dias.\n\nUso oral\n3) Escopolamina 10 mg + dipirona 250 mg (Buscopan Composto) — 20 comprimidos\nTomar 1 a 2 comprimidos de 6/6h, se dor ou cólica.\n\nORIENTAÇÕES:\n- Beber 2 a 3 litros de água por dia, urinar com frequência (especialmente após relações) e limpar-se sempre da frente para trás.\n- Se usar Fosfomicina (envelope), dissolver em meio copo de água e tomar à noite ao deitar, logo após esvaziar a bexiga.\n- Retornar imediatamente ao pronto-socorro se surgir febre, calafrios, dor forte nas costas ou vômitos."
+      },
+      {
+        "id": "esquema-6",
+        "title": "Esquema 6",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Nitrofurantoína 100 mg — 20 cápsulas\nTomar 1 cápsula de 6/6h, junto das refeições, por 5 dias.\n\nUso oral\n2) Cefalexina 500 mg — 28 cápsulas\nTomar 1 cápsula de 6/6h, por 7 dias.\n\nUso oral\n3) Sulfametoxazol + trimetoprima 800/160 mg — 06 comprimidos\nTomar 1 comprimido de 12/12h, por 3 dias. Só se a resistência local for baixa.\n\nUso oral\n4) Sulfametoxazol + trimetoprima 800/160 mg — 14 comprimidos\nTomar 1 comprimido de 12/12h, por 7 dias. Alternativa: ciprofloxacino 500 mg de 12/12h por 7 dias.\n\nORIENTAÇÕES:\n- Beber 2 a 3 litros de água por dia, urinar com frequência (especialmente após relações) e limpar-se sempre da frente para trás.\n- Se usar Fosfomicina (envelope), dissolver em meio copo de água e tomar à noite ao deitar, logo após esvaziar a bexiga.\n- Retornar imediatamente ao pronto-socorro se surgir febre, calafrios, dor forte nas costas ou vômitos."
+      },
+      {
+        "id": "na-unidade",
+        "title": "Prescrição na unidade",
+        "note": "Administração na unidade · separada da receita domiciliar",
+        "prescription": "PRESCRIÇÃO NA UNIDADE\n\nUso EV ou IM\n1) Dipirona 500 mg/mL — 01 ampola\nAplicar 2 mL (1 g) IM ou EV lento, se dor intensa."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "48 a 72h se não melhorar",
+      "retornar_imediatamente_se": "Febre, calafrio, dor nas costas (região dos rins), vômitos, sangue vivo na urina, piora após 48h de antibiótico ou suspeita de gravidez.",
+      "seguranca_plantonista": "Amamentação: cefalexina, fosfomicina e nitrofurantoína são compatíveis (nitrofurantoína: evitar se bebê com menos de 1 mês). Doença renal: nitrofurantoína: evitar se TFG < 30. Sulfametoxazol + trimetoprima: metade da dose se TFG 15 a 30. Fosfomicina: sem ajuste. Idoso: bacteriúria sem sintomas não se trata.",
+      "encaminhar_internar": "Febre ou dor lombar: ver Pielonefrite. ITU de repetição: urocultura e profilaxia na UBS.",
+      "atestado_sugerido": "1 a 2 dias"
+    }
+  },
+  {
+    "id": "ADU-033",
+    "name": "Cólica biliar e colelitíase",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "K80.2",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "pedra na vesícula, vesícula, dor embaixo das costelas à direita, cálculo biliar, colecistite Escopolamina 10 mg + dipirona 250 mg (Buscopan Composto) Diclofenaco de sódio 50 mg Ondansetrona 8 mg Tramadol 50 mg",
+    "gate": "Dor em hipocôndrio direito ou epigástrio após refeição gordurosa, que melhora em até 6h. Febre, dor > 6h, Murphy positivo ou icterícia: pensar em colecistite, coledocolitíase, colangite ou pancreatite. Pedir hemograma, PCR, bilirrubinas, TGO, TGP, FA, GGT, amilase ou lipase e USG de abdome.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Escopolamina 10 mg + dipirona 250 mg (Buscopan Composto) — 20 comprimidos\nTomar 1 a 2 comprimidos de 6/6h, se dor.\n\nUso oral\n2) Diclofenaco de sódio 50 mg — 09 comprimidos\nTomar 1 comprimido de 8/8h, após as refeições, por 3 dias.\n\nUso oral\n3) Ondansetrona 8 mg — 10 comprimidos\nTomar 1 comprimido de 8/8h, se náusea ou vômito.\n\nORIENTAÇÕES:\n- Dieta com pouca gordura: evitar frituras, embutidos, queijos amarelos, chocolate, creme de leite e carnes gordas.\n- Refeições menores e mais vezes ao dia.\n- Retornar imediatamente ao pronto-socorro se: dor que dura mais de 6h, febre ou calafrio, olhos ou pele amarelados, urina escura, fezes claras, vômitos que não param, dor em faixa que vai para as costas."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Tramadol 50 mg — 10 comprimidos\nTomar 1 comprimido de 8/8h, se dor forte que não melhora com os itens 1 e 2.\n\nORIENTAÇÕES:\n- Dieta com pouca gordura: evitar frituras, embutidos, queijos amarelos, chocolate, creme de leite e carnes gordas.\n- Refeições menores e mais vezes ao dia.\n- Retornar imediatamente ao pronto-socorro se: dor que dura mais de 6h, febre ou calafrio, olhos ou pele amarelados, urina escura, fezes claras, vômitos que não param, dor em faixa que vai para as costas."
+      },
+      {
+        "id": "na-unidade",
+        "title": "Prescrição na unidade",
+        "note": "Administração na unidade · separada da receita domiciliar",
+        "prescription": "PRESCRIÇÃO NA UNIDADE\n\nUso EV\n1) Cetoprofeno 100 mg — 01 frasco-ampola\nDiluir em 100 mL de SF 0,9% e correr EV em 20 min. Anti-inflamatório é a 1ª escolha.\n\nUso IM\n2) Diclofenaco de sódio 75 mg/3 mL — 01 ampola\nAplicar IM profundo, dose única.\n\nUso EV\n3) Escopolamina 20 mg + dipirona 2,5 g (Buscopan Composto) — 01 ampola\nDiluir em 100 mL de SF 0,9% e correr EV em 15 a 20 min.\n\nUso EV\n4) Ondansetrona 8 mg/4 mL — 01 ampola\nAplicar 4 a 8 mg EV lento, se náusea ou vômito. Sem melhora em 1h: Tramadol 100 mg diluído em 100 mL de SF 0,9%, EV em 30 min (associar antiemético), ou Morfina 2 a 4 mg EV."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "UBS com o ultrassom; imediato se sinal de alarme",
+      "retornar_imediatamente_se": "Dor que dura mais de 6h, febre ou calafrio, olhos ou pele amarelados, urina escura, fezes claras, vômitos que não param, dor em faixa que vai para as costas.",
+      "seguranca_plantonista": "Gestante: evitar anti-inflamatório após 20 semanas (usar escopolamina + paracetamol). Colecistite na gestação: avaliação cirúrgica. Idoso: quadro pode ser atípico, limiar menor para exames. Doença renal ou anticoagulado: evitar anti-inflamatório.",
+      "encaminhar_internar": "Colelitíase sintomática: cirurgia geral para colecistectomia eletiva. Colecistite, colangite, coledocolitíase ou pancreatite: internação e cirurgia. Ácido ursodesoxicólico só em casos selecionados sem indicação cirúrgica, com especialista.",
+      "atestado_sugerido": "1 a 3 dias"
+    }
+  },
+  {
+    "id": "ADU-034",
+    "name": "Cólica nefrética",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "N23",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "pedra no rim, cálculo renal, litíase urinária, dor lombar, tansulosina, buscopan, dor nas costas em cólica, nefrolitíase, cólica nefrética Cetoprofeno 150 mg Metoclopramida 10 mg Cetorolaco 10 mg Metoclopramida 10 mg Paco® Diclofenaco 50 mg Metoclopramida 10 mg Tansulosina 0,4 mg Diclofenaco de sódio 50 mg Dipirona 500 mg Tansulosina 0,4 mg Ondansetrona 8 mg Tramadol 50 mg",
+    "gate": "Febre + cálculo obstruindo = urgência (pielonefrite obstrutiva): antibiótico EV e urologia para desobstrução. Também são urgência: rim único, sem urina, insuficiência renal, dor que não cede e gestante. Mulher em idade fértil: beta-hCG. Idoso com primeira \"cólica renal\": descartar aneurisma de aorta.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Cetoprofeno 150 mg — 10 cps\nTomar 01 comprimido se dor, podendo repetir de 12/12h por até 05 dias seguido.\n\nUso oral\n2) Metoclopramida 10 mg — 01 caixa\nTomar 01 comprimido se náuseas ou vômitos, podendo repetir de 8/8h.\n\nUso sublingual\n3) Cetorolaco 10 mg — 10 comprimidos\nColocar 01 comprimido debaixo da língua e aguardar dissolver completamente, podendo repetir de 6/6h por até 05 dias seguidos.\n\nORIENTAÇÕES:\n- Beber bastante água e sucos cítricos (limão/laranja) fora da crise de dor, reduzindo sal, embutidos, refrigerantes e carnes vermelhas.\n- Aplicar bolsa de água morna na região lombar para aliviar a dor e realizar o ultrassom de rins e vias urinárias.\n- Retornar imediatamente à emergência se tiver febre, calafrios, vômitos que não param, dor insuportável ou redução da urina."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Metoclopramida 10 mg — 01 caixa\nTomar 01 comprimido se náuseas ou vômitos, podendo repetir de 8/8h.\n\nUso oral\n2) Paco® — 01 caixa\nTomar 01 comprimido junto com diclofenaco se dor intensa, podendo repetir de 8/8h se necessário. tomar o mínimo possível, para evitar dependência e constipação.\n\nUso oral\n3) Diclofenaco 50 mg — 15 comprimidos\nTomar 01 comprimido junto com paco® se dor intensa, podendo repetir de 8/8h, por até 05 dias seguidos.\n\nORIENTAÇÕES:\n- Beber bastante água e sucos cítricos (limão/laranja) fora da crise de dor, reduzindo sal, embutidos, refrigerantes e carnes vermelhas.\n- Aplicar bolsa de água morna na região lombar para aliviar a dor e realizar o ultrassom de rins e vias urinárias.\n- Retornar imediatamente à emergência se tiver febre, calafrios, vômitos que não param, dor insuportável ou redução da urina."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Metoclopramida 10 mg — 01 caixa\nTomar 01 comprimido se náuseas ou vômitos, podendo repetir de 8/8h.\n\nUso oral\n2) Tansulosina 0,4 mg — 28 comprimidos\nTomar 01 comprimido após o café da manhã, por 04 semanas.\n\nORIENTAÇÕES:\n- Beber bastante água e sucos cítricos (limão/laranja) fora da crise de dor, reduzindo sal, embutidos, refrigerantes e carnes vermelhas.\n- Aplicar bolsa de água morna na região lombar para aliviar a dor e realizar o ultrassom de rins e vias urinárias.\n- Retornar imediatamente à emergência se tiver febre, calafrios, vômitos que não param, dor insuportável ou redução da urina."
+      },
+      {
+        "id": "esquema-4",
+        "title": "Esquema 4",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Diclofenaco de sódio 50 mg — 15 comprimidos\nTomar 1 comprimido de 8/8h, após as refeições, por 5 dias.\n\nUso oral\n2) Dipirona 500 mg — 20 comprimidos\nTomar 1 a 2 comprimidos de 6/6h, se dor.\n\nUso oral\n3) Tansulosina 0,4 mg — 30 cápsulas\nTomar 1 cápsula 1 vez ao dia, sempre após a mesma refeição, por até 4 semanas ou até eliminar o cálculo.\n\nUso oral\n4) Ondansetrona 8 mg — 10 comprimidos\nTomar 1 comprimido de 8/8h, se náusea ou vômito.\n\nORIENTAÇÕES:\n- Beber bastante água e sucos cítricos (limão/laranja) fora da crise de dor, reduzindo sal, embutidos, refrigerantes e carnes vermelhas.\n- Aplicar bolsa de água morna na região lombar para aliviar a dor e realizar o ultrassom de rins e vias urinárias.\n- Retornar imediatamente à emergência se tiver febre, calafrios, vômitos que não param, dor insuportável ou redução da urina."
+      },
+      {
+        "id": "esquema-5",
+        "title": "Esquema 5",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Tramadol 50 mg — 10 comprimidos\nTomar 1 comprimido de 8/8h, se dor forte apesar dos itens 1 e 2.\n\nORIENTAÇÕES:\n- Beber bastante água e sucos cítricos (limão/laranja) fora da crise de dor, reduzindo sal, embutidos, refrigerantes e carnes vermelhas.\n- Aplicar bolsa de água morna na região lombar para aliviar a dor e realizar o ultrassom de rins e vias urinárias.\n- Retornar imediatamente à emergência se tiver febre, calafrios, vômitos que não param, dor insuportável ou redução da urina."
+      },
+      {
+        "id": "na-unidade",
+        "title": "Prescrição na unidade",
+        "note": "Administração na unidade · separada da receita domiciliar",
+        "prescription": "PRESCRIÇÃO NA UNIDADE\n\nUso EV\n1) Cetoprofeno 100 mg — 01 frasco-ampola\nDiluir em 100 mL de SF 0,9% e correr EV em 20 min. Anti-inflamatório é a 1ª escolha.\n\nUso IM\n2) Diclofenaco de sódio 75 mg/3 mL — 01 ampola\nAplicar IM profundo, dose única.\n\nUso EV\n3) Dipirona 500 mg/mL — 02 ampolas\nAplicar 1 a 2 g EV lento, diluído em 10 mL de água destilada.\n\nUso EV\n4) Ondansetrona 8 mg/4 mL — 01 ampola\nAplicar 4 a 8 mg EV lento, se náusea ou vômito. Dor sem melhora em 30 a 60 min: Tramadol 100 mg em 100 mL de SF 0,9%, EV em 30 min, ou Morfina 2 a 4 mg EV, repetindo até controle. Escopolamina pode ser associada, mas ajuda pouco na dor da cólica renal. Não hiper-hidratar: soro EV em excesso não ajuda a eliminar o cálculo. Exames: EAS (hematúria), creatinina e hemograma se febre. Imagem (USG ou TC sem contraste) no 1º episódio, se febre, dúvida diagnóstica ou dor refratária."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "UBS ou urologia com imagem; imediato se febre",
+      "retornar_imediatamente_se": "Febre ou calafrio, vômitos que impedem de tomar os remédios, dor que não melhora com a medicação, urina diminuindo ou parando.",
+      "seguranca_plantonista": "Gestante: evitar anti-inflamatório (paracetamol e, se necessário, opioide). Imagem com USG. Avaliação obstétrica e urológica. Doença renal ou rim único: evitar anti-inflamatório. Idoso: descartar aneurisma de aorta. Tansulosina pode causar queda da pressão ao levantar.",
+      "encaminhar_internar": "Cálculo maior que 10 mm, que não sai em 4 a 6 semanas, hidronefrose importante ou crises de repetição: urologia. Infecção associada, rim único, insuficiência renal, sem urina ou dor refratária: internar e acionar urologia.",
+      "atestado_sugerido": "1 a 3 dias"
+    }
+  },
+  {
+    "id": "ADU-035",
+    "name": "Condiloma acuminado (verruga genital / HPV)",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "A63.0",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "verruga genital, HPV, condiloma, crista de galo, verruga no pênis, verruga na vagina, verruga anal Podofilotoxina 0,15% creme Imiquimode 5% creme",
+    "gate": "Oferecer testes rápidos de HIV, sífilis e hepatites. Mulher: rastreamento do colo do útero conforme a idade. Lesão pigmentada, ulcerada, endurecida ou em imunossuprimido: biópsia.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso local\n1) Podofilotoxina 0,15% creme — 01 bisnaga\nAplicar sobre as verrugas, 2 vezes ao dia, por 3 dias seguidos, e pausar 4 dias. Repetir por até 4 ciclos.\n\nORIENTAÇÕES:\n- Camisinha reduz, mas não elimina a transmissão. Parcerias devem ser avaliadas.\n- Pode voltar mesmo após o tratamento. Não depilar a região com lâmina durante o tratamento.\n- Retornar imediatamente ao pronto-socorro se: sangramento, ferida, crescimento rápido, dor."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Imiquimode 5% creme — 12 sachês\nAplicar sobre as verrugas à noite, 3 vezes por semana (dias alternados), e lavar após 6 a 10h. Por até 16 semanas. Não usar na gestação.\n\nORIENTAÇÕES:\n- Camisinha reduz, mas não elimina a transmissão. Parcerias devem ser avaliadas.\n- Pode voltar mesmo após o tratamento. Não depilar a região com lâmina durante o tratamento.\n- Retornar imediatamente ao pronto-socorro se: sangramento, ferida, crescimento rápido, dor."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "4 semanas",
+      "retornar_imediatamente_se": "Sangramento, ferida, crescimento rápido, dor.",
+      "seguranca_plantonista": "Gestante: não usar podofilotoxina nem imiquimode. Usar ATA ou crioterapia. Pessoa vivendo com HIV ou imunossuprimida: resposta menor e mais recidiva.",
+      "encaminhar_internar": "Lesões extensas, perianais internas, no colo do útero ou sem resposta: ginecologia, urologia ou coloproctologia.",
+      "atestado_sugerido": "não se aplica"
+    }
+  },
+  {
+    "id": "ADU-036",
+    "name": "Conjuntivite",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "H10.9",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "olho vermelho, secreção ocular, remela, tobramicina, tobrex, ciprofloxacino, olho grudado, conjuntivite viral, conjuntivite bacteriana, conjuntivite alérgica Tobramicina 3mg/ml colírio Solução Fisiológica 0,9% Lágrima artificial (carmelose 0,5%) colírio Tobramicina 0,3% colírio Ciprofloxacino 0,3% colírio Olopatadina 0,1% colírio Loratadina 10 mg",
+    "gate": "Olho vermelho com dor forte, baixa de visão, muita sensibilidade à luz, pupila alterada, trauma ou usuário de lente de contato com dor: não é conjuntivite simples. Oftalmologia no mesmo dia.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oftálmico\n1) Tobramicina 3mg/ml colírio — 01 frasco\nPingar 1 gota em cada olho, de 6/6h por 07 dias. Horário sugerido: 06:00 / 12:00 / 18:00 / 00:00.\n\nUso local\n2) Solução Fisiológica 0,9% — 01 frasco\nLavar os olhos afetados com soro gelado quatro vezes ao dia. guardar o soro na geladeira. por 05 a 07 dias (ou diariamente enquanto houver congestão).\n\nORIENTAÇÕES:\n- Lavar os olhos várias vezes ao dia com Soro Fisiológico 0,9% gelado usando gazes descartáveis (uma para cada olho) e lavar bem as mãos.\n- Não coçar os olhos, suspender lentes de contato e não compartilhar toalhas, fronhas ou maquiagens.\n- Retornar ao oftalmologista se houver dor ocular forte, sensibilidade intensa à luz ou visão borrada."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oftálmico\n1) Lágrima artificial (carmelose 0,5%) colírio — 01 frasco\nPingar 1 gota no olho afetado, de 4/4h, por 7 a 14 dias.\n\nORIENTAÇÕES:\n- Lavar os olhos várias vezes ao dia com Soro Fisiológico 0,9% gelado usando gazes descartáveis (uma para cada olho) e lavar bem as mãos.\n- Não coçar os olhos, suspender lentes de contato e não compartilhar toalhas, fronhas ou maquiagens.\n- Retornar ao oftalmologista se houver dor ocular forte, sensibilidade intensa à luz ou visão borrada."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oftálmico\n1) Tobramicina 0,3% colírio — 01 frasco\nPingar 1 a 2 gotas no olho afetado, de 4/4h, por 7 dias.\n\nUso oftálmico\n2) Ciprofloxacino 0,3% colírio — 01 frasco\nPingar 1 a 2 gotas no olho afetado, de 2/2h acordado nos 2 primeiros dias, depois de 4/4h por mais 5 dias. Preferir em usuário de lente de contato.\n\nUso oftálmico\n3) Olopatadina 0,1% colírio — 01 frasco\nPingar 1 gota em cada olho, de 12/12h, enquanto houver sintomas.\n\nUso oral\n4) Loratadina 10 mg — 10 comprimidos\nTomar 1 comprimido 1 vez ao dia, se coceira.\n\nORIENTAÇÕES:\n- Lavar os olhos várias vezes ao dia com Soro Fisiológico 0,9% gelado usando gazes descartáveis (uma para cada olho) e lavar bem as mãos.\n- Não coçar os olhos, suspender lentes de contato e não compartilhar toalhas, fronhas ou maquiagens.\n- Retornar ao oftalmologista se houver dor ocular forte, sensibilidade intensa à luz ou visão borrada."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "48 a 72h se piorar; 7 dias se não melhorar",
+      "retornar_imediatamente_se": "Dor forte no olho, visão embaçada que não melhora ao piscar, muita sensibilidade à luz, pálpebras inchadas e vermelhas com febre, piora após 48h de colírio.",
+      "seguranca_plantonista": "Gestante e amamentação: tobramicina, lágrima artificial e olopatadina em colírio podem ser usadas (absorção mínima). Usuário de lente de contato: sempre cobrir Pseudomonas (ciprofloxacino colírio).",
+      "encaminhar_internar": "Recém-nascido, secreção muito abundante (suspeita de gonococo), bolhas na pálpebra (herpes), lente de contato com dor ou sem melhora em 7 dias: oftalmologia.",
+      "atestado_sugerido": "viral, até 7 dias (período de contágio); bacteriana, 1 a 2 dias"
+    }
+  },
+  {
+    "id": "ADU-037",
+    "name": "Constipação",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "K59.0",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "intestino preso, prisão de ventre, muvinlax, lactulose, óleo mineral, bisacodil, fecaloma, não consegue evacuar, laxante, constipação Óleo mineral Bisacodil 5mg Bisacodil 5mg Lactulose xarope 667mg/ml Benefiber ® Simeticona 40 mg Muvinlax ® Simeticona 40 mg Muvinlax ® Benefiber ® Simeticona 40 mg Macrogol 3350 (polietilenoglicol) sachê Psyllium 5 g sachê Lactulose 667 mg/mL Bisacodil 5 mg",
+    "gate": "Antes de lavagem: excluir obstrução intestinal (distensão, vômitos, parada de gases, dor intensa). Investigar câncer colorretal se: início recente após 50 anos, sangramento, perda de peso, anemia ou história familiar.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Óleo mineral — 01 frasco\nTomar 01 colher de sopa de 8/8h Horário sugerido (8/8h): 06:00 / 14:00 / 22:00.\n\nUso oral\n2) Bisacodil 5mg — 01 caixa\nTomar 01 drágea/comprimido à noite, até evacuar.\n\nORIENTAÇÕES:\n- Beber de 8 a 10 copos de água por dia e aumentar o consumo de fibras (mamão, ameixa, aveia, verduras e legumes).\n- Caminhar diariamente, ir ao banheiro no mesmo horário e nunca tomar Óleo Mineral deitado ou logo antes de dormir.\n- Procurar emergência se parar totalmente de eliminar gases e fezes com barriga inchada, dor forte, vômitos ou sangue nas fezes."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Bisacodil 5mg — 01 caixa\nTomar 02 drágeas/comprimidos à noite, até evacuar.\n\nUso oral\n2) Lactulose xarope 667mg/ml — 01 frasco\nTomar 05ml de 8/8h Horário sugerido (8/8h): 06:00 / 14:00 / 22:00.\n\nUso oral\n3) Benefiber ® — 01 caixa\nDissolver 01 sachê em 01 copo de água ou suco e tomar ao almoço por 28 dias.\n\nUso oral\n4) Simeticona 40 mg — 01 caixa\nTomar 01 comprimido se dor (gases), podendo repetir de 6/6h.\n\nUso oral\n5) Muvinlax ® — 01 caixa\nDissolver 01 sachê em 01 copo de água ou suco e tomar após o café da manhã por 03 dias.\n\nORIENTAÇÕES:\n- Beber de 8 a 10 copos de água por dia e aumentar o consumo de fibras (mamão, ameixa, aveia, verduras e legumes).\n- Caminhar diariamente, ir ao banheiro no mesmo horário e nunca tomar Óleo Mineral deitado ou logo antes de dormir.\n- Procurar emergência se parar totalmente de eliminar gases e fezes com barriga inchada, dor forte, vômitos ou sangue nas fezes."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Simeticona 40 mg — 01 caixa\nTomar 01 comprimido se dor (gases), podendo repetir de 6/6h.\n\nUso oral\n2) Muvinlax ® — 01 caixa\nDissolver 01 sachê em 01 copo de água ou suco e tomar após o café da manhã por 03 dias.\n\nUso oral\n3) Benefiber ® — 01 caixa\nDissolver 01 sachê em 01 copo de água ou suco e tomar ao almoço por 28 dias.\n\nORIENTAÇÕES:\n- Beber de 8 a 10 copos de água por dia e aumentar o consumo de fibras (mamão, ameixa, aveia, verduras e legumes).\n- Caminhar diariamente, ir ao banheiro no mesmo horário e nunca tomar Óleo Mineral deitado ou logo antes de dormir.\n- Procurar emergência se parar totalmente de eliminar gases e fezes com barriga inchada, dor forte, vômitos ou sangue nas fezes."
+      },
+      {
+        "id": "esquema-4",
+        "title": "Esquema 4",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Simeticona 40 mg — 01 caixa\nTomar 01 comprimido se dor (gases), podendo repetir de 6/6h.\n\nORIENTAÇÕES:\n- Beber de 8 a 10 copos de água por dia e aumentar o consumo de fibras (mamão, ameixa, aveia, verduras e legumes).\n- Caminhar diariamente, ir ao banheiro no mesmo horário e nunca tomar Óleo Mineral deitado ou logo antes de dormir.\n- Procurar emergência se parar totalmente de eliminar gases e fezes com barriga inchada, dor forte, vômitos ou sangue nas fezes."
+      },
+      {
+        "id": "esquema-5",
+        "title": "Esquema 5",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Macrogol 3350 (polietilenoglicol) sachê — 20 sachês\nDissolver 1 sachê em 1 copo de água e tomar 1 a 2 vezes ao dia. Ajustar até evacuar fezes macias todos os dias.\n\nUso oral\n2) Psyllium 5 g sachê — 30 sachês\nDissolver 1 sachê em 1 copo grande de água e tomar 1 a 2 vezes ao dia, seguido de mais 1 copo de água.\n\nORIENTAÇÕES:\n- Beber de 8 a 10 copos de água por dia e aumentar o consumo de fibras (mamão, ameixa, aveia, verduras e legumes).\n- Caminhar diariamente, ir ao banheiro no mesmo horário e nunca tomar Óleo Mineral deitado ou logo antes de dormir.\n- Procurar emergência se parar totalmente de eliminar gases e fezes com barriga inchada, dor forte, vômitos ou sangue nas fezes."
+      },
+      {
+        "id": "esquema-6",
+        "title": "Esquema 6",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Lactulose 667 mg/mL — 01 frasco\nTomar 15 a 30 mL 1 vez ao dia, de preferência à noite. Ajustar conforme o intestino.\n\nUso oral\n2) Bisacodil 5 mg — 20 comprimidos\nTomar 1 a 2 comprimidos à noite, se não evacuar em 3 dias. Uso de resgate (pode dar cólica).\n\nORIENTAÇÕES:\n- Beber de 8 a 10 copos de água por dia e aumentar o consumo de fibras (mamão, ameixa, aveia, verduras e legumes).\n- Caminhar diariamente, ir ao banheiro no mesmo horário e nunca tomar Óleo Mineral deitado ou logo antes de dormir.\n- Procurar emergência se parar totalmente de eliminar gases e fezes com barriga inchada, dor forte, vômitos ou sangue nas fezes."
+      },
+      {
+        "id": "na-unidade",
+        "title": "Prescrição na unidade",
+        "note": "Administração na unidade · separada da receita domiciliar",
+        "prescription": "PRESCRIÇÃO NA UNIDADE\n\nUso retal\n1) Clister glicerinado 12% 500 mL — 01 unidade / conforme orientação\nAquecer em banho-maria até a temperatura do corpo e aplicar via retal, lentamente, com o paciente deitado sobre o lado esquerdo."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "UBS se não melhorar em 2 a 4 semanas",
+      "retornar_imediatamente_se": "Barriga inchada e dura, vômitos, parar de soltar gases, dor forte, sangue nas fezes, febre.",
+      "seguranca_plantonista": "Gestante: psyllium, lactulose e macrogol são seguros. Evitar óleo mineral. Idoso: preferir macrogol. Evitar óleo mineral (risco de aspiração). Atenção à desidratação. Doença renal: evitar enema de fosfato e laxantes com magnésio.",
+      "encaminhar_internar": "Sinal de alarme ou constipação nova após 50 anos: colonoscopia. Revisar remédios que prendem o intestino (opioides, ferro, antiácidos com alumínio, anticolinérgicos, anlodipino) e checar hipotireoidismo.",
+      "atestado_sugerido": "não se aplica"
+    }
+  },
+  {
+    "id": "ADU-038",
+    "name": "Coqueluche",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "A37.9",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "tosse comprida, guincho, bordetella pertussis, azitromicina, claritromicina Azitromicina 500 mg Metoclopramida 10 mg Dipirona 500mg Solução Fisiológica 0,9% Claritromicina 500 mg Metoclopramida 10 mg Dipirona 500mg Solução Fisiológica 0,9% Sulfametoxazol + Trimetoprima 800/160 mg Metoclopramida 10 mg Dipirona 500mg Solução Fisiológica 0,9%",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Azitromicina 500 mg — 06 comprimidos\nTomar 02 comprimidos no primeiro dia, e depois 01 comprimido ao dia do 2º ao 5º dia pelo período orientado pelo médico.\n\nUso oral\n2) Metoclopramida 10 mg — 01 caixa\nTomar 01 comprimido se náuseas ou vômitos, podendo repetir de 8/8h.\n\nUso oral\n3) Dipirona 500mg — 01 caixa\nTomar 02 comprimidos se febre ou dor, podendo repetir de 06/06h.\n\nUso nasal\n4) Solução Fisiológica 0,9% — 01 frasco\nAspirar o soro com a seringa, retirar a agulha e injetar em cada narina (sem tapar a outra), estando com a boca aberta, três vezes ao dia por 05 a 07 dias (ou diariamente enquanto houver congestão).\n\nUso oral\n5) Claritromicina 500 mg — 14 cps\nTomar 01 comprimido de 12/12h por 07 dias Horário sugerido: 08:00 - 20:00.\n\nORIENTAÇÕES:\n- Cumprir os 05 dias de antibiótico mantendo afastamento de bebês, gestantes e idosos nos primeiros 5 dias de tratamento.\n- Beber bastante líquido e fazer refeições leves em pequenas porções para evitar vômitos após a tosse.\n- Retornar imediatamente ao pronto-socorro se houver falta de ar, lábios arroxeados ou vômitos que impeçam a hidratação."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Metoclopramida 10 mg — 01 caixa\nTomar 01 comprimido se náuseas ou vômitos, podendo repetir de 8/8h.\n\nUso oral\n2) Dipirona 500mg — 01 caixa\nTomar 02 comprimidos se febre ou dor, podendo repetir de 06/06h.\n\nUso nasal\n3) Solução Fisiológica 0,9% — 01 frasco\nAspirar o soro com a seringa, retirar a agulha e injetar em cada narina (sem tapar a outra), estando com a boca aberta, três vezes ao dia por 05 a 07 dias (ou diariamente enquanto houver congestão).\n\nUso oral\n4) Sulfametoxazol + Trimetoprima 800/160 mg — 14 comprimidos\nTomar 01 comprimido de 12/12h por 07 dias Horário sugerido: 08:00 - 20:00.\n\nORIENTAÇÕES:\n- Cumprir os 05 dias de antibiótico mantendo afastamento de bebês, gestantes e idosos nos primeiros 5 dias de tratamento.\n- Beber bastante líquido e fazer refeições leves em pequenas porções para evitar vômitos após a tosse.\n- Retornar imediatamente ao pronto-socorro se houver falta de ar, lábios arroxeados ou vômitos que impeçam a hidratação."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Metoclopramida 10 mg — 01 caixa\nTomar 01 comprimido se náuseas ou vômitos, podendo repetir de 8/8h.\n\nUso oral\n2) Dipirona 500mg — 01 caixa\nTomar 02 comprimidos se febre ou dor, podendo repetir de 06/06h.\n\nUso nasal\n3) Solução Fisiológica 0,9% — 01 frasco\nAspirar o soro com a seringa, retirar a agulha e injetar em cada narina (sem tapar a outra), estando com a boca aberta, três vezes ao dia por 05 a 07 dias (ou diariamente enquanto houver congestão).\n\nORIENTAÇÕES:\n- Cumprir os 05 dias de antibiótico mantendo afastamento de bebês, gestantes e idosos nos primeiros 5 dias de tratamento.\n- Beber bastante líquido e fazer refeições leves em pequenas porções para evitar vômitos após a tosse.\n- Retornar imediatamente ao pronto-socorro se houver falta de ar, lábios arroxeados ou vômitos que impeçam a hidratação."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  }
+]
+
+

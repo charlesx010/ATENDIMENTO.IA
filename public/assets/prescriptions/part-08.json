@@ -1,0 +1,298 @@
+[
+  {
+    "id": "ADU-055",
+    "name": "Diarreia por nematelmintos",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "B82.0",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "vermes, lombriga, ascaris, ancilostomíase, albendazol Soro de Reidratação (SRO) Albendazol 400 mg Saccharomyces Boulardii 200 mg Dipirona 500 mg Butilbrometo de Escopolamina 10 mg Metoclopramida 10 mg",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso local\n1) Soro de Reidratação (SRO) — 01 caixa\nDiluir 01 sachê em 1 litro de água filtrada ou fervida e guardar na geladeira. tomar 01 copo após cada evacuação diarreica pelo período orientado pelo médico.\n\nUso oral\n2) Albendazol 400 mg — 4 comprimidos\nTomar 01 comprimido ao dia por 3 dias e repetir após 21 dias.\n\nUso oral\n3) Saccharomyces Boulardii 200 mg — 10 comprimidos\nTomar 01 comprimido de 12/12h por 05 dias.\n\nUso oral\n4) Dipirona 500 mg — 01 caixa\nTomar 02 comprimidos se dor ou febre, podendo repetir de 6/6h.\n\nUso oral\n5) Butilbrometo de Escopolamina 10 mg — 01 caixa\nTomar 01 comprimido se dor abdominal, podendo repetir de 8/8h.\n\nUso oral\n6) Metoclopramida 10 mg — 01 caixa\nTomar 01 comprimido se náuseas ou vômitos, podendo repetir de 8/8h.\n\nORIENTAÇÕES:\n- Tomar o Albendazol com as refeições e anotar a data para repetir a dose após 21 dias (contraindicado em gestantes).\n- Beber apenas água filtrada, lavar bem mãos e alimentos, manter unhas curtas e andar sempre calçado.\n- Retornar ao médico se houver vômitos persistentes, barriga inchada com parada de gases/fezes ou febre."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  },
+  {
+    "id": "ADU-056",
+    "name": "Diarreia por protozoários",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "A06.0 / A07.1",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "giardíase, amebíase, secnidazol, nitazoxanida, annita Secnidazol 01 g Saccharomyces Boulardii 200 mg Dipirona 500 mg Butilbrometo de Escopolamina 10 mg Metoclopramida 10 mg Soro de Reidratação (SRO) Nitazoxanida 500 mg Saccharomyces Boulardii 200 mg Dipirona 500 mg Butilbrometo de Escopolamina 10 mg Metoclopramida 10 mg Soro de Reidratação (SRO)",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Secnidazol 01 g — 02 comprimidos\nTomar 02 comprimidos em dose única.\n\nUso oral\n2) Saccharomyces Boulardii 200 mg — 10 comprimidos\nTomar 01 comprimido de 12/12h por 05 dias.\n\nUso oral\n3) Dipirona 500 mg — 01 caixa\nTomar 02 comprimidos se dor ou febre, podendo repetir de 6/6h.\n\nUso oral\n4) Butilbrometo de Escopolamina 10 mg — 01 caixa\nTomar 01 comprimido se dor abdominal, podendo repetir de 8/8h.\n\nUso oral\n5) Metoclopramida 10 mg — 01 caixa\nTomar 01 comprimido se náuseas ou vômitos, podendo repetir de 8/8h.\n\nUso local\n6) Soro de Reidratação (SRO) — 01 caixa\nDiluir 01 sachê em 1 litro de água filtrada ou fervida e guardar na geladeira. tomar 01 copo após cada evacuação diarreica pelo período orientado pelo médico.\n\nUso oral\n7) Nitazoxanida 500 mg — 06 comprimidos\nTomar 01 comprimido de 12/12 horas por 03 dias seguidos Horário sugerido (12/12h): 08:00 / 20:00.\n\nORIENTAÇÕES:\n- Tomar o antiparasitário após as refeições e evitar totalmente bebidas alcoólicas durante e até 72h após o tratamento.\n- A Nitazoxanida pode deixar a urina amarelada/esverdeada (efeito normal e passageiro); manter hidratação com Soro de Reidratação.\n- Retornar ao serviço de saúde se houver sinais de desidratação, vômitos contínuos, febre alta ou dor abdominal forte."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Saccharomyces Boulardii 200 mg — 10 comprimidos\nTomar 01 comprimido de 12/12h por 05 dias.\n\nUso oral\n2) Dipirona 500 mg — 01 caixa\nTomar 02 comprimidos se dor ou febre, podendo repetir de 6/6h.\n\nUso oral\n3) Butilbrometo de Escopolamina 10 mg — 01 caixa\nTomar 01 comprimido se dor abdominal, podendo repetir de 8/8h.\n\nUso oral\n4) Metoclopramida 10 mg — 01 caixa\nTomar 01 comprimido se náuseas ou vômitos, podendo repetir de 8/8h.\n\nUso local\n5) Soro de Reidratação (SRO) — 01 caixa\nDiluir 01 sachê em 1 litro de água filtrada ou fervida e guardar na geladeira. tomar 01 copo após cada evacuação diarreica pelo período orientado pelo médico.\n\nORIENTAÇÕES:\n- Tomar o antiparasitário após as refeições e evitar totalmente bebidas alcoólicas durante e até 72h após o tratamento.\n- A Nitazoxanida pode deixar a urina amarelada/esverdeada (efeito normal e passageiro); manter hidratação com Soro de Reidratação.\n- Retornar ao serviço de saúde se houver sinais de desidratação, vômitos contínuos, febre alta ou dor abdominal forte."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  },
+  {
+    "id": "ADU-057",
+    "name": "Disidrose",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "L30.1",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "bolhas nas mãos e pés, eczema disidrótico, permanganato, betametasona Trok-n® Permanganato de Potássio 100mg Cetirizina 10mg",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso local\n1) Trok-n® — 01 bisnaga\nAplicar nas lesões duas vezes ao dia até melhora.\n\nUso local\n2) Permanganato de Potássio 100mg — 01 caixa\nDiluir 01 comprimido em 01 litro de água morna e aplicar na forma de compressa duas vezes ao dia por 05 a 07 dias (enquanto houver lesões exsudativas).\n\nUso oral\n3) Cetirizina 10mg — 01 caixa\nTomar 01 comprimido ao dia, no mesmo horário, por 05 dias. Após este período, tomar 01 comprimido se coceira ou espirros, podendo repetir a dose 24/24h se necessário.\n\nORIENTAÇÕES:\n- Usar luvas forradas com algodão ao mexer com detergentes ou produtos químicos e lavar mãos/pés com sabonete neutro.\n- Não estourar as bolhas, diluir o Permanganato em 1 litro de água morna para as compressas e hidratar mãos e pés várias vezes ao dia.\n- Retornar ao médico se surgir pus, calor local intenso, inchaço ou febre."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  },
+  {
+    "id": "ADU-058",
+    "name": "Dislipidemia — início do tratamento com estatinas",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "E78.5",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "colesterol alto, triglicérides alto, LDL alto, estatina, sinvastatina, dislipidemia Sinvastatina 40 mg Atorvastatina 40 mg Rosuvastatina 20 mg Ciprofibrato 100 mg",
+    "gate": "Calcular o risco cardiovascular. Muito alto risco: infarto, AVC isquêmico ou doença arterial prévia. LDL de 190 ou mais: tratar e investigar hipercolesterolemia familiar. Metas de LDL (SBC): risco baixo < 130, intermediário < 100, alto < 70, muito alto < 50 mg/dL. Triglicérides acima de 500: risco de pancreatite.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Sinvastatina 40 mg — 30 comprimidos\nTomar 1 comprimido à noite.\n\nORIENTAÇÕES:\n- Menos gordura saturada, frituras, ultraprocessados e açúcar. Mais fibras, verduras e peixe.\n- Atividade física, perder peso e parar de fumar.\n- Retornar imediatamente ao pronto-socorro se: dor muscular forte ou fraqueza com urina escura, olhos amarelados, dor forte na barriga (triglicérides alto)."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Atorvastatina 40 mg — 30 comprimidos\nTomar 1 comprimido 1 vez ao dia. Para alto e muito alto risco pode subir para 80 mg.\n\nUso oral\n2) Rosuvastatina 20 mg — 30 comprimidos\nTomar 1 comprimido 1 vez ao dia. Alta intensidade.\n\nUso oral\n3) Ciprofibrato 100 mg — 30 comprimidos\nTomar 1 comprimido 1 vez ao dia.\n\nORIENTAÇÕES:\n- Menos gordura saturada, frituras, ultraprocessados e açúcar. Mais fibras, verduras e peixe.\n- Atividade física, perder peso e parar de fumar.\n- Retornar imediatamente ao pronto-socorro se: dor muscular forte ou fraqueza com urina escura, olhos amarelados, dor forte na barriga (triglicérides alto)."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "6 a 12 semanas com novo lipidograma",
+      "retornar_imediatamente_se": "Dor muscular forte ou fraqueza com urina escura, olhos amarelados, dor forte na barriga (triglicérides alto).",
+      "seguranca_plantonista": "Gestante e amamentação: estatina é contraindicada. Suspender ao planejar gestação. Interações: sinvastatina com claritromicina, itraconazol, amiodarona, diltiazem e verapamil. Com anlodipino, no máximo 20 mg de sinvastatina. Doença renal: rosuvastatina no máximo 10 mg se TFG < 30. Idoso acima de 75 anos: individualizar.",
+      "encaminhar_internar": "LDL acima de 190 com suspeita familiar, intolerância a estatina ou meta não atingida: cardiologia ou endocrinologia.",
+      "atestado_sugerido": "não se aplica"
+    }
+  },
+  {
+    "id": "ADU-059",
+    "name": "Dismenorreia",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "N94.4",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "cólica menstrual forte, piroxicam, feldene, meloxicam, buscopan, cólica menstrual, dor na menstruação, dismenorreia primária, dor no período Butilbrometo de Escopolamina 10 mg Metoclopramida 10 mg Piroxicam 20 mg Metoclopramida 10 mg Meloxicam 7,5 mg Metoclopramida 10 mg Ibuprofeno 600 mg Escopolamina 10 mg + dipirona 250 mg (Buscopan Composto) Ácido mefenâmico 500 mg Paracetamol 500 mg + codeína 30 mg",
+    "gate": "Dor que começa com a menstruação e dura 1 a 3 dias é primária. Dor que piora com os anos, dor na relação, sangramento intenso ou dor fora da menstruação: pensar em endometriose, adenomiose ou mioma (USG transvaginal). Atraso menstrual: beta-hCG.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Butilbrometo de Escopolamina 10 mg — 01 caixa\nTomar 01 comprimido se dor abdominal, podendo repetir de 8/8h.\n\nUso oral\n2) Metoclopramida 10 mg — 01 caixa\nTomar 01 comprimido se náuseas ou vômitos, podendo repetir de 8/8h.\n\nUso oral\n3) Piroxicam 20 mg — 10 comprimidos\nTomar 01 comprimido se dor, podendo repetir de 12/12h por até 05 dias.\n\nORIENTAÇÕES:\n- Tomar o anti-inflamatório logo no início da cólica menstrual, sempre após as refeições.\n- Aplicar bolsa de água morna no baixo ventre por 20 minutos, 3 vezes ao dia, e reduzir sal e cafeína.\n- Procurar atendimento médico se houver febre, corrimento com mau cheiro, sangramento excessivo ou suspeita de gravidez."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Metoclopramida 10 mg — 01 caixa\nTomar 01 comprimido se náuseas ou vômitos, podendo repetir de 8/8h.\n\nUso oral\n2) Meloxicam 7,5 mg — 05 comprimidos\nTomar 01 comprimido se dor, podendo repetir de 24/24h por até 05 dias seguidos.\n\nORIENTAÇÕES:\n- Tomar o anti-inflamatório logo no início da cólica menstrual, sempre após as refeições.\n- Aplicar bolsa de água morna no baixo ventre por 20 minutos, 3 vezes ao dia, e reduzir sal e cafeína.\n- Procurar atendimento médico se houver febre, corrimento com mau cheiro, sangramento excessivo ou suspeita de gravidez."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Metoclopramida 10 mg — 01 caixa\nTomar 01 comprimido se náuseas ou vômitos, podendo repetir de 8/8h.\n\nORIENTAÇÕES:\n- Tomar o anti-inflamatório logo no início da cólica menstrual, sempre após as refeições.\n- Aplicar bolsa de água morna no baixo ventre por 20 minutos, 3 vezes ao dia, e reduzir sal e cafeína.\n- Procurar atendimento médico se houver febre, corrimento com mau cheiro, sangramento excessivo ou suspeita de gravidez."
+      },
+      {
+        "id": "esquema-4",
+        "title": "Esquema 4",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Ibuprofeno 600 mg — 15 comprimidos\nTomar 1 comprimido de 8/8h, após as refeições, por 5 dias. Nos próximos ciclos, começar 1 dia antes ou no primeiro sinal da menstruação.\n\nUso oral\n2) Escopolamina 10 mg + dipirona 250 mg (Buscopan Composto) — 20 comprimidos\nTomar 1 a 2 comprimidos de 6/6h, se cólica.\n\nORIENTAÇÕES:\n- Tomar o anti-inflamatório logo no início da cólica menstrual, sempre após as refeições.\n- Aplicar bolsa de água morna no baixo ventre por 20 minutos, 3 vezes ao dia, e reduzir sal e cafeína.\n- Procurar atendimento médico se houver febre, corrimento com mau cheiro, sangramento excessivo ou suspeita de gravidez."
+      },
+      {
+        "id": "esquema-5",
+        "title": "Esquema 5",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Ácido mefenâmico 500 mg — 15 comprimidos\nTomar 1 comprimido de 8/8h, após as refeições, por 5 dias.\n\nUso oral\n2) Paracetamol 500 mg + codeína 30 mg — 12 comprimidos\nTomar 1 comprimido de 6/6h, se dor forte apesar dos itens 1 e 2. Anticoncepcional combinado (ex.: levonorgestrel 0,15 mg + etinilestradiol 0,03 mg), 1 comprimido por dia, de preferência em uso contínuo. Antes, checar contraindicações: enxaqueca com aura, fumante acima de 35 anos, hipertensão, trombose prévia.\n\nORIENTAÇÕES:\n- Tomar o anti-inflamatório logo no início da cólica menstrual, sempre após as refeições.\n- Aplicar bolsa de água morna no baixo ventre por 20 minutos, 3 vezes ao dia, e reduzir sal e cafeína.\n- Procurar atendimento médico se houver febre, corrimento com mau cheiro, sangramento excessivo ou suspeita de gravidez."
+      },
+      {
+        "id": "na-unidade",
+        "title": "Prescrição na unidade",
+        "note": "Administração na unidade · separada da receita domiciliar",
+        "prescription": "PRESCRIÇÃO NA UNIDADE\n\nUso EV\n1) Cetoprofeno 100 mg — 01 frasco-ampola\nDiluir em 100 mL de SF 0,9% e correr EV em 20 min.\n\nUso IM\n2) Diclofenaco de sódio 75 mg/3 mL — 01 ampola\nAplicar IM profundo, dose única.\n\nUso EV\n3) Escopolamina 20 mg + dipirona 2,5 g (Buscopan Composto) — 01 ampola\nDiluir em 100 mL de SF 0,9% e correr EV em 15 a 20 min."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "UBS se refratária",
+      "retornar_imediatamente_se": "Dor muito forte com desmaio, febre, atraso menstrual, sangramento muito intenso, corrimento com mau cheiro.",
+      "seguranca_plantonista": "Asma que piora com anti-inflamatório, úlcera ou doença renal: evitar anti-inflamatório. Usar escopolamina + paracetamol. Desejo de engravidar: não usar anticoncepcional. Codeína: evitar na amamentação.",
+      "encaminhar_internar": "Suspeita de endometriose ou sem resposta a anti-inflamatório + hormônio por 3 a 6 meses: ginecologia.",
+      "atestado_sugerido": "1 dia"
+    }
+  },
+  {
+    "id": "ADU-060",
+    "name": "Diverticulite aguda não complicada",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "K57.3",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "diverticulite, dor do lado esquerdo da barriga, divertículo, doença diverticular Amoxicilina + clavulanato 875/125 mg Dipirona 500 mg Escopolamina 10 mg (Buscopan simples) Ciprofloxacino 500 mg Metronidazol 400 mg",
+    "gate": "Dor em fossa ilíaca esquerda com febre ou leucocitose. TC no 1º episódio ou se dúvida. Não complicada (sem abscesso, perfuração ou obstrução) em pessoa imunocompetente: tratamento em casa. Casos leves selecionados (sem febre alta, sem comorbidade, boa aceitação oral) podem ser tratados sem antibiótico, com reavaliação próxima.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Amoxicilina + clavulanato 875/125 mg — 14 comprimidos\nTomar 1 comprimido de 12/12h, por 7 dias.\n\nUso oral\n2) Dipirona 500 mg — 20 comprimidos\nTomar 1 a 2 comprimidos de 6/6h, se dor ou febre.\n\nUso oral\n3) Escopolamina 10 mg (Buscopan simples) — 01 unidade / conforme orientação\n20 drágeas Tomar 1 drágea de 8/8h, se cólica.\n\nORIENTAÇÕES:\n- Dieta leve ou líquida nos primeiros 2 a 3 dias. Depois, voltar ao normal e aumentar as fibras.\n- Fazer colonoscopia 6 a 8 semanas após melhorar, se não tiver uma recente (descartar câncer).\n- Retornar imediatamente ao pronto-socorro se: dor que piora, febre alta, vômitos, barriga dura, não consegue beber, sangue nas fezes."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Ciprofloxacino 500 mg — 14 comprimidos\nTomar 1 comprimido de 12/12h, por 7 dias, junto com o item 2.\n\nUso oral\n2) Metronidazol 400 mg — 21 comprimidos\nTomar 1 comprimido de 8/8h, por 7 dias. Sem álcool. Evitar anti-inflamatório (associado a perfuração).\n\nORIENTAÇÕES:\n- Dieta leve ou líquida nos primeiros 2 a 3 dias. Depois, voltar ao normal e aumentar as fibras.\n- Fazer colonoscopia 6 a 8 semanas após melhorar, se não tiver uma recente (descartar câncer).\n- Retornar imediatamente ao pronto-socorro se: dor que piora, febre alta, vômitos, barriga dura, não consegue beber, sangue nas fezes."
+      },
+      {
+        "id": "na-unidade",
+        "title": "Prescrição na unidade",
+        "note": "Administração na unidade · separada da receita domiciliar",
+        "prescription": "PRESCRIÇÃO NA UNIDADE\n\nUso EV\n1) Dipirona 500 mg/mL — 01 ampola\nAplicar 2 mL (1 g) EV lento.\n\nUso EV\n2) Escopolamina 20 mg/mL (Buscopan simples) — 01 ampola\nAplicar 1 mL (20 mg) EV lento, se cólica."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "48 a 72h",
+      "retornar_imediatamente_se": "Dor que piora, febre alta, vômitos, barriga dura, não consegue beber, sangue nas fezes.",
+      "seguranca_plantonista": "Idoso ou imunossuprimido: limiar menor para internar. Doença renal: ciprofloxacino 500 mg 1 vez ao dia se TFG < 30.",
+      "encaminhar_internar": "Internar: diverticulite complicada, imunossuprimido, idoso frágil, sem aceitação oral, dor intensa ou sem melhora em 48 a 72h.",
+      "atestado_sugerido": "3 a 7 dias"
+    }
+  },
+  {
+    "id": "ADU-061",
+    "name": "Doença de Ménière",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "H81.0",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "vertigem rotatória, zumbido, perda auditiva, labirintite, betaistina, labirin, cinarizina Betaistina 24 mg Dimenidrinato 50 mg + Piridoxina 10mg Cinarizina 75 mg Betaistina 24 mg Dimenidrinato 50 mg + Piridoxina 10mg Cinarizina 75 mg",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Betaistina 24 mg — 01 caixa\nTomar 01 comprimido de 12/12h por 30 dias contínuos Horário sugerido: 08:00 – 20:00.\n\nUso oral\n2) Dimenidrinato 50 mg + Piridoxina 10mg — 01 caixa\nTomar 01 comprimido se vertigem, náuseas ou vômitos, podendo repetir de 6/6h.\n\nUso oral\n3) Cinarizina 75 mg — 01 caixa\nTomar 01 comprimido se crise de vertigem intensa, podendo repetir de 8/8h.\n\nORIENTAÇÕES:\n- Tomar a Betaistina continuamente com as refeições e reduzir o sal da comida, cafeína, doces concentrados e álcool.\n- Na crise de vertigem, sentar ou deitar imediatamente olhando para um ponto fixo, evitar movimentos bruscos e não dirigir.\n- Retornar imediatamente à emergência se a tontura vier com fraqueza em um lado do corpo, dificuldade para falar, visão dupla ou dor de cabeça forte."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Betaistina 24 mg — 01 caixa\nTomar 01 comprimido de 08/08h por 30 dias contínuos Horário sugerido: 06:00 – 14:00 – 22:00.\n\nUso oral\n2) Dimenidrinato 50 mg + Piridoxina 10mg — 01 caixa\nTomar 01 comprimido se vertigem, náuseas ou vômitos, podendo repetir de 6/6h.\n\nUso oral\n3) Cinarizina 75 mg — 01 caixa\nTomar 01 comprimido se crise de vertigem intensa, podendo repetir de 8/8h.\n\nORIENTAÇÕES:\n- Tomar a Betaistina continuamente com as refeições e reduzir o sal da comida, cafeína, doces concentrados e álcool.\n- Na crise de vertigem, sentar ou deitar imediatamente olhando para um ponto fixo, evitar movimentos bruscos e não dirigir.\n- Retornar imediatamente à emergência se a tontura vier com fraqueza em um lado do corpo, dificuldade para falar, visão dupla ou dor de cabeça forte."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  },
+  {
+    "id": "ADU-062",
+    "name": "Doença hemorroidária trombosada",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "K64.5",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "hemorroida inflamada, dor anal, proctyl, ultraproct, diosmina, daflon, hemorroida, sangramento anal, mamilo hemorroidário, trombose hemorroidária, sangue no papel Diclofenaco 50 mg Diosmina 450 mg + Hesperidina 50 mg Benefiber ® Proctyl® Diosmina 450 mg + hesperidina 50 mg Policresuleno + cinchocaína pomada (Proctyl) Psyllium 5 g sachê Dipirona 500 mg Ibuprofeno 600 mg",
+    "gate": "Sangramento anal: não assumir que é só hemorroida se mais de 45 anos, anemia, mudança do hábito intestinal ou perda de peso (colonoscopia). Trombose hemorroidária externa com dor intensa nas primeiras 72h: avaliar retirada do trombo com o cirurgião.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Diclofenaco 50 mg — 15 comprimidos\nTomar 01 comprimido de 8/8h por 05 dias horário sugerido (8/8h): 06:00 / 14:00 / 22:00.\n\nUso oral\n2) Diosmina 450 mg + Hesperidina 50 mg — 14 comprimidos\nTomar 01 comprimido de 12/12h por 07 dias Horário sugerido: 08:00 / 20:00.\n\nUso oral\n3) Benefiber ® — 01 caixa\nDissolver o conteúdo de um envelope em um copo de água e tomar às refeições 02 vezes ao dia por 03 dias.\n\nUso oral\n4) Proctyl® — 01 bisnaga\nAplicar no local de 03 a 04 vezes ao dia em pequena quantidade até melhora.\n\nORIENTAÇÕES:\n- Fazer banhos de assento com água morna pura por 15 minutos, 3 a 4 vezes ao dia e após evacuar; substituir o papel higiênico por ducha com água.\n- Beber 2 a 3 litros de água por dia, comer muitas fibras (mamão, aveia, verduras) junto ao Benefiber® e evitar pimenta, café e álcool.\n- Retornar ao pronto-socorro se houver sangramento intenso, febre, saída de pus ou dor insuportável."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Diosmina 450 mg + hesperidina 50 mg — 36 comprimidos\nNa crise: 2 comprimidos de 8/8h por 4 dias, depois 2 comprimidos de 12/12h por 3 dias.\n\nUso local\n2) Policresuleno + cinchocaína pomada (Proctyl) — 01 bisnaga\nAplicar na região anal 2 a 3 vezes ao dia e após evacuar, por 7 a 10 dias.\n\nUso oral\n3) Psyllium 5 g sachê — 30 sachês\nDissolver 1 sachê em 1 copo grande de água e tomar 1 a 2 vezes ao dia.\n\nUso oral\n4) Dipirona 500 mg — 20 comprimidos\nTomar 1 a 2 comprimidos de 6/6h, se dor.\n\nORIENTAÇÕES:\n- Fazer banhos de assento com água morna pura por 15 minutos, 3 a 4 vezes ao dia e após evacuar; substituir o papel higiênico por ducha com água.\n- Beber 2 a 3 litros de água por dia, comer muitas fibras (mamão, aveia, verduras) junto ao Benefiber® e evitar pimenta, café e álcool.\n- Retornar ao pronto-socorro se houver sangramento intenso, febre, saída de pus ou dor insuportável."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Ibuprofeno 600 mg — 15 comprimidos\nTomar 1 comprimido de 8/8h, após as refeições, por 5 dias.\n\nORIENTAÇÕES:\n- Fazer banhos de assento com água morna pura por 15 minutos, 3 a 4 vezes ao dia e após evacuar; substituir o papel higiênico por ducha com água.\n- Beber 2 a 3 litros de água por dia, comer muitas fibras (mamão, aveia, verduras) junto ao Benefiber® e evitar pimenta, café e álcool.\n- Retornar ao pronto-socorro se houver sangramento intenso, febre, saída de pus ou dor insuportável."
+      },
+      {
+        "id": "na-unidade",
+        "title": "Prescrição na unidade",
+        "note": "Administração na unidade · separada da receita domiciliar",
+        "prescription": "PRESCRIÇÃO NA UNIDADE\n\nUso EV ou IM\n1) Dipirona 500 mg/mL — 01 ampola\nAplicar 2 mL (1 g) EV lento ou IM.\n\nUso EV\n2) Cetoprofeno 100 mg — 01 frasco-ampola\nDiluir em 100 mL de SF 0,9% e correr EV em 20 min."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "coloproctologia se refratária",
+      "retornar_imediatamente_se": "Sangramento volumoso ou com coágulos, tontura, febre, dor muito forte com caroço duro e arroxeado, pus, dificuldade para urinar.",
+      "seguranca_plantonista": "Gestante e puérpera: muito comum. Fibras, banho de assento e pomada. Evitar anti-inflamatório após 20 semanas. Anticoagulado: sangramento merece avaliação.",
+      "encaminhar_internar": "Hemorroida grau III ou IV, sangramento recorrente, trombose com dor intensa ou falha do tratamento: coloproctologia.",
+      "atestado_sugerido": "1 a 3 dias se trombose ou dor intensa"
+    }
+  }
+]
+
+

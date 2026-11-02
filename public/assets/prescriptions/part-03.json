@@ -1,0 +1,304 @@
+[
+  {
+    "id": "ADU-016",
+    "name": "Bartholinite (abscesso e cisto de Bartholin)",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "N75.1",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "abscesso de Bartholin, cisto de Bartholin, caroço na vagina, glândula de Bartholin, bartolinite Amoxicilina + clavulanato 875/125 mg Ibuprofeno 600 mg Dipirona 500 mg Clindamicina 300 mg",
+    "gate": "Caroço doloroso na entrada da vagina, na parte de baixo, de um lado só. Abscesso com flutuação: drenar (de preferência com cateter de Word ou marsupialização). Mulher acima de 40 anos com caroço na glândula: biópsia (câncer é raro, mas existe).",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Amoxicilina + clavulanato 875/125 mg — 14 comprimidos\nTomar 1 comprimido de 12/12h, por 7 dias.\n\nUso oral\n2) Ibuprofeno 600 mg — 15 comprimidos\nTomar 1 comprimido de 8/8h, após as refeições, por 5 dias.\n\nUso oral\n3) Dipirona 500 mg — 20 comprimidos\nTomar 1 a 2 comprimidos de 6/6h, se dor.\n\nORIENTAÇÕES:\n- Banho de assento com água morna por 10 a 15 minutos, 3 a 4 vezes ao dia.\n- Sem relação sexual até cicatrizar. Manter a região limpa e seca.\n- Retornar imediatamente ao pronto-socorro se: febre, dor muito forte, vermelhidão que se espalha, cateter que sai antes do previsto."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Clindamicina 300 mg — 28 cápsulas\nTomar 1 cápsula de 6/6h, por 7 dias. Alergia à penicilina. Risco de IST: associar ceftriaxona 500 mg + azitromicina 1 g dose única.\n\nORIENTAÇÕES:\n- Banho de assento com água morna por 10 a 15 minutos, 3 a 4 vezes ao dia.\n- Sem relação sexual até cicatrizar. Manter a região limpa e seca.\n- Retornar imediatamente ao pronto-socorro se: febre, dor muito forte, vermelhidão que se espalha, cateter que sai antes do previsto."
+      },
+      {
+        "id": "na-unidade",
+        "title": "Prescrição na unidade",
+        "note": "Administração na unidade · separada da receita domiciliar",
+        "prescription": "PRESCRIÇÃO NA UNIDADE\n\nUso EV ou IM\n1) Dipirona 500 mg/mL — 01 ampola\nAplicar 2 mL (1 g) EV lento ou IM, se dor."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "48h para reavaliar",
+      "retornar_imediatamente_se": "Febre, dor muito forte, vermelhidão que se espalha, cateter que sai antes do previsto.",
+      "seguranca_plantonista": "Gestante: amoxicilina + clavulanato e clindamicina são seguras. Evitar anti-inflamatório após 20 semanas. Diabética: limiar menor para antibiótico.",
+      "encaminhar_internar": "Recidiva: ginecologia (marsupialização).",
+      "atestado_sugerido": "2 a 3 dias"
+    }
+  },
+  {
+    "id": "ADU-017",
+    "name": "Bronquite aguda",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "J20.9",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "bronquite, tosse com catarro, tosse produtiva, catarro no peito, peito cheio Dipirona 500 mg Soro fisiológico 0,9% spray nasal Dropropizina 3 mg/mL xarope (adulto) Salbutamol spray 100 mcg/jato",
+    "gate": "Tosse aguda (até 3 semanas), com ou sem catarro, sem sinais de pneumonia. Pedir RX se FC acima de 100, FR acima de 24, febre acima de 38 °C ou ausculta com foco. É viral em mais de 90% dos casos: antibiótico não ajuda. Catarro amarelo ou verde não indica bactéria.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Dipirona 500 mg — 20 comprimidos\nTomar 1 a 2 comprimidos de 6/6h, se febre ou dor.\n\nUso nasal\n2) Soro fisiológico 0,9% spray nasal — 01 frasco\nAplicar 2 a 3 jatos em cada narina, 3 a 4 vezes ao dia.\n\nUso oral\n3) Dropropizina 3 mg/mL xarope (adulto) — 01 frasco\nTomar 10 mL à noite, se tosse seca atrapalhando o sono.\n\nORIENTAÇÕES:\n- A tosse costuma durar de 2 a 3 semanas, mesmo sem nada grave.\n- Beber bastante água. Mel (1 colher de chá) alivia a tosse. Não fumar.\n- Retornar imediatamente ao pronto-socorro se: falta de ar, febre por mais de 3 dias, dor no peito, escarro com sangue, tosse por mais de 3 semanas."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso inalatório\n1) Salbutamol spray 100 mcg/jato — 01 frasco\nInalar 2 jatos com espaçador, de 6/6h, por até 7 dias, se chiado. Tosse em crises com guincho ou vômito: ver ficha Tosse seca persistente (coqueluche).\n\nORIENTAÇÕES:\n- A tosse costuma durar de 2 a 3 semanas, mesmo sem nada grave.\n- Beber bastante água. Mel (1 colher de chá) alivia a tosse. Não fumar.\n- Retornar imediatamente ao pronto-socorro se: falta de ar, febre por mais de 3 dias, dor no peito, escarro com sangue, tosse por mais de 3 semanas."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "7 dias se não melhorar",
+      "retornar_imediatamente_se": "Falta de ar, febre por mais de 3 dias, dor no peito, escarro com sangue, tosse por mais de 3 semanas.",
+      "seguranca_plantonista": "Asma ou DPOC: ver as fichas próprias. Idoso ou com comorbidade: limiar menor para pedir RX. Gestante: mel, paracetamol e salbutamol são seguros.",
+      "encaminhar_internar": "Tosse por mais de 3 semanas: investigar tuberculose.",
+      "atestado_sugerido": "1 a 3 dias"
+    }
+  },
+  {
+    "id": "ADU-018",
+    "name": "Bursites",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "M71.9",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "dor no ombro, bursite, tendinite, ciclobenzaprina, miosan, cetorolaco, toragesic, epicondilite, cotovelo de tenista, De Quervain, manguito rotador, dor no punho Cafeína 35mg + Dipirona 300mg + Orfenadrina 50mg Paracetamol 350mg + Carisoprodol 150mg + Cafeína 50mg Carisoprodol 125mg + Diclofenaco 50mg + Paracetamol 300mg + Cafeína 30mg Diclofenaco 50 mg Ciclobenzaprina 10 mg Nimesulida Betaciclodextrina 400 mg Ciclobenzaprina 10 mg Alginac 1.000 ® Ciclobenzaprina 10 mg Alginac Retard ® Ciclobenzaprina 10 mg Cetorolaco Trometamina 10mg Ciclobenzaprina 10 mg Diclofenaco dietilamônio 11,6 mg/g gel Naproxeno 500 mg Paracetamol 750 mg",
+    "gate": "Febre, articulação quente com derrame, trauma importante ou perda súbita de força (ruptura de tendão): investigar antes de tratar como tendinite.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Cafeína 35mg + Dipirona 300mg + Orfenadrina 50mg — 01 caixa\nTomar 02 comprimidos de 6/6h se dor.\n\nUso oral\n2) Paracetamol 350mg + Carisoprodol 150mg + Cafeína 50mg — 01 caixa\nTomar 02 comprimidos se dor, de 6/6h.\n\nUso oral\n3) Carisoprodol 125mg + Diclofenaco 50mg + Paracetamol 300mg + Cafeína 30mg — 10 comprimidos\nTomar 01 comprimido de 12/12h por até 05 dias.\n\nUso oral\n4) Diclofenaco 50 mg — 15 comprimidos\nTomar 01 comprimido de 08/08h por até 05 dias.\n\nUso oral\n5) Ciclobenzaprina 10 mg — 01 caixa\nTomar 01 comprimido à noite por 05 dias seguidos.\n\nUso oral\n6) Nimesulida Betaciclodextrina 400 mg — 06 comprimidos\nTomar 01 comprimido de 12/12h por até 03 dias.\n\nORIENTAÇÕES:\n- Manter a articulação em repouso relativo e aplicar gelo envolto em pano fino por 15 a 20 minutos, 3 a 4 vezes ao dia.\n- Tomar os anti-inflamatórios após as refeições; evitar dirigir ou beber álcool se usar relaxantes musculares.\n- Retornar ao médico se surgir febre, calor e vermelhidão intensos na articulação ou ausência de melhora após 5 dias."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Ciclobenzaprina 10 mg — 01 caixa\nTomar 01 comprimido à noite por 05 dias seguidos.\n\nUso oral\n2) Alginac 1.000 ® — 06 comprimidos\nTomar 01 comprimido de 8/8h, por 05 dias seguidos.\n\nORIENTAÇÕES:\n- Manter a articulação em repouso relativo e aplicar gelo envolto em pano fino por 15 a 20 minutos, 3 a 4 vezes ao dia.\n- Tomar os anti-inflamatórios após as refeições; evitar dirigir ou beber álcool se usar relaxantes musculares.\n- Retornar ao médico se surgir febre, calor e vermelhidão intensos na articulação ou ausência de melhora após 5 dias."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Ciclobenzaprina 10 mg — 01 caixa\nTomar 01 comprimido à noite por 05 dias seguidos.\n\nUso oral\n2) Alginac Retard ® — 06 comprimidos\nTomar 01 comprimido ao dia, por 05 dias seguidos.\n\nORIENTAÇÕES:\n- Manter a articulação em repouso relativo e aplicar gelo envolto em pano fino por 15 a 20 minutos, 3 a 4 vezes ao dia.\n- Tomar os anti-inflamatórios após as refeições; evitar dirigir ou beber álcool se usar relaxantes musculares.\n- Retornar ao médico se surgir febre, calor e vermelhidão intensos na articulação ou ausência de melhora após 5 dias."
+      },
+      {
+        "id": "esquema-4",
+        "title": "Esquema 4",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Ciclobenzaprina 10 mg — 01 caixa\nTomar 01 comprimido à noite por 05 dias seguidos.\n\nUso oral\n2) Cetorolaco Trometamina 10mg — 06 comprimidos\nColocar 01 comprimido em baixo da língua e esperar dissolver, podendo repetir de 8/8h, por até 03 dias seguidos.\n\nORIENTAÇÕES:\n- Manter a articulação em repouso relativo e aplicar gelo envolto em pano fino por 15 a 20 minutos, 3 a 4 vezes ao dia.\n- Tomar os anti-inflamatórios após as refeições; evitar dirigir ou beber álcool se usar relaxantes musculares.\n- Retornar ao médico se surgir febre, calor e vermelhidão intensos na articulação ou ausência de melhora após 5 dias."
+      },
+      {
+        "id": "esquema-5",
+        "title": "Esquema 5",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Ciclobenzaprina 10 mg — 01 caixa\nTomar 01 comprimido à noite por 05 dias seguidos.\n\nORIENTAÇÕES:\n- Manter a articulação em repouso relativo e aplicar gelo envolto em pano fino por 15 a 20 minutos, 3 a 4 vezes ao dia.\n- Tomar os anti-inflamatórios após as refeições; evitar dirigir ou beber álcool se usar relaxantes musculares.\n- Retornar ao médico se surgir febre, calor e vermelhidão intensos na articulação ou ausência de melhora após 5 dias."
+      },
+      {
+        "id": "esquema-6",
+        "title": "Esquema 6",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso local\n1) Diclofenaco dietilamônio 11,6 mg/g gel — 01 bisnaga\nAplicar no local com leve massagem, 3 a 4 vezes ao dia, por 2 semanas.\n\nUso oral\n2) Naproxeno 500 mg — 14 comprimidos\nTomar 1 comprimido de 12/12h, após as refeições, por 7 dias.\n\nUso oral\n3) Paracetamol 750 mg — 20 comprimidos\nTomar 1 comprimido de 6/6h, se dor.\n\nORIENTAÇÕES:\n- Manter a articulação em repouso relativo e aplicar gelo envolto em pano fino por 15 a 20 minutos, 3 a 4 vezes ao dia.\n- Tomar os anti-inflamatórios após as refeições; evitar dirigir ou beber álcool se usar relaxantes musculares.\n- Retornar ao médico se surgir febre, calor e vermelhidão intensos na articulação ou ausência de melhora após 5 dias."
+      },
+      {
+        "id": "na-unidade",
+        "title": "Prescrição na unidade",
+        "note": "Administração na unidade · separada da receita domiciliar",
+        "prescription": "PRESCRIÇÃO NA UNIDADE\n\nUso EV ou IM\n1) Dipirona 500 mg/mL — 01 ampola\nAplicar 2 mL (1 g) EV lento ou IM.\n\nUso IM\n2) Diclofenaco de sódio 75 mg/3 mL — 01 ampola\nAplicar IM profundo, dose única."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "2 a 4 semanas",
+      "retornar_imediatamente_se": "Febre, articulação vermelha e muito quente, perda súbita de força, dormência.",
+      "seguranca_plantonista": "Gestante: paracetamol e gelo. Evitar anti-inflamatório após 20 semanas. Idoso, doença renal ou anticoagulado: preferir gel + paracetamol. Evitar anti-inflamatório oral.",
+      "encaminhar_internar": "Sem melhora em 6 semanas: fisioterapia ou ortopedia. Suspeita de ruptura: ortopedia.",
+      "atestado_sugerido": "2 a 5 dias, afastando do esforço repetitivo"
+    }
+  },
+  {
+    "id": "ADU-019",
+    "name": "Cancro mole",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "A57",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "úlcera genital dolorosa, haemphilus ducreyi, ist, azitromicina, ciprofloxacino Azitromicina 500 mg Ciprofloxacino 500 mg",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Azitromicina 500 mg — 02 comprimidos\nTomar 02 comprimidos em dose única.\n\nORIENTAÇÕES:\n- Lavar as lesões genitais suavemente com água e sabonete neutro no banho e manter abstinência sexual até a cicatrização completa.\n- Encaminhar a(s) parceria(s) sexual(is) dos últimos 10 dias para tratamento médico e realizar testes para HIV e Sífilis.\n- Retornar em 7 dias para reavaliação ou antes se surgir íngua muito dolorosa na virilha ou febre."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Ciprofloxacino 500 mg — 06 comprimidos\nTomar 01 comprimido de 12/12h por 03 dias.\n\nORIENTAÇÕES:\n- Lavar as lesões genitais suavemente com água e sabonete neutro no banho e manter abstinência sexual até a cicatrização completa.\n- Encaminhar a(s) parceria(s) sexual(is) dos últimos 10 dias para tratamento médico e realizar testes para HIV e Sífilis.\n- Retornar em 7 dias para reavaliação ou antes se surgir íngua muito dolorosa na virilha ou febre."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  },
+  {
+    "id": "ADU-020",
+    "name": "Candidíase",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "B37.3",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "corrimento branco, coceira vaginal, candida, fluconazol, nistatina, miconazol, candidíase, monilíase, fungo, corrimento Nistatina creme vaginal 25.000 UI/g Fluconazol 150 mg Miconazol 2% creme vaginal",
+    "gate": "Corrimento branco grumoso (tipo leite talhado), coceira e ardor, sem mau cheiro. Não é IST: não precisa tratar a parceria sem sintomas. Gestante: somente tratamento vaginal (sem fluconazol oral).",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso vaginal\n1) Nistatina creme vaginal 25.000 UI/g — 01 bisnaga\nAplicar o conteúdo de um aplicador cheio dentro da vagina, à noite ao deitar, por 14 dias.\n\nUso oral\n2) Fluconazol 150 mg — 01 comprimido\nTomar em dose única.\n\nORIENTAÇÕES:\n- Aplicar o creme vaginal à noite ao deitar pelos dias indicados (ou tomar a dose única de Fluconazol) e evitar bebidas alcoólicas.\n- Usar calcinha de algodão, evitar roupas muito justas ou biquíni úmido e lavar a região apenas externamente com sabonete neutro.\n- Evitar relações sexuais durante o tratamento e retornar ao médico se não melhorar em 7 dias ou se houver dor pélvica/febre."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso vaginal\n1) Miconazol 2% creme vaginal — 01 unidade / conforme orientação\n1 bisnaga com aplicadores Aplicar 1 aplicador cheio (aplicação íntima interna) à noite ao deitar, por 7 dias.\n\nORIENTAÇÕES:\n- Aplicar o creme vaginal à noite ao deitar pelos dias indicados (ou tomar a dose única de Fluconazol) e evitar bebidas alcoólicas.\n- Usar calcinha de algodão, evitar roupas muito justas ou biquíni úmido e lavar a região apenas externamente com sabonete neutro.\n- Evitar relações sexuais durante o tratamento e retornar ao médico se não melhorar em 7 dias ou se houver dor pélvica/febre."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "se não melhorar em 7 dias",
+      "retornar_imediatamente_se": "Febre, dor no pé da barriga, corrimento amarelo-esverdeado ou com mau cheiro, feridas na região genital, sem melhora em 7 dias.",
+      "seguranca_plantonista": "Gestante: somente tratamento vaginal, por 7 dias (miconazol ou nistatina). Amamentação: fluconazol 150 mg em dose única é compatível. Diabetes: controlar a glicemia. Recidiva é frequente com glicemia alta. Fluconazol: aumenta o efeito de varfarina e sulfonilureias.",
+      "encaminhar_internar": "Recorrente ou sem resposta: investigar diabetes, HIV e imunossupressão; cultura com antifungigrama (Candida não albicans).",
+      "atestado_sugerido": "não se aplica"
+    }
+  },
+  {
+    "id": "ADU-021",
+    "name": "Candidíase oral (monilíase)",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "B37.0",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "sapinho, placas brancas na boca, monilíase, nistatina, micostatin, monilíase oral, candidíase de dobras, intertrigo, assadura com fungo, queilite angular, boqueira Nistatina 100.000 UI/mL suspensão Fluconazol 100 mg Fluconazol 150 mg Miconazol 2% creme Miconazol 2% creme",
+    "gate": "Adulto com candidíase oral sem causa aparente (corticoide inalatório, prótese, antibiótico recente, diabetes): pedir anti-HIV.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Nistatina 100.000 UI/mL suspensão — 02 frascos\nBochechar 5 mL (distribuindo bem pela boca) e manter em contato com as lesões por alguns minutos antes de engolir, de 6/6h por 07 a 14 dias.\n\nORIENTAÇÕES:\n- Distribuir a solução de Nistatina por toda a boca, bochechar e manter em contato com as placas por alguns minutos antes de engolir.\n- Aguardar 30 minutos após cada aplicação antes de comer ou beber; higienizar próteses dentárias diariamente.\n- Retornar ao médico se houver dor ou dificuldade para engolir (disfagia), febre ou ausência de melhora em 7 dias."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Fluconazol 100 mg — 15 cápsulas\nTomar 02 cápsulas (200 mg) no 1º dia e depois 01 cápsula (100 mg) ao dia do 2º ao 14º dia.\n\nORIENTAÇÕES:\n- Distribuir a solução de Nistatina por toda a boca, bochechar e manter em contato com as placas por alguns minutos antes de engolir.\n- Aguardar 30 minutos após cada aplicação antes de comer ou beber; higienizar próteses dentárias diariamente.\n- Retornar ao médico se houver dor ou dificuldade para engolir (disfagia), febre ou ausência de melhora em 7 dias."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Fluconazol 150 mg — 07 cápsulas\nTomar 1 cápsula 1 vez ao dia, por 7 dias. Para quadro extenso.\n\nUso local\n2) Miconazol 2% creme — 01 bisnaga\nAplicar fina camada, 2 vezes ao dia, por 2 semanas.\n\nUso local\n3) Miconazol 2% creme — 01 bisnaga\nAplicar no canto da boca, 2 vezes ao dia, por 7 a 14 dias.\n\nORIENTAÇÕES:\n- Distribuir a solução de Nistatina por toda a boca, bochechar e manter em contato com as placas por alguns minutos antes de engolir.\n- Aguardar 30 minutos após cada aplicação antes de comer ou beber; higienizar próteses dentárias diariamente.\n- Retornar ao médico se houver dor ou dificuldade para engolir (disfagia), febre ou ausência de melhora em 7 dias."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "7 a 14 dias",
+      "retornar_imediatamente_se": "Dor ou dificuldade para engolir (candidíase no esôfago), febre, lesões espalhando.",
+      "seguranca_plantonista": "Gestante: nistatina e cremes são seguros. Evitar fluconazol. Fluconazol: interage com varfarina, sulfonilureias e estatinas. Diabético: controlar a glicemia.",
+      "encaminhar_internar": "Recorrente ou sem causa: investigar imunossupressão.",
+      "atestado_sugerido": "não se aplica"
+    }
+  },
+  {
+    "id": "ADU-022",
+    "name": "Candidúria – ITU por Candida",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "B37.4",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "fungo na urina, candida na urina, fluconazol Fluconazol 100mg",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Fluconazol 100mg — 14 cápsulas\nTomar 02 cápsulas ao dia por 07 dias.\n\nORIENTAÇÕES:\n- Tomar o Fluconazol sempre no mesmo horário por todos os 07 dias e beber pelo menos 2 litros de água por dia.\n- Manter controle rigoroso do diabetes (se portador) e evitar bebidas alcoólicas durante o tratamento.\n- Retornar ao pronto-socorro se surgir febre, calafrios, dor nas costas (lombar) ou vômitos."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  },
+  {
+    "id": "ADU-023",
+    "name": "Caxumba (parotidite infecciosa)",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "B26.9",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "caxumba, papeira, parotidite, inchaço atrás da orelha, glândula inchada Paracetamol 750 mg Dipirona 500 mg Ibuprofeno 600 mg",
+    "gate": "Inchaço doloroso da parótida (atrás e abaixo da orelha), de um ou dos dois lados, com febre. Complicações: orquite, meningite, pancreatite, surdez. Notificar surtos.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Paracetamol 750 mg — 20 comprimidos\nTomar 1 comprimido de 6/6h, se dor ou febre.\n\nORIENTAÇÕES:\n- Ficar em casa por 5 dias após o início do inchaço.\n- Comida pastosa e fria. Evitar alimentos ácidos (aumentam a dor).\n- Retornar imediatamente ao pronto-socorro se: dor ou inchaço no testículo, dor de cabeça forte com nuca dura, vômitos, dor forte na barriga, perda de audição."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Dipirona 500 mg — 20 comprimidos\nTomar 1 a 2 comprimidos de 6/6h, se dor ou febre.\n\nUso oral\n2) Ibuprofeno 600 mg — 15 comprimidos\nTomar 1 comprimido de 8/8h, após as refeições, por 5 dias.\n\nORIENTAÇÕES:\n- Ficar em casa por 5 dias após o início do inchaço.\n- Comida pastosa e fria. Evitar alimentos ácidos (aumentam a dor).\n- Retornar imediatamente ao pronto-socorro se: dor ou inchaço no testículo, dor de cabeça forte com nuca dura, vômitos, dor forte na barriga, perda de audição."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "imediato se sinal de alarme",
+      "retornar_imediatamente_se": "Dor ou inchaço no testículo, dor de cabeça forte com nuca dura, vômitos, dor forte na barriga, perda de audição.",
+      "seguranca_plantonista": "Gestante: paracetamol. Evitar anti-inflamatório. Homem adulto: orquite é mais comum.",
+      "encaminhar_internar": "Meningite, pancreatite ou surdez: internação ou especialista.",
+      "atestado_sugerido": "5 dias após o início do inchaço"
+    }
+  }
+]
+
+

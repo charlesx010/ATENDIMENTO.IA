@@ -1,0 +1,277 @@
+[
+  {
+    "id": "ADU-133",
+    "name": "Resfriado comum",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "J00",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "coriza, congestão nasal, espirros, lavagem nasal Dipirona 500mg Dipirona 500mg Salsep spray Maresis® Rinosoro Jet® Solução Fisiológica 0,9%",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Dipirona 500mg — 01 caixa\nTomar 02 comprimidos se febre ou dor, podendo repetir de 06/06h.\n\nORIENTAÇÕES:\n- Lavar o nariz várias vezes ao dia com Soro Fisiológico 0,9%, beber bastante água/chás e fazer repouso.\n- Lavar as mãos com frequência, manter ambientes ventilados e evitar descongestionantes nasais vasoconstritores.\n- Retornar ao médico se surgir falta de ar, chiado no peito, dor de ouvido ou febre alta por mais de 3 a 4 dias."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Dipirona 500mg — 01 caixa\nTomar 02 comprimidos se febre ou dor, podendo repetir de 06/06h.\n\nUso nasal\n2) Salsep spray — 01 frasco\nAplicar 01 jato em cada narina 5x/dia por 05 a 07 dias (ou diariamente enquanto houver congestão).\n\nUso nasal\n3) Maresis® — 01 frasco\nAplicar 01 jato em cada narina conforme necessidade, para desobstruí-la (cerca de 5 vezes ao dia) por 05 a 07 dias (ou diariamente enquanto houver congestão).\n\nUso nasal\n4) Rinosoro Jet® — 01 frasco spray\nAplicar 01 jato em cada narina 5 vezes ao dia por 05 a 07 dias (ou diariamente enquanto houver congestão).\n\nUso nasal\n5) Solução Fisiológica 0,9% — 01 frasco\nAspirar a solução fisiológica com a seringa e, com o paciente em pé, injetar em cada narina (não tapar a outra), três vezes seguidas, duas vezes ao dia. é normal engolir ou a secreção sair pelo outro lado por 05 a 07 dias (ou diariamente enquanto houver congestão).\n\nORIENTAÇÕES:\n- Lavar o nariz várias vezes ao dia com Soro Fisiológico 0,9%, beber bastante água/chás e fazer repouso.\n- Lavar as mãos com frequência, manter ambientes ventilados e evitar descongestionantes nasais vasoconstritores.\n- Retornar ao médico se surgir falta de ar, chiado no peito, dor de ouvido ou febre alta por mais de 3 a 4 dias."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  },
+  {
+    "id": "ADU-134",
+    "name": "Rinite alérgica",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "J30.4",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "espirros, coceira no nariz, coriza clara, fluticasona, avamys, loratadina, allegra, rinite, alergia no nariz, coriza, nariz entupido, rinite alérgica Fluticasona spray 50mcg/jato Rinosoro Jet® Dexclorfeniramina 2 mg Fexofenadina 60mg + Pseudoefedrina 120mg Mometasona 50 mcg/jato spray nasal Loratadina 10 mg Soro fisiológico 0,9% Budesonida 64 mcg/jato spray nasal",
+    "gate": "Espirros em sequência, coriza clara, coceira no nariz e nos olhos, nariz entupido, piora com poeira, mofo ou pólen. Febre, secreção com pus de um lado só ou sangramento: pensar em outra causa.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso nasal\n1) Fluticasona spray 50mcg/jato — 01 frasco\nAplicar 1 jato em cada narina de 12/12h por 15 dias. após este período, aplicar um jato em cada narina pela manhã até completar 90 dias.\n\nUso nasal\n2) Rinosoro Jet® — 01 frasco spray\nAplicar 01 jato em cada narina 5 vezes ao dia por 05 a 07 dias (ou diariamente enquanto houver congestão).\n\nUso oral\n3) Dexclorfeniramina 2 mg — 01 caixa\nTomar 01 comprimido de 08/08h por 07 dias.\n\nUso oral\n4) Fexofenadina 60mg + Pseudoefedrina 120mg — 01 caixa\nTomar 01 comprimido de 12/12h por 07 dias.\n\nORIENTAÇÕES:\n- Lavar o nariz com Soro Fisiológico antes de aplicar o spray de Fluticasona (apontar o jato para a lateral externa da narina).\n- Retirar tapetes, cortinas e pelúcias do quarto, limpar a casa com pano úmido e evitar fumaça de cigarro e cheiros fortes.\n- Evitar dirigir se usar Dexclorfeniramina (causa sono) e usar Pseudoefedrina com cautela se tiver pressão alta."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso nasal\n1) Mometasona 50 mcg/jato spray nasal — 01 frasco\nAplicar 2 jatos em cada narina, 1 vez ao dia. Uso contínuo na época de crise. Efeito pleno em 1 a 2 semanas.\n\nUso oral\n2) Loratadina 10 mg — 30 comprimidos\nTomar 1 comprimido 1 vez ao dia, se espirros ou coceira.\n\nUso oral\n3) Soro fisiológico 0,9% — 01 frasco\nLavar cada narina com 10 a 20 mL (seringa sem agulha), 2 a 3 vezes ao dia, antes do spray.\n\nORIENTAÇÕES:\n- Lavar o nariz com Soro Fisiológico antes de aplicar o spray de Fluticasona (apontar o jato para a lateral externa da narina).\n- Retirar tapetes, cortinas e pelúcias do quarto, limpar a casa com pano úmido e evitar fumaça de cigarro e cheiros fortes.\n- Evitar dirigir se usar Dexclorfeniramina (causa sono) e usar Pseudoefedrina com cautela se tiver pressão alta."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso nasal\n1) Budesonida 64 mcg/jato spray nasal — 01 frasco\nAplicar 2 jatos em cada narina, 1 vez ao dia. Oximetazolina nasal por no máximo 3 a 5 dias (adulto). Uso prolongado causa rinite medicamentosa.\n\nORIENTAÇÕES:\n- Lavar o nariz com Soro Fisiológico antes de aplicar o spray de Fluticasona (apontar o jato para a lateral externa da narina).\n- Retirar tapetes, cortinas e pelúcias do quarto, limpar a casa com pano úmido e evitar fumaça de cigarro e cheiros fortes.\n- Evitar dirigir se usar Dexclorfeniramina (causa sono) e usar Pseudoefedrina com cautela se tiver pressão alta."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "UBS em 4 a 8 semanas",
+      "retornar_imediatamente_se": "Febre, dor no rosto com secreção amarela ou verde por mais de 10 dias, sangramento nasal frequente, nariz entupido de um lado só, chiado ou falta de ar.",
+      "seguranca_plantonista": "Gestante: budesonida nasal é a mais estudada. Loratadina é segura. Evitar descongestionante oral. Idoso: evitar antialérgico de 1ª geração e descongestionante (pressão, glaucoma, próstata).",
+      "encaminhar_internar": "Falha do tratamento correto ou suspeita de pólipo ou desvio de septo: otorrino ou alergologia.",
+      "atestado_sugerido": "não se aplica"
+    }
+  },
+  {
+    "id": "ADU-135",
+    "name": "Rinossinusite bacteriana aguda",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "J01.9",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "sinusite bacteriana, dor na face, catarro amarelo/verde > 10 dias, amoxicilina+clavulanato, levofloxacino, sinusite, rinossinusite, dor no rosto, secreção nasal amarela, catarro no nariz, peso na cabeça Amoxicilina 500 mg Dipirona 500 mg Fluticasona spray 50mcg/jato Maresis® Amoxicilina-Clavulanato 500/125 mg Dipirona 500mg Fluticasona Spray 50mcg/jato Maresis® Azitromicina 500 mg Omeprazol 20 mg Dipirona 500mg Fluticasona Spray 50mcg/jato Solução Fisiológica 0,9% Soro fisiológico 0,9% Mometasona 50 mcg/jato spray nasal Dipirona 500 mg Ibuprofeno 400 mg Amoxicilina 500 mg Amoxicilina + clavulanato 875/125 mg Doxiciclina 100 mg",
+    "gate": "A maioria é viral (resfriado) e melhora em 7 a 10 dias sem antibiótico. Pensar em bacteriana se: sintomas por mais de 10 dias sem melhora, quadro grave (febre de 39 °C ou mais + secreção purulenta ou dor facial por 3 a 4 dias) ou piora depois de ter melhorado.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Amoxicilina 500 mg — 21 comprimidos\nTomar 01 comprimido de 8/8h por 07 dias Horário sugerido (8/8h): 06:00 / 14:00 / 22:00.\n\nUso oral\n2) Dipirona 500 mg — 01 caixa\nTomar 02 comprimidos se febre ou dor, podendo repetir de 06/06h.\n\nUso nasal\n3) Fluticasona spray 50mcg/jato — 01 frasco\nAplicar 1 jato em cada narina de 12/12h por 15 dias.\n\nUso nasal\n4) Maresis® — 01 frasco\nAplicar 01 jato em cada narina conforme necessidade, para desobstruí-la (cerca de 5 vezes ao dia) por 05 a 07 dias (ou diariamente enquanto houver congestão).\n\nUso oral\n5) Amoxicilina-Clavulanato 500/125 mg — 21 comprimidos\nTomar 01 comprimido de 8/8h por 07 dias Horário sugerido (8/8h): 06:00 / 14:00 / 22:00.\n\nUso oral\n6) Dipirona 500mg — 01 caixa\nTomar 02 comprimidos se febre ou dor, podendo repetir de 06/06h.\n\nORIENTAÇÕES:\n- Tomar o antibiótico rigorosamente até o fim e lavar o nariz abundantemente com Soro Fisiológico antes de aplicar a Fluticasona.\n- Beber 2 a 3 litros de água ao dia, fazer inalação com vapor/soro e aplicar compressas mornas na face.\n- Retornar IMEDIATAMENTE ao pronto-socorro se inchar ao redor dos olhos, alterar a visão, tiver dor de cabeça muito forte ou febre após 72h."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso nasal\n1) Fluticasona Spray 50mcg/jato — 01 frasco\nAplicar 1 jato em cada narina de 12/12h por 15 dias.\n\nUso nasal\n2) Maresis® — 01 frasco\nAplicar 01 jato em cada narina conforme necessidade, para desobstruí-la (cerca de 5 vezes ao dia) por 05 a 07 dias (ou diariamente enquanto houver congestão).\n\nUso oral\n3) Azitromicina 500 mg — 10 comprimidos\nTomar 01 comprimido ao dia por 10 dias.\n\nUso oral\n4) Omeprazol 20 mg — 10 comprimidos\nTomar 01 comprimido ao dia por 10 dias.\n\nUso oral\n5) Dipirona 500mg — 01 caixa\nTomar 02 comprimidos se febre ou dor, podendo repetir de 06/06h.\n\nORIENTAÇÕES:\n- Tomar o antibiótico rigorosamente até o fim e lavar o nariz abundantemente com Soro Fisiológico antes de aplicar a Fluticasona.\n- Beber 2 a 3 litros de água ao dia, fazer inalação com vapor/soro e aplicar compressas mornas na face.\n- Retornar IMEDIATAMENTE ao pronto-socorro se inchar ao redor dos olhos, alterar a visão, tiver dor de cabeça muito forte ou febre após 72h."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso nasal\n1) Fluticasona Spray 50mcg/jato — 01 frasco\nAplicar 1 jato em cada narina de 12/12h por 15 dias.\n\nUso nasal\n2) Solução Fisiológica 0,9% — 01 frasco\nAspirar a solução fisiológica com a seringa e, com o paciente em pé, injetar em cada narina (não tapar a outra), três vezes seguidas, duas vezes ao dia. é normal engolir ou a secreção sair pelo outro lado por 05 a 07 dias (ou diariamente enquanto houver congestão).\n\nORIENTAÇÕES:\n- Tomar o antibiótico rigorosamente até o fim e lavar o nariz abundantemente com Soro Fisiológico antes de aplicar a Fluticasona.\n- Beber 2 a 3 litros de água ao dia, fazer inalação com vapor/soro e aplicar compressas mornas na face.\n- Retornar IMEDIATAMENTE ao pronto-socorro se inchar ao redor dos olhos, alterar a visão, tiver dor de cabeça muito forte ou febre após 72h."
+      },
+      {
+        "id": "esquema-4",
+        "title": "Esquema 4",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Soro fisiológico 0,9% — 01 frasco\nLavar cada narina com 10 a 20 mL (seringa sem agulha), 3 a 4 vezes ao dia.\n\nUso nasal\n2) Mometasona 50 mcg/jato spray nasal — 01 frasco\nAplicar 2 jatos em cada narina, de 12/12h, por 14 dias.\n\nUso oral\n3) Dipirona 500 mg — 20 comprimidos\nTomar 1 a 2 comprimidos de 6/6h, se dor ou febre.\n\nORIENTAÇÕES:\n- Tomar o antibiótico rigorosamente até o fim e lavar o nariz abundantemente com Soro Fisiológico antes de aplicar a Fluticasona.\n- Beber 2 a 3 litros de água ao dia, fazer inalação com vapor/soro e aplicar compressas mornas na face.\n- Retornar IMEDIATAMENTE ao pronto-socorro se inchar ao redor dos olhos, alterar a visão, tiver dor de cabeça muito forte ou febre após 72h."
+      },
+      {
+        "id": "esquema-5",
+        "title": "Esquema 5",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Ibuprofeno 400 mg — 09 comprimidos\nTomar 1 comprimido de 8/8h, após as refeições, por 3 dias.\n\nUso oral\n2) Amoxicilina 500 mg — 21 cápsulas\nTomar 1 cápsula de 8/8h, por 7 dias.\n\nUso oral\n3) Amoxicilina + clavulanato 875/125 mg — 14 comprimidos\nTomar 1 comprimido de 12/12h, por 7 dias. Se antibiótico recente, mais de 65 anos, comorbidade ou quadro grave.\n\nUso oral\n4) Doxiciclina 100 mg — 14 comprimidos\nTomar 1 comprimido de 12/12h, por 7 dias. Alergia à penicilina.\n\nORIENTAÇÕES:\n- Tomar o antibiótico rigorosamente até o fim e lavar o nariz abundantemente com Soro Fisiológico antes de aplicar a Fluticasona.\n- Beber 2 a 3 litros de água ao dia, fazer inalação com vapor/soro e aplicar compressas mornas na face.\n- Retornar IMEDIATAMENTE ao pronto-socorro se inchar ao redor dos olhos, alterar a visão, tiver dor de cabeça muito forte ou febre após 72h."
+      },
+      {
+        "id": "na-unidade",
+        "title": "Prescrição na unidade",
+        "note": "Administração na unidade · separada da receita domiciliar",
+        "prescription": "PRESCRIÇÃO NA UNIDADE\n\nUso nasal\n1) Dipirona 500 mg/mL — 01 ampola\nAplicar 2 mL (1 g) IM ou EV lento, se dor ou febre. Lavagem nasal com SF 0,9%."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "7 dias se não melhorar; imediato se inchaço no olho",
+      "retornar_imediatamente_se": "Inchaço ou vermelhidão ao redor do olho, olho saltado, visão dupla ou diminuída, dor de cabeça muito forte, nuca dura, confusão, febre alta que não cede, inchaço na testa.",
+      "seguranca_plantonista": "Gestante: amoxicilina ou amoxicilina + clavulanato. Evitar doxiciclina. Corticoide nasal pode ser usado. Doença renal: TFG < 30: amoxicilina 500 mg de 12/12h.",
+      "encaminhar_internar": "Complicação no olho ou no cérebro: urgência (TC e otorrino). Sinusite de repetição (4 ou mais por ano) ou que dura mais de 12 semanas: otorrino.",
+      "atestado_sugerido": "1 a 3 dias"
+    }
+  },
+  {
+    "id": "ADU-136",
+    "name": "Rinossinusite viral aguda",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "J01.9 / J00",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "sinusite aguda, peso no rosto, congestão nasal, fluticasona, soro fisiológico Dipirona 500mg Fluticasona spray 50mcg/jato Solução Fisiológica 0,9% Dipirona 500mg Fluticasona spray 50mcg/jato Levodropropizina xarope 6mg/ml Codeína 30mg",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Dipirona 500mg — 01 caixa\nTomar 02 comprimidos se febre ou dor, podendo repetir de 06/06h.\n\nUso nasal\n2) Fluticasona spray 50mcg/jato — 01 frasco\nAplicar 1 jato em cada narina de 12/12h por 15 dias.\n\nUso nasal\n3) Solução Fisiológica 0,9% — 01 frasco\nAspirar o soro com a seringa, retirar a agulha e injetar em cada narina (sem tapar a outra), estando com a boca aberta, três vezes ao dia por 05 a 07 dias (ou diariamente enquanto houver congestão).\n\nORIENTAÇÕES:\n- Lavar o nariz com Soro Fisiológico 0,9% várias vezes ao dia antes de usar a Fluticasona e beber 2 a 3 litros de água ao dia.\n- Fazer compressas mornas no rosto e dormir com a cabeceira elevada; se usar Codeína para tosse, evitar dirigir e beber álcool.\n- Retornar ao médico se durar mais de 10 dias sem melhora, piorar após ter melhorado, der febre alta (>= 39 °C) ou inchaço nos olhos."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Dipirona 500mg — 01 caixa\nTomar 02 comprimidos se febre ou dor, podendo repetir de 06/06h.\n\nUso nasal\n2) Fluticasona spray 50mcg/jato — 01 frasco\nAplicar 1 jato em cada narina de 12/12h por 15 dias.\n\nUso oral\n3) Levodropropizina xarope 6mg/ml — 01 frasco\nTomar 15 ml no caso de tosse, podendo repetir de 6/6 horas.\n\nUso oral\n4) Codeína 30mg — 30 comprimidos\nTomar 01 comprimido em caso de tosse, podendo repetir de 8/8 horas.\n\nORIENTAÇÕES:\n- Lavar o nariz com Soro Fisiológico 0,9% várias vezes ao dia antes de usar a Fluticasona e beber 2 a 3 litros de água ao dia.\n- Fazer compressas mornas no rosto e dormir com a cabeceira elevada; se usar Codeína para tosse, evitar dirigir e beber álcool.\n- Retornar ao médico se durar mais de 10 dias sem melhora, piorar após ter melhorado, der febre alta (>= 39 °C) ou inchaço nos olhos."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  },
+  {
+    "id": "ADU-137",
+    "name": "Sangramento uterino anormal",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "N93.9",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "hemorragia menstrual, menstruação excessiva, ácido tranexâmico, transamin, sulfato ferroso, sangramento vaginal, hemorragia uterina, menstruação muito forte, menorragia, metrorragia, sangramento fora da menstruação Piroxicam 20 mg Levonorgestrel + Etinilestradiol 0,15mg + 0,03mg Sulfato Ferroso Ácido tranexâmico 250 mg Ácido mefenâmico 500 mg Levonorgestrel 0,15 mg + etinilestradiol 0,03 mg Medroxiprogesterona 10 mg Sulfato ferroso 40 mg de ferro elementar",
+    "gate": "Sempre: beta-hCG (aborto, gravidez ectópica), sinais vitais e hemoglobina. Instabilidade: dois acessos, SF 0,9% ou Ringer, tipagem sanguínea e ginecologia de urgência. Pós-menopausa, sangramento após relação ou alteração no colo: investigar câncer (USG transvaginal, preventivo, biópsia). Causas: pólipo, adenomiose, mioma, câncer, coagulopatia, ovulatória, endometrial, remédios.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Piroxicam 20 mg — 10 comprimidos\nTomar 01 comprimido de 12/12h por 05 dias.\n\nUso oral\n2) Levonorgestrel + Etinilestradiol 0,15mg + 0,03mg — 04 caixas\nTomar 01 comprimido de 6/6h, por 04 dias;.\n\nUso oral\n3) Sulfato Ferroso — 01 caixa\nTomar 01 comprimido uma vez ao dia, 01 hora antes ou 02 horas depois do almoço, de preferência com suco de laranja ou limão.\n\nORIENTAÇÕES:\n- Tomar os medicamentos para estancar o sangramento nos horários exatos e agendar consulta com ginecologista.\n- Tomar o Sulfato Ferroso 1h antes do almoço com suco de laranja/limão (longe de leite, café ou chá; pode escurecer as fezes).\n- Retornar IMEDIATAMENTE à emergência se o sangramento continuar muito forte (encharcando 2 absorventes/hora), ou se tiver tontura, desmaio ou falta de ar."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Ácido tranexâmico 250 mg — 60 comprimidos\nTomar 4 comprimidos (1 g) de 8/8h, por até 5 dias.\n\nUso oral\n2) Ácido mefenâmico 500 mg — 15 comprimidos\nTomar 1 comprimido de 8/8h, após as refeições, por 5 dias.\n\nORIENTAÇÕES:\n- Tomar os medicamentos para estancar o sangramento nos horários exatos e agendar consulta com ginecologista.\n- Tomar o Sulfato Ferroso 1h antes do almoço com suco de laranja/limão (longe de leite, café ou chá; pode escurecer as fezes).\n- Retornar IMEDIATAMENTE à emergência se o sangramento continuar muito forte (encharcando 2 absorventes/hora), ou se tiver tontura, desmaio ou falta de ar."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Levonorgestrel 0,15 mg + etinilestradiol 0,03 mg — 01 unidade / conforme orientação\n2 cartelas Tomar 1 comprimido de 8/8h por 7 dias. Depois, 1 comprimido por dia por 3 semanas. Checar contraindicações ao estrogênio.\n\nUso oral\n2) Medroxiprogesterona 10 mg — 42 comprimidos\nTomar 2 comprimidos (20 mg) de 8/8h, por 7 dias. Opção se estrogênio contraindicado. ANEMIA\n\nUso oral\n3) Sulfato ferroso 40 mg de ferro elementar — 60 comprimidos\nTomar 2 comprimidos 1 vez ao dia, 30 minutos antes do almoço, por 30 dias e reavaliar.\n\nORIENTAÇÕES:\n- Tomar os medicamentos para estancar o sangramento nos horários exatos e agendar consulta com ginecologista.\n- Tomar o Sulfato Ferroso 1h antes do almoço com suco de laranja/limão (longe de leite, café ou chá; pode escurecer as fezes).\n- Retornar IMEDIATAMENTE à emergência se o sangramento continuar muito forte (encharcando 2 absorventes/hora), ou se tiver tontura, desmaio ou falta de ar."
+      },
+      {
+        "id": "na-unidade",
+        "title": "Prescrição na unidade",
+        "note": "Administração na unidade · separada da receita domiciliar",
+        "prescription": "PRESCRIÇÃO NA UNIDADE\n\nUso EV\n1) Ácido tranexâmico 250 mg/5 mL — 04 ampolas\nAplicar 1 g (20 mL) EV lento, em 10 minutos, se sangramento intenso.\n\nUso EV\n2) Cetoprofeno 100 mg — 01 frasco-ampola\nDiluir em 100 mL de SF 0,9% e correr EV em 20 min (também reduz o sangramento)."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "UBS com USG transvaginal; imediato se piorar",
+      "retornar_imediatamente_se": "Encharcar 1 absorvente por hora por 2 horas seguidas, coágulos grandes, tontura, desmaio, palpitação, falta de ar, dor forte, febre.",
+      "seguranca_plantonista": "Trombose prévia ou trombofilia: não usar ácido tranexâmico nem estrogênio. Estrogênio também contraindicado: enxaqueca com aura, fumante acima de 35 anos, hipertensão não controlada. Doença renal: reduzir a dose do ácido tranexâmico. Gestante: sangramento na gestação tem outra conduta (obstetrícia).",
+      "encaminhar_internar": "Instabilidade, Hb abaixo de 7 a 8 g/dL ou sem resposta: internação e ginecologia. Pós-menopausa ou suspeita de câncer: ginecologia com prioridade.",
+      "atestado_sugerido": "1 a 3 dias"
+    }
+  },
+  {
+    "id": "ADU-138",
+    "name": "Sífilis",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "A51 / A52 / A53",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "cancro duro, vdrl positivo, treponema pallidum, penicilina benzatina, benzetacil, doxiciclina, sífilis, VDRL, teste rápido de sífilis Doxiciclina 100 mg Penicilina G Benzatina 1.200.000 UI pó para suspensão Doxiciclina 100 mg Penicilina G benzatina 1.200.000 UI Penicilina G benzatina 1.200.000 UI",
+    "gate": "Teste rápido (treponêmico) positivo na gestante: tratar no mesmo dia com a 1ª dose, sem esperar o VDRL. Fora da gestação, confirmar com VDRL, mas tratar já se houver sintomas ou risco de perder o seguimento. Notificação compulsória. Tratar as parcerias sexuais (mesmo sem sintoma, no mínimo com o esquema de sífilis recente). Testar HIV e hepatites.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Doxiciclina 100 mg — 56 comprimidos\nTomar 01 comprimido de 12/12h por 28 dias.\n\nORIENTAÇÕES:\n- Cumprir todas as doses prescritas sem atrasar (para a forma injetável com Penicilina Benzatina, realizar aplicação na unidade de saúde a cada 7 dias; se usar Doxiciclina, tomar em pé com água por 28 dias).\n- Nas primeiras 24h do início do tratamento pode ocorrer febre e dor no corpo pela destruição da bactéria (Reação de Herxheimer — usar antitérmico comum).\n- Tratar obrigatoriamente a(s) parceria(s) sexual(is), manter abstinência até o fim e colher VDRL de controle trimestralmente (mensal se gestante)."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso IM\n1) Penicilina G Benzatina 1.200.000 UI pó para suspensão — 02 frascos-ampola (Sífilis recente) ou 06 frascos-ampola (Sífilis tardia)\nSífilis recente (primária, secundária ou latente < 1 ano): aplicar 2.400.000 UI (1.200.000 UI em cada região glútea) em dose única. Sífilis tardia (> 1 ano ou duração ignorada): aplicar 2.400.000 UI 01 vez por semana por 03 semanas consecutivas (total: 7.200.000 UI).\n\nORIENTAÇÕES:\n- Cumprir todas as doses prescritas sem atrasar (para a forma injetável com Penicilina Benzatina, realizar aplicação na unidade de saúde a cada 7 dias; se usar Doxiciclina, tomar em pé com água por 28 dias).\n- Nas primeiras 24h do início do tratamento pode ocorrer febre e dor no corpo pela destruição da bactéria (Reação de Herxheimer — usar antitérmico comum).\n- Tratar obrigatoriamente a(s) parceria(s) sexual(is), manter abstinência até o fim e colher VDRL de controle trimestralmente (mensal se gestante)."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Doxiciclina 100 mg — 30 comprimidos\nTomar 1 comprimido de 12/12h, por 15 dias (sífilis recente). Sífilis tardia: 30 dias (60 comprimidos). Gestante alérgica: dessensibilização à penicilina em hospital. Doxiciclina é contraindicada e outros esquemas não tratam o bebê. CONDUTA\n\nUso IM\n2) Penicilina G benzatina 1.200.000 UI — 02 frascos-ampola\nAplicar 2.400.000 UI, dose única (1.200.000 UI em cada glúteo).\n\nUso IM\n3) Penicilina G benzatina 1.200.000 UI — 06 frascos-ampola\nAplicar 2.400.000 UI (1.200.000 UI em cada glúteo), 1 vez por semana, por 3 semanas. Total: 7.200.000 UI. Na gestante, se passar de 7 dias entre as doses, reiniciar o esquema. Neurossífilis ou sífilis ocular ou auditiva: internação para penicilina cristalina.\n\nORIENTAÇÕES:\n- Cumprir todas as doses prescritas sem atrasar (para a forma injetável com Penicilina Benzatina, realizar aplicação na unidade de saúde a cada 7 dias; se usar Doxiciclina, tomar em pé com água por 28 dias).\n- Nas primeiras 24h do início do tratamento pode ocorrer febre e dor no corpo pela destruição da bactéria (Reação de Herxheimer — usar antitérmico comum).\n- Tratar obrigatoriamente a(s) parceria(s) sexual(is), manter abstinência até o fim e colher VDRL de controle trimestralmente (mensal se gestante)."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "VDRL a cada 3 meses no 1º ano (gestante, todo mês)",
+      "retornar_imediatamente_se": "Falta de ar, inchaço ou manchas pelo corpo logo após a injeção (alergia), dor de cabeça forte, alteração da visão ou da audição, fraqueza, gestante com sangramento ou contrações.",
+      "seguranca_plantonista": "Gestante: só a penicilina trata o bebê. Registrar a data e a dose no cartão do pré-natal e notificar. Pessoa vivendo com HIV: mesmo esquema.",
+      "encaminhar_internar": "Neurossífilis, sífilis ocular ou auditiva, gestante alérgica: referência hospitalar. VDRL que não cai: reavaliar (falha ou reinfecção).",
+      "atestado_sugerido": "não se aplica"
+    }
+  },
+  {
+    "id": "ADU-139",
+    "name": "Síndrome de Ramsay Hunt",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "B02.2",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "herpes zóster no ouvido com paralisia facial, aciclovir, prednisona Aciclovir 400 mg Prednisona 20 mg Lácrima Plus® Regenom®",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Aciclovir 400 mg — 70 comprimidos\nTomar 02 comprimidos de 4/4h, excetuando-se uma dose noturna, por 07 dias seguidos Horário sugerido: 06:00 – 10:00 – 14:00 – 18:00 – 22:00.\n\nUso oral\n2) Prednisona 20 mg — 10 comprimidos\nTomar 01 comprimido de 12/12h por 05 dias seguidos Horário sugerido: 08:00 – 20:00.\n\nUso oral\n3) Lácrima Plus® — 01 frasco\nPingar uma gota no olho paralisado, de 30/30 minutos diariamente enquanto persistir a paralisia palpebral.\n\nUso oral\n4) Regenom® — 01 frasco\nAplicar no olho paralisado à noite, antes de dormir, e cobrir com curativo oclusivo (gaze e esparadrapo, sem apertar) diariamente enquanto persistir a paralisia palpebral.\n\nORIENTAÇÕES:\n- Proteger o olho paralisado: colírio lubrificante de 30/30 min de dia, óculos escuros e pomada à noite fechando a pálpebra com gaze e micropore.\n- Tomar o Aciclovir 5 vezes ao dia com bastante água e a Prednisona nos horários exatos; não mexer nas bolhas da orelha.\n- Retornar imediatamente à emergência se o olho ficar vermelho/dolorido, ou se tiver febre alta, dor de cabeça forte, nuca rígida ou confusão."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  }
+]
+
+

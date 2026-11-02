@@ -1,0 +1,310 @@
+[
+  {
+    "id": "ADU-047",
+    "name": "Dermatite de contato",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "L23.9 / L24.9",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "alergia a bijuteria, alergia a detergente, eczema de contato, betametasona, dexametasona, alergia de pele, reação a bijuteria, alergia a produto, dermatite irritativa, coceira com vermelhidão Betametasona 0,1% Loratadina 10 mg Clobetasol creme 0,5 mg/g Dexametasona 0,1% creme Hidroxizina 25 mg Creme hidratante sem perfume Betametasona 0,1% creme Prednisona 20 mg",
+    "gate": "Identifique o causador: bijuteria (níquel), cosméticos, tintura de cabelo, borracha, plantas, produtos de limpeza, cimento. Sem afastar o agente, a lesão volta.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Betametasona 0,1% — 01 bisnaga\nAplicar uma fina camada sobre a área afetada duas vezes ao dia por 07 a 14 dias seguidos (até melhora das lesões).\n\nUso oral\n2) Loratadina 10 mg — 01 caixa\nTomar 01 comprimido ao dia, pela manhã, no mesmo horário, por 05 dias. Após este período, tomar 01 comprimido se coceira ou espirros, podendo repetir a dose 24/24h se necessário.\n\nUso local\n3) Clobetasol creme 0,5 mg/g — 01 bisnaga\nAplicar uma fina camada sobre a área afetada e cobrir com plástico (ex: papel filme) duas vezes ao dia. por 07 a 14 dias seguidos (até melhora das lesões).\n\nORIENTAÇÕES:\n- Afastar imediatamente o contato com o produto causador e usar luvas forradas com algodão ao mexer com produtos de limpeza.\n- Lavar com água fria/morna e sabonete neutro, hidratar a pele várias vezes ao dia e evitar coçar.\n- Retornar ao médico se houver saída de pus, aumento do inchaço, dor local ou febre."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso local\n1) Dexametasona 0,1% creme — 01 bisnaga\nAplicar fina camada na área afetada, 2 vezes ao dia, por 7 dias.\n\nUso oral\n2) Hidroxizina 25 mg — 10 comprimidos\nTomar 1 comprimido à noite, se coceira. Dá sono.\n\nUso local\n3) Creme hidratante sem perfume — 01 unidade\nAplicar no corpo 2 vezes ao dia, após o banho.\n\nORIENTAÇÕES:\n- Afastar imediatamente o contato com o produto causador e usar luvas forradas com algodão ao mexer com produtos de limpeza.\n- Lavar com água fria/morna e sabonete neutro, hidratar a pele várias vezes ao dia e evitar coçar.\n- Retornar ao médico se houver saída de pus, aumento do inchaço, dor local ou febre."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso local\n1) Betametasona 0,1% creme — 01 bisnaga\nAplicar fina camada, 2 vezes ao dia, por até 14 dias. Para corpo, mãos e pés (lesão mais grossa). Não usar no rosto. EXTENSO (MAIS DE 20% DO CORPO) OU MUITO INFLAMADO\n\nUso oral\n2) Prednisona 20 mg — 17 comprimidos\nTomar 2 comprimidos pela manhã por 5 dias, depois 1 comprimido por 5 dias, depois meio comprimido por 4 dias.\n\nORIENTAÇÕES:\n- Afastar imediatamente o contato com o produto causador e usar luvas forradas com algodão ao mexer com produtos de limpeza.\n- Lavar com água fria/morna e sabonete neutro, hidratar a pele várias vezes ao dia e evitar coçar.\n- Retornar ao médico se houver saída de pus, aumento do inchaço, dor local ou febre."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "7 dias se não melhorar",
+      "retornar_imediatamente_se": "Inchaço no rosto ou nos lábios, falta de ar, bolhas grandes espalhadas, febre, pus, lesão que se espalha rápido.",
+      "seguranca_plantonista": "Gestante: corticoide tópico de baixa ou média potência por pouco tempo é seguro. Para coceira, preferir loratadina (evitar hidroxizina no 1º trimestre). Rosto, pálpebras, dobras e idoso: corticoide fraco (hidrocortisona ou dexametasona) e por poucos dias. Diabético: prednisona sobe a glicemia.",
+      "encaminhar_internar": "Recorrente ou ligada ao trabalho: dermatologia (teste de contato) e saúde do trabalhador.",
+      "atestado_sugerido": "conforme o caso (ocupacional)"
+    }
+  },
+  {
+    "id": "ADU-048",
+    "name": "Dermatite de estase",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "I83.1",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "eczema varicoso, perna inchada e vermelha, permanganato, betametasona Cetirizina 10 mg Hidrocortisona 1% Permanganato de Potássio 100mg",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Cetirizina 10 mg — 01 caixa\nTomar 01 comprimido ao dia, no mesmo horário, por 05 dias. Após este período, tomar 01 comprimido se coceira, podendo repetir a dose 24/24h se necessário.\n\nUso local\n2) Hidrocortisona 1% — 01 bisnaga\nAplicar uma fina camada sobre a área afetada três vezes ao dia por 07 a 14 dias seguidos (até melhora das lesões).\n\nUso local\n3) Permanganato de Potássio 100mg — 01 caixa\nDiluir 01 comprimido em 01 litro de água morna e aplicar na forma de compressa duas vezes ao dia por 05 a 07 dias (enquanto houver lesões exsudativas).\n\nORIENTAÇÕES:\n- Manter as pernas elevadas acima do nível do coração sempre que estiver sentado ou deitado e fazer pequenas caminhadas diárias.\n- Diluir 1 comprimido de Permanganato em 1 litro de água morna para as compressas e hidratar bem a pele das pernas.\n- Retornar imediatamente ao médico se a perna ficar muito quente, vermelha, muito dolorida, com pus ou se tiver febre."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  },
+  {
+    "id": "ADU-049",
+    "name": "Dermatite seborreica",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "L21.9",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "caspa intensa, descamação no couro cabeludo e rosto, cetoconazol shampoo, caspa, seborreia, descamação no couro cabeludo, vermelhidão nas sobrancelhas, caspa no rosto Cetoconazol shampoo 20mg/ml Hidrocortisona 1% Cetoconazol shampoo 20mg/ml Trok-n® Cetoconazol 2% xampu Betametasona 0,1% loção capilar Cetoconazol 2% creme Hidrocortisona 1% creme",
+    "gate": "",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso local\n1) Cetoconazol shampoo 20mg/ml — 01 frasco\nLavar as áreas afetadas com o cetoconazol shampoo, deixar agir por 3 a 5 minutos e enxaguar em seguida. 2 a 3 vezes por semana, durante 04 semanas.\n\nUso local\n2) Hidrocortisona 1% — 01 bisnaga\nAplicar uma fina camada sobre a área afetada três vezes ao dia, por 10 a, no máximo, 20 dias seguidos.\n\nORIENTAÇÕES:\n- Lavar com o xampu de Cetoconazol massageando com a ponta dos dedos, deixar agir por 3 a 5 minutos e enxaguar com água morna/fria.\n- Evitar banhos quentes, não dormir com cabelo molhado e não usar cremes com corticoide no rosto por tempo prolongado.\n- Retornar para avaliação dermatológica se houver feridas com secreção ou ausência de melhora."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso local\n1) Cetoconazol shampoo 20mg/ml — 01 frasco\nLavar as áreas afetadas com o cetoconazol shampoo, deixar agir por 3 a 5 minutos e enxaguar em seguida. 2 a 3 vezes por semana, durante 04 semanas.\n\nUso local\n2) Trok-n® — 01 bisnaga\nAplicar nas lesões duas vezes ao dia até melhora.\n\nORIENTAÇÕES:\n- Lavar com o xampu de Cetoconazol massageando com a ponta dos dedos, deixar agir por 3 a 5 minutos e enxaguar com água morna/fria.\n- Evitar banhos quentes, não dormir com cabelo molhado e não usar cremes com corticoide no rosto por tempo prolongado.\n- Retornar para avaliação dermatológica se houver feridas com secreção ou ausência de melhora."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso local\n1) Cetoconazol 2% xampu — 01 frasco\nAplicar no couro cabeludo molhado, deixar agir por 5 minutos e enxaguar, 3 vezes por semana, por 4 semanas. Depois, 1 vez por semana para manutenção.\n\nORIENTAÇÕES:\n- Lavar com o xampu de Cetoconazol massageando com a ponta dos dedos, deixar agir por 3 a 5 minutos e enxaguar com água morna/fria.\n- Evitar banhos quentes, não dormir com cabelo molhado e não usar cremes com corticoide no rosto por tempo prolongado.\n- Retornar para avaliação dermatológica se houver feridas com secreção ou ausência de melhora."
+      },
+      {
+        "id": "esquema-4",
+        "title": "Esquema 4",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso local\n1) Betametasona 0,1% loção capilar — 01 frasco\nAplicar no couro cabeludo à noite, por 7 a 14 dias, se muita coceira ou vermelhidão.\n\nUso local\n2) Cetoconazol 2% creme — 01 bisnaga\nAplicar fina camada, 2 vezes ao dia, por 2 a 4 semanas.\n\nUso local\n3) Hidrocortisona 1% creme — 01 bisnaga\nAplicar fina camada, 1 a 2 vezes ao dia, por até 7 dias, nas crises com vermelhidão.\n\nORIENTAÇÕES:\n- Lavar com o xampu de Cetoconazol massageando com a ponta dos dedos, deixar agir por 3 a 5 minutos e enxaguar com água morna/fria.\n- Evitar banhos quentes, não dormir com cabelo molhado e não usar cremes com corticoide no rosto por tempo prolongado.\n- Retornar para avaliação dermatológica se houver feridas com secreção ou ausência de melhora."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "UBS se não melhorar em 4 semanas",
+      "retornar_imediatamente_se": "Lesões espalhadas pelo corpo, feridas com pus, febre, queda de cabelo em placas, bebê com lesões que não melhoram.",
+      "seguranca_plantonista": "Gestante e amamentação: cetoconazol tópico e em xampu são seguros.",
+      "encaminhar_internar": "Quadro grave, extenso ou de início súbito no adulto: pedir anti-HIV. Refratário: dermatologia.",
+      "atestado_sugerido": "não se aplica"
+    }
+  },
+  {
+    "id": "ADU-050",
+    "name": "Diabetes mellitus tipo 2 (início e ajuste ambulatorial)",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "E11.6",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "glicose alta, diabetes descompensado, hiperglicemia, açúcar alto, insulina, glicemia alta Metformina 850 mg Gliclazida MR 30 mg Insulina NPH 100 UI/mL",
+    "gate": "Glicemia acima de 250 mg/dL: descartar cetoacidose (cetonúria ou cetonemia, pH < 7,3, bicarbonato < 18) e estado hiperosmolar (glicemia acima de 600, desidratação, rebaixamento). Ambos são emergência. Procure o gatilho: infecção (urinária, pulmonar, pé diabético), infarto, AVC, corticoide, má adesão, pancreatite.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Metformina 850 mg — 60 comprimidos\nTomar 1 comprimido após o café da manhã, por 7 dias. Depois, 1 após o café e 1 após o jantar.\n\nORIENTAÇÕES:\n- Medir a glicemia em jejum e 2h após o almoço, anotar e levar na consulta.\n- Cortar açúcar, refrigerante e suco. Reduzir pão branco, massa, arroz e doces. Metade do prato com verduras.\n- Retornar imediatamente ao pronto-socorro se: vômitos, dor na barriga, respiração rápida e profunda, hálito de fruta, sonolência ou confusão, muita sede e urina, glicemia acima de 300 que não baixa ou \"HI\" no aparelho, febre, ferida no pé."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Gliclazida MR 30 mg — 60 comprimidos\nTomar 1 comprimido no café da manhã. Pode subir para 2 comprimidos após 2 semanas, se necessário.\n\nUso oral\n2) Insulina NPH 100 UI/mL — 01 unidade / conforme orientação\n1 frasco + seringas Aplicar 10 UI às 22h. Aumentar 2 UI a cada 3 dias até a glicemia de jejum ficar entre 80 e 130 mg/dL.\n\nORIENTAÇÕES:\n- Medir a glicemia em jejum e 2h após o almoço, anotar e levar na consulta.\n- Cortar açúcar, refrigerante e suco. Reduzir pão branco, massa, arroz e doces. Metade do prato com verduras.\n- Retornar imediatamente ao pronto-socorro se: vômitos, dor na barriga, respiração rápida e profunda, hálito de fruta, sonolência ou confusão, muita sede e urina, glicemia acima de 300 que não baixa ou \"HI\" no aparelho, febre, ferida no pé."
+      },
+      {
+        "id": "na-unidade",
+        "title": "Prescrição na unidade",
+        "note": "Administração na unidade · separada da receita domiciliar",
+        "prescription": "PRESCRIÇÃO NA UNIDADE\n\nUso SC\n1) Insulina regular 100 UI/mL — 01 frasco\nGlicemia acima de 300 mg/dL sem cetose: aplicar 0,1 UI/kg SC (ex.: 70 kg = 7 UI). Repetir a glicemia em 2h. Meta no PS: abaixo de 250 a 300, sem cetose e hidratado. Cetoacidose ou estado hiperosmolar: hidratação vigorosa, potássio, insulina EV em bomba e internação."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "UBS em até 7 dias com as glicemias anotadas",
+      "retornar_imediatamente_se": "Vômitos, dor na barriga, respiração rápida e profunda, hálito de fruta, sonolência ou confusão, muita sede e urina, glicemia acima de 300 que não baixa ou \"HI\" no aparelho, febre, ferida no pé.",
+      "seguranca_plantonista": "Doença renal: metformina no máximo 1.000 mg/dia se TFG 30 a 45 e suspender se < 30. Evitar glibenclamida (hipoglicemia). Idoso: metas menos rígidas (HbA1c até 7,5% a 8%). Evitar glibenclamida. Gestante: insulina é a escolha. Pré-natal de alto risco. Desidratação, vômitos ou exame com contraste: suspender a metformina temporariamente.",
+      "encaminhar_internar": "Cetoacidose, estado hiperosmolar, infecção grave, glicemia acima de 400 sem melhora, rebaixamento de consciência: internar.",
+      "atestado_sugerido": "1 a 2 dias, se descompensado"
+    }
+  },
+  {
+    "id": "ADU-051",
+    "name": "Diarreia bacteriana",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "A04.9",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "disenteria, diarreia com febre, gastroenterite bacteriana, ciprofloxacino, floratil Soro de Reidratação (SRO) Ciprofloxacino 500 mg Saccharomyces Boulardii 200 mg Dipirona 500 mg Butilbrometo de Escopolamina 10 mg Metoclopramida 10 mg Soro de Reidratação (SRO) Azitromicina 500 mg Saccharomyces Boulardii 200 mg Dipirona 500 mg Butilbrometo de Escopolamina 10 mg Metoclopramida 10 mg",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso local\n1) Soro de Reidratação (SRO) — 01 caixa\nDiluir 01 sachê em 1 litro de água filtrada ou fervida e guardar na geladeira. tomar 01 copo 10 a 15 vezes ao longo do dia pelo período orientado pelo médico.\n\nUso oral\n2) Ciprofloxacino 500 mg — 10 cps\nTomar 01 comprimido de 12/12h por 05 dias Horário sugerido: 08:00 / 20:00.\n\nUso oral\n3) Saccharomyces Boulardii 200 mg — 10 comprimidos\nTomar 01 comprimido de 12/12h por 05 dias Horário sugerido: 08:00 / 20:00.\n\nUso oral\n4) Dipirona 500 mg — 01 caixa\nTomar 02 comprimidos se dor ou febre, podendo repetir de 6/6h.\n\nUso oral\n5) Butilbrometo de Escopolamina 10 mg — 01 caixa\nTomar 01 comprimido se dor abdominal, podendo repetir de 8/8h.\n\nUso oral\n6) Metoclopramida 10 mg — 01 caixa\nTomar 01 comprimido se náuseas ou vômitos, podendo repetir de 8/8h.\n\nORIENTAÇÕES:\n- Completar todos os dias do antibiótico prescrito e beber 1 copo de Soro de Reidratação após cada evacuação líquida.\n- Manter dieta leve (arroz, batata, frango cozido, maçã, banana), evitando leite, frituras, gorduras e álcool; não usar remédios para prender o intestino.\n- Retornar imediatamente ao pronto-socorro se houver vômitos persistentes, tontura, boca seca, pouca urina ou febre após 48h."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso local\n1) Soro de Reidratação (SRO) — 01 caixa\nDiluir 01 sachê em 1 litro de água filtrada ou fervida e guardar na geladeira. tomar 01 copo 10 a 15 vezes ao longo do dia pelo período orientado pelo médico.\n\nUso oral\n2) Azitromicina 500 mg — 03 cps\nTomar 01 comprimido ao dia por 03 dias Horário sugerido: 08:00.\n\nUso oral\n3) Saccharomyces Boulardii 200 mg — 10 comprimidos\nTomar 01 comprimido de 12/12h por 05 dias horário sugerido: 08:00 / 20:00.\n\nUso oral\n4) Dipirona 500 mg — 01 caixa\nTomar 02 comprimidos se dor ou febre, podendo repetir de 6/6h.\n\nUso oral\n5) Butilbrometo de Escopolamina 10 mg — 01 caixa\nTomar 01 comprimido se dor abdominal, podendo repetir de 8/8h.\n\nUso oral\n6) Metoclopramida 10 mg — 01 caixa\nTomar 01 comprimido se náuseas ou vômitos, podendo repetir de 8/8h.\n\nORIENTAÇÕES:\n- Completar todos os dias do antibiótico prescrito e beber 1 copo de Soro de Reidratação após cada evacuação líquida.\n- Manter dieta leve (arroz, batata, frango cozido, maçã, banana), evitando leite, frituras, gorduras e álcool; não usar remédios para prender o intestino.\n- Retornar imediatamente ao pronto-socorro se houver vômitos persistentes, tontura, boca seca, pouca urina ou febre após 48h."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  },
+  {
+    "id": "ADU-052",
+    "name": "Diarreia inespecífica / gastroenterite viral",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "A09",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "virose intestinal, diarreia aguda, gastroenterite, floratil, tiorfan, racecadotrila, rehidrat, GECA, diarreia, vômitos e diarreia, intoxicação alimentar, virose, desarranjo, infecção intestinal, disenteria, caganeira Loperamida 2mg Saccharomyces Boulardii 200 mg Butilbrometo de Escopolamina 10 mg Metoclopramida 10 mg Soro de Reidratação (SRO) Saccharomyces Boulardii 200 mg Dipirona 500 mg Metoclopramida 10 mg Soro de Reidratação (SRO) Saccharomyces Boulardii 200 mg Buscopan Composto® Metoclopramida 10 mg Soro de Reidratação (SRO) Saccharomyces Boulardii 200 mg Buscoduo® Metoclopramida 10 mg Sais de Reidratação (SRO) Ondansetrona 8 mg Escopolamina 10 mg + dipirona 250 mg (Buscopan Composto) Racecadotrila 100 mg Loperamida 2 mg Saccharomyces boulardii 200 mg Azitromicina 500 mg Ciprofloxacino 500 mg",
+    "gate": "Avalie desidratação: sede, boca seca, taquicardia, tontura ao levantar, pouca urina. A maioria é viral e passa sozinha: o tratamento é hidratar. Antibiótico só se: sangue nas fezes com febre, quadro grave ou sepse, imunossuprimido ou diarreia do viajante moderada a grave.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Loperamida 2mg — 01 caixa\nTomar 01 comprimido, podendo repetir de 6/6h.\n\nUso oral\n2) Saccharomyces Boulardii 200 mg — 10 comprimidos\nTomar 01 comprimido de 12/12h por 05 dias Horário sugerido: 08:00 / 20:00.\n\nUso oral\n3) Butilbrometo de Escopolamina 10 mg — 01 caixa\nTomar 01 comprimido se dor abdominal, podendo repetir de 8/8h.\n\nUso oral\n4) Metoclopramida 10 mg — 01 caixa\nTomar 01 comprimido se náuseas ou vômitos, podendo repetir de 8/8h.\n\nUso local\n5) Soro de Reidratação (SRO) — 01 caixa\nDiluir 01 sachê em 1 litro de água filtrada ou fervida e guardar na geladeira. tomar 01 copo 10 a 15 vezes ao longo do dia pelo período orientado pelo médico.\n\nORIENTAÇÕES:\n- Beber 1 copo (200 mL) de Soro de Reidratação após cada evacuação líquida, além de água, água de coco, chás e caldos.\n- Fazer dieta leve (arroz, batata, frango, maçã, banana), cortar leite/derivados, gorduras e álcool, e tomar o probiótico com água fria/ambiente.\n- Não usar Loperamida se tiver febre ou sangue nas fezes; retornar à emergência se houver vômitos sem controle, febre alta ou desidratação."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Saccharomyces Boulardii 200 mg — 10 comprimidos\nTomar 01 comprimido de 12/12h por 05 dias Horário sugerido: 08:00 / 20:00.\n\nUso oral\n2) Dipirona 500 mg — 01 caixa\nTomar 02 comprimidos se dor ou febre, podendo repetir de 6/6h.\n\nUso oral\n3) Metoclopramida 10 mg — 01 caixa\nTomar 01 comprimido se náuseas ou vômitos, podendo repetir de 8/8h.\n\nUso local\n4) Soro de Reidratação (SRO) — 01 caixa\nDiluir 01 sachê em 1 litro de água filtrada ou fervida e guardar na geladeira. tomar 01 copo 10 a 15 vezes ao longo do dia pelo período orientado pelo médico.\n\nORIENTAÇÕES:\n- Beber 1 copo (200 mL) de Soro de Reidratação após cada evacuação líquida, além de água, água de coco, chás e caldos.\n- Fazer dieta leve (arroz, batata, frango, maçã, banana), cortar leite/derivados, gorduras e álcool, e tomar o probiótico com água fria/ambiente.\n- Não usar Loperamida se tiver febre ou sangue nas fezes; retornar à emergência se houver vômitos sem controle, febre alta ou desidratação."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Saccharomyces Boulardii 200 mg — 10 comprimidos\nTomar 01 comprimido de 12/12h por 05 dias Horário sugerido: 08:00 / 20:00.\n\nUso oral\n2) Buscopan Composto® — 01 caixa\nTomar 01 comprimido se dor abdominal, podendo repetir de 8/8h.\n\nUso oral\n3) Metoclopramida 10 mg — 01 caixa\nTomar 01 comprimido se náuseas ou vômitos, podendo repetir de 8/8h.\n\nUso local\n4) Soro de Reidratação (SRO) — 01 caixa\nDiluir 01 sachê em 1 litro de água filtrada ou fervida e guardar na geladeira. tomar 01 copo 10 a 15 vezes ao longo do dia pelo período orientado pelo médico.\n\nORIENTAÇÕES:\n- Beber 1 copo (200 mL) de Soro de Reidratação após cada evacuação líquida, além de água, água de coco, chás e caldos.\n- Fazer dieta leve (arroz, batata, frango, maçã, banana), cortar leite/derivados, gorduras e álcool, e tomar o probiótico com água fria/ambiente.\n- Não usar Loperamida se tiver febre ou sangue nas fezes; retornar à emergência se houver vômitos sem controle, febre alta ou desidratação."
+      },
+      {
+        "id": "esquema-4",
+        "title": "Esquema 4",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Saccharomyces Boulardii 200 mg — 10 comprimidos\nTomar 01 comprimido de 12/12h por 05 dias Horário sugerido: 08:00 / 20:00.\n\nUso oral\n2) Buscoduo® — 01 caixa\nTomar 01 comprimido se dor abdominal, podendo repetir de 8/8h.\n\nUso oral\n3) Metoclopramida 10 mg — 01 caixa\nTomar 01 comprimido se náuseas ou vômitos, podendo repetir de 8/8h.\n\nORIENTAÇÕES:\n- Beber 1 copo (200 mL) de Soro de Reidratação após cada evacuação líquida, além de água, água de coco, chás e caldos.\n- Fazer dieta leve (arroz, batata, frango, maçã, banana), cortar leite/derivados, gorduras e álcool, e tomar o probiótico com água fria/ambiente.\n- Não usar Loperamida se tiver febre ou sangue nas fezes; retornar à emergência se houver vômitos sem controle, febre alta ou desidratação."
+      },
+      {
+        "id": "esquema-5",
+        "title": "Esquema 5",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Sais de Reidratação (SRO) — 06 envelopes\nDiluir 1 envelope em 1 litro de água filtrada. Beber 1 copo (200 a 400 mL) após cada evacuação líquida ou vômito, em pequenos goles, além da água do dia.\n\nUso oral\n2) Ondansetrona 8 mg — 10 comprimidos\nTomar 1 comprimido de 8/8h, se náusea ou vômito.\n\nUso oral\n3) Escopolamina 10 mg + dipirona 250 mg (Buscopan Composto) — 20 comprimidos\nTomar 1 a 2 comprimidos de 6/6h, se cólica ou febre.\n\nUso oral\n4) Racecadotrila 100 mg — 15 cápsulas\nTomar 1 cápsula de 8/8h, até a diarreia parar (máx. 5 dias).\n\nORIENTAÇÕES:\n- Beber 1 copo (200 mL) de Soro de Reidratação após cada evacuação líquida, além de água, água de coco, chás e caldos.\n- Fazer dieta leve (arroz, batata, frango, maçã, banana), cortar leite/derivados, gorduras e álcool, e tomar o probiótico com água fria/ambiente.\n- Não usar Loperamida se tiver febre ou sangue nas fezes; retornar à emergência se houver vômitos sem controle, febre alta ou desidratação."
+      },
+      {
+        "id": "esquema-6",
+        "title": "Esquema 6",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Loperamida 2 mg — 12 comprimidos\nTomar 2 comprimidos após a 1ª evacuação líquida e depois 1 após cada evacuação líquida (máx. 8 por dia), por até 2 dias. Não usar se febre ou sangue nas fezes.\n\nUso oral\n2) Saccharomyces boulardii 200 mg — 10 cápsulas\nTomar 1 cápsula de 12/12h, por 5 dias (opcional).\n\nUso oral\n3) Azitromicina 500 mg — 03 comprimidos\nTomar 1 comprimido 1 vez ao dia, por 3 dias.\n\nUso oral\n4) Ciprofloxacino 500 mg — 06 comprimidos\nTomar 1 comprimido de 12/12h, por 3 dias.\n\nORIENTAÇÕES:\n- Beber 1 copo (200 mL) de Soro de Reidratação após cada evacuação líquida, além de água, água de coco, chás e caldos.\n- Fazer dieta leve (arroz, batata, frango, maçã, banana), cortar leite/derivados, gorduras e álcool, e tomar o probiótico com água fria/ambiente.\n- Não usar Loperamida se tiver febre ou sangue nas fezes; retornar à emergência se houver vômitos sem controle, febre alta ou desidratação."
+      },
+      {
+        "id": "na-unidade",
+        "title": "Prescrição na unidade",
+        "note": "Administração na unidade · separada da receita domiciliar",
+        "prescription": "PRESCRIÇÃO NA UNIDADE\n\nUso EV ou IM\n1) Ondansetrona 8 mg/4 mL — 01 ampola\nAplicar 4 a 8 mg EV lento ou IM, se vômitos.\n\nUso EV\n2) Dipirona 500 mg/mL — 01 ampola\nAplicar 2 mL (1 g) EV lento, se febre ou dor.\n\nUso EV ou IM\n3) Escopolamina 20 mg/mL (Buscopan simples) — 01 ampola\nAplicar 1 mL (20 mg) EV lento ou IM, se cólica. Desidratação moderada a grave ou vômitos incontroláveis: SF 0,9% ou Ringer lactato 20 mL/kg EV rápido (ex.: 1.000 mL), reavaliar e repetir conforme resposta. Testar a aceitação oral antes da alta."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "24 a 48h se não melhorar",
+      "retornar_imediatamente_se": "Boca muito seca, urina pouca e escura, tontura ao levantar, vômitos que não param, sangue nas fezes, febre alta, dor forte e localizada na barriga, sonolência, diarreia por mais de 7 dias.",
+      "seguranca_plantonista": "Gestante: soro oral e ondansetrona se necessário. Se precisar de antibiótico, azitromicina (evitar ciprofloxacino). Idoso: desidrata rápido. Checar função renal. Doença renal, diabético ou cardiopata desidratado: suspender temporariamente metformina, diurético, IECA ou losartana e anti-inflamatório até voltar a se hidratar. Loperamida: não usar se febre, sangue nas fezes ou suspeita de C. difficile.",
+      "encaminhar_internar": "Internar: desidratação grave, sem aceitação oral, sepse, idoso frágil, doença renal ou sinais de abdome agudo. Diarreia por mais de 14 dias: investigar (parasitológico, coprocultura).",
+      "atestado_sugerido": "1 a 3 dias; quem manipula alimentos, até 48h sem sintomas"
+    }
+  },
+  {
+    "id": "ADU-053",
+    "name": "Diarreia por C. difficile",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "A04.7",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "colite pseudomembranosa, diarreia pós-antibiótico, metronidazol Soro de Reidratação (SRO) Metronidazol 250 mg Saccharomyces boulardii 200 mg Dipirona 500 mg Butilbrometo de Escopolamina 10 mg Metoclopramida 10 mg",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso local\n1) Soro de Reidratação (SRO) — 01 caixa\nDiluir 01 sachê em 1 litro de água filtrada ou fervida e guardar na geladeira. tomar 01 copo 10 a 15 vezes ao longo do dia pelo período orientado pelo médico.\n\nUso oral\n2) Metronidazol 250 mg — 60 cps\nTomar 02 comprimidos de 8/8h por 10 dias Horário sugerido: 06:00 / 14:00 / 22:00.\n\nUso oral\n3) Saccharomyces boulardii 200 mg — 10 comprimidos\nTomar 01 comprimido de 12/12h por 05 dias Horário sugerido: 08:00 / 20:00.\n\nUso oral\n4) Dipirona 500 mg — 01 caixa\nTomar 02 comprimidos se dor ou febre, podendo repetir de 6/6h.\n\nUso oral\n5) Butilbrometo de Escopolamina 10 mg — 01 caixa\nTomar 01 comprimido se dor abdominal, podendo repetir de 8/8h.\n\nUso oral\n6) Metoclopramida 10 mg — 01 caixa\nTomar 01 comprimido se náuseas ou vômitos, podendo repetir de 8/8h.\n\nORIENTAÇÕES:\n- Tomar o Metronidazol rigorosamente por 10 dias e NÃO ingerir nenhuma bebida alcoólica durante e até 72h após o término.\n- Lavar as mãos com água e sabão após usar o banheiro, beber Soro de Reidratação a cada evacuação e não usar remédios que prendam o intestino.\n- Retornar imediatamente ao hospital se apresentar febre alta, barriga muito inchada e dolorida ou tontura."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  },
+  {
+    "id": "ADU-054",
+    "name": "Diarreia por Cyclospora e Isospora",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "A07.8",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "diarreia crônica, bactrim, sulfametoxazol Soro de Reidratação (SRO) Sulfametoxazol + Trimetoprima 400/80 mg Saccharomyces Boulardii 200 mg Dipirona 500 mg Butilbrometo de Escopolamina 10 mg Metoclopramida 10 mg Soro de Reidratação (SRO)",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso local\n1) Soro de Reidratação (SRO) — 01 caixa\nDiluir 01 sachê em 1 litro de água filtrada ou fervida e guardar na geladeira. tomar 01 copo após cada evacuação diarreica pelo período orientado pelo médico.\n\nUso oral\n2) Sulfametoxazol + Trimetoprima 400/80 mg — 56 comprimidos\nTomar 02 comprimidos de 12/12h por 14 dias.\n\nUso oral\n3) Saccharomyces Boulardii 200 mg — 10 comprimidos\nTomar 01 comprimido de 12/12h por 05 dias Horário sugerido: 08:00 / 20:00.\n\nUso oral\n4) Dipirona 500 mg — 01 caixa\nTomar 02 comprimidos se dor ou febre, podendo repetir de 6/6h.\n\nUso oral\n5) Butilbrometo de Escopolamina 10 mg — 01 caixa\nTomar 01 comprimido se dor abdominal, podendo repetir de 8/8h.\n\nUso oral\n6) Metoclopramida 10 mg — 01 caixa\nTomar 01 comprimido se náuseas ou vômitos, podendo repetir de 8/8h.\n\nORIENTAÇÕES:\n- Completar os 14 dias do antibiótico nos horários exatos e beber Soro de Reidratação após cada evacuação líquida.\n- Beber apenas água filtrada/fervida e higienizar frutas e verduras com hipoclorito de sódio por 15 minutos.\n- Retornar à emergência se surgirem manchas vermelhas na pele (alergia), vômitos persistentes, desidratação ou febre."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso local\n1) Soro de Reidratação (SRO) — 01 caixa\nDiluir 01 sachê em 1 litro de água filtrada ou fervida e guardar na geladeira. tomar 01 copo após cada evacuação diarreica pelo período orientado pelo médico.\n\nORIENTAÇÕES:\n- Completar os 14 dias do antibiótico nos horários exatos e beber Soro de Reidratação após cada evacuação líquida.\n- Beber apenas água filtrada/fervida e higienizar frutas e verduras com hipoclorito de sódio por 15 minutos.\n- Retornar à emergência se surgirem manchas vermelhas na pele (alergia), vômitos persistentes, desidratação ou febre."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  }
+]
+
+

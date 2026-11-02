@@ -1,0 +1,295 @@
+[
+  {
+    "id": "ADU-001",
+    "name": "Abstinência alcoólica",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "F10.3",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "alcoolismo, etilismo, tremor, ciwa, tiamina, vitamina b1, diazepam Tiamina 300 mg Carbamazepina 200 mg Tiamina 300 mg Diazepam 10 mg Amitriptilina 25 mg Tiamina 300 mg Diazepam 10 mg Fluoxetina 20 mg Tiamina 300 mg Diazepam 10 mg Citalopram 20 mg",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Tiamina 300 mg — 60 comprimidos\nTomar 01 comprimido de 12/12h por 7 dias, depois 01 comprimido ao dia Horário sugerido (12/12h): 08:00 / 20:00.\n\nUso oral\n2) Carbamazepina 200 mg — 30 comprimidos\nTomar 01 comprimido de 12/12h.\n\nORIENTAÇÕES:\n- Suspender totalmente o consumo de bebidas alcoólicas e tomar a Tiamina rigorosamente nos horários indicados.\n- Não dirigir veículos nem operar máquinas devido à sonolência causada pelos medicamentos.\n- Retornar imediatamente ao pronto-socorro se apresentar tremores intensos, confusão mental, alucinações, febre ou convulsão."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Tiamina 300 mg — 60 comprimidos\nTomar 01 comprimido de 12/12h por 7 dias, depois 01 comprimido ao dia Horário sugerido (12/12h): 08:00 / 20:00.\n\nUso oral\n2) Diazepam 10 mg — 20 comprimidos\nTomar 01 comprimido à noite, antes de dormir, por 20 dias seguidos.\n\nUso oral\n3) Amitriptilina 25 mg — 30 comprimidos\nTomar 01 comprimido à noite, antes de dormir por 30 dias (uso contínuo até reavaliação médica).\n\nORIENTAÇÕES:\n- Suspender totalmente o consumo de bebidas alcoólicas e tomar a Tiamina rigorosamente nos horários indicados.\n- Não dirigir veículos nem operar máquinas devido à sonolência causada pelos medicamentos.\n- Retornar imediatamente ao pronto-socorro se apresentar tremores intensos, confusão mental, alucinações, febre ou convulsão."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Tiamina 300 mg — 60 comprimidos\nTomar 01 comprimido de 12/12h por 7 dias, depois 01 comprimido ao dia Horário sugerido (12/12h): 08:00 / 20:00.\n\nUso oral\n2) Diazepam 10 mg — 20 comprimidos\nTomar 01 comprimido à noite, antes de dormir, por 20 dias seguidos.\n\nUso oral\n3) Fluoxetina 20 mg — 30 comprimidos\nTomar 01 comprimido pela manhã por 30 dias (uso contínuo até reavaliação médica).\n\nORIENTAÇÕES:\n- Suspender totalmente o consumo de bebidas alcoólicas e tomar a Tiamina rigorosamente nos horários indicados.\n- Não dirigir veículos nem operar máquinas devido à sonolência causada pelos medicamentos.\n- Retornar imediatamente ao pronto-socorro se apresentar tremores intensos, confusão mental, alucinações, febre ou convulsão."
+      },
+      {
+        "id": "esquema-4",
+        "title": "Esquema 4",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Tiamina 300 mg — 60 comprimidos\nTomar 01 comprimido de 12/12h por 7 dias, depois 01 comprimido ao dia Horário sugerido (12/12h): 08:00 / 20:00.\n\nUso oral\n2) Diazepam 10 mg — 20 comprimidos\nTomar 01 comprimido à noite, antes de dormir, por 20 dias seguidos.\n\nUso oral\n3) Citalopram 20 mg — 30 comprimidos\nTomar 01 comprimido à noite, antes de dormir por 30 dias (uso contínuo até reavaliação médica).\n\nORIENTAÇÕES:\n- Suspender totalmente o consumo de bebidas alcoólicas e tomar a Tiamina rigorosamente nos horários indicados.\n- Não dirigir veículos nem operar máquinas devido à sonolência causada pelos medicamentos.\n- Retornar imediatamente ao pronto-socorro se apresentar tremores intensos, confusão mental, alucinações, febre ou convulsão."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  },
+  {
+    "id": "ADU-002",
+    "name": "Abuso sexual",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "T74.2 / Z20.6",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "violência sexual, estupro, pep, profilaxia ist, levonorgestrel, pílula do dia seguinte, profilaxia pós-exposição, exposição sexual, camisinha estourou, exposição ao HIV, risco de HIV Azitromicina 500 mg Metronidazol 250 mg Levonorgestrel 0,75 mg Tenofovir 300 mg + lamivudina 300 mg Dolutegravir 50 mg",
+    "gate": "Iniciar o mais rápido possível, idealmente nas primeiras 2h e no máximo em até 72h após a exposição. Depois de 72h, não está indicada. Antes: teste rápido de HIV da pessoa exposta (se positivo, não fazer PEP: encaminhar para tratamento) e, se possível, da pessoa-fonte. Testes rápidos de sífilis, hepatites B e C e beta-hCG.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Azitromicina 500 mg — 02 comprimidos\nTomar os 02 comprimidos em dose única.\n\nUso oral\n2) Metronidazol 250 mg — 08 cps\nTomar 08 comprimidos em dose única.\n\nUso oral\n3) Levonorgestrel 0,75 mg — 02 cps\nTomar os dois comprimidos em dose única.\n\nORIENTAÇÕES:\n- Tomar todos os medicamentos nas doses exatas prescritas e evitar bebidas alcoólicas por até 72 horas após o Metronidazol.\n- Se vomitar em até 2 horas após engolir os comprimidos, retornar à unidade para repetir a dose e manter o protocolo de PEP (HIV) por 28 dias.\n- Realizar acompanhamento ambulatorial e repetir exames sorológicos em 30, 90 e 180 dias; retornar se houver febre, dor pélvica forte ou sangramento."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Tenofovir 300 mg + lamivudina 300 mg — 28 comprimidos\nTomar 1 comprimido 1 vez ao dia, sempre no mesmo horário, por 28 dias.\n\nUso oral\n2) Dolutegravir 50 mg — 28 comprimidos\nTomar 1 comprimido 1 vez ao dia, junto com o item 1, por 28 dias.\n\nORIENTAÇÕES:\n- Tomar todos os medicamentos nas doses exatas prescritas e evitar bebidas alcoólicas por até 72 horas após o Metronidazol.\n- Se vomitar em até 2 horas após engolir os comprimidos, retornar à unidade para repetir a dose e manter o protocolo de PEP (HIV) por 28 dias.\n- Realizar acompanhamento ambulatorial e repetir exames sorológicos em 30, 90 e 180 dias; retornar se houver febre, dor pélvica forte ou sangramento."
+      },
+      {
+        "id": "na-unidade",
+        "title": "Prescrição na unidade",
+        "note": "Administração na unidade · separada da receita domiciliar",
+        "prescription": "PRESCRIÇÃO NA UNIDADE\n\nUso oral\n1) Tenofovir 300 mg + lamivudina 300 mg — 01 comprimido\nTomar a 1ª dose na unidade.\n\nUso oral\n2) Dolutegravir 50 mg — 01 comprimido\nTomar a 1ª dose na unidade. Hepatite B: vacinar se não vacinado. Fonte HBsAg positiva e exposto não imune: imunoglobulina contra hepatite B. Notificação compulsória e acionar a rede de proteção. Anticoncepção de emergência: levonorgestrel 1,5 mg via oral, dose única, o mais cedo possível (até 5 dias). Profilaxia de IST: ceftriaxona 500 mg IM + azitromicina 1 g via oral + penicilina G benzatina 2.400.000 UI IM + metronidazol 2 g via oral (pode adiar o metronidazol se náusea), conforme o protocolo do Ministério da Saúde."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "teste de HIV em 4 a 6 semanas e em 12 semanas",
+      "retornar_imediatamente_se": "Febre, manchas na pele, dor de garganta e ínguas nas semanas seguintes, olhos amarelados, vômitos que impedem de tomar o remédio.",
+      "seguranca_plantonista": "Doença renal: tenofovir não é indicado se TFG < 50. Usar esquema alternativo do PCDT. Gestante: mesmo esquema. Interações: dolutegravir com antiácido, ferro e cálcio (intervalo). Dolutegravir aumenta o nível da metformina (limitar a 1 g/dia).",
+      "encaminhar_internar": "SAE ou CTA para seguimento. Vítima de violência: serviço de referência.",
+      "atestado_sugerido": "não se aplica"
+    }
+  },
+  {
+    "id": "ADU-003",
+    "name": "Acne vulgar",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "L70.0",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "espinhas, cravos, comedões, epiduo, adapaleno, peróxido de benzoíla, doxiciclina, acne vulgar, pele oleosa, acne inflamatória Peróxido de Benzoíla 5% + Adapaleno 0,1% gel (Epiduo®) Doxiciclina 100 mg Adapaleno 0,1% gel Adapaleno 0,1% gel Peróxido de benzoíla 2,5% gel Protetor solar oil-free FPS 30 ou mais Doxiciclina 100 mg Limeciclina 300 mg Sabonete para pele oleosa e hidratante oil-free",
+    "gate": "Graus: comedoniana (cravos), inflamatória leve a moderada (pápulas e pústulas) e grave (nódulos, cistos, cicatrizes). Acne grave, com cicatriz ou sem resposta: dermatologia (isotretinoína). Nunca usar antibiótico sozinho: sempre junto com adapaleno ou peróxido de benzoíla (evita resistência).",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso local\n1) Peróxido de Benzoíla 5% + Adapaleno 0,1% gel (Epiduo®) — 01 bisnaga\nAplicar uma fina camada sobre as áreas afetadas à noite, com a pele limpa e seca, e lavar pela manhã, durante 60 a 90 dias.\n\nORIENTAÇÕES:\n- Lavar o rosto 2 vezes ao dia com sabonete apropriado para pele acneica, sem esfregar e sem espremer cravos ou espinhas.\n- Aplicar o gel à noite em camada fina sobre a pele seca, lavar pela manhã e usar protetor solar oil-free diariamente.\n- Se usar Doxiciclina, tomar com um copo cheio de água sem se deitar por 30 minutos; suspenda se houver gravidez."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Doxiciclina 100 mg — 30 comprimidos\nTomar 01 comprimido ao dia, após o almoço, com um copo cheio de água, por 30 dias.\n\nUso local\n2) Adapaleno 0,1% gel — 01 bisnaga\nAplicar uma fina camada no rosto à noite antes de dormir e lavar pela manhã, por 60 dias.\n\nORIENTAÇÕES:\n- Lavar o rosto 2 vezes ao dia com sabonete apropriado para pele acneica, sem esfregar e sem espremer cravos ou espinhas.\n- Aplicar o gel à noite em camada fina sobre a pele seca, lavar pela manhã e usar protetor solar oil-free diariamente.\n- Se usar Doxiciclina, tomar com um copo cheio de água sem se deitar por 30 minutos; suspenda se houver gravidez."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso local\n1) Adapaleno 0,1% gel — 01 bisnaga\nAplicar fina camada no rosto todo (não só nas espinhas), à noite, com a pele seca. Nas 2 primeiras semanas, usar em noites alternadas.\n\nUso local\n2) Peróxido de benzoíla 2,5% gel — 01 bisnaga\nAplicar fina camada nas áreas com espinhas, 1 vez ao dia, pela manhã. Pode descolorir toalhas e roupas.\n\nUso local\n3) Protetor solar oil-free FPS 30 ou mais — 01 unidade\nAplicar pela manhã e reaplicar ao longo do dia.\n\nORIENTAÇÕES:\n- Lavar o rosto 2 vezes ao dia com sabonete apropriado para pele acneica, sem esfregar e sem espremer cravos ou espinhas.\n- Aplicar o gel à noite em camada fina sobre a pele seca, lavar pela manhã e usar protetor solar oil-free diariamente.\n- Se usar Doxiciclina, tomar com um copo cheio de água sem se deitar por 30 minutos; suspenda se houver gravidez."
+      },
+      {
+        "id": "esquema-4",
+        "title": "Esquema 4",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Doxiciclina 100 mg — 30 comprimidos\nTomar 1 comprimido 1 vez ao dia, após a refeição, com 1 copo de água, por 3 meses (30 comprimidos por mês). Reavaliar em 8 a 12 semanas.\n\nUso oral\n2) Limeciclina 300 mg — 30 cápsulas\nTomar 1 cápsula 1 vez ao dia, por 3 meses (30 cápsulas por mês).\n\nUso local\n3) Sabonete para pele oleosa e hidratante oil-free — 01 unidade de cada\nLavar o rosto 2 vezes ao dia e hidratar após o adapaleno.\n\nORIENTAÇÕES:\n- Lavar o rosto 2 vezes ao dia com sabonete apropriado para pele acneica, sem esfregar e sem espremer cravos ou espinhas.\n- Aplicar o gel à noite em camada fina sobre a pele seca, lavar pela manhã e usar protetor solar oil-free diariamente.\n- Se usar Doxiciclina, tomar com um copo cheio de água sem se deitar por 30 minutos; suspenda se houver gravidez."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "8 a 12 semanas para avaliar resposta",
+      "retornar_imediatamente_se": "Nódulos grandes e dolorosos, cicatrizes, piora rápida, tristeza ou isolamento por causa da pele.",
+      "seguranca_plantonista": "Gestante: adapaleno, isotretinoína e tetraciclinas (doxiciclina, limeciclina) são contraindicados. Usar peróxido de benzoíla, ácido azelaico 20% ou clindamicina tópica. Amamentação: tópicos são compatíveis. Evitar doxiciclina por mais de 3 semanas. Mulher com acne hormonal (piora menstrual, queixo): anticoncepcional combinado ajuda, após checar contraindicações.",
+      "encaminhar_internar": "Acne grave, com cicatriz, sem resposta em 3 meses ou com grande impacto emocional: dermatologia.",
+      "atestado_sugerido": "não se aplica"
+    }
+  },
+  {
+    "id": "ADU-004",
+    "name": "Aftas orais (estomatite aftosa)",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "K12.0",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "afta, úlcera bucal, omcilon, triancinolona, dor na boca, estomatite aftosa, úlcera na boca, gengiva sangrando, sapinho não, boca ferida Triancinolona acetonida Gingilone® pomada Triancinolona acetonida 1 mg/g pomada bucal (Omcilon-A Orabase) Clorexidina 0,12% solução bucal Paracetamol 750 mg Lidocaína 2% gel Metronidazol 400 mg",
+    "gate": "Úlcera que não cicatriza em 3 semanas, endurecida, indolor ou em fumante/etilista: encaminhar para biópsia. Aftas de repetição: investigar ferro, B12, folato, doença celíaca e HIV.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso local\n1) Triancinolona acetonida — 01 bisnaga\nAplicar uma fina camada sobre a lesão, sem esfregar, três vezes ao dia por 07 dias.\n\nUso local\n2) Gingilone® pomada — 01 bisnaga\nAplicar uma fina camada sobre a lesão, sem esfregar, três vezes ao dia por 07 dias.\n\nORIENTAÇÕES:\n- Aplicar a medicação sobre a afta após a higiene bucal e à noite ao dormir, sem esfregar, evitando comer ou beber por 30 minutos.\n- Evitar alimentos ácidos, cítricos, muito quentes, apimentados ou duros até a cicatrização.\n- Procurar reavaliação médica ou odontológica se a lesão durar mais de 14 dias ou vier acompanhada de febre."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso local\n1) Triancinolona acetonida 1 mg/g pomada bucal (Omcilon-A Orabase) — 01 bisnaga\nSecar a lesão e aplicar fina camada sobre a afta, 3 a 4 vezes ao dia (após as refeições e antes de dormir), por até 7 dias.\n\nUso local\n2) Clorexidina 0,12% solução bucal — 01 frasco\nBochechar 15 mL por 30 segundos, de 12/12h, após escovar os dentes, por 7 a 10 dias. Não engolir.\n\nUso oral\n3) Paracetamol 750 mg — 20 comprimidos\nTomar 1 comprimido de 6/6h, se dor.\n\nORIENTAÇÕES:\n- Aplicar a medicação sobre a afta após a higiene bucal e à noite ao dormir, sem esfregar, evitando comer ou beber por 30 minutos.\n- Evitar alimentos ácidos, cítricos, muito quentes, apimentados ou duros até a cicatrização.\n- Procurar reavaliação médica ou odontológica se a lesão durar mais de 14 dias ou vier acompanhada de febre."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso local\n1) Lidocaína 2% gel — 01 bisnaga\nAplicar pequena quantidade sobre a afta antes das refeições, se dor (máx. 4 vezes ao dia).\n\nUso oral\n2) Metronidazol 400 mg — 09 comprimidos\nTomar 1 comprimido de 8/8h, por 3 dias. Não ingerir álcool até 48h após o fim.\n\nORIENTAÇÕES:\n- Aplicar a medicação sobre a afta após a higiene bucal e à noite ao dormir, sem esfregar, evitando comer ou beber por 30 minutos.\n- Evitar alimentos ácidos, cítricos, muito quentes, apimentados ou duros até a cicatrização.\n- Procurar reavaliação médica ou odontológica se a lesão durar mais de 14 dias ou vier acompanhada de febre."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "se a lesão não cicatrizar em 2 a 3 semanas",
+      "retornar_imediatamente_se": "Febre alta, dificuldade para engolir ou beber líquidos, inchaço no rosto ou pescoço, lesão que não cicatriza em 3 semanas.",
+      "seguranca_plantonista": "Gestante e amamentação: triancinolona oral tópica, clorexidina e paracetamol podem ser usados. Metronidazol pode ser usado se necessário. Idoso com prótese dentária: checar se a prótese está machucando (úlcera traumática).",
+      "encaminhar_internar": "Gengivite ou sangramento persistente: dentista da UBS. Úlcera atípica ou persistente: estomatologia para biópsia.",
+      "atestado_sugerido": "geralmente não necessário"
+    }
+  },
+  {
+    "id": "ADU-005",
+    "name": "Alergia e prurido",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "L29.9 / T78.4",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "coceira, alergia na pele, hidroxizina, hixizine, loratadina, dexclorfeniramina, polaramine Hidroxizina 25mg Prednisona 20mg Loratadina 10 mg Prednisona 20mg Cetirizina 10mg Prednisona 20mg Levocetirizina 5mg Prednisona 20mg Fexofenadina 60mg + Pseudoefedrina 120mg",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Hidroxizina 25mg — 01 caixa\nTomar 01 comprimido de 12/12h por 05 dias.\n\nUso oral\n2) Prednisona 20mg — 10 comprimidos\nTomar 01 comprimido às 08:00 da manhã por 05 dias.\n\nUso oral\n3) Loratadina 10 mg — 01 caixa\nTomar 01 comprimido ao dia, no mesmo horário, por 05 dias. Após este período, Tomar 01 comprimido se coceira ou espirros, podendo repetir a dose 24/24h se necessário.\n\nORIENTAÇÕES:\n- Tomar banhos rápidos com água morna a fria, usar sabonete neutro, hidratar a pele após o banho e evitar coçar as lesões.\n- Evitar dirigir ou ingerir álcool durante o uso dos antialérgicos devido ao risco de sonolência.\n- Retornar imediatamente à emergência se surgir falta de ar, rouquidão ou inchaço nos lábios, língua ou rosto."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Prednisona 20mg — 10 comprimidos\nTomar 01 comprimido às 08:00 da manhã por 05 dias.\n\nUso oral\n2) Cetirizina 10mg — 01 caixa\nTomar 01 comprimido ao dia, no mesmo horário, por 05 dias. Após este período, Tomar 01 comprimido se coceira ou espirros, podendo repetir a dose 24/24h se necessário.\n\nORIENTAÇÕES:\n- Tomar banhos rápidos com água morna a fria, usar sabonete neutro, hidratar a pele após o banho e evitar coçar as lesões.\n- Evitar dirigir ou ingerir álcool durante o uso dos antialérgicos devido ao risco de sonolência.\n- Retornar imediatamente à emergência se surgir falta de ar, rouquidão ou inchaço nos lábios, língua ou rosto."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Prednisona 20mg — 10 comprimidos\nTomar 01 comprimido às 08:00 da manhã por 05 dias.\n\nUso oral\n2) Levocetirizina 5mg — 01 caixa\nTomar 01 comprimido ao dia, no mesmo horário, por 05 dias. Após este período, Tomar 01 comprimido se coceira ou espirros, podendo repetir a dose 24/24h se necessário.\n\nORIENTAÇÕES:\n- Tomar banhos rápidos com água morna a fria, usar sabonete neutro, hidratar a pele após o banho e evitar coçar as lesões.\n- Evitar dirigir ou ingerir álcool durante o uso dos antialérgicos devido ao risco de sonolência.\n- Retornar imediatamente à emergência se surgir falta de ar, rouquidão ou inchaço nos lábios, língua ou rosto."
+      },
+      {
+        "id": "esquema-4",
+        "title": "Esquema 4",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Prednisona 20mg — 10 comprimidos\nTomar 01 comprimido às 08:00 da manhã por 05 dias.\n\nUso oral\n2) Fexofenadina 60mg + Pseudoefedrina 120mg — 01 caixa\nTomar 01 comprimido se espirros ou coriza, podendo repetir de 12/12h.\n\nORIENTAÇÕES:\n- Tomar banhos rápidos com água morna a fria, usar sabonete neutro, hidratar a pele após o banho e evitar coçar as lesões.\n- Evitar dirigir ou ingerir álcool durante o uso dos antialérgicos devido ao risco de sonolência.\n- Retornar imediatamente à emergência se surgir falta de ar, rouquidão ou inchaço nos lábios, língua ou rosto."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  },
+  {
+    "id": "ADU-006",
+    "name": "Amenorreia secundária (teste da progesterona)",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "N91.1",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "atraso menstrual, menstruação não vem, sem menstruar, prova da progesterona Medroxiprogesterona 10 mg Estrogênios conjugados 1,25 mg Medroxiprogesterona 10 mg",
+    "gate": "Primeiro passo é sempre o beta-hCG. Amenorreia secundária: ausência de menstruação por 3 meses (quem tinha ciclo regular) ou 6 meses (quem tinha ciclo irregular).",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Medroxiprogesterona 10 mg — 10 comprimidos\nTomar 1 comprimido 1 vez ao dia, por 10 dias.\n\nORIENTAÇÕES:\n- O sangramento costuma vir de 2 a 7 dias após o último comprimido (pode levar até 14 dias).\n- Anotar a data.\n- Retornar imediatamente ao pronto-socorro se: dor pélvica forte, sangramento muito intenso (1 absorvente encharcado por hora), dor de cabeça forte com alteração da visão, saída de leite pelas mamas."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Estrogênios conjugados 1,25 mg — 21 comprimidos\nTomar 1 comprimido 1 vez ao dia, por 21 dias.\n\nUso oral\n2) Medroxiprogesterona 10 mg — 10 comprimidos\nTomar 1 comprimido 1 vez ao dia, do 12º ao 21º dia do item 1.\n\nORIENTAÇÕES:\n- O sangramento costuma vir de 2 a 7 dias após o último comprimido (pode levar até 14 dias).\n- Anotar a data.\n- Retornar imediatamente ao pronto-socorro se: dor pélvica forte, sangramento muito intenso (1 absorvente encharcado por hora), dor de cabeça forte com alteração da visão, saída de leite pelas mamas."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "com os exames e o resultado do teste, em 2 a 3 semanas",
+      "retornar_imediatamente_se": "Dor pélvica forte, sangramento muito intenso (1 absorvente encharcado por hora), dor de cabeça forte com alteração da visão, saída de leite pelas mamas.",
+      "seguranca_plantonista": "Antes do teste: beta-hCG negativo é obrigatório. Estrogênio contraindicado: trombose prévia, enxaqueca com aura, câncer de mama, doença hepática ativa, sangramento genital sem diagnóstico.",
+      "encaminhar_internar": "Prolactina alta, alteração visual ou cefaleia: endocrinologia e imagem de sela túrcica. FSH alto antes dos 40 anos: ginecologia (insuficiência ovariana prematura). Sem sangramento após estrogênio + progesterona: ginecologia (causa uterina).",
+      "atestado_sugerido": "não se aplica"
+    }
+  },
+  {
+    "id": "ADU-007",
+    "name": "Anafilaxia",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "T78.2",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "choque anafilático, edema de glote, alergia grave, reação alérgica, angioedema, inchaço na boca, reação a medicamento Prednisona 20mg Loratadina 10 mg Ranitidina 150mg Prednisona 20 mg Prednisona 20mg Loratadina 10 mg Ranitidina 150mg Prednisona 20 mg Hidroxizina 25 mg Ranitidina 150 mg Prednisona 20 mg Loratadina 10 mg",
+    "gate": "Pense em anafilaxia se, minutos a horas após exposição, surgir pele/mucosa (urticária, inchaço de lábios) + falta de ar, chiado ou queda de pressão. Ou 2 sistemas acometidos (pele, respiratório, cardiovascular, gastrointestinal). Adrenalina IM é o tratamento. Anti-histamínico e corticoide são coadjuvantes e não substituem nem atrasam a adrenalina.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Prednisona 20mg — 10 comprimidos\nTomar 02 comprimidos às 08:00 da manhã por 05 dias seguidos.\n\nUso oral\n2) Loratadina 10 mg — 01 caixa\nTomar 01 comprimido ao dia, pela manhã, no mesmo horário, por 05 dias. Após este período, Tomar 01 comprimido se coceira ou espirros, podendo repetir a dose de 24/24h se necessário.\n\nUso oral\n3) Ranitidina 150mg — 01 caixa\nTomar 01 comprimido pela manhã, em jejum, por 05 dias.\n\nUso oral\n4) Prednisona 20 mg — 10 comprimidos\nTomar 02 comprimidos às 08:00 da manhã por 05 dias seguidos.\n\nORIENTAÇÕES:\n- Cumprir rigorosamente os 05 dias de Prednisona e antialérgicos para prevenir o retorno tardio dos sintomas (reação bifásica).\n- Evitar qualquer novo contato com o agente causador da alergia e agendar consulta com médico alergista.\n- Retornar IMEDIATAMENTE ao pronto-socorro se voltar a sentir falta de ar, chiado, rouquidão, inchaço no rosto/garganta ou tontura."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Prednisona 20mg — 10 comprimidos\nTomar 02 comprimidos às 08:00 da manhã por 05 dias seguidos.\n\nUso oral\n2) Loratadina 10 mg — 01 caixa\nTomar 01 comprimido ao dia, pela manhã, no mesmo horário, por 05 dias. Após este período, tomar 01 comprimido se coceira ou espirros, podendo repetir a dose de 24/24h se necessário.\n\nUso oral\n3) Ranitidina 150mg — 01 caixa\nTomar 01 comprimido pela manhã, em jejum, por 05 dias.\n\nUso oral\n4) Prednisona 20 mg — 10 comprimidos\nTomar 02 comprimidos às 08:00 da manhã por 05 dias seguidos.\n\nUso oral\n5) Hidroxizina 25 mg — 01 caixa\nTomar 01 comprimido de 08/08h por 05 dias. Após este período, tomar 01 comprimido se coceira ou espirros, podendo repetir a dose de 08/08h se necessário.\n\nUso oral\n6) Ranitidina 150 mg — 01 caixa\nTomar 01 comprimido pela manhã, em jejum, por 05 dias.\n\nORIENTAÇÕES:\n- Cumprir rigorosamente os 05 dias de Prednisona e antialérgicos para prevenir o retorno tardio dos sintomas (reação bifásica).\n- Evitar qualquer novo contato com o agente causador da alergia e agendar consulta com médico alergista.\n- Retornar IMEDIATAMENTE ao pronto-socorro se voltar a sentir falta de ar, chiado, rouquidão, inchaço no rosto/garganta ou tontura."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Prednisona 20 mg — 06 comprimidos\nTomar 2 comprimidos pela manhã, por 3 dias.\n\nUso oral\n2) Loratadina 10 mg — 07 comprimidos\nTomar 1 comprimido 1 vez ao dia, por 7 dias.\n\nORIENTAÇÕES:\n- Cumprir rigorosamente os 05 dias de Prednisona e antialérgicos para prevenir o retorno tardio dos sintomas (reação bifásica).\n- Evitar qualquer novo contato com o agente causador da alergia e agendar consulta com médico alergista.\n- Retornar IMEDIATAMENTE ao pronto-socorro se voltar a sentir falta de ar, chiado, rouquidão, inchaço no rosto/garganta ou tontura."
+      },
+      {
+        "id": "na-unidade",
+        "title": "Prescrição na unidade",
+        "note": "Administração na unidade · separada da receita domiciliar",
+        "prescription": "PRESCRIÇÃO NA UNIDADE\n\nUso IM\n1) Adrenalina 1 mg/mL (1:1.000) — 01 ampola\nAplicar 0,5 mg (0,5 mL) IM na face lateral da coxa. Repetir a cada 5 a 15 min se não melhorar.\n\nUso EV\n2) SF 0,9% 1.000 mL — 01 unidade / conforme orientação\nCorrer EV aberto se hipotensão. Repetir conforme resposta.\n\nUso inalatório\n3) Salbutamol spray 100 mcg/jato — 01 frasco\n4 a 8 jatos com espaçador se chiado persistente após a adrenalina.\n\nUso IM\n4) Prometazina 50 mg/2 mL — 01 ampola\nAplicar 1 mL (25 mg) IM profundo, para prurido e urticária.\n\nUso EV\n5) Hidrocortisona 500 mg — 01 frasco\nAplicar 200 mg EV. Sem resposta após 2 a 3 doses IM: sala vermelha. Observar por pelo menos 6h após a resolução (12 a 24h se precisou de mais de uma dose ou se foi grave)."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "imediato se qualquer sintoma voltar; alergologista",
+      "retornar_imediatamente_se": "Falta de ar, chiado, inchaço de lábios, língua ou garganta, voz rouca, tontura, desmaio, vômitos repetidos.",
+      "seguranca_plantonista": "Gestante: adrenalina IM na mesma dose, sem atrasar. Deitar sobre o lado esquerdo. Usa betabloqueador: a resposta à adrenalina pode ser menor. Refratário: glucagon 1 a 2 mg EV. Idoso ou cardiopata: adrenalina IM continua indicada. Não há contraindicação absoluta na anafilaxia.",
+      "encaminhar_internar": "Internar: precisou de mais de uma dose de adrenalina, hipotensão, broncoespasmo grave, asma grave prévia, idade avançada ou mora longe do serviço.",
+      "atestado_sugerido": "1 a 2 dias"
+    }
+  }
+]
+
+

@@ -1,0 +1,235 @@
+[
+  {
+    "id": "ADU-102",
+    "name": "Meteorismo",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "R14",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "gases intestinais, barriga estufada, flatulência, simeticona, luftal Simeticona 40 mg Metoclopramida 10 mg Dipirona 500 mg",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Simeticona 40 mg — 01 caixa\nTomar 01 comprimido se dor (gases), podendo repetir de 6/6h.\n\nUso oral\n2) Metoclopramida 10 mg — 01 caixa\nTomar 01 comprimido se náuseas ou vômitos, podendo repetir de 8/8h.\n\nUso oral\n3) Dipirona 500 mg — 01 caixa\nTomar 02 comprimidos se dor ou febre, podendo repetir de 6/6h.\n\nORIENTAÇÕES:\n- Mastigar devagar, evitar falar muito durante as refeições e fazer caminhadas leves após comer.\n- Reduzir feijão (deixar de molho por 12h antes de cozinhar), repolho, brócolis, doces, leite e cortar refrigerantes e bebidas com gás.\n- Procurar o médico se houver dor abdominal forte, parada de eliminação de gases e fezes, vômitos ou febre."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  },
+  {
+    "id": "ADU-103",
+    "name": "Micose subungueal e paquioníquia",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "B35.1",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "micose de unha, onicomicose, unha grossa, oxiconazol, ureia 40%, unha amarelada, fungo na unha, tinea unguium Ureia Manipulada em Creme 40% Nitrato de Oxiconazol 10mg/ml Amorolfina 5% esmalte Terbinafina 250 mg 42 (mãos) ou 84 (pés) comprimidos Itraconazol 100 mg 28 cápsulas por pulso",
+    "gate": "Confirmar com micológico direto ou cultura antes de tratamento oral longo (psoríase e trauma imitam micose). Pedir TGO e TGP antes do oral se hepatopatia ou etilismo.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso local\n1) Ureia Manipulada em Creme 40% — 01 frasco\nAplicar uma camada sob a unha à noite antes de dormir, com o auxílio de um cotonete ou um chumaço de algodão, e lavar bem pela manhã, com água e sabão durante 02 a 04 semanas.\n\nUso oral\n2) Nitrato de Oxiconazol 10mg/ml — 01 frasco\nAplicar 01 camada sob a unha pela manhã, com o auxílio de cotonete ou um chumaço de algodão, pela manhã, após lavar com água e sabão durante o banho, por 01 a 02 semanas.\n\nORIENTAÇÕES:\n- Aplicar a Ureia 40% sob a unha à noite para amolecer e o Nitrato de Oxiconazol pela manhã após lavar e secar bem.\n- Manter unhas curtas com lixa descartável, não compartilhar alicates, secar bem pés/mãos e usar luvas ao lavar louça.\n- Manter acompanhamento dermatológico, pois o tratamento da unha depende do seu crescimento completo."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso local\n1) Amorolfina 5% esmalte — 01 frasco\nLixar a superfície da unha, limpar e aplicar 1 a 2 vezes por semana, por 6 meses (mãos) a 12 meses (pés).\n\nORIENTAÇÕES:\n- Aplicar a Ureia 40% sob a unha à noite para amolecer e o Nitrato de Oxiconazol pela manhã após lavar e secar bem.\n- Manter unhas curtas com lixa descartável, não compartilhar alicates, secar bem pés/mãos e usar luvas ao lavar louça.\n- Manter acompanhamento dermatológico, pois o tratamento da unha depende do seu crescimento completo."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Terbinafina 250 mg 42 (mãos) ou 84 (pés) comprimidos — 01 unidade / conforme orientação\nTomar 1 comprimido 1 vez ao dia, por 6 semanas (mãos) ou 12 semanas (pés).\n\nUso oral\n2) Itraconazol 100 mg 28 cápsulas por pulso — 01 unidade / conforme orientação\nTomar 2 cápsulas (200 mg) de 12/12h, após a refeição, por 7 dias seguidos a cada mês. Mãos: 2 pulsos. Pés: 3 pulsos. Checar interações e evitar em insuficiência cardíaca.\n\nORIENTAÇÕES:\n- Aplicar a Ureia 40% sob a unha à noite para amolecer e o Nitrato de Oxiconazol pela manhã após lavar e secar bem.\n- Manter unhas curtas com lixa descartável, não compartilhar alicates, secar bem pés/mãos e usar luvas ao lavar louça.\n- Manter acompanhamento dermatológico, pois o tratamento da unha depende do seu crescimento completo."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "UBS a cada 6 a 12 semanas",
+      "retornar_imediatamente_se": "Olhos ou pele amarelados, urina escura, náusea forte, manchas ou bolhas na pele, dor com pus ao redor da unha.",
+      "seguranca_plantonista": "Gestante e amamentação: adiar o tratamento oral (só esmalte). Hepatopatia ou etilismo: evitar tratamento oral. Itraconazol: interage com estatinas, alguns anti-hipertensivos e anticoagulantes. Contraindicado na insuficiência cardíaca. Terbinafina: evitar se TFG < 50.",
+      "encaminhar_internar": "Falha do tratamento, diabético com lesões nos pés ou imunossuprimido: dermatologia.",
+      "atestado_sugerido": "não se aplica"
+    }
+  },
+  {
+    "id": "ADU-104",
+    "name": "Migrânea na gestação",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "O99.3 / G43.9",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "enxaqueca na gravidez, dor de cabeça em gestante, paracetamol, metoclopramida Cefalium Paracetamol 500 mg Paracetamol 500 mg + Codeína 30 mg Metoclopramida 10 mg",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Cefalium — 01 caixa\nTomar 01 a 02 comprimidos ao primeiro sinal de enxaqueca. se não houver melhora, pode ingerir um comprimido a cada 30 min, até um máximo de 06 comprimidos.\n\nUso oral\n2) Paracetamol 500 mg — 01 caixa\nTomar 02 comprimidos se dor ou febre, podendo repetir de 6/6h.\n\nUso oral\n3) Paracetamol 500 mg + Codeína 30 mg — 01 caixa\nTomar 01 comprimido se dor intensa, podendo repetir de 6/6h.\n\nUso oral\n4) Metoclopramida 10 mg — 01 caixa\nTomar 01 comprimido se náuseas ou vômitos, podendo repetir de 8/8h.\n\nORIENTAÇÕES:\n- Repousar em quarto escuro e silencioso com compressa fria na testa, manter boa hidratação e não ficar muitas horas sem comer.\n- Usar apenas os medicamentos liberados pelo seu obstetra (evitar anti-inflamatórios e derivados de ergotamina na gravidez).\n- Ir IMEDIATAMENTE à maternidade se a dor vier com pressão alta (>= 140x90), visão turva/pontos brilhantes, dor no estômago ou inchaço no rosto/mãos."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  },
+  {
+    "id": "ADU-105",
+    "name": "Moléstia inflamatória pélvica aguda",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "N73.9",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "dip, mip, dor pélvica, corrimento com febre, doxiciclina, metronidazol, doença inflamatória pélvica, anexite, salpingite, dor no pé da barriga com corrimento Doxiciclina 100 mg Metronidazol 250 mg Dipirona 500 mg Metoclopramida 10 mg Doxiciclina 100 mg Metronidazol 250 mg Ibuprofeno 600 mg Dipirona 500 mg",
+    "gate": "Diagnóstico clínico: dor pélvica + dor à mobilização do colo, dor anexial ou dor uterina. Sempre fazer beta- hCG (descartar gravidez ectópica). Oferecer testes rápidos de HIV, sífilis e hepatites. Não é necessário retirar o DIU no início do tratamento.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Doxiciclina 100 mg — 28 comprimidos\nTomar 01 comprimido de 12/12 horas por 14 dias.\n\nUso oral\n2) Metronidazol 250 mg — 84 comprimidos\nTomar 02 comprimidos de 8/8h por 14 dias Horário sugerido: 06:00 / 14:00 / 22:00.\n\nUso oral\n3) Dipirona 500 mg — 01 caixa\nTomar 02 comprimidos se febre ou dor, podendo repetir de 6/6h.\n\nUso oral\n4) Metoclopramida 10 mg — 01 caixa\nTomar 01 comprimido se náuseas ou vômitos, podendo repetir de 8/8h.\n\nORIENTAÇÕES:\n- Completar rigorosamente os 14 dias de antibióticos (Doxiciclina em pé com água + Metronidazol) e NÃO ingerir álcool até 72h após o fim.\n- Manter repouso, abstinência sexual até a cura e encaminhar obrigatoriamente o parceiro sexual para tratamento médico.\n- Retornar para reavaliação em 48 a 72h ou imediatamente se a febre/dor piorarem ou houver vômitos."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Doxiciclina 100 mg — 28 comprimidos\nTomar 1 comprimido de 12/12h, por 14 dias.\n\nUso oral\n2) Metronidazol 250 mg — 56 comprimidos\nTomar 2 comprimidos de 12/12h, por 14 dias. Não ingerir álcool.\n\nUso oral\n3) Ibuprofeno 600 mg — 15 comprimidos\nTomar 1 comprimido de 8/8h, após as refeições, por 5 dias.\n\nORIENTAÇÕES:\n- Completar rigorosamente os 14 dias de antibióticos (Doxiciclina em pé com água + Metronidazol) e NÃO ingerir álcool até 72h após o fim.\n- Manter repouso, abstinência sexual até a cura e encaminhar obrigatoriamente o parceiro sexual para tratamento médico.\n- Retornar para reavaliação em 48 a 72h ou imediatamente se a febre/dor piorarem ou houver vômitos."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Dipirona 500 mg — 20 comprimidos\nTomar 1 a 2 comprimidos de 6/6h, se dor ou febre. Ceftriaxona 500 mg + azitromicina 1 g dose única.\n\nORIENTAÇÕES:\n- Completar rigorosamente os 14 dias de antibióticos (Doxiciclina em pé com água + Metronidazol) e NÃO ingerir álcool até 72h após o fim.\n- Manter repouso, abstinência sexual até a cura e encaminhar obrigatoriamente o parceiro sexual para tratamento médico.\n- Retornar para reavaliação em 48 a 72h ou imediatamente se a febre/dor piorarem ou houver vômitos."
+      },
+      {
+        "id": "na-unidade",
+        "title": "Prescrição na unidade",
+        "note": "Administração na unidade · separada da receita domiciliar",
+        "prescription": "PRESCRIÇÃO NA UNIDADE\n\nUso EV\n1) Ceftriaxona 1 g — 01 frasco-ampola\nAplicar 1 g IM, dose única. Diluir em lidocaína 1% sem vasoconstritor para reduzir a dor.\n\nUso EV\n2) Cetoprofeno 100 mg — 01 frasco-ampola\nDiluir em 100 mL de SF 0,9% e correr EV em 20 min, se dor.\n\nUso EV ou IM\n3) Dipirona 500 mg/mL — 01 ampola\nAplicar 2 mL (1 g) EV lento ou IM, se dor."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "72h (obrigatório)",
+      "retornar_imediatamente_se": "Febre alta, vômitos, dor que piora, barriga dura, sangramento, tontura ou desmaio.",
+      "seguranca_plantonista": "Gestante: internar. Doxiciclina é contraindicada. Amamentação: ceftriaxona e metronidazol (esquema de 14 dias) são compatíveis. Doxiciclina por até 3 semanas é aceitável. Usuária de DIU: pode manter. Retirar se não melhorar em 72h.",
+      "encaminhar_internar": "Internar: abscesso tubo-ovariano, gestante, sem melhora em 72h, vômitos ou intolerância ao oral, quadro grave ou dúvida diagnóstica. Esquema hospitalar: ceftriaxona 1 g EV 1 vez ao dia + doxiciclina 100 mg via oral de 12/12h + metronidazol 400 mg EV de 12/12h, por 14 dias.",
+      "atestado_sugerido": "2 a 5 dias"
+    }
+  },
+  {
+    "id": "ADU-106",
+    "name": "Molusco contagioso",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "B08.1",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "molusco, bolinhas peroladas, verruga d'água, pápulas com umbigo Hidróxido de potássio 5% solução (ex.: Molutrex) Hidrocortisona 1% creme",
+    "gate": "Pápulas peroladas com um pontinho no centro. Melhora sozinho em 6 a 18 meses. Adulto com lesões genitais: tratar como IST (oferecer testes). Muitas lesões ou lesões grandes no adulto: pedir anti-HIV.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso local\n1) Hidróxido de potássio 5% solução (ex.: Molutrex) — 01 frasco\nAplicar só sobre cada lesão com o aplicador, 2 vezes ao dia, até a lesão inflamar ou cair. Suspender se irritação forte.\n\nORIENTAÇÕES:\n- Não coçar e não espremer (espalha). Toalha e roupas de uso individual.\n- Pode ir à escola. Cobrir as lesões em piscina e esportes de contato.\n- Retornar imediatamente ao pronto-socorro se: lesões com pus, dor ou febre, lesões na pálpebra com olho vermelho, crescimento rápido."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso local\n1) Hidrocortisona 1% creme — 01 bisnaga\nAplicar fina camada ao redor das lesões, 2 vezes ao dia, por até 7 dias, se eczema e coceira. Curetagem ou crioterapia: no consultório (UBS ou dermatologia).\n\nORIENTAÇÕES:\n- Não coçar e não espremer (espalha). Toalha e roupas de uso individual.\n- Pode ir à escola. Cobrir as lesões em piscina e esportes de contato.\n- Retornar imediatamente ao pronto-socorro se: lesões com pus, dor ou febre, lesões na pálpebra com olho vermelho, crescimento rápido."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "UBS em 4 a 6 semanas",
+      "retornar_imediatamente_se": "Lesões com pus, dor ou febre, lesões na pálpebra com olho vermelho, crescimento rápido.",
+      "seguranca_plantonista": "Gestante: preferir observar ou curetagem.",
+      "encaminhar_internar": "Lesões na pálpebra, imunossuprimido ou quadro extenso: dermatologia ou oftalmologia.",
+      "atestado_sugerido": "não se aplica"
+    }
+  },
+  {
+    "id": "ADU-107",
+    "name": "Mononucleose infecciosa (doença do beijo)",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "B27.9",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "mononucleose, doença do beijo, Epstein-Barr, íngua com febre e dor de garganta, cansaço com febre Paracetamol 750 mg Ibuprofeno 400 mg",
+    "gate": "Adolescente ou adulto jovem com febre, garganta com placas, ínguas no pescoço (inclusive atrás), cansaço e às vezes baço aumentado. Confirmar com monoteste ou sorologia. Amoxicilina causa manchas na pele em quem tem mononucleose: só usar antibiótico se estreptococo confirmado.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Paracetamol 750 mg — 20 comprimidos\nTomar 1 comprimido de 6/6h, se febre ou dor.\n\nUso oral\n2) Ibuprofeno 400 mg — 09 comprimidos\nTomar 1 comprimido de 8/8h, após as refeições, por 3 dias, se dor de garganta forte.\n\nORIENTAÇÕES:\n- Sem esporte de contato e sem levantar peso por pelo menos 3 a 4 semanas (risco de ruptura do baço).\n- Repousar conforme o cansaço, que pode durar semanas. Evitar álcool.\n- Retornar imediatamente ao pronto-socorro se: dor forte do lado esquerdo da barriga ou no ombro esquerdo, dificuldade para respirar ou engolir a saliva, olhos amarelados, sangramentos."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "7 dias",
+      "retornar_imediatamente_se": "Dor forte do lado esquerdo da barriga ou no ombro esquerdo, dificuldade para respirar ou engolir a saliva, olhos amarelados, sangramentos.",
+      "seguranca_plantonista": "Gestante: paracetamol. Evitar anti-inflamatório. Hepatite associada: paracetamol no máximo 2 g/dia.",
+      "encaminhar_internar": "Obstrução de via aérea ou suspeita de ruptura do baço: urgência.",
+      "atestado_sugerido": "5 a 7 dias, conforme o cansaço"
+    }
+  },
+  {
+    "id": "ADU-108",
+    "name": "Mordedura e arranhadura de cão / gato",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "W54 / W55",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "mordida de cachorro, mordida de gato, profilaxia raiva, amoxicilina+clavulanato, clavulin, morcego, raiva, vacina antirrábica, arranhadura, mordedura, soro antirrábico Amoxicilina-Clavulanato 500/125 mg Dipirona 500mg Nebacetin® Amoxicilina + clavulanato 875/125 mg Dipirona 500 mg",
+    "gate": "Toda agressão por mamífero exige avaliação da profilaxia da raiva (ficha de atendimento antirrábico do SINAN) e do tétano. Notificar. Morcego e animais silvestres (macaco, sagui, raposa): sempre vacina + soro ou imunoglobulina antirrábica, mesmo em lesão leve.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Amoxicilina-Clavulanato 500/125 mg — 21 comprimidos\nTomar 01 comprimido de 8/8h por 07 dias Horário sugerido (8/8h): 06:00 / 14:00 / 22:00.\n\nUso oral\n2) Dipirona 500mg — 01 caixa\nTomar 02 comprimidos se febre ou dor, podendo repetir de 06/06h.\n\nUso oral\n3) Nebacetin® — 01 bisnaga\nLavar o ferimento com água e sabão neutro, secar bem, aplicar uma fina camada na região afetada, com o auxílio de uma gaze ou cotonete®, e cobrir com um curativo, duas vezes ao dia até melhora.\n\nORIENTAÇÕES:\n- Lavar a ferida diariamente com água corrente e sabão neutro por 5 a 10 minutos, aplicar a pomada e tomar a Amoxicilina+Clavulanato por 07 dias.\n- Comparecer ao posto de saúde para avaliar vacina/soro antirrábico (observar o cão/gato por 10 dias) e atualizar a vacina antitetânica.\n- Retornar imediatamente ao pronto-socorro se o animal adoecer/morrer/sumir, ou se a ferida ficar muito vermelha, inchada, com pus ou febre."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Amoxicilina + clavulanato 875/125 mg — 10 comprimidos\nTomar 1 comprimido de 12/12h, por 5 dias (profilaxia).\n\nUso oral\n2) Dipirona 500 mg — 20 comprimidos\nTomar 1 a 2 comprimidos de 6/6h, se dor.\n\nORIENTAÇÕES:\n- Lavar a ferida diariamente com água corrente e sabão neutro por 5 a 10 minutos, aplicar a pomada e tomar a Amoxicilina+Clavulanato por 07 dias.\n- Comparecer ao posto de saúde para avaliar vacina/soro antirrábico (observar o cão/gato por 10 dias) e atualizar a vacina antitetânica.\n- Retornar imediatamente ao pronto-socorro se o animal adoecer/morrer/sumir, ou se a ferida ficar muito vermelha, inchada, com pus ou febre."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "48h para reavaliar a ferida; datas da vacina",
+      "retornar_imediatamente_se": "Vermelhidão, pus, febre, dor que piora, inchaço nas articulações da mão, riscos vermelhos subindo pelo membro. O animal observado adoeceu, morreu ou sumiu.",
+      "seguranca_plantonista": "Gestante: vacina e soro antirrábico podem e devem ser feitos. Amoxicilina + clavulanato é segura. Imunossuprimido: a resposta à vacina pode ser menor. Seguir o esquema específico do protocolo.",
+      "encaminhar_internar": "Lesão extensa, no rosto com perda de tecido ou em tendão ou articulação: cirurgia. Infecção grave: internação.",
+      "atestado_sugerido": "1 a 3 dias, conforme o local"
+    }
+  }
+]
+
+

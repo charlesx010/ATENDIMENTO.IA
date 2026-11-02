@@ -1,0 +1,310 @@
+[
+  {
+    "id": "ADU-109",
+    "name": "Nasofaringite aguda — resfriado comum",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "J00",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "resfriado, coriza, nariz entupido, espirros, soro fisiológico, paracetamol Dipirona 500mg Solução Fisiológica 0,9% Dipirona 500mg Cloridrato de Ambroxol xarope 30mg/5ml Solução Fisiológica 0,9%",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Dipirona 500mg — 01 caixa\nTomar 02 comprimidos se febre ou dor, podendo repetir de 06/06h.\n\nUso nasal\n2) Solução Fisiológica 0,9% — 01 frasco\nAspirar o soro com a seringa, retirar a agulha e injetar em cada narina (sem tapar a outra), estando com a boca aberta, três vezes ao dia por 05 a 07 dias (ou diariamente enquanto houver congestão).\n\nORIENTAÇÕES:\n- Lavar as narinas várias vezes ao dia com Soro Fisiológico 0,9% e beber bastante água, chás mornos e sucos naturais.\n- Manter repouso relativo, ambientes ventilados e lavagem frequente das mãos; não usar antibióticos sem prescrição.\n- Retornar ao médico se surgir falta de ar, dor no peito, dor de ouvido ou febre alta por mais de 3 a 4 dias."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Dipirona 500mg — 01 caixa\nTomar 02 comprimidos se febre ou dor, podendo repetir de 06/06h.\n\nUso oral\n2) Cloridrato de Ambroxol xarope 30mg/5ml — 01 frasco\nTomar 5 ml, 3 vezes ao dia por 05 dias.\n\nUso nasal\n3) Solução Fisiológica 0,9% — 01 frasco\nAspirar o soro com a seringa, retirar a agulha e injetar em cada narina (sem tapar a outra), estando com a boca aberta, três vezes ao dia por 05 a 07 dias (ou diariamente enquanto houver congestão).\n\nORIENTAÇÕES:\n- Lavar as narinas várias vezes ao dia com Soro Fisiológico 0,9% e beber bastante água, chás mornos e sucos naturais.\n- Manter repouso relativo, ambientes ventilados e lavagem frequente das mãos; não usar antibióticos sem prescrição.\n- Retornar ao médico se surgir falta de ar, dor no peito, dor de ouvido ou febre alta por mais de 3 a 4 dias."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  },
+  {
+    "id": "ADU-110",
+    "name": "Náuseas e vômitos (incluindo êmese gravídica)",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "R11 / O21.0",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "enjoo, vômito, náusea, enjoo na gravidez, hiperêmese, ânsia Ondansetrona 8 mg Bromoprida 10 mg Doxilamina 10 mg + piridoxina 10 mg (Diclin) Dimenidrinato 50 mg + piridoxina 10 mg (Dramin B6) Ondansetrona 4 mg",
+    "gate": "Procure a causa: gestação (beta-hCG), gastroenterite, cetoacidose (glicemia), infarto (idoso e diabético), obstrução intestinal, apendicite, colecistite, pancreatite, hipertensão intracraniana, labirintite, medicamentos e intoxicações.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Ondansetrona 8 mg — 10 comprimidos\nTomar 1 comprimido de 8/8h, se náusea ou vômito.\n\nORIENTAÇÕES:\n- Refeições pequenas e frequentes, alimentos secos e frios (bolacha de água e sal ao acordar).\n- Evitar gordura e cheiros fortes.\n- Retornar imediatamente ao pronto-socorro se: vômitos que não param, não consegue beber nada, sangue no vômito, urina pouca e escura, tontura, dor forte na barriga, confusão. Gestante: perda de peso."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Bromoprida 10 mg — 20 comprimidos\nTomar 1 comprimido de 8/8h, 15 minutos antes das refeições, se náusea.\n\nUso oral\n2) Doxilamina 10 mg + piridoxina 10 mg (Diclin) — 30 comprimidos\nTomar 2 comprimidos à noite. Se necessário, acrescentar 1 pela manhã e 1 à tarde (máx. 4 por dia). 1ª escolha.\n\nUso oral\n3) Dimenidrinato 50 mg + piridoxina 10 mg (Dramin B6) — 20 comprimidos\nTomar 1 comprimido de 8/8h, se náusea.\n\nUso oral\n4) Ondansetrona 4 mg — 10 comprimidos\nTomar 1 comprimido de 8/8h, se vômitos persistentes (2ª linha).\n\nORIENTAÇÕES:\n- Refeições pequenas e frequentes, alimentos secos e frios (bolacha de água e sal ao acordar).\n- Evitar gordura e cheiros fortes.\n- Retornar imediatamente ao pronto-socorro se: vômitos que não param, não consegue beber nada, sangue no vômito, urina pouca e escura, tontura, dor forte na barriga, confusão. Gestante: perda de peso."
+      },
+      {
+        "id": "na-unidade",
+        "title": "Prescrição na unidade",
+        "note": "Administração na unidade · separada da receita domiciliar",
+        "prescription": "PRESCRIÇÃO NA UNIDADE\n\nUso EV\n1) Ondansetrona 8 mg/4 mL — 01 ampola\nAplicar 4 a 8 mg EV lento. Cuidado se QT longo.\n\nUso EV\n2) Metoclopramida 10 mg/2 mL — 01 ampola\nDiluir em 100 mL de SF 0,9% e correr EV em 15 min. Evitar em menor de 18 anos.\n\nUso EV ou IM\n3) Bromoprida 10 mg/2 mL — 01 ampola\nAplicar 10 mg EV lento ou IM. Desidratado: SF 0,9% 500 a 1.000 mL EV. Gestante com vômitos prolongados: tiamina 100 mg EV antes do soro glicosado."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "24 a 48h se não melhorar",
+      "retornar_imediatamente_se": "Vômitos que não param, não consegue beber nada, sangue no vômito, urina pouca e escura, tontura, dor forte na barriga, confusão. Gestante: perda de peso.",
+      "seguranca_plantonista": "Ondansetrona: evitar se QT longo ou com outros remédios que prolongam o QT. No 1º trimestre, preferir doxilamina + piridoxina. Metoclopramida e bromoprida: risco de reação extrapiramidal (jovem e idoso). Máximo de 5 dias. Idoso: dimenidrinato causa confusão e quedas.",
+      "encaminhar_internar": "Hiperêmese gravídica (perda de peso acima de 5%, cetonúria, distúrbio de eletrólitos): internação.",
+      "atestado_sugerido": "1 dia"
+    }
+  },
+  {
+    "id": "ADU-111",
+    "name": "Neurite vestibular aguda",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "H81.2",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "crise de labirintite aguda, vertigem intensa, meclizina, meclin, flunarizina, vertix, tontura, labirintite, vertigem, VPPB, cabeça girando, enjoo com tontura, neurite vestibular, Ménière Flunarizina 10mg Meclizina 50mg Dipirona 500mg Prednisona 20mg Dimenidrinato 50 mg + piridoxina 10 mg (Dramin B6) Ondansetrona 8 mg Meclizina 25 mg Prednisona 20 mg Betaistina 24 mg",
+    "gate": "Pensar em AVC de fossa posterior se: HINTS alterado (impulso cefálico normal, nistagmo vertical ou que muda de direção, desvio vertical), não anda ou não senta sem apoio, visão dupla, fala enrolada, fraqueza ou cefaleia súbita. VPPB (crises de segundos ao virar na cama ou olhar para cima, Dix-Hallpike positivo): o tratamento é a manobra de Epley, não remédio.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Flunarizina 10mg — 07 comprimidos\nTomar 01 comprimido ao dia, no mesmo horário, por 07 dias.\n\nUso oral\n2) Meclizina 50mg — 01 caixa\nTomar 01 comprimido se vertigem, tontura ou vômitos, podendo repetir de 12/12h.\n\nUso oral\n3) Dipirona 500mg — 01 caixa\nTomar 02 comprimidos se febre ou dor, podendo repetir de 06/06h.\n\nUso oral\n4) Prednisona 20mg — 10 comprimidos\nTomar 01 comprimido de 12/12h por 05 dias seguidos Horário sugerido: 08:00 - 20:00.\n\nORIENTAÇÕES:\n- Manter repouso em local seguro nos primeiros dias de tontura forte, levantando-se devagar da cama, sem dirigir ou beber álcool.\n- Usar os remédios para vertigem apenas nos dias indicados para não atrasar a recuperação natural do equilíbrio (reabilitação vestibular).\n- Retornar imediatamente à emergência se surgir perda de audição, visão dupla, dificuldade para falar, dor de cabeça forte ou fraqueza nos membros."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Dimenidrinato 50 mg + piridoxina 10 mg (Dramin B6) — 20 comprimidos\nTomar 1 comprimido de 6/6h, se tontura ou náusea, por até 5 dias.\n\nUso oral\n2) Ondansetrona 8 mg — 10 comprimidos\nTomar 1 comprimido de 8/8h, se náusea ou vômito.\n\nORIENTAÇÕES:\n- Manter repouso em local seguro nos primeiros dias de tontura forte, levantando-se devagar da cama, sem dirigir ou beber álcool.\n- Usar os remédios para vertigem apenas nos dias indicados para não atrasar a recuperação natural do equilíbrio (reabilitação vestibular).\n- Retornar imediatamente à emergência se surgir perda de audição, visão dupla, dificuldade para falar, dor de cabeça forte ou fraqueza nos membros."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Meclizina 25 mg — 15 comprimidos\nTomar 1 comprimido de 8/8h, se tontura, por até 5 dias. Remédio para labirinto só por poucos dias: o uso longo atrasa a recuperação.\n\nUso oral\n2) Prednisona 20 mg — 21 comprimidos\nTomar 3 comprimidos (60 mg) pela manhã por 5 dias, depois 2 comprimidos por 2 dias e 1 comprimido por 2 dias. DOENÇA DE MÉNIÈRE (CRISES COM ZUMBIDO, OUVIDO TAMPADO E PERDA AUDITIVA)\n\nUso oral\n3) Betaistina 24 mg — 60 comprimidos\nTomar 1 comprimido de 12/12h. Dieta com pouco sal. Encaminhar ao otorrino.\n\nORIENTAÇÕES:\n- Manter repouso em local seguro nos primeiros dias de tontura forte, levantando-se devagar da cama, sem dirigir ou beber álcool.\n- Usar os remédios para vertigem apenas nos dias indicados para não atrasar a recuperação natural do equilíbrio (reabilitação vestibular).\n- Retornar imediatamente à emergência se surgir perda de audição, visão dupla, dificuldade para falar, dor de cabeça forte ou fraqueza nos membros."
+      },
+      {
+        "id": "na-unidade",
+        "title": "Prescrição na unidade",
+        "note": "Administração na unidade · separada da receita domiciliar",
+        "prescription": "PRESCRIÇÃO NA UNIDADE\n\nUso IM\n1) Prometazina 50 mg/2 mL — 01 ampola\nAplicar 1 mL (25 mg) IM profundo.\n\nUso EV\n2) Ondansetrona 8 mg/4 mL — 01 ampola\nAplicar 4 a 8 mg EV lento, se náusea ou vômito.\n\nUso oral\n3) Diazepam 5 mg — 01 comprimido\nTomar 1 comprimido, via oral, se vertigem intensa sem melhora. Hidratação EV se vômitos. VPPB: manobra de Epley do lado do Dix-Hallpike positivo."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "1 semana se não melhorar",
+      "retornar_imediatamente_se": "Fala enrolada, visão dupla, fraqueza ou formigamento, dificuldade para andar, dor de cabeça forte e súbita, perda súbita da audição, desmaio, vômitos que não param.",
+      "seguranca_plantonista": "Idoso: dimenidrinato, meclizina e prometazina causam confusão e quedas. Usar pelo menor tempo. Gestante: dimenidrinato e meclizina podem ser usados.",
+      "encaminhar_internar": "Suspeita de causa central: imagem com urgência. Perda auditiva súbita: otorrino com urgência. Vertigem recorrente ou persistente: otorrino.",
+      "atestado_sugerido": "1 a 3 dias; não dirigir durante a crise"
+    }
+  },
+  {
+    "id": "ADU-112",
+    "name": "Neurocisticercose",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "B69.0",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "cisticerco no cérebro, convulsão, praziquantel, prednisona Praziquantel 500 mg Prednisona 20 mg Dipirona 500 mg Metoclopramida 10 mg",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Praziquantel 500 mg — 35 comprimidos\nTomar 02 comprimidos pela manhã, 01 comprimido à tarde e 02 comprimidos à noite, por 07 dias seguidos.\n\nUso oral\n2) Prednisona 20 mg — 24 comprimidos\nTomar 01 comprimido às 08:00 da manhã, outro às 14:00 e outro às 22:00, um dia antes de iniciar o praziquantel e manter até o final do tratamento.\n\nUso oral\n3) Dipirona 500 mg — 01 caixa\nTomar 02 comprimidos se febre ou dor, podendo repetir de 6/6h.\n\nUso oral\n4) Metoclopramida 10 mg — 01 caixa\nTomar 01 comprimido se náuseas ou vômitos, podendo repetir de 8/8h.\n\nORIENTAÇÕES:\n- Tomar obrigatoriamente a Prednisona 1 dia antes do Praziquantel e durante todo o tratamento sob rigorosa supervisão médica.\n- Manter seus remédios para convulsão em dia, não dirigir veículos e não ingerir bebidas alcoólicas.\n- Ir IMEDIATAMENTE à emergência se tiver dor de cabeça forte, vômitos, visão dupla, confusão mental, perda de força ou convulsão."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  },
+  {
+    "id": "ADU-113",
+    "name": "Osteoartrite (artrose articular)",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "M19.9",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "artrose, osteoartrose, dor no joelho, desgaste da cartilagem, dor nas juntas do idoso, gonartrose Diclofenaco dietilamônio 11,6 mg/g gel Paracetamol 750 mg Naproxeno 500 mg Omeprazol 20 mg",
+    "gate": "Dor que piora com o uso e melhora com repouso, rigidez de manhã por menos de 30 minutos, acima de 45 anos. Articulação quente com derrame e febre: excluir artrite séptica ou gota.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso local\n1) Diclofenaco dietilamônio 11,6 mg/g gel — 01 bisnaga\nAplicar na articulação com leve massagem, 3 a 4 vezes ao dia.\n\nUso oral\n2) Paracetamol 750 mg — 20 comprimidos\nTomar 1 comprimido de 6/6h, se dor (máx. 4 comprimidos por dia).\n\nORIENTAÇÕES:\n- Exercício é o principal tratamento: fortalecer a coxa, caminhar, hidroginástica.\n- Perder 5% a 10% do peso já reduz bastante a dor no joelho.\n- Retornar imediatamente ao pronto-socorro se: articulação vermelha e quente com febre, travamento, deformidade súbita, dor forte à noite."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Naproxeno 500 mg — 14 comprimidos\nTomar 1 comprimido de 12/12h, após as refeições, por 7 dias.\n\nUso oral\n2) Omeprazol 20 mg — 07 cápsulas\nTomar 1 cápsula em jejum, junto com o naproxeno, se mais de 65 anos ou história de gastrite.\n\nORIENTAÇÕES:\n- Exercício é o principal tratamento: fortalecer a coxa, caminhar, hidroginástica.\n- Perder 5% a 10% do peso já reduz bastante a dor no joelho.\n- Retornar imediatamente ao pronto-socorro se: articulação vermelha e quente com febre, travamento, deformidade súbita, dor forte à noite."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "4 a 8 semanas",
+      "retornar_imediatamente_se": "Articulação vermelha e quente com febre, travamento, deformidade súbita, dor forte à noite.",
+      "seguranca_plantonista": "Idoso, doença renal, cardiopata ou anticoagulado: preferir gel e paracetamol. Evitar anti- inflamatório oral. Hipertenso: anti-inflamatório sobe a pressão.",
+      "encaminhar_internar": "Fisioterapia. Dor refratária ou limitação importante: ortopedia.",
+      "atestado_sugerido": "1 a 3 dias nas crises"
+    }
+  },
+  {
+    "id": "ADU-114",
+    "name": "Osteoporose (prevenção e tratamento com bisfosfonato)",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "M81.0",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "osteoporose, osteopenia, densitometria, alendronato, fratura por fragilidade, ossos fracos Alendronato de sódio 70 mg Carbonato de cálcio 1.250 mg (500 mg de cálcio) + vitamina D3 400 UI Risedronato de sódio 35 mg 4 comprimidos (1 mês) Colecalciferol (vitamina D3) 7.000 UI 4 comprimidos (1 mês)",
+    "gate": "Diagnóstico: densitometria com T-score de -2,5 ou menos, ou fratura por fragilidade (vértebra, quadril, punho). Antes do bisfosfonato: cálcio, vitamina D, creatinina (não usar se TFG abaixo de 35) e avaliação dentária se houver procedimento planejado.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Alendronato de sódio 70 mg — 01 unidade / conforme orientação\n4 comprimidos (1 mês) Tomar 1 comprimido 1 vez por semana, em jejum, com 1 copo cheio de água, 30 minutos antes do café e de outros remédios. Não deitar por 30 minutos.\n\nUso oral\n2) Carbonato de cálcio 1.250 mg (500 mg de cálcio) + vitamina D3 400 UI — 60 comprimidos\nTomar 1 comprimido 1 a 2 vezes ao dia, junto das refeições.\n\nORIENTAÇÕES:\n- Alendronato: sempre em jejum, em pé ou sentado, só com água (nada de café, leite ou suco), esperar 30 minutos para comer e não deitar.\n- Cálcio na dieta: leite, iogurte e queijo (3 porções por dia). Sol por 15 minutos ao dia em braços e pernas, fora do pico.\n- Retornar imediatamente ao pronto-socorro se: dor súbita e forte nas costas, dor na coxa ou na virilha, dor ou osso exposto na boca, dor ou dificuldade para engolir."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Risedronato de sódio 35 mg 4 comprimidos (1 mês) — 01 unidade / conforme orientação\nTomar 1 comprimido 1 vez por semana, do mesmo modo que o alendronato.\n\nUso oral\n2) Colecalciferol (vitamina D3) 7.000 UI 4 comprimidos (1 mês) — 01 unidade / conforme orientação\nTomar 1 comprimido 1 vez por semana. Ajustar pela dosagem de vitamina D.\n\nORIENTAÇÕES:\n- Alendronato: sempre em jejum, em pé ou sentado, só com água (nada de café, leite ou suco), esperar 30 minutos para comer e não deitar.\n- Cálcio na dieta: leite, iogurte e queijo (3 porções por dia). Sol por 15 minutos ao dia em braços e pernas, fora do pico.\n- Retornar imediatamente ao pronto-socorro se: dor súbita e forte nas costas, dor na coxa ou na virilha, dor ou osso exposto na boca, dor ou dificuldade para engolir."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "UBS em 3 meses e densitometria em 1 a 2 anos",
+      "retornar_imediatamente_se": "Dor súbita e forte nas costas, dor na coxa ou na virilha, dor ou osso exposto na boca, dor ou dificuldade para engolir.",
+      "seguranca_plantonista": "Doença renal: não usar alendronato se TFG < 35. Esofagite, estenose de esôfago ou não consegue ficar sentado 30 minutos: não usar bisfosfonato oral. Tratamento dentário invasivo planejado: fazer antes de iniciar.",
+      "encaminhar_internar": "Fratura de quadril ou várias vertebrais, T-score muito baixo, falha ou intolerância ao bisfosfonato, homem ou suspeita de causa secundária: endocrinologia ou reumatologia.",
+      "atestado_sugerido": "não se aplica"
+    }
+  },
+  {
+    "id": "ADU-115",
+    "name": "Otite externa aguda",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "H60.9",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "dor de ouvido após piscina, ouvido de nadador, otociriax, otosynalar, elotin, dor de ouvido, otite externa, ouvido inflamado, ouvido com secreção, otalgia Ciprofloxacino-Hidrocortisona 2mg/ml + 10mg/ml suspensão otológica Dipirona 500 mg Otociriax ® Dipirona 500 mg Sulfato de Neomicina + Sulfato de Polimixina b + Hidrocortisona 1% solução Dipirona 500 mg Otosporin® Dipirona 500 mg Ciprofloxacino + hidrocortisona solução otológica Ibuprofeno 600 mg Dipirona 500 mg Polimixina B + neomicina + hidrocortisona solução otológica (Otosporin) Ciprofloxacino 500 mg",
+    "gate": "Dor que piora ao mexer a orelha ou apertar o trago, conduto inchado e vermelho, secreção. O tratamento é com gotas: antibiótico oral só se celulite ao redor, diabético, imunossuprimido ou se a gota não consegue entrar. Idoso diabético com dor intensa e tecido de granulação no conduto: otite externa maligna (urgência).",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso otológico\n1) Ciprofloxacino-Hidrocortisona 2mg/ml + 10mg/ml suspensão otológica — 01 frasco\nPingar 03 gotas no ouvido acometido de 12/12h por 07 dias Horário sugerido (12/12h): 08:00 / 20:00.\n\nUso oral\n2) Dipirona 500 mg — 01 caixa\nTomar 02 comprimidos se dor ou febre, podendo repetir de 6/6h.\n\nUso otológico\n3) Otociriax ® — 01 frasco\nPingar 03 gotas no ouvido acometido de 12/12h por 07 dias Horário sugerido (12/12h): 08:00 / 20:00.\n\nORIENTAÇÕES:\n- Não deixar entrar água no ouvido (proteger no banho com algodão embebido em óleo/vaselina e não entrar em piscina/mar) e nunca usar cotonetes.\n- Amornar o frasco nas mãos, pingar as gotas deitado de lado e permanecer na posição por 3 a 5 minutos.\n- Retornar à emergência se surgir inchaço ou vermelhidão atrás da orelha/rosto, febre alta ou dor que não melhora em 48-72h."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Dipirona 500 mg — 01 caixa\nTomar 02 comprimidos se dor ou febre, podendo repetir de 6/6h.\n\nUso otológico\n2) Sulfato de Neomicina + Sulfato de Polimixina b + Hidrocortisona 1% solução — 01 frasco\nPingar 04 gotas no ouvido acometido de 06/06h por 10 dias Horário sugerido: 05:00 - 11:00 - 17:00 - 23:00.\n\nORIENTAÇÕES:\n- Não deixar entrar água no ouvido (proteger no banho com algodão embebido em óleo/vaselina e não entrar em piscina/mar) e nunca usar cotonetes.\n- Amornar o frasco nas mãos, pingar as gotas deitado de lado e permanecer na posição por 3 a 5 minutos.\n- Retornar à emergência se surgir inchaço ou vermelhidão atrás da orelha/rosto, febre alta ou dor que não melhora em 48-72h."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Dipirona 500 mg — 01 caixa\nTomar 02 comprimidos se dor ou febre, podendo repetir de 6/6h.\n\nUso otológico\n2) Otosporin® — 01 frasco\nPingar 04 gotas no ouvido acometido de 06/06h por 10 dias Horário sugerido: 05:00 - 11:00 - 17:00 - 23:00.\n\nORIENTAÇÕES:\n- Não deixar entrar água no ouvido (proteger no banho com algodão embebido em óleo/vaselina e não entrar em piscina/mar) e nunca usar cotonetes.\n- Amornar o frasco nas mãos, pingar as gotas deitado de lado e permanecer na posição por 3 a 5 minutos.\n- Retornar à emergência se surgir inchaço ou vermelhidão atrás da orelha/rosto, febre alta ou dor que não melhora em 48-72h."
+      },
+      {
+        "id": "esquema-4",
+        "title": "Esquema 4",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Dipirona 500 mg — 01 caixa\nTomar 02 comprimidos se dor ou febre, podendo repetir de 6/6h.\n\nORIENTAÇÕES:\n- Não deixar entrar água no ouvido (proteger no banho com algodão embebido em óleo/vaselina e não entrar em piscina/mar) e nunca usar cotonetes.\n- Amornar o frasco nas mãos, pingar as gotas deitado de lado e permanecer na posição por 3 a 5 minutos.\n- Retornar à emergência se surgir inchaço ou vermelhidão atrás da orelha/rosto, febre alta ou dor que não melhora em 48-72h."
+      },
+      {
+        "id": "esquema-5",
+        "title": "Esquema 5",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso otológico\n1) Ciprofloxacino + hidrocortisona solução otológica — 01 frasco\nPingar 3 gotas no ouvido afetado, de 12/12h, por 7 dias.\n\nUso oral\n2) Ibuprofeno 600 mg — 15 comprimidos\nTomar 1 comprimido de 8/8h, após as refeições, por 5 dias.\n\nUso oral\n3) Dipirona 500 mg — 20 comprimidos\nTomar 1 a 2 comprimidos de 6/6h, se dor.\n\nORIENTAÇÕES:\n- Não deixar entrar água no ouvido (proteger no banho com algodão embebido em óleo/vaselina e não entrar em piscina/mar) e nunca usar cotonetes.\n- Amornar o frasco nas mãos, pingar as gotas deitado de lado e permanecer na posição por 3 a 5 minutos.\n- Retornar à emergência se surgir inchaço ou vermelhidão atrás da orelha/rosto, febre alta ou dor que não melhora em 48-72h."
+      },
+      {
+        "id": "esquema-6",
+        "title": "Esquema 6",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso otológico\n1) Polimixina B + neomicina + hidrocortisona solução otológica (Otosporin) — 01 frasco\nPingar 3 gotas no ouvido afetado, de 8/8h, por 7 dias. Não usar se perfuração do tímpano.\n\nUso oral\n2) Ciprofloxacino 500 mg — 14 comprimidos\nTomar 1 comprimido de 12/12h, por 7 dias.\n\nORIENTAÇÕES:\n- Não deixar entrar água no ouvido (proteger no banho com algodão embebido em óleo/vaselina e não entrar em piscina/mar) e nunca usar cotonetes.\n- Amornar o frasco nas mãos, pingar as gotas deitado de lado e permanecer na posição por 3 a 5 minutos.\n- Retornar à emergência se surgir inchaço ou vermelhidão atrás da orelha/rosto, febre alta ou dor que não melhora em 48-72h."
+      },
+      {
+        "id": "na-unidade",
+        "title": "Prescrição na unidade",
+        "note": "Administração na unidade · separada da receita domiciliar",
+        "prescription": "PRESCRIÇÃO NA UNIDADE\n\nUso EV ou IM\n1) Dipirona 500 mg/mL — 01 ampola\nAplicar 2 mL (1 g) EV lento ou IM.\n\nUso EV\n2) Cetoprofeno 100 mg — 01 frasco-ampola\nDiluir em 100 mL de SF 0,9% e correr EV em 20 min, se dor intensa. Limpeza suave do conduto. Conduto muito inchado: colocar uma mecha de gaze para a gota entrar."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "72h se não melhorar",
+      "retornar_imediatamente_se": "Febre, inchaço ou vermelhidão atrás da orelha ou no rosto, dor muito forte (principalmente em diabético ou idoso), boca torta, sem melhora em 72h.",
+      "seguranca_plantonista": "Diabético ou imunossuprimido: atenção à otite externa maligna. Associar ciprofloxacino oral. Perfuração ou tubo de ventilação: só gota de quinolona (sem neomicina). Gestante: gotas são seguras. Evitar ciprofloxacino oral.",
+      "encaminhar_internar": "Otite externa maligna: internação. Sem melhora em 7 dias ou suspeita de fungo (coceira, pontinhos brancos ou pretos no conduto): otorrino.",
+      "atestado_sugerido": "1 a 2 dias; sem natação por 7 a 10 dias"
+    }
+  },
+  {
+    "id": "ADU-116",
+    "name": "Otite externa fúngica",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "B36.9 / H62.2",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "otomicose, coceira no ouvido, fungo no ouvido Clotrimazol 1% Dipirona 500 mg Fungirox® gotas Dipirona 500 mg",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso otológico\n1) Clotrimazol 1% — 01 frasco\nPingar 04 gotas no ouvido acometido de 06/06h por 10 dias Horário sugerido: 05:00 - 11:00 - 17:00 - 23:00.\n\nUso oral\n2) Dipirona 500 mg — 01 caixa\nTomar 02 comprimidos se dor ou febre, podendo repetir de 6/6h.\n\nUso otológico\n3) Fungirox® gotas — 01 frasco\nPingar 03 gotas no ouvido acometido de 08/08 horas por 10 dias Horário sugerido (8/8h): 06:00 / 14:00 / 22:00.\n\nORIENTAÇÕES:\n- Manter o ouvido totalmente seco (proteger no banho com algodão com óleo e não nadar) e jamais usar cotonetes.\n- Pingar as gotas antifúngicas deitado de lado por todos os 10 dias e agendar limpeza otológica se houver muita secreção acumulada.\n- Retornar ao médico se surgir febre, tontura forte, inchaço ao redor da orelha ou piora da dor."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Dipirona 500 mg — 01 caixa\nTomar 02 comprimidos se dor ou febre, podendo repetir de 6/6h.\n\nORIENTAÇÕES:\n- Manter o ouvido totalmente seco (proteger no banho com algodão com óleo e não nadar) e jamais usar cotonetes.\n- Pingar as gotas antifúngicas deitado de lado por todos os 10 dias e agendar limpeza otológica se houver muita secreção acumulada.\n- Retornar ao médico se surgir febre, tontura forte, inchaço ao redor da orelha ou piora da dor."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  }
+]
+
+

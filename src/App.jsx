@@ -1,8 +1,9 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { Activity, AlertTriangle, Info, KeyRound, ShieldCheck } from 'lucide-react';
+import { AlertTriangle, Info, KeyRound, ShieldCheck } from 'lucide-react';
 import { configured, supabase } from './supabase.js';
 import Workspace from './workspace/Workspace.jsx';
 import AccessGate from './workspace/AccessGate.jsx';
+import Brand from './Brand.jsx';
 
 const READINESS_TIMEOUT = 15000;
 function withTimeout(operation, ms = READINESS_TIMEOUT) {
@@ -12,9 +13,7 @@ function withTimeout(operation, ms = READINESS_TIMEOUT) {
     new Promise((_, reject) => { timer = setTimeout(() => reject(new Error('readiness_timeout')), ms); })
   ]).finally(() => clearTimeout(timer));
 }
-function Logo() {
-  return <div className="brand"><span className="brand-mark"><Activity size={23}/></span><span>Prontuário<span className="brand-blue">.IA</span></span></div>;
-}
+function Logo() { return <div className="brand"><Brand/></div>; }
 function Notice({ children, error = false }) {
   return <div className={`alert ${error ? 'error' : 'info'}`} role={error ? 'alert' : 'status'}>{error ? <AlertTriangle size={18}/> : <Info size={18}/>}<div>{children}</div></div>;
 }
@@ -26,6 +25,9 @@ function Recovery({ title, message, retry, onSignOut, onDemo, signingOut }) {
 }
 function Loading({ message, onDemo }) {
   return <div className="center-page"><Logo/><p role="status">{message}</p><button className="btn subtle" onClick={onDemo}>Abrir demonstração</button></div>;
+}
+function ConsultationLocked({ onDemo, onSignOut, signingOut }) {
+  return <div className="center-page"><Logo/><section className="gate-card"><h2>Consulta profissional indisponível</h2><p>Esta é uma conta gratuita. O editor profissional permanece exclusivo para administrador e convidados autorizados.</p><button className="btn primary full" onClick={onDemo}>Ver demonstração com dados fictícios</button><button className="btn subtle full" disabled={signingOut} onClick={onSignOut}>Sair da conta</button></section></div>;
 }
 
 function MFA({ onVerified, onSignOut, signingOut }) {
@@ -156,7 +158,7 @@ export default function App() {
     setProfile(null); setProfilePhase('loading'); setProblem('');
     (async () => {
       try {
-        const result = await withTimeout(supabase.from('profiles').select('user_id,username,display_name,role,enabled,must_change_password,preferences,ai_enabled,monthly_limit_usd').eq('user_id', user.id).maybeSingle().abortSignal(controller.signal));
+        const result = await withTimeout(supabase.from('profiles').select('user_id,username,display_name,role,enabled,must_change_password,preferences,ai_enabled,monthly_limit_usd,consultation_enabled').eq('user_id', user.id).maybeSingle().abortSignal(controller.signal));
         if (!alive) return;
         if (result.error || !result.data || !result.data.enabled) {
           setProblem('Sua conta não está habilitada ou não foi possível consultar o perfil. Tente novamente ou contate o administrador.'); setProfilePhase('error'); return;
@@ -214,6 +216,7 @@ export default function App() {
     else if (mfaPhase === 'error') content = recovery('Verificação de segurança indisponível');
     else if (!mfaReady) content = <MFA onVerified={() => setMfaReady(true)} onSignOut={logout} signingOut={signingOut}/>;
     else if (profile.must_change_password) content = <PasswordChange onChanged={() => setProfile(value => value ? { ...value, must_change_password: false } : value)} onSignOut={logout} signingOut={signingOut}/>;
+    else if (profile.role !== 'admin' && profile.consultation_enabled !== true) content = <ConsultationLocked onDemo={openDemo} onSignOut={logout} signingOut={signingOut}/>;
     else content = <Workspace key={user.id} profile={profile} onLogout={logout}/>;
   } else content = <AccessGate pathname={pathname} onLogin={setUser} onDemo={openDemo}/>;
   return <>{logoutError && <div className="alert error" role="alert"><AlertTriangle size={18}/><div>{logoutError}<button className="btn subtle" disabled={signingOut} onClick={logout}>Tentar sair novamente</button></div></div>}{signingOut && <p role="status">Encerrando sessão…</p>}{content}</>;

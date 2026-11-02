@@ -1,0 +1,262 @@
+[
+  {
+    "id": "ADU-195",
+    "name": "Patologia não especificada — Protetores gástricos",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "Z00.0",
+    "category": "CLASSE_FARMACOLOGICA",
+    "tags": "patologia não especificada — protetores gástricos Omeprazol 20 mg Omeprazol 20 mg Pantoprazol 20 mg Pantoprazol 40 mg Esomeprazol 20 mg Esomeprazol 40 mg Ranitidina 150 mg",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Omeprazol 20 mg — 56 comprimidos\nTomar 01 comprimido pela manhã, em jejum, por 08 semanas.\n\nORIENTAÇÕES:\n- Tomar o Omeprazol/Pantoprazol/Esomeprazol pela manhã em jejum, 30 minutos antes do café, sem mastigar a cápsula.\n- Evitar café, refrigerantes, frituras, pimenta, álcool, cigarro e anti-inflamatórios; não deitar logo após comer.\n- Procurar o médico se houver dificuldade para engolir, perda de peso, vômitos ou fezes pretas."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Omeprazol 20 mg — 112 comprimidos\nTomar 02 comprimidos pela manhã, em jejum, por 08 semanas.\n\nUso oral\n2) Pantoprazol 20 mg — 56 comprimidos\nTomar 01 comprimido pela manhã, em jejum, por 08 semanas.\n\nUso oral\n3) Pantoprazol 40 mg — 56 comprimidos\nTomar 01 comprimido pela manhã, em jejum, por 08 semanas.\n\nUso oral\n4) Esomeprazol 20 mg — 56 comprimidos\nTomar 01 comprimido pela manhã, em jejum, por 08 semanas.\n\nUso oral\n5) Esomeprazol 40 mg — 56 comprimidos\nTomar 01 comprimido pela manhã, em jejum, por 08 semanas.\n\nUso oral\n6) Ranitidina 150 mg — 01 caixa\nTomar 01 comprimido pela manhã, em jejum, e um comprimido antes do jantar por 07 a 14 dias.\n\nORIENTAÇÕES:\n- Tomar o Omeprazol/Pantoprazol/Esomeprazol pela manhã em jejum, 30 minutos antes do café, sem mastigar a cápsula.\n- Evitar café, refrigerantes, frituras, pimenta, álcool, cigarro e anti-inflamatórios; não deitar logo após comer.\n- Procurar o médico se houver dificuldade para engolir, perda de peso, vômitos ou fezes pretas."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  },
+  {
+    "id": "ADU-196",
+    "name": "Patologia não especificada — Quinolonas",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "Z00.0",
+    "category": "CLASSE_FARMACOLOGICA",
+    "tags": "patologia não especificada — quinolonas Norfloxacino 400 mg Ciprofloxacino 500 mg Ciprofloxacino 500 mg Levofloxacino 750 mg Levofloxacino 750 mg Moxifloxacino 400 mg Moxifloxacino 400 mg",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Norfloxacino 400 mg — 06 comprimidos\nTomar 01 comprimido de 12/12h por 03 dias Horário sugerido: 08:00 / 20:00.\n\nUso oral\n2) Ciprofloxacino 500 mg — 14 comprimidos\nTomar 01 comprimido de 12/12h por 07 dias Horário sugerido: 08:00 / 20:00.\n\nORIENTAÇÕES:\n- Tomar rigorosamente nos horários prescritos até o último comprimido, mesmo que os sintomas melhorem antes.\n- Beber bastante água e NÃO ingerir bebidas alcoólicas (especialmente com Metronidazol/Secnidazol até 72h após o fim).\n- Procurar o médico se surgir alergia na pele (placas/coceira), diarreia intensa ou febre persistente após 72h."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Ciprofloxacino 500 mg — 28 comprimidos\nTomar 01 comprimido de 12/12h por 14 dias Horário sugerido: 08:00 / 20:00.\n\nUso oral\n2) Levofloxacino 750 mg — 07 comprimidos\nTomar 01 comprimido ao dia por 07 dias Horário sugerido: 08:00.\n\nORIENTAÇÕES:\n- Tomar rigorosamente nos horários prescritos até o último comprimido, mesmo que os sintomas melhorem antes.\n- Beber bastante água e NÃO ingerir bebidas alcoólicas (especialmente com Metronidazol/Secnidazol até 72h após o fim).\n- Procurar o médico se surgir alergia na pele (placas/coceira), diarreia intensa ou febre persistente após 72h."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Levofloxacino 750 mg — 14 comprimidos\nTomar 01 comprimido ao dia por 14 dias Horário sugerido: 08:00.\n\nUso oral\n2) Moxifloxacino 400 mg — 07 comprimidos\nTomar 01 comprimido ao dia por 07 dias Horário sugerido: 08:00.\n\nORIENTAÇÕES:\n- Tomar rigorosamente nos horários prescritos até o último comprimido, mesmo que os sintomas melhorem antes.\n- Beber bastante água e NÃO ingerir bebidas alcoólicas (especialmente com Metronidazol/Secnidazol até 72h após o fim).\n- Procurar o médico se surgir alergia na pele (placas/coceira), diarreia intensa ou febre persistente após 72h."
+      },
+      {
+        "id": "esquema-4",
+        "title": "Esquema 4",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Moxifloxacino 400 mg — 14 comprimidos\nTomar 01 comprimido ao dia por 14 dias Horário sugerido: 08:00.\n\nORIENTAÇÕES:\n- Tomar rigorosamente nos horários prescritos até o último comprimido, mesmo que os sintomas melhorem antes.\n- Beber bastante água e NÃO ingerir bebidas alcoólicas (especialmente com Metronidazol/Secnidazol até 72h após o fim).\n- Procurar o médico se surgir alergia na pele (placas/coceira), diarreia intensa ou febre persistente após 72h."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  },
+  {
+    "id": "ADU-197",
+    "name": "Patologia não especificada — Relaxantes musculares",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "Z00.0",
+    "category": "CLASSE_FARMACOLOGICA",
+    "tags": "patologia não especificada — relaxantes musculares Ciclobenzaprina 10 mg Cafeína 35mg + Dipirona 300mg + Orfenadrina 50mg Paracetamol 350mg + Carisoprodol 150mg + Cafeína 50mg Carisoprodol 125mg + Diclofenaco 50mg + Paracetamol 300mg + Cafeína 30mg",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Ciclobenzaprina 10 mg — 01 caixa\nTomar 01 comprimido à noite por 05 dias seguidos.\n\nUso oral\n2) Cafeína 35mg + Dipirona 300mg + Orfenadrina 50mg — 01 caixa\nTomar 02 comprimidos de 6/6h se dor.\n\nUso oral\n3) Paracetamol 350mg + Carisoprodol 150mg + Cafeína 50mg — 01 caixa\nTomar 2 comprimidos se dor, de 6/6h.\n\nUso oral\n4) Carisoprodol 125mg + Diclofenaco 50mg + Paracetamol 300mg + Cafeína 30mg — 10 comprimidos\nTomar 01 comprimido de 12/12h por até 05 dias.\n\nORIENTAÇÕES:\n- Podem causar sonolência e tontura: evitar dirigir veículos, operar máquinas ou ingerir bebidas alcoólicas.\n- Associar compressas mornas no local dolorido por 15 a 20 minutos, 3 vezes ao dia.\n- Nas fórmulas combinadas com Diclofenaco, tomar após as refeições por no máximo 05 dias."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  },
+  {
+    "id": "ADU-198",
+    "name": "Patologia não especificada — Repelentes",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "Z00.0",
+    "category": "CLASSE_FARMACOLOGICA",
+    "tags": "patologia não especificada — repelentes Icaridina (Exposis®) Repelex® loção repelente Johnson® loção antimosquito",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Icaridina (Exposis®) — 01 frasco\nAplicar na pele duas vezes ao dia (efeito dura 10 horas).\n\nUso local\n2) Repelex® loção repelente — 01 frasco\nAplicar na pele três vezes ao dia (efeito dura 6 horas).\n\nUso local\n3) Johnson® loção antimosquito — 01 frasco\nAplicar na pele cinco vezes ao dia (efeito dura 2h).\n\nORIENTAÇÕES:\n- Aplicar apenas na pele exposta e sobre as roupas (nunca aplicar em cortes/feridas ou por baixo da roupa).\n- Se usar protetor solar, passar o protetor primeiro, aguardar 15 minutos e passar o repelente por último.\n- Lavar as mãos após aplicar e respeitar o tempo de reaplicação de cada produto."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  },
+  {
+    "id": "ADU-199",
+    "name": "Patologia não especificada — Repositor de flora intestinal",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "Z00.0",
+    "category": "CLASSE_FARMACOLOGICA",
+    "tags": "patologia não especificada — repositor de flora intestinal Saccharomyces boulardii 200 mg 20 bi® 335 mg 20 bi® 335 mg",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Saccharomyces boulardii 200 mg — 10 cápsulas\nTomar 01 cápsula de 12/12 horas por 05 dias seguidos.\n\nUso oral\n2) 20 bi® 335 mg — 05 cápsulas\nTomar 01 cápsula ao dia por 05 dias.\n\nORIENTAÇÕES:\n- Tomar as cápsulas com água fria ou em temperatura ambiente (nunca com líquidos quentes ou álcool).\n- Se estiver usando antibiótico, dar intervalo de 2 horas entre o antibiótico e o probiótico.\n- Manter hidratação abundante com água e Soro de Reidratação."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) 20 bi® 335 mg — 10 cápsulas\nTomar 01 cápsula de 12/12 horas por 05 dias seguidos.\n\nORIENTAÇÕES:\n- Tomar as cápsulas com água fria ou em temperatura ambiente (nunca com líquidos quentes ou álcool).\n- Se estiver usando antibiótico, dar intervalo de 2 horas entre o antibiótico e o probiótico.\n- Manter hidratação abundante com água e Soro de Reidratação."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  },
+  {
+    "id": "ADU-200",
+    "name": "Patologia não especificada — Rifamicina e rifampicina",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "Z00.0",
+    "category": "CLASSE_FARMACOLOGICA",
+    "tags": "patologia não especificada — rifamicina e rifampicina Rifamicina spray 10mg/ml Rifampicina 300 mg Rifampicina 300 mg Rifampicina 300 mg",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Rifamicina spray 10mg/ml — 01 frasco\nAplicar 01 camada na área afetada, de 6/6 horas ou de 8/8 horas.\n\nUso oral\n2) Rifampicina 300 mg — 03 cápsulas\nTomar 03 cápsulas em dose única.\n\nORIENTAÇÕES:\n- Tomar rigorosamente nos horários prescritos até o último comprimido, mesmo que os sintomas melhorem antes.\n- Beber bastante água e NÃO ingerir bebidas alcoólicas (especialmente com Metronidazol/Secnidazol até 72h após o fim).\n- Procurar o médico se surgir alergia na pele (placas/coceira), diarreia intensa ou febre persistente após 72h."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Rifampicina 300 mg — 08 cápsulas\nTomar 02 cápsulas de 12/12 horas por dois dias.\n\nORIENTAÇÕES:\n- Tomar rigorosamente nos horários prescritos até o último comprimido, mesmo que os sintomas melhorem antes.\n- Beber bastante água e NÃO ingerir bebidas alcoólicas (especialmente com Metronidazol/Secnidazol até 72h após o fim).\n- Procurar o médico se surgir alergia na pele (placas/coceira), diarreia intensa ou febre persistente após 72h."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Rifampicina 300 mg — 08 cápsulas\nTomar 02 cápsulas pela manhã em jejum, no mesmo horário, por 04 dias seguidos.\n\nORIENTAÇÕES:\n- Tomar rigorosamente nos horários prescritos até o último comprimido, mesmo que os sintomas melhorem antes.\n- Beber bastante água e NÃO ingerir bebidas alcoólicas (especialmente com Metronidazol/Secnidazol até 72h após o fim).\n- Procurar o médico se surgir alergia na pele (placas/coceira), diarreia intensa ou febre persistente após 72h."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  },
+  {
+    "id": "ADU-201",
+    "name": "Patologia não especificada — Soluções intranasais",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "Z00.0",
+    "category": "CLASSE_FARMACOLOGICA",
+    "tags": "patologia não especificada — soluções intranasais Salsep spray Maresis Rinosoro jet Fluticasona spray 50mcg/jato",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso nasal\n1) Salsep spray — 01 frasco\nAplicar 01 jato em cada narina 5x/dia por 05 a 07 dias (ou diariamente enquanto houver congestão).\n\nUso nasal\n2) Maresis — 01 frasco\nAplicar 01 jato em cada narina conforme necessidade, para desobstruí-la (cerca de 5 vezes ao dia) por 05 a 07 dias (ou diariamente enquanto houver congestão).\n\nUso nasal\n3) Rinosoro jet — 01 frasco\nAplicar 01 jato em cada narina 5 vezes ao dia por 05 a 07 dias (ou diariamente enquanto houver congestão).\n\nUso nasal\n4) Fluticasona spray 50mcg/jato — 01 frasco\nAplicar 1 jato em cada narina de 12/12h por 15 dias. Após este período, aplicar um jato em cada narina pela manhã até completar 90 dias.\n\nORIENTAÇÕES:\n- Aplicar a solução salina várias vezes ao dia (e sempre antes da Fluticasona, apontando a Fluticasona para a lateral da narina).\n- Não compartilhar o frasco de spray nasal com outras pessoas.\n- Manter boa ingestão de água e ambientes ventilados e livres de poeira."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  },
+  {
+    "id": "ADU-202",
+    "name": "Patologia não especificada — Sulfonamidas",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "Z00.0",
+    "category": "CLASSE_FARMACOLOGICA",
+    "tags": "patologia não especificada — sulfonamidas Sulfametoxazol 800mg + Trimetoprima 160mg",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Sulfametoxazol 800mg + Trimetoprima 160mg — 14 comprimidos\nTomar 01 comprimido de 12/12h por 07 dias.\n\nORIENTAÇÕES:\n- Tomar rigorosamente nos horários prescritos até o último comprimido, mesmo que os sintomas melhorem antes.\n- Beber bastante água e NÃO ingerir bebidas alcoólicas (especialmente com Metronidazol/Secnidazol até 72h após o fim).\n- Procurar o médico se surgir alergia na pele (placas/coceira), diarreia intensa ou febre persistente após 72h."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  }
+]
+
+

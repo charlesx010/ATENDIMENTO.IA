@@ -1,0 +1,18 @@
+.workspace-v2 .reference-shortcuts{min-width:0;margin:12px 0;padding:13px;border:1px solid var(--ui-line);border-radius:10px;background:var(--ui-surface)}
+.workspace-v2 .reference-shortcuts-heading{display:flex;align-items:baseline;flex-wrap:wrap;gap:7px 14px;margin-bottom:10px}
+.workspace-v2 .reference-shortcuts-heading>strong{font-size:13px;color:var(--ui-text)}
+.workspace-v2 .reference-shortcuts-heading>span,.workspace-v2 .reference-shortcuts p{font-size:11px;color:var(--ui-muted);line-height:1.5}
+.workspace-v2 .reference-shortcuts-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.workspace-v2 .reference-shortcuts-grid>section{min-width:0}
+.workspace-v2 .reference-shortcuts h2{display:flex;align-items:center;gap:6px;font-size:12px;margin:0 0 7px;color:var(--ui-text)}
+.workspace-v2 .reference-shortcut-list{display:flex;flex-wrap:wrap;gap:6px;min-width:0}
+.workspace-v2 .reference-shortcut{min-width:0;max-width:100%;min-height:40px;text-align:left;white-space:normal;overflow-wrap:anywhere;padding:7px 9px;border:1px solid var(--ui-line);border-radius:7px;background:var(--ui-surface-2);color:var(--ui-text);font:inherit;font-size:11px}
+.workspace-v2 .reference-shortcut:hover,.workspace-v2 .reference-shortcut:focus-visible{border-color:var(--ui-primary);background:var(--ui-primary-soft)}
+.workspace-v2 .reference-recent-heading{display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:5px}
+.workspace-v2 .reference-clear{display:inline-flex;align-items:center;gap:4px;border:0;background:transparent;color:var(--ui-muted);padding:3px 0;font-size:10px;min-height:30px}
+.workspace-v2 .reference-clear:hover,.workspace-v2 .reference-clear:focus-visible{color:var(--ui-text);text-decoration:underline}
+.workspace-v2 .reference-favorite{align-self:flex-start;margin:3px 0 9px}
+.workspace-v2 .reference-favorite[aria-pressed="true"]{color:var(--ui-primary);border-color:var(--ui-primary)}
+.workspace-v2 .reference-shortcuts summary{font-size:11px;padding:8px 0;color:var(--ui-text);cursor:pointer}
+@media(max-width:760px){.workspace-v2 .reference-shortcuts-grid{grid-template-columns:minmax(0,1fr)}.workspace-v2 .reference-shortcut{min-height:44px}.workspace-v2 .reference-clear{min-height:40px}}
+

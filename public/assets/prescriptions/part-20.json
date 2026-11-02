@@ -1,0 +1,274 @@
+[
+  {
+    "id": "ADU-148",
+    "name": "Tosse produtiva aguda",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "R05",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "tosse carregada, tosse com catarro, acetilcisteína, fluimucil, ambroxol Acetilcisteína 600 mg granulado Solução Fisiológica 0,9% Cloridrato de Ambroxol 30 mg/5 mL xarope adulto",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Acetilcisteína 600 mg granulado — 01 caixa\nDissolver 01 envelope em meio copo de água e tomar 1 vez ao dia, à noite, por 05 a 07 dias.\n\nUso nasal\n2) Solução Fisiológica 0,9% — 01 frasco\nRealizar lavagem nasal com 10 mL em cada narina 4 vezes ao dia por 07 dias.\n\nORIENTAÇÕES:\n- Beber pelo menos 2 a 3 litros de água por dia para deixar o catarro fluido e fácil de eliminar.\n- Lavar o nariz com Soro Fisiológico 0,9%, fazer inalação com soro e não usar remédios que bloqueiem a tosse produtiva.\n- Retornar ao médico se surgir falta de ar, febre alta persistente, dor no peito ou catarro com sangue."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Cloridrato de Ambroxol 30 mg/5 mL xarope adulto — 01 frasco\nTomar 5 mL de 8/8h após as refeições por 05 a 07 dias.\n\nORIENTAÇÕES:\n- Beber pelo menos 2 a 3 litros de água por dia para deixar o catarro fluido e fácil de eliminar.\n- Lavar o nariz com Soro Fisiológico 0,9%, fazer inalação com soro e não usar remédios que bloqueiem a tosse produtiva.\n- Retornar ao médico se surgir falta de ar, febre alta persistente, dor no peito ou catarro com sangue."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  },
+  {
+    "id": "ADU-149",
+    "name": "Tosse seca",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "R05",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "tosse irritativa, tosse alérgica, dropropizina, vibral, clobutinol, hixizine, codeína, tosse seca, tosse que não passa, tosse pós-gripe, tosse crônica, coqueluche Levodropropizina xarope 6mg/ml Codeína 30mg Dropropizina 3 mg/mL xarope (adulto) Mometasona 50 mcg/jato spray nasal Soro fisiológico 0,9% Loratadina 10 mg Beclometasona 250 mcg/jato spray Azitromicina 500 mg",
+    "gate": "Tosse aguda (menos de 3 semanas) costuma ser pós-viral. Tosse por mais de 3 semanas: investigar tuberculose (escarro para TRM-TB ou baciloscopia e RX de tórax). Causas comuns de tosse crônica: gotejamento pós-nasal (rinite, sinusite), asma, refluxo, uso de captopril ou enalapril, tabagismo, coqueluche (tosse em crises, guincho, vômito após tossir).",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Levodropropizina xarope 6mg/ml — 01 frasco\nTomar 15 ml no caso de tosse, podendo repetir de 6/6 horas.\n\nUso oral\n2) Codeína 30mg — 30 comprimidos\nTomar 01 comprimido em caso de tosse, podendo repetir de 8/8 horas.\n\nORIENTAÇÕES:\n- Beber água em pequenos goles ao longo do dia, lavar o nariz com Soro Fisiológico e dormir com a cabeceira elevada.\n- Evitar poeira, fumaça de cigarro, ar-condicionado sem limpeza e cheiros fortes; se usar Codeína, não dirigir nem beber álcool.\n- Procurar o médico se surgir falta de ar, chiado, febre alta, tosse com sangue ou se a tosse durar mais de 2 a 3 semanas."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Dropropizina 3 mg/mL xarope (adulto) — 01 frasco\nTomar 10 mL até 4 vezes ao dia, se tosse seca, por até 7 dias.\n\nUso nasal\n2) Mometasona 50 mcg/jato spray nasal — 01 frasco\nAplicar 2 jatos em cada narina, 1 vez ao dia, se coriza ou secreção descendo pela garganta.\n\nUso oral\n3) Soro fisiológico 0,9% — 01 frasco\nLavar cada narina com 10 a 20 mL, 2 a 3 vezes ao dia.\n\nORIENTAÇÕES:\n- Beber água em pequenos goles ao longo do dia, lavar o nariz com Soro Fisiológico e dormir com a cabeceira elevada.\n- Evitar poeira, fumaça de cigarro, ar-condicionado sem limpeza e cheiros fortes; se usar Codeína, não dirigir nem beber álcool.\n- Procurar o médico se surgir falta de ar, chiado, febre alta, tosse com sangue ou se a tosse durar mais de 2 a 3 semanas."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Loratadina 10 mg — 10 comprimidos\nTomar 1 comprimido 1 vez ao dia, se espirros e coriza. TOSSE PÓS-VIRAL COM CHIADO OU \"PEITO APERTADO\"\n\nUso inalatório\n2) Beclometasona 250 mcg/jato spray — 01 frasco\nInalar 1 jato com espaçador, de 12/12h, por 2 a 4 semanas.\n\nUso oral\n3) Azitromicina 500 mg — 03 comprimidos\nTomar 1 comprimido no 1º dia. Do 2º ao 5º dia, meio comprimido por dia. Notificar e avaliar profilaxia dos contatos. Uso de captopril ou enalapril: trocar por losartana (a tosse some em 1 a 4 semanas). Suspeita de refluxo: ver ficha de Dispepsia / gastrite / refluxo.\n\nORIENTAÇÕES:\n- Beber água em pequenos goles ao longo do dia, lavar o nariz com Soro Fisiológico e dormir com a cabeceira elevada.\n- Evitar poeira, fumaça de cigarro, ar-condicionado sem limpeza e cheiros fortes; se usar Codeína, não dirigir nem beber álcool.\n- Procurar o médico se surgir falta de ar, chiado, febre alta, tosse com sangue ou se a tosse durar mais de 2 a 3 semanas."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "se durar mais de 3 semanas (investigar tuberculose)",
+      "retornar_imediatamente_se": "Tosse com sangue, falta de ar, febre persistente, perda de peso, suor à noite, chiado, tosse por mais de 3 semanas.",
+      "seguranca_plantonista": "Gestante: mel e lavagem nasal. Evitar xarope antitussígeno sem orientação. Idoso: checar captopril e enalapril como causa.",
+      "encaminhar_internar": "Tosse por mais de 8 semanas sem causa ou RX alterado: pneumologia. Tuberculose: notificação e tratamento na UBS.",
+      "atestado_sugerido": "não se aplica"
+    }
+  },
+  {
+    "id": "ADU-150",
+    "name": "Trauma cranioencefálico",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "S06.0",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "batida na cabeça, tce leve, observação domiciliar Dipirona 500mg Clorexidina spray",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Dipirona 500mg — 01 caixa\nTomar 02 comprimidos se febre ou dor, podendo repetir de 6/6h.\n\nUso local\n2) Clorexidina spray — 01 frasco\nAplicar 02 jatos na lesão, três vezes ao dia, até melhora.\n\nORIENTAÇÕES:\n- Permanecer acompanhado por um adulto responsável nas primeiras 48 horas, mantendo repouso físico, sem telas excessivas e sem álcool.\n- Lavar o ferimento externo com água, sabão e Clorexidina spray 3 vezes ao dia e não tomar AAS ou anti-inflamatórios sem prescrição.\n- Retornar IMEDIATAMENTE ao pronto-socorro se tiver sonolência excessiva, confusão, dor de cabeça que piora, vômitos, saída de líquido pelo nariz/ouvido, fraqueza ou convulsão."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  },
+  {
+    "id": "ADU-151",
+    "name": "Trauma torácico",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "S20.2",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "pancada no peito, dor nas costelas, contusão torácica Ciclobenzaprina 05mg Dorilax® Dipirona 500mg Paco® Dipirona 500mg Revange® Benefiber ® Naproxeno 500mg Paco® Dipirona 500 mg Naproxeno 500mg Ciclobenzaprina 05mg Paracetamol 350mg + Carisoprodol 150mg + Cafeína 50mg Codeína 30mg Gabapentina 300mg Dipirona 500mg Paco®",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Ciclobenzaprina 05mg — 01 caixa\nTomar 01 comprimido à noite antes de dormir, por 05 dias seguidos.\n\nUso oral\n2) Dorilax® — 01 caixa\nTomar 02 comprimidos se dor, podendo repetir de 6/6h se necessário.\n\nUso oral\n3) Dipirona 500mg — 01 caixa\nTomar 02 comprimidos se febre ou dor, podendo repetir de 6/6h.\n\nUso oral\n4) Paco® — 01 caixa\nTomar 01 comprimido se dor intensa, podendo repetir de 8/8h se necessário. tomar o mínimo possível, para evitar dependência e constipação.\n\nORIENTAÇÕES:\n- Tomar os analgésicos nos horários para conseguir respirar fundo e tossir (apoiando um travesseiro no peito ao tossir).\n- NÃO enfaixar o tórax (prejudica a respiração e causa pneumonia); não dirigir nem beber álcool se usar relaxante muscular ou opioide.\n- Retornar IMEDIATAMENTE à emergência se surgir falta de ar, dor torácica súbita e forte, tosse com sangue, tontura ou febre."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Dipirona 500mg — 01 caixa\nTomar 02 comprimidos se febre ou dor, podendo repetir de 6/6h.\n\nUso oral\n2) Revange® — 01 caixa\nTomar 01 comprimido se dor intensa, podendo repetir de 6/6h se necessário. Tomar o mínimo possível, para evitar dependência e constipação.\n\nUso oral\n3) Benefiber ® — 01 caixa\nDissolver 01 sachê em 01 copo de água ou suco e tomar ao almoço por 28 dias.\n\nUso oral\n4) Naproxeno 500mg — 10 comprimidos\nTomar 01 comprimido de 12/12h por 05 dias seguidos Horário sugerido: 08:00 – 20:00.\n\nUso oral\n5) Paco® — 01 caixa\nTomar 01 comprimido de 8/8h até melhora da dor Horário sugerido (8/8h): 06:00 / 14:00 / 22:00.\n\nUso oral\n6) Dipirona 500 mg — 01 caixa\nTomar 02 comprimidos se febre ou dor, podendo repetir de 06/06h.\n\nORIENTAÇÕES:\n- Tomar os analgésicos nos horários para conseguir respirar fundo e tossir (apoiando um travesseiro no peito ao tossir).\n- NÃO enfaixar o tórax (prejudica a respiração e causa pneumonia); não dirigir nem beber álcool se usar relaxante muscular ou opioide.\n- Retornar IMEDIATAMENTE à emergência se surgir falta de ar, dor torácica súbita e forte, tosse com sangue, tontura ou febre."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Naproxeno 500mg — 10 comprimidos\nTomar 01 comprimido de 12/12h por 05 dias seguidos Horário sugerido: 08:00 – 20:00.\n\nUso oral\n2) Ciclobenzaprina 05mg — 01 caixa\nTomar 01 comprimido à noite antes de dormir, por 05 dias seguidos.\n\nUso oral\n3) Paracetamol 350mg + Carisoprodol 150mg + Cafeína 50mg — 01 caixa\nTomar 02 comprimidos se dor, podendo repetir de 6/6h se necessário.\n\nUso oral\n4) Codeína 30mg — 01 caixa\nTomar 01 comprimido se dor intensa, podendo repetir de 8/8h se necessário. tomar o mínimo possível, para evitar dependência e constipação.\n\nUso oral\n5) Gabapentina 300mg — 90 cápsulas\nTomar 01 cápsula de 8/8h até melhora da dor Horário sugerido (8/8h): 06:00 / 14:00 / 22:00.\n\nUso oral\n6) Dipirona 500mg — 01 caixa\nTomar 02 comprimidos se febre ou dor, podendo repetir de 6/6h.\n\nUso oral\n7) Paco® — 01 caixa\nTomar 01 comprimido se dor intensa, podendo repetir de 8/8h se necessário. tomar o mínimo possível, para evitar dependência e constipação.\n\nORIENTAÇÕES:\n- Tomar os analgésicos nos horários para conseguir respirar fundo e tossir (apoiando um travesseiro no peito ao tossir).\n- NÃO enfaixar o tórax (prejudica a respiração e causa pneumonia); não dirigir nem beber álcool se usar relaxante muscular ou opioide.\n- Retornar IMEDIATAMENTE à emergência se surgir falta de ar, dor torácica súbita e forte, tosse com sangue, tontura ou febre."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  },
+  {
+    "id": "ADU-152",
+    "name": "Tricomoníase",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "A59.0",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "corrimento amarelo-esverdeado bolhoso, odor fétido, metronidazol, tricomonas, tricomoníase, corrimento amarelo esverdeado, corrimento com bolhas, IST corrimento Metronidazol 250 mg Metronidazol 250 mg Metronidazol geleia vaginal 100mg/g Metronidazol 250 mg Secnidazol 1.000 mg",
+    "gate": "Corrimento amarelo-esverdeado, bolhoso, com mau cheiro, ardor e colo em \"framboesa\". É IST: tratar a parceria e oferecer testes rápidos de HIV, sífilis e hepatites.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Metronidazol 250 mg — 08 comprimidos\nTomar 08 comprimidos em dose única.\n\nORIENTAÇÕES:\n- Tomar o Metronidazol junto às refeições e NÃO ingerir nenhuma bebida alcoólica durante e até 72 horas após o tratamento.\n- O(a) parceiro(a) sexual DEVE fazer o tratamento ao mesmo tempo, mantendo abstinência sexual até ambos terminarem os remédios.\n- Realizar testes para HIV, Sífilis e Hepatites B e C na unidade de saúde e usar preservativo."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Metronidazol 250 mg — 28 comprimidos\nTomar 02 comprimidos de 12/12h por 07 dias.\n\nUso vaginal\n2) Metronidazol geleia vaginal 100mg/g — 01 bisnaga\nAplicar o conteúdo de um aplicador cheio dentro da vagina, à noite ao deitar, por 07 noites.\n\nORIENTAÇÕES:\n- Tomar o Metronidazol junto às refeições e NÃO ingerir nenhuma bebida alcoólica durante e até 72 horas após o tratamento.\n- O(a) parceiro(a) sexual DEVE fazer o tratamento ao mesmo tempo, mantendo abstinência sexual até ambos terminarem os remédios.\n- Realizar testes para HIV, Sífilis e Hepatites B e C na unidade de saúde e usar preservativo."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Metronidazol 250 mg — 08 comprimidos\nTomar 8 comprimidos (2 g) dose única.\n\nUso oral\n2) Secnidazol 1.000 mg — 02 comprimidos\nTomar 2 comprimidos (2 g) dose única, junto de uma refeição.\n\nORIENTAÇÕES:\n- Tomar o Metronidazol junto às refeições e NÃO ingerir nenhuma bebida alcoólica durante e até 72 horas após o tratamento.\n- O(a) parceiro(a) sexual DEVE fazer o tratamento ao mesmo tempo, mantendo abstinência sexual até ambos terminarem os remédios.\n- Realizar testes para HIV, Sífilis e Hepatites B e C na unidade de saúde e usar preservativo."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "repetir exame em 3 meses",
+      "retornar_imediatamente_se": "Dor no pé da barriga, febre, sangramento. Gestante: contrações ou perda de líquido.",
+      "seguranca_plantonista": "Gestante: metronidazol por 7 dias, em qualquer trimestre. Amamentação: esquema de 7 dias é compatível. Dose única de 2 g: suspender a amamentação por 12 a 24h.",
+      "encaminhar_internar": "",
+      "atestado_sugerido": "não se aplica"
+    }
+  },
+  {
+    "id": "ADU-153",
+    "name": "Trombose venosa profunda",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "I80.2",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "tvp, perna inchada e dolorida, coágulo na veia, rivaroxabana, xarelto, meia elástica Rivaroxabana 15mg Rivaroxabana 20mg Dipirona 500mg Meia Elástica de Compressão 30-40 mmHg",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Rivaroxabana 15mg — 42 comprimidos\nTomar 01 comprimido de 12/12h durante as primeiras 03 semanas, sempre junto com alimentos Horário sugerido: 07:00 – 19:00.\n\nUso oral\n2) Rivaroxabana 20mg — 60 comprimidos\nApós fim do tratamento acima, tomar 01 comprimido uma vez ao dia, sempre junto com alimentos, até reavaliação com cirurgia vascular Horário sugerido: 07:00.\n\nUso oral\n3) Dipirona 500mg — 01 caixa\nTomar 02 comprimidos se febre ou dor, podendo repetir de 6/6h.\n\nUso local\n4) Meia Elástica de Compressão 30-40 mmHg — 02 unidades (01 par)\nUtilizar diariamente enquanto em tratamento de trombose venosa profunda.\n\nORIENTAÇÕES:\n- TOMAR A RIVAROXABANA OBRIGATORIAMENTE JUNTO COM ALIMENTOS (almoço/jantar) e nunca interromper o uso por conta própria.\n- Manter a perna elevada em repouso, usar a meia elástica de compressão durante o dia e não tomar anti-inflamatórios ou AAS (risco de sangramento).\n- Retornar IMEDIATAMENTE ao pronto-socorro se sentir falta de ar súbita, dor no peito, tosse com sangue ou sangramento importante."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  },
+  {
+    "id": "ADU-154",
+    "name": "Tungíase (bicho-de-pé)",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "B88.1",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "bicho-de-pé, tungíase, pulga no pé, ponto preto no dedo do pé, bicho de porco Neomicina + bacitracina pomada Cefalexina 500 mg",
+    "gate": "Pápula com ponto escuro no centro, nos pés (dedos, ao redor da unha, calcanhar), que coça ou dói.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso local\n1) Neomicina + bacitracina pomada — 01 bisnaga\nAplicar no local após o banho, 2 vezes ao dia, por 5 dias.\n\nORIENTAÇÕES:\n- Andar sempre calçado, principalmente em terra e areia.\n- Limpar o quintal e o chão de terra. Tratar cães e outros animais da casa.\n- Retornar imediatamente ao pronto-socorro se: vermelhidão, pus, febre, dificuldade para andar."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Cefalexina 500 mg — 28 cápsulas\nTomar 1 cápsula de 6/6h, por 7 dias.\n\nORIENTAÇÕES:\n- Andar sempre calçado, principalmente em terra e areia.\n- Limpar o quintal e o chão de terra. Tratar cães e outros animais da casa.\n- Retornar imediatamente ao pronto-socorro se: vermelhidão, pus, febre, dificuldade para andar."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "48h se sinais de infecção",
+      "retornar_imediatamente_se": "Vermelhidão, pus, febre, dificuldade para andar.",
+      "seguranca_plantonista": "Diabético ou com neuropatia: risco de infecção grave. Reavaliar em 48h.",
+      "encaminhar_internar": "",
+      "atestado_sugerido": "não se aplica"
+    }
+  },
+  {
+    "id": "ADU-155",
+    "name": "Úlcera genital infecciosa (abordagem sindrômica IST)",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "A57 / N48.5",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "ferida genital, úlcera genital, cancro mole, cancro duro, linfogranuloma, donovanose, ferida no pênis, ferida na vagina Aciclovir 400 mg Doxiciclina 100 mg Paracetamol 750 mg",
+    "gate": "Abordagem sindrômica do Ministério da Saúde: úlcera genital = tratar sífilis e cancro mole. Se vesículas ou história de herpes, tratar herpes também. Testes rápidos de sífilis, HIV e hepatites. Úlcera por mais de 4 semanas: biópsia (donovanose, câncer).",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Aciclovir 400 mg — 21 comprimidos\nTomar 1 comprimido de 8/8h, por 7 dias.\n\nUso oral\n2) Doxiciclina 100 mg — 42 comprimidos\nTomar 1 comprimido de 12/12h, por 21 dias.\n\nUso oral\n3) Paracetamol 750 mg — 20 comprimidos\nTomar 1 comprimido de 6/6h, se dor.\n\nORIENTAÇÕES:\n- Lavar com água e sabão e manter seco. Sem relação sexual até cicatrizar e a parceria ser tratada.\n- Camisinha em todas as relações. Retornar à UBS ou a esta unidade em 7 dias.\n- Retornar imediatamente ao pronto-socorro se: febre, íngua que amolece ou começa a drenar, feridas piorando."
+      },
+      {
+        "id": "na-unidade",
+        "title": "Prescrição na unidade",
+        "note": "Administração na unidade · separada da receita domiciliar",
+        "prescription": "PRESCRIÇÃO NA UNIDADE\n\nUso IM\n1) Penicilina G benzatina 1.200.000 UI — 02 frascos-ampola\nAplicar 2.400.000 UI IM, dose única (1.200.000 UI em cada glúteo).\n\nUso oral\n2) Azitromicina 500 mg — 02 comprimidos\nTomar 2 comprimidos (1 g), via oral, dose única, na unidade (cancro mole)."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "7 dias",
+      "retornar_imediatamente_se": "Febre, íngua que amolece ou começa a drenar, feridas piorando.",
+      "seguranca_plantonista": "Gestante: penicilina + azitromicina. Linfogranuloma na gestação: azitromicina 1 g 1 vez por semana por 3 semanas (sem doxiciclina). Alergia à penicilina: ver ficha Sífilis.",
+      "encaminhar_internar": "Sem melhora em 7 a 14 dias ou úlcera por mais de 4 semanas: biópsia (dermatologia, ginecologia ou urologia).",
+      "atestado_sugerido": "não se aplica"
+    }
+  }
+]
+
+

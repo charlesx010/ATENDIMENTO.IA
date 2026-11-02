@@ -1,0 +1,286 @@
+[
+  {
+    "id": "ADU-008",
+    "name": "Analgesia",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "R52.0",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "dor leve, dor moderada, dipirona, paracetamol, ibuprofeno, cetoprofeno Ibuprofeno 300 mg Dipirona 500 mg Paracetamol 500 mg + codeína 30 mg Diclofenaco 50 mg Dipirona 500 mg Paracetamol 500 mg + codeína 30 mg",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Ibuprofeno 300 mg — 40 comprimidos\nTomar 02 comprimidos de 6/6h por 05 dias.\n\nUso oral\n2) Dipirona 500 mg — 01 caixa\nTomar 02 comprimidos se dor ou febre, podendo repetir de 6/6h.\n\nUso oral\n3) Paracetamol 500 mg + codeína 30 mg — 01 caixa\nTomar 01 comprimido se dor intensa, podendo repetir de 6/6h.\n\nUso oral\n4) Diclofenaco 50 mg — 15 comprimidos\nTomar 01 comprimido de 8/8h por 05 dias Horário sugerido (8/8h): 06:00 / 14:00 / 22:00.\n\nORIENTAÇÕES:\n- Tomar os anti-inflamatórios após as refeições por no máximo 05 dias e manter boa ingestão de água.\n- Se usar Paracetamol + Codeína, evitar dirigir veículos e bebidas alcoólicas devido à sonolência.\n- Retornar ao pronto-socorro se a dor não melhorar, ou se surgir dor de estômago forte, vômitos ou fezes escuras."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Dipirona 500 mg — 01 caixa\nTomar 02 comprimidos se dor ou febre, podendo repetir de 6/6h.\n\nUso oral\n2) Paracetamol 500 mg + codeína 30 mg — 01 caixa\nTomar 01 comprimido se dor intensa, podendo repetir de 6/6h.\n\nORIENTAÇÕES:\n- Tomar os anti-inflamatórios após as refeições por no máximo 05 dias e manter boa ingestão de água.\n- Se usar Paracetamol + Codeína, evitar dirigir veículos e bebidas alcoólicas devido à sonolência.\n- Retornar ao pronto-socorro se a dor não melhorar, ou se surgir dor de estômago forte, vômitos ou fezes escuras."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  },
+  {
+    "id": "ADU-009",
+    "name": "Analgesia potente",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "R52.1",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "dor forte, dor intensa, codeína, paco, tylex, tramadol, tramal Cetoprofeno 150 mg Dipirona 500 mg Paracetamol 500 mg + Codeína 30 mg Naproxeno 500 mg Dipirona 500 mg Tramadol 37,5mg + Paracetamol 325mg Benefiber ®",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Cetoprofeno 150 mg — 10 comprimidos\nTomar 01 comprimido de 12/12h por 05 dias.\n\nUso oral\n2) Dipirona 500 mg — 01 caixa\nTomar 02 comprimidos se dor ou febre, podendo repetir de 6/6h.\n\nUso oral\n3) Paracetamol 500 mg + Codeína 30 mg — 01 caixa\nTomar 01 comprimido se dor intensa, podendo repetir de 6/6h.\n\nUso oral\n4) Naproxeno 500 mg — 10 comprimidos\nTomar 01 comprimido de 12/12h por 05 dias.\n\nORIENTAÇÕES:\n- Tomar o anti-inflamatório após as refeições e usar o opioide (Codeína ou Tramadol) apenas enquanto houver dor intensa.\n- Beber pelo menos 2 litros de água por dia e manter dieta rica em fibras para evitar intestino preso; não dirigir nem beber álcool.\n- Retornar à emergência em caso de dor incontrolável, vômitos persistentes, sonolência excessiva ou falta de ar."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Dipirona 500 mg — 01 caixa\nTomar 02 comprimidos se dor ou febre, podendo repetir de 6/6h.\n\nUso oral\n2) Tramadol 37,5mg + Paracetamol 325mg — 01 caixa\nTomar 01 comprimido se dor intensa, podendo repetir de 6/6h se necessário. Tomar o mínimo possível, para evitar dependência e constipação.\n\nUso oral\n3) Benefiber ® — 01 caixa\nDissolver 01 sachê em 01 copo de água ou suco e Tomar ao almoço por 28 dias.\n\nORIENTAÇÕES:\n- Tomar o anti-inflamatório após as refeições e usar o opioide (Codeína ou Tramadol) apenas enquanto houver dor intensa.\n- Beber pelo menos 2 litros de água por dia e manter dieta rica em fibras para evitar intestino preso; não dirigir nem beber álcool.\n- Retornar à emergência em caso de dor incontrolável, vômitos persistentes, sonolência excessiva ou falta de ar."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  },
+  {
+    "id": "ADU-010",
+    "name": "Anemia ferropriva",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "D50.9",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "anemia, falta de ferro, ferritina baixa, sulfato ferroso, hemoglobina baixa Sulfato ferroso 40 mg de ferro elementar Ferripolimaltose 100 mg Sacarato de hidróxido férrico 100 mg/5 mL (Noripurum ) Sulfato ferroso gotas 25 mg/mL de ferro elementar",
+    "gate": "Confirme: hemoglobina baixa + VCM baixo + ferritina < 30 ng/mL. Investigue sempre a causa (perda menstrual, sangramento digestivo, dieta, gestação). Homem e mulher após a menopausa: investigar o trato digestivo.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Sulfato ferroso 40 mg de ferro elementar — 180 comprimidos\nTomar 2 comprimidos 1 vez ao dia, 30 minutos antes do almoço, com suco de laranja, por 3 meses.\n\nORIENTAÇÕES:\n- Tomar longe de leite, café, chá, achocolatado e antiácidos (2h de intervalo). Fruta cítrica junto ajuda a absorver.\n- Fezes escuras são esperadas. Se enjoo ou dor no estômago: tomar junto da refeição ou em dias alternados.\n- Retornar imediatamente ao pronto-socorro se: fezes pretas e pastosas com tontura, sangue nas fezes ou no vômito, falta de ar, palpitação ou desmaio."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Ferripolimaltose 100 mg — 90 comprimidos\nTomar 1 comprimido 1 vez ao dia, junto do almoço, por 3 meses. Menos efeitos gastrointestinais.\n\nUso oral\n2) Sacarato de hidróxido férrico 100 mg/5 mL (Noripurum ) — 04 ampolas\nAplicar 1 ampola diluída em 500 mL de SF 0,9%, lento, 1 vez por semana, por 4 semanas. Se o paciente tiver condições de comprar na farmácia. CRIANÇA\n\nUso oral\n3) Sulfato ferroso gotas 25 mg/mL de ferro elementar — 02 frascos\nDar 3 a 5 mg/kg/dia de ferro elementar (0,12 a 0,2 mL/kg/dia) 1 vez ao dia, 30 minutos antes da refeição, por 3 a 6 meses. Máx. 60 mg/dia.\n\nORIENTAÇÕES:\n- Tomar longe de leite, café, chá, achocolatado e antiácidos (2h de intervalo). Fruta cítrica junto ajuda a absorver.\n- Fezes escuras são esperadas. Se enjoo ou dor no estômago: tomar junto da refeição ou em dias alternados.\n- Retornar imediatamente ao pronto-socorro se: fezes pretas e pastosas com tontura, sangue nas fezes ou no vômito, falta de ar, palpitação ou desmaio."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "hemograma em 4 semanas",
+      "retornar_imediatamente_se": "Fezes pretas e pastosas com tontura, sangue nas fezes ou no vômito, falta de ar, palpitação ou desmaio.",
+      "seguranca_plantonista": "Gestante: ver ficha Pré-natal: suplementação. Hb abaixo de 11 g/dL: dose de tratamento. Doença renal crônica, doença inflamatória intestinal ou pós-bariátrica: absorção ruim, muitas vezes precisa de ferro EV. Idoso ou intolerância gástrica: ferro em dias alternados reduz efeitos colaterais e mantém a absorção.",
+      "encaminhar_internar": "Hb < 7 g/dL, sintomas importantes ou instabilidade: avaliar transfusão. Sem resposta após 4 a 8 semanas de ferro oral bem tomado: investigar má absorção e considerar ferro EV. Suspeita de sangramento digestivo: endoscopia e colonoscopia.",
+      "atestado_sugerido": "não se aplica"
+    }
+  },
+  {
+    "id": "ADU-011",
+    "name": "Ansiedade leve e insônia inicial",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "F41.1 / G47.0",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "ansiedade, insônia, dificuldade para dormir, escitalopram, hidroxizina Escitalopram 10 mg Cloridrato de Hidroxizina 25 mg",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Escitalopram 10 mg — 30 comprimidos\nTomar meio comprimido (5 mg) pela manhã nos primeiros 07 dias e, a partir do 8º dia, tomar 01 comprimido (10 mg) pela manhã continuamente.\n\nUso oral\n2) Cloridrato de Hidroxizina 25 mg — 01 caixa\nTomar 01 comprimido à noite, 1 hora antes de dormir, por até 14 dias.\n\nORIENTAÇÕES:\n- Manter higiene do sono: deitar no mesmo horário, quarto escuro e silencioso, e desligar celular/TV 1 hora antes de dormir.\n- Evitar café, chá preto, refrigerantes de cola, energéticos e chocolate após as 16:00, além de bebidas alcoólicas.\n- Não suspender nem aumentar doses de medicamentos controlados por conta própria; manter acompanhamento médico."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  },
+  {
+    "id": "ADU-012",
+    "name": "Ansiedade — crise aguda e transtorno de pânico",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "F41.0",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "crise de pânico, síndrome do pânico, nervosismo, crise nervosa, calmante, transtorno de ansiedade Passiflora incarnata extrato seco Melissa + valeriana (fitoterápico composto)",
+    "gate": "Antes de rotular como ansiedade: sinais vitais, glicemia capilar, SpO2 e ECG se dor no peito, palpitação ou mais de 40 anos. Lembrar de arritmia, hipertireoidismo, TEP, hipoglicemia, abstinência ou intoxicação. Evite iniciar benzodiazepínico de uso contínuo a partir do PS. Dependência e quedas em idosos.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Passiflora incarnata extrato seco — 30 comprimidos\nTomar 1 comprimido 1 a 2 vezes ao dia, se ansiedade, conforme a dose da apresentação.\n\nORIENTAÇÕES:\n- A crise é intensa, mas não danifica o coração e passa em 10 a 30 minutos. Usar a respiração lenta ao primeiro sinal.\n- Reduzir café, energético, chimarrão e álcool. Sono regular e atividade física ajudam muito.\n- Retornar imediatamente ao pronto-socorro se: dor no peito em aperto que não passa, falta de ar, desmaio, palpitação que não melhora. Pensamentos de se machucar ou de morte: procurar ajuda imediata (CVV 188 ou PS)."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Melissa + valeriana (fitoterápico composto) — 30 comprimidos\nTomar 1 comprimido até 2 vezes ao dia, se ansiedade.\n\nORIENTAÇÕES:\n- A crise é intensa, mas não danifica o coração e passa em 10 a 30 minutos. Usar a respiração lenta ao primeiro sinal.\n- Reduzir café, energético, chimarrão e álcool. Sono regular e atividade física ajudam muito.\n- Retornar imediatamente ao pronto-socorro se: dor no peito em aperto que não passa, falta de ar, desmaio, palpitação que não melhora. Pensamentos de se machucar ou de morte: procurar ajuda imediata (CVV 188 ou PS)."
+      },
+      {
+        "id": "na-unidade",
+        "title": "Prescrição na unidade",
+        "note": "Administração na unidade · separada da receita domiciliar",
+        "prescription": "PRESCRIÇÃO NA UNIDADE\n\nUso oral\n1) Diazepam 5 mg — 01 comprimido\nTomar 1 a 2 comprimidos (5 a 10 mg), via oral, dose única. Idoso: 2,5 a 5 mg.\n\nUso oral\n2) Clonazepam 2,5 mg/mL gotas — 01 frasco\nTomar 5 gotas (0,5 mg), via oral, dose única.\n\nUso EV\n3) Midazolam 5 mg/mL — 01 ampola\nAplicar 2,5 a 5 mg IM, dose única, com monitorização.\n\nUso IM\n4) Prometazina 50 mg/2 mL — 01 ampola\nAplicar 1 a 2 mL (25 a 50 mg) IM profundo, dose única."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "UBS em 7 a 15 dias",
+      "retornar_imediatamente_se": "Dor no peito em aperto que não passa, falta de ar, desmaio, palpitação que não melhora. Pensamentos de se machucar ou de morte: procurar ajuda imediata (CVV 188 ou PS).",
+      "seguranca_plantonista": "Gestante: evitar benzodiazepínico, principalmente no 1º trimestre e perto do parto. Priorizar medidas não medicamentosas. Amamentação: dose única de benzodiazepínico é aceitável. Evitar uso contínuo. Idoso: evitar benzodiazepínico (quedas e confusão). Se necessário, a menor dose. DPOC ou apneia do sono: benzodiazepínico pode deprimir a respiração.",
+      "encaminhar_internar": "Crises repetidas: UBS para acompanhamento, psicoterapia e avaliação de ISRS (ex.: sertralina 25 mg/dia por 1 semana, depois 50 mg/dia). Risco de suicídio, sintomas psicóticos ou agitação grave: avaliação psiquiátrica (CAPS ou emergência).",
+      "atestado_sugerido": "1 dia, se necessário"
+    }
+  },
+  {
+    "id": "ADU-013",
+    "name": "Anticoncepção de emergência",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "Z30.3",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "pílula do dia seguinte, levonorgestrel, relação desprotegida, preservativo rompeu, contracepção de emergência, camisinha estourou, relação sem proteção Levonorgestrel 1,5 mg Dimenidrinato 50 mg + piridoxina 10mg Butilbrometo de Escopolamina 10 mg Levonorgestrel 1,5 mg",
+    "gate": "Quanto antes, melhor: maior eficácia nas primeiras 24h, podendo usar até 5 dias (120h) após a relação. Não é abortiva e não protege contra IST. Relação de risco ou violência sexual: avaliar também PEP e profilaxia de IST (ver ficha PEP).",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Levonorgestrel 1,5 mg — 01 comprimido\nTomar um comprimido em dose única.\n\nUso oral\n2) Dimenidrinato 50 mg + piridoxina 10mg — 01 caixa\nTomar 01 comprimido se vertigem, náuseas, ou vômito, podendo repetir de 6/6h.\n\nUso oral\n3) Butilbrometo de Escopolamina 10 mg — 01 caixa\nTomar 01 comprimido se dor abdominal, podendo repetir de 8/8h.\n\nORIENTAÇÕES:\n- Tomar o Levonorgestrel o mais rápido possível após a relação desprotegida (máximo até 72 horas); se vomitar em até 2 horas, repetir a dose.\n- Usar preservativo em todas as relações seguintes, pois a pílula de emergência não protege contra ISTs nem relações futuras.\n- Realizar teste de gravidez e procurar o médico caso a menstruação atrase mais de 7 dias ou haja dor pélvica forte."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Levonorgestrel 1,5 mg — 01 comprimido\nTomar 1 comprimido dose única, o mais rápido possível.\n\nORIENTAÇÕES:\n- Tomar o Levonorgestrel o mais rápido possível após a relação desprotegida (máximo até 72 horas); se vomitar em até 2 horas, repetir a dose.\n- Usar preservativo em todas as relações seguintes, pois a pílula de emergência não protege contra ISTs nem relações futuras.\n- Realizar teste de gravidez e procurar o médico caso a menstruação atrase mais de 7 dias ou haja dor pélvica forte."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "teste de gravidez se a menstruação atrasar mais de 7 dias",
+      "retornar_imediatamente_se": "Dor forte no pé da barriga, sangramento intenso, desmaio, atraso menstrual com dor.",
+      "seguranca_plantonista": "Amamentação: pode usar. Usa carbamazepina, fenitoína, rifampicina, efavirenz ou erva-de-são-joão: dobrar a dose (3 mg) ou preferir DIU de cobre.",
+      "encaminhar_internar": "UBS para planejamento reprodutivo. Violência sexual: rede de proteção e serviço de referência.",
+      "atestado_sugerido": "não se aplica"
+    }
+  },
+  {
+    "id": "ADU-014",
+    "name": "Asma",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "J45.9",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "falta de ar, chiado no peito, broncoespasmo, salbutamol, aerolin, clenil, beclometasona, chiado, bronquite, crise asmática, bombinha Prednisona 20 mg Salbutamol Spray Aerossol 100 mcg Salbutamol Spray Aerossol 100 mcg Prednisona 20 mg Budesonida + formoterol 6/200 mcg (pó para inalação) 1 caixa (60 doses) Beclometasona 250 mcg/jato spray Salbutamol spray 100 mcg/jato",
+    "gate": "Crise grave: fala frases incompletas, FR > 30, FC > 120, SpO2 < 90%, uso de musculatura acessória. Risco de vida: sonolência, confusão, tórax silencioso, bradicardia.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Prednisona 20 mg — 10 comprimidos\nTomar 02 comprimidos às 8:00 por 05 dias seguidos.\n\nUso oral\n2) Salbutamol Spray Aerossol 100 mcg — 01 frasco\nInalar 01 puff no meio da respiração profunda e segurar a respiração por 10 seg. pode repetir uma vez após um minuto. Se necessário, pode repetir as duas inalações após 6h da última dose. Na ausência de melhora, retornar à emergência imediatamente.\n\nORIENTAÇÕES:\n- Agitar a bombinha, soltar todo o ar, disparar o jato inspirando fundo pela boca e segurar a respiração por 10 segundos.\n- Manter a casa ventilada e livre de poeira, mofo, fumaça de cigarro e cheiros fortes; enxaguar a boca após usar inaladores.\n- Retornar imediatamente à emergência se a falta de ar não aliviar, voltar em menos de 3 horas ou dificultar a fala."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Salbutamol Spray Aerossol 100 mcg — 01 frasco\nInalar 02 jatos de 06/06 horas por 05 dias.\n\nORIENTAÇÕES:\n- Agitar a bombinha, soltar todo o ar, disparar o jato inspirando fundo pela boca e segurar a respiração por 10 segundos.\n- Manter a casa ventilada e livre de poeira, mofo, fumaça de cigarro e cheiros fortes; enxaguar a boca após usar inaladores.\n- Retornar imediatamente à emergência se a falta de ar não aliviar, voltar em menos de 3 horas ou dificultar a fala."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Prednisona 20 mg — 10 comprimidos\nTomar 2 comprimidos pela manhã, por 5 dias.\n\nUso inalatório\n2) Budesonida + formoterol 6/200 mcg (pó para inalação) 1 caixa (60 doses) — 01 unidade / conforme orientação\nInalar 1 dose de 12/12h, todos os dias, e mais 1 dose sempre que tiver falta de ar ou chiado. Máx. 12 doses por dia.\n\nORIENTAÇÕES:\n- Agitar a bombinha, soltar todo o ar, disparar o jato inspirando fundo pela boca e segurar a respiração por 10 segundos.\n- Manter a casa ventilada e livre de poeira, mofo, fumaça de cigarro e cheiros fortes; enxaguar a boca após usar inaladores.\n- Retornar imediatamente à emergência se a falta de ar não aliviar, voltar em menos de 3 horas ou dificultar a fala."
+      },
+      {
+        "id": "esquema-4",
+        "title": "Esquema 4",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso inalatório\n1) Beclometasona 250 mcg/jato spray — 01 frasco\nInalar 1 jato com espaçador de 12/12h, todos os dias. Não parar quando melhorar.\n\nUso inalatório\n2) Salbutamol spray 100 mcg/jato — 01 frasco\nInalar 2 a 4 jatos com espaçador, se falta de ar ou chiado, até de 4/4h.\n\nORIENTAÇÕES:\n- Agitar a bombinha, soltar todo o ar, disparar o jato inspirando fundo pela boca e segurar a respiração por 10 segundos.\n- Manter a casa ventilada e livre de poeira, mofo, fumaça de cigarro e cheiros fortes; enxaguar a boca após usar inaladores.\n- Retornar imediatamente à emergência se a falta de ar não aliviar, voltar em menos de 3 horas ou dificultar a fala."
+      },
+      {
+        "id": "na-unidade",
+        "title": "Prescrição na unidade",
+        "note": "Administração na unidade · separada da receita domiciliar",
+        "prescription": "PRESCRIÇÃO NA UNIDADE\n\nUso inalatório\n1) Salbutamol spray 100 mcg/jato — 01 frasco\n4 a 10 jatos com espaçador a cada 20 min na 1ª hora.\n\nUso inalatório\n2) Nebulização: Fenoterol 5 mg/mL 10 gotas + Ipratrópio 0,25 mg/mL 40 gotas + SF 0,9% 4 mL — 01 unidade / conforme orientação\nNebulizar com O2 a 6 a 8 L/min, a cada 20 min na 1ª hora (3 doses).\n\nUso inalatório\n3) Ipratrópio spray 20 mcg/jato — 01 frasco\n4 a 8 jatos a cada 20 min na 1ª hora, em crise moderada ou grave (se não estiver na nebulização).\n\nUso oral\n4) Prednisona 20 mg — 02 comprimidos\nTomar 2 comprimidos (40 mg), via oral, na 1ª hora.\n\nUso EV\n5) Metilprednisolona 40 mg EV ou Hidrocortisona 100 mg EV — 01 unidade / conforme orientação\nSe vômitos ou crise grave. Hidrocortisona pode ser repetida de 6/6h.\n\nUso EV\n6) Sulfato de magnésio 2 g EV — 01 unidade / conforme orientação\nCrise grave sem resposta na 1ª hora. Diluir em 100 mL de SF 0,9% e correr em 20 min. Ampola 10% (1 g/10 mL): 20 mL. Ampola 50% (5 g/10 mL): 4 mL. Reavaliar após 1h: sem esforço, SpO2 ≥ 94% em ar ambiente e PFE > 60 a 80% do previsto = alta."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "UBS em até 7 dias; 48h se a crise foi moderada",
+      "retornar_imediatamente_se": "Precisar do resgate antes de 4/4h, falta de ar para falar, lábios roxos, sonolência, chiado que não melhora com o spray.",
+      "seguranca_plantonista": "Gestante: mesmo tratamento (salbutamol, ipratrópio, corticoide e budesonida são seguros). O risco para o bebê é a asma descontrolada. Alvo de SpO2: 95% ou mais. Amamentação: todos os itens são compatíveis. Idoso ou cardiopata: doses repetidas de salbutamol podem causar taquicardia e potássio baixo. Evitar: propranolol e outros betabloqueadores não seletivos, AAS e anti-inflamatório se houver piora prévia com eles.",
+      "encaminhar_internar": "Internar: sem resposta após 1 a 2h de tratamento, SpO2 < 94% em ar ambiente, PFE < 60%, crise com risco de vida ou intubação prévia por asma.",
+      "atestado_sugerido": "1 a 3 dias"
+    }
+  },
+  {
+    "id": "ADU-015",
+    "name": "Balanopostite",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "N48.1",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "balanite, inflamação na glande, vermelhidão no pênis, fungo no pênis, prepúcio inflamado Clotrimazol 1% creme Miconazol 2% creme Fluconazol 150 mg Metronidazol 400 mg Hidrocortisona 1% creme",
+    "gate": "A causa mais comum é candidíase. Episódios de repetição: pedir glicemia (diabetes). Lesão que não melhora em 4 semanas: biópsia (líquen escleroso, câncer).",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso local\n1) Clotrimazol 1% creme — 01 bisnaga\nAplicar fina camada na glande e no prepúcio, 2 vezes ao dia, por 7 a 14 dias.\n\nORIENTAÇÕES:\n- Lavar 1 a 2 vezes ao dia só com água morna (sem sabonete forte), retraindo o prepúcio. Secar bem.\n- Parceria com sintomas também deve ser tratada.\n- Retornar imediatamente ao pronto-socorro se: dificuldade para urinar, prepúcio que não volta (parafimose), feridas, secreção com pus pela uretra."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso local\n1) Miconazol 2% creme — 01 bisnaga\nAplicar fina camada, 2 vezes ao dia, por 7 a 14 dias.\n\nUso oral\n2) Fluconazol 150 mg — 01 cápsula\nTomar 1 cápsula dose única, se quadro intenso.\n\nUso oral\n3) Metronidazol 400 mg — 14 comprimidos\nTomar 1 comprimido de 12/12h, por 7 dias. Sem álcool.\n\nUso local\n4) Hidrocortisona 1% creme — 01 bisnaga\nAplicar fina camada, 2 vezes ao dia, por até 7 dias.\n\nORIENTAÇÕES:\n- Lavar 1 a 2 vezes ao dia só com água morna (sem sabonete forte), retraindo o prepúcio. Secar bem.\n- Parceria com sintomas também deve ser tratada.\n- Retornar imediatamente ao pronto-socorro se: dificuldade para urinar, prepúcio que não volta (parafimose), feridas, secreção com pus pela uretra."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "7 a 14 dias",
+      "retornar_imediatamente_se": "Dificuldade para urinar, prepúcio que não volta (parafimose), feridas, secreção com pus pela uretra.",
+      "seguranca_plantonista": "Diabético: controlar a glicemia. Dapagliflozina e empagliflozina aumentam o risco. Fluconazol: aumenta o efeito de varfarina e sulfonilureias.",
+      "encaminhar_internar": "Recorrente, fimose ou lesão persistente: urologia ou dermatologia.",
+      "atestado_sugerido": "não se aplica"
+    }
+  }
+]
+
+

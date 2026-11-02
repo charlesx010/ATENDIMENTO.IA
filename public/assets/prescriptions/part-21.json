@@ -1,0 +1,280 @@
+[
+  {
+    "id": "ADU-156",
+    "name": "Úlceras de causas variadas",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "L97 / L98.4",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "ferida crônica na perna, úlcera venosa, colagenase, iruxol, diosmina Clorafenicol + Colagenase pomada 0,6 u/g + 0,01 g/g Iruxol pomada Cefalexina 500mg Diosmina 450 mg + Hesperidina 50 mg",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso local\n1) Clorafenicol + Colagenase pomada 0,6 u/g + 0,01 g/g — 01 bisnaga\nApós lavar com água e sabão e secar bem, aplicar uma fina camada na lesão e cobrir com curativo com gaze duas vezes ao dia, até melhora.\n\nUso local\n2) Iruxol pomada — 01 bisnaga\nApós lavar com água e sabão e secar bem, aplicar uma fina camada na lesão e cobrir com curativo com gaze duas vezes ao dia, até melhora.\n\nUso oral\n3) Cefalexina 500mg — 28 comprimidos\nTomar 01 comprimido de 6/6h por 07 dias horário sugerido: 06:00 / 12:00 / 18:00 / 00.\n\nUso oral\n4) Diosmina 450 mg + Hesperidina 50 mg — 14 comprimidos\nTomar 01 comprimido de 12/12h por 07 dias Horário sugerido: 08:00 / 20:00.\n\nORIENTAÇÕES:\n- Lavar a úlcera com Soro Fisiológico 0,9% em jato, aplicar fina camada da pomada enzimática apenas dentro da ferida e cobrir com gaze estéril.\n- Não usar iodo, prata ou sabão junto com a Colagenase (inativam a pomada), manter as pernas elevadas em repouso e completar a Cefalexina (se prescrita).\n- Retornar ao pronto-socorro se aumentar a vermelhidão e o calor na perna, sair pus abundante ou dar febre."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  },
+  {
+    "id": "ADU-157",
+    "name": "Unha encravada (onicocriptose)",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "L60.0",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "unha encravada, unha inflamada, onicocriptose, canto da unha com pus, granuloma na unha Paracetamol 750 mg Cefalexina 500 mg",
+    "gate": "Leve: dor e vermelhidão. Moderada: pus e infecção. Grave: tecido de granulação e inflamação crônica. O antibiótico não substitui a correção da unha.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Paracetamol 750 mg — 20 comprimidos\nTomar 1 comprimido de 6/6h, se dor.\n\nORIENTAÇÕES:\n- Deixar o pé de molho em água morna com sabão por 15 minutos, 3 vezes ao dia.\n- Cortar a unha reta, sem arredondar os cantos e sem cortar curta demais.\n- Retornar imediatamente ao pronto-socorro se: vermelhidão subindo pelo pé, febre, muito pus, ferida em diabético."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Cefalexina 500 mg — 28 cápsulas\nTomar 1 cápsula de 6/6h, por 7 dias.\n\nORIENTAÇÕES:\n- Deixar o pé de molho em água morna com sabão por 15 minutos, 3 vezes ao dia.\n- Cortar a unha reta, sem arredondar os cantos e sem cortar curta demais.\n- Retornar imediatamente ao pronto-socorro se: vermelhidão subindo pelo pé, febre, muito pus, ferida em diabético."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "48 a 72h",
+      "retornar_imediatamente_se": "Vermelhidão subindo pelo pé, febre, muito pus, ferida em diabético.",
+      "seguranca_plantonista": "Diabético ou vasculopata: avaliação precoce. Nunca fazer procedimento caseiro (risco de pé diabético).",
+      "encaminhar_internar": "Grave ou recorrente: cirurgia ambulatorial.",
+      "atestado_sugerido": "1 a 3 dias após procedimento"
+    }
+  },
+  {
+    "id": "ADU-158",
+    "name": "Uretrite / Gonorreia",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "A54.0 / N34.1",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "corrimento uretral masculino, ardor ao urinar, clamídia, gonococo, ceftriaxona, azitromicina, doxiciclina, corrimento uretral, gonorreia, secreção no pênis, ardência para urinar em homem, IST, DST, cervicite Azitromicina 500 mg Azitromicina 500 mg Ciprofloxacino 500 mg Doxiciclina 100 mg Metronidazol 250 mg",
+    "gate": "Tratamento sindrômico: cobrir gonorreia e clamídia ao mesmo tempo. Oferecer testes rápidos de HIV, sífilis e hepatites B e C. Tratar as parcerias sexuais dos últimos 60 dias. Homem jovem com ardência para urinar e secreção uretral: é uretrite até prova em contrário, não ITU.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Azitromicina 500 mg — 02 comprimidos\nTomar 02 comprimidos em dose única.\n\nORIENTAÇÕES:\n- Completar todo o antibiótico prescrito (associado à dose única injetável de Ceftriaxona aplicada na unidade de saúde) e beber bastante água.\n- Tratar obrigatoriamente todas as parcerias sexuais dos últimos 60 dias e manter abstinência sexual por 7 dias após o tratamento.\n- Fazer testes para HIV, Sífilis e Hepatites na UBS e retornar se persistir corrimento ou surgir dor testicular/pélvica ou febre."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Azitromicina 500 mg — 02 comprimidos\nTomar 02 comprimidos em dose única.\n\nUso oral\n2) Ciprofloxacino 500 mg — 01 comprimido\nTomar 01 comprimido em dose única.\n\nORIENTAÇÕES:\n- Completar todo o antibiótico prescrito (associado à dose única injetável de Ceftriaxona aplicada na unidade de saúde) e beber bastante água.\n- Tratar obrigatoriamente todas as parcerias sexuais dos últimos 60 dias e manter abstinência sexual por 7 dias após o tratamento.\n- Fazer testes para HIV, Sífilis e Hepatites na UBS e retornar se persistir corrimento ou surgir dor testicular/pélvica ou febre."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Doxiciclina 100 mg — 14 comprimidos\nTomar 1 comprimido de 12/12h, por 7 dias. Mesmo esquema: ceftriaxona 500 mg + azitromicina 1 g dose única.\n\nUso oral\n2) Metronidazol 250 mg — 08 comprimidos\nTomar 8 comprimidos (2 g) dose única. Não ingerir álcool por 24h.\n\nORIENTAÇÕES:\n- Completar todo o antibiótico prescrito (associado à dose única injetável de Ceftriaxona aplicada na unidade de saúde) e beber bastante água.\n- Tratar obrigatoriamente todas as parcerias sexuais dos últimos 60 dias e manter abstinência sexual por 7 dias após o tratamento.\n- Fazer testes para HIV, Sífilis e Hepatites na UBS e retornar se persistir corrimento ou surgir dor testicular/pélvica ou febre."
+      },
+      {
+        "id": "na-unidade",
+        "title": "Prescrição na unidade",
+        "note": "Administração na unidade · separada da receita domiciliar",
+        "prescription": "PRESCRIÇÃO NA UNIDADE\n\nUso IM\n1) Ceftriaxona 500 mg — 01 frasco-ampola\nAplicar 500 mg IM, dose única. Diluir em lidocaína 1% sem vasoconstritor para reduzir a dor.\n\nUso oral\n2) Azitromicina 500 mg — 02 comprimidos\nTomar 2 comprimidos (1 g), via oral, dose única, na unidade."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "7 dias se os sintomas continuarem",
+      "retornar_imediatamente_se": "Dor ou inchaço no testículo, dor no pé da barriga, febre, dor nas articulações, manchas na pele, sintomas que continuam após 7 dias.",
+      "seguranca_plantonista": "Gestante: ceftriaxona + azitromicina são seguras. Doxiciclina é contraindicada. Amamentação: ceftriaxona e azitromicina são compatíveis. Alergia grave a cefalosporina: discutir com infectologia.",
+      "encaminhar_internar": "Mulher com dor pélvica ou dor à mobilização do colo: ver ficha de DIP. Orquiepididimite com febre ou abscesso: urologia. Notificar conforme protocolo local.",
+      "atestado_sugerido": "geralmente não necessário"
+    }
+  },
+  {
+    "id": "ADU-159",
+    "name": "Urticária aguda",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "L50.9",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "placas vermelhas que coçam, vergões na pele, alergia, loratadina, cetirizina, prednisona, urticária, alergia na pele, manchas vermelhas que coçam, placas pelo corpo, vergões Loratadina 10 mg Cetirizina 10 mg Loratadina 10 mg Hidroxizina 25 mg Prednisona 20 mg Loratadina 1 mg/mL xarope Desloratadina 0,5 mg/mL xarope Prednisolona 3 mg/mL solução",
+    "gate": "Placas elevadas e avermelhadas, que coçam e mudam de lugar em horas. Com falta de ar, rouquidão, inchaço na língua ou garganta, tontura ou vômitos: é anafilaxia (adrenalina IM, ver ficha). Inchaço de lábios ou rosto sem urticária em quem usa captopril ou enalapril: suspender o remédio (não responde bem a antialérgico).",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Loratadina 10 mg — 01 caixa\nTomar 01 comprimido ao dia, no mesmo horário, por 04 dias.\n\nUso oral\n2) Cetirizina 10 mg — 01 caixa\nTomar 01 comprimido ao dia, no mesmo horário, por 04 dias.\n\nORIENTAÇÕES:\n- Tomar o antialérgico diariamente no mesmo horário, tomar banhos frios/mornos e usar roupas leves de algodão.\n- Evitar AAS, anti-inflamatórios (ibuprofeno, diclofenaco, dipirona se alérgico), alimentos com corantes, frutos do mar, álcool e calor.\n- Retornar IMEDIATAMENTE à emergência se inchar lábios, língua ou rosto, ou se sentir falta de ar, rouquidão, garganta fechando ou tontura."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Loratadina 10 mg — 14 comprimidos\nTomar 1 comprimido 1 vez ao dia, por 7 a 14 dias. Se não controlar, pode tomar de 12/12h.\n\nUso oral\n2) Hidroxizina 25 mg — 10 comprimidos\nTomar 1 comprimido à noite, se a coceira atrapalhar o sono.\n\nORIENTAÇÕES:\n- Tomar o antialérgico diariamente no mesmo horário, tomar banhos frios/mornos e usar roupas leves de algodão.\n- Evitar AAS, anti-inflamatórios (ibuprofeno, diclofenaco, dipirona se alérgico), alimentos com corantes, frutos do mar, álcool e calor.\n- Retornar IMEDIATAMENTE à emergência se inchar lábios, língua ou rosto, ou se sentir falta de ar, rouquidão, garganta fechando ou tontura."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Prednisona 20 mg — 06 comprimidos\nTomar 2 comprimidos pela manhã, por 3 dias. Só se urticária extensa ou intensa. CRIANÇA\n\nUso oral\n2) Loratadina 1 mg/mL xarope — 01 frasco\nA partir de 2 anos: até 30 kg, 5 mL; acima de 30 kg, 10 mL. 1 vez ao dia, por 7 dias.\n\nUso oral\n3) Desloratadina 0,5 mg/mL xarope — 01 frasco\nDe 6 a 11 meses: 2 mL. De 1 a 5 anos: 2,5 mL. De 6 a 11 anos: 5 mL. 1 vez ao dia, por 7 dias.\n\nUso oral\n4) Prednisolona 3 mg/mL solução — 01 frasco\nDar 1 mg/kg (0,33 mL/kg) 1 vez ao dia, por 3 dias (máx. 40 mg). Só se extensa.\n\nORIENTAÇÕES:\n- Tomar o antialérgico diariamente no mesmo horário, tomar banhos frios/mornos e usar roupas leves de algodão.\n- Evitar AAS, anti-inflamatórios (ibuprofeno, diclofenaco, dipirona se alérgico), alimentos com corantes, frutos do mar, álcool e calor.\n- Retornar IMEDIATAMENTE à emergência se inchar lábios, língua ou rosto, ou se sentir falta de ar, rouquidão, garganta fechando ou tontura."
+      },
+      {
+        "id": "na-unidade",
+        "title": "Prescrição na unidade",
+        "note": "Administração na unidade · separada da receita domiciliar",
+        "prescription": "PRESCRIÇÃO NA UNIDADE\n\nUso IM\n1) Prometazina 50 mg/2 mL — 01 ampola\nAplicar 1 mL (25 mg) IM profundo.\n\nUso EV\n2) Hidrocortisona 100 mg — 01 frasco-ampola\nAplicar 100 a 200 mg EV, se urticária extensa."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "se durar mais de 6 semanas",
+      "retornar_imediatamente_se": "Falta de ar, chiado, rouquidão, inchaço na língua ou garganta, dificuldade para engolir, tontura, desmaio, vômitos.",
+      "seguranca_plantonista": "Gestante: loratadina ou cetirizina são as mais estudadas. Evitar hidroxizina no 1º trimestre. Idoso: evitar hidroxizina e prometazina (sono e quedas). Doença renal grave: loratadina 10 mg em dias alternados.",
+      "encaminhar_internar": "Urticária por mais de 6 semanas, lesão que dura mais de 24 a 48h e deixa mancha roxa, ou inchaço recorrente sem urticária: alergologia ou dermatologia.",
+      "atestado_sugerido": "1 dia, se intensa"
+    }
+  },
+  {
+    "id": "ADU-160",
+    "name": "Vaginite mista (candidíase + vaginose / tricomoníase)",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "N76.0",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "corrimento com coceira e mau cheiro, vaginite mista, corrimento misto, candidíase com vaginose Tioconazol 100 mg + tinidazol 150 mg/5 g creme vaginal Metronidazol 500 mg + nistatina 100.000 UI creme vaginal Metronidazol 250 mg Fluconazol 150 mg",
+    "gate": "Sintomas de mais de um agente (ex.: coceira + mau cheiro). O ideal é confirmar com exame (pH, teste das aminas, microscopia). Sem isso, usar tratamento combinado.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso vaginal\n1) Tioconazol 100 mg + tinidazol 150 mg/5 g creme vaginal — 01 unidade / conforme orientação\n(Cartrax) 1 bisnaga (35 g) com aplicadores Aplicar 1 aplicador cheio (aplicação íntima interna) à noite, por 7 dias.\n\nORIENTAÇÕES:\n- Sem álcool durante o metronidazol ou tinidazol e por 24h após.\n- Evitar relação sexual durante o creme (pode danificar a camisinha).\n- Retornar imediatamente ao pronto-socorro se: febre, dor no pé da barriga, feridas genitais, sem melhora em 7 dias."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso vaginal\n1) Metronidazol 500 mg + nistatina 100.000 UI creme vaginal — 01 unidade / conforme orientação\n(Colpistatin) 1 bisnaga com aplicadores Aplicar 1 aplicador cheio (aplicação íntima interna) à noite, por 10 dias.\n\nUso oral\n2) Metronidazol 250 mg — 28 comprimidos\nTomar 2 comprimidos (500 mg) de 12/12h, por 7 dias.\n\nUso oral\n3) Fluconazol 150 mg — 01 cápsula\nTomar 1 cápsula dose única. Não usar em gestante.\n\nORIENTAÇÕES:\n- Sem álcool durante o metronidazol ou tinidazol e por 24h após.\n- Evitar relação sexual durante o creme (pode danificar a camisinha).\n- Retornar imediatamente ao pronto-socorro se: febre, dor no pé da barriga, feridas genitais, sem melhora em 7 dias."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "se não melhorar em 7 dias",
+      "retornar_imediatamente_se": "Febre, dor no pé da barriga, feridas genitais, sem melhora em 7 dias.",
+      "seguranca_plantonista": "Gestante: preferir tratamento vaginal. Não usar fluconazol.",
+      "encaminhar_internar": "Recorrente: exame com microscopia e cultura, investigar diabetes.",
+      "atestado_sugerido": "não se aplica"
+    }
+  },
+  {
+    "id": "ADU-161",
+    "name": "Vaginose",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "N76.0",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "corrimento acinzentado com odor de peixe, gardnerella, metronidazol geleia, corrimento com cheiro de peixe, vaginose, corrimento acinzentado, mau cheiro vaginal Metronidazol geleia vaginal 100mg/g Metronidazol 100 mg/g gel vaginal Clindamicina 2% creme vaginal 1 bisnaga com aplicadores Clindamicina 300 mg",
+    "gate": "Corrimento acinzentado ou branco, homogêneo, com cheiro de peixe (piora após relação e menstruação). Critérios de Amsel (3 de 4): corrimento homogêneo, pH acima de 4,5, teste das aminas positivo, clue cells. Não é IST: a parceria não precisa de tratamento. Sem sintomas: não tratar (exceto antes de procedimento ginecológico).",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso vaginal\n1) Metronidazol geleia vaginal 100mg/g — 01 bisnaga\nAplicar o conteúdo de um aplicador cheio dentro da vagina, à noite ao deitar, por 14 dias.\n\nORIENTAÇÕES:\n- Aplicar a geleia/creme profundamente na vagina todas as noites ao deitar pelos dias indicados, mesmo que melhore antes.\n- PROIBIDO ingerir bebidas alcoólicas durante e até 72h após o uso do Metronidazol; lavar o aplicador com água e sabão neutro após cada uso.\n- Evitar relações sexuais durante o tratamento, usar calcinha de algodão e retornar se surgir febre ou dor pélvica."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso vaginal\n1) Metronidazol 100 mg/g gel vaginal — 01 unidade / conforme orientação\n1 bisnaga com aplicadores Aplicar 1 aplicador cheio (5 g) (aplicação íntima interna) à noite, por 5 dias.\n\nUso vaginal\n2) Clindamicina 2% creme vaginal 1 bisnaga com aplicadores — 01 unidade / conforme orientação\nAplicar 1 aplicador cheio (aplicação íntima interna) à noite, por 7 dias.\n\nUso oral\n3) Clindamicina 300 mg — 14 cápsulas\nTomar 1 cápsula de 12/12h, por 7 dias.\n\nORIENTAÇÕES:\n- Aplicar a geleia/creme profundamente na vagina todas as noites ao deitar pelos dias indicados, mesmo que melhore antes.\n- PROIBIDO ingerir bebidas alcoólicas durante e até 72h após o uso do Metronidazol; lavar o aplicador com água e sabão neutro após cada uso.\n- Evitar relações sexuais durante o tratamento, usar calcinha de algodão e retornar se surgir febre ou dor pélvica."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "se os sintomas voltarem",
+      "retornar_imediatamente_se": "Febre, dor no pé da barriga, sangramento. Gestante: contrações ou perda de líquido.",
+      "seguranca_plantonista": "Gestante com sintomas: metronidazol oral por 7 dias. Amamentação: metronidazol é compatível.",
+      "encaminhar_internar": "Gestante com parto prematuro anterior: avisar o pré-natal.",
+      "atestado_sugerido": "não se aplica"
+    }
+  },
+  {
+    "id": "ADU-162",
+    "name": "Varicela (catapora) no adolescente e adulto",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "B01.9",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "catapora, varicela, bolhas pelo corpo com febre, vesículas que coçam Aciclovir 400 mg Paracetamol 750 mg Loratadina 10 mg Calamina loção Valaciclovir 500 mg",
+    "gate": "Adulto, gestante e imunossuprimido têm mais complicações (pneumonia). Contato suscetível de alto risco (gestante, imunossuprimido, recém-nascido): imunoglobulina antivaricela em até 10 dias (CRIE).",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Aciclovir 400 mg — 70 comprimidos\nTomar 2 comprimidos (800 mg) 5 vezes ao dia (7h, 11h, 15h, 19h e 23h), por 7 dias.\n\nUso oral\n2) Paracetamol 750 mg — 20 comprimidos\nTomar 1 comprimido de 6/6h, se febre. Não usar AAS.\n\nUso oral\n3) Loratadina 10 mg — 07 comprimidos\nTomar 1 comprimido 1 vez ao dia, se coceira.\n\nUso local\n4) Calamina loção — 01 frasco\nAplicar nas lesões com algodão, 3 a 4 vezes ao dia, se coceira.\n\nORIENTAÇÕES:\n- Ficar em casa até todas as lesões virarem crosta.\n- Unhas curtas, banho com água e sabão, não coçar.\n- Retornar imediatamente ao pronto-socorro se: falta de ar, tosse, dor no peito, febre alta após o 4º dia, lesões com pus ou vermelhidão grande, confusão, convulsão, sangramento."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Valaciclovir 500 mg — 42 comprimidos\nTomar 2 comprimidos (1 g) de 8/8h, por 7 dias.\n\nORIENTAÇÕES:\n- Ficar em casa até todas as lesões virarem crosta.\n- Unhas curtas, banho com água e sabão, não coçar.\n- Retornar imediatamente ao pronto-socorro se: falta de ar, tosse, dor no peito, febre alta após o 4º dia, lesões com pus ou vermelhidão grande, confusão, convulsão, sangramento."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "48 a 72h se piorar",
+      "retornar_imediatamente_se": "Falta de ar, tosse, dor no peito, febre alta após o 4º dia, lesões com pus ou vermelhidão grande, confusão, convulsão, sangramento.",
+      "seguranca_plantonista": "Gestante: aciclovir e avisar o pré-natal (risco para o bebê, principalmente perto do parto). Doença renal: ajustar aciclovir e valaciclovir. Amamentação: aciclovir é compatível. Evitar ibuprofeno: associado a infecção grave de pele na varicela.",
+      "encaminhar_internar": "Pneumonia, encefalite, imunossuprimido ou gestante com quadro importante: internação (aciclovir EV).",
+      "atestado_sugerido": "até todas as lesões virarem crosta (cerca de 7 dias)"
+    }
+  },
+  {
+    "id": "ADU-163",
+    "name": "Verruga vulgar e plantar (olho de peixe)",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "B07",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "verruga, verruga na mão, verruga plantar, olho de peixe, verruga no pé Ácido salicílico 16,7% + ácido láctico 16,7% (colódio)",
+    "gate": "Muitas somem sozinhas em até 2 anos. Lesão que sangra, cresce rápido, muda de cor ou em imunossuprimido: avaliar.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso local\n1) Ácido salicílico 16,7% + ácido láctico 16,7% (colódio) — 01 frasco\nLixar levemente a verruga, proteger a pele ao redor com vaselina e aplicar 1 vez ao dia, à noite, por até 12 semanas. Não usar no rosto nem nos genitais.\n\nORIENTAÇÕES:\n- Não arrancar nem cortar. Não compartilhar alicate e toalha. Chinelo em vestiário e piscina.\n- Verruga plantar: palmilha macia ajuda.\n- Retornar imediatamente ao pronto-socorro se: irritação forte, ferida, sinais de infecção."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "4 a 6 semanas",
+      "retornar_imediatamente_se": "Irritação forte, ferida, sinais de infecção.",
+      "seguranca_plantonista": "Diabético, neuropatia ou doença vascular: não usar ácido salicílico nos pés (risco de ferida). Gestante: área pequena pode ser tratada. Preferir crioterapia.",
+      "encaminhar_internar": "Sem resposta após 12 semanas ou muitas lesões: dermatologia.",
+      "atestado_sugerido": "não se aplica"
+    }
+  }
+]
+
+

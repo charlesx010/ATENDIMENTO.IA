@@ -1,0 +1,268 @@
+[
+  {
+    "id": "ADU-179",
+    "name": "Patologia não especificada — Antimigranosos",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "Z00.0",
+    "category": "CLASSE_FARMACOLOGICA",
+    "tags": "patologia não especificada — antimigranosos Naratripano 2,5 mg Sumatriptano 25 mg Sumatriptana 50mg + Naproxeno 500mg Sumatriptana 85mg + Naproxeno 500mg Cefaliv® Cefalium®",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Naratripano 2,5 mg — 01 caixa\nTomar 01 comprimido ao primeiro sinal de enxaqueca. Se não houver melhora, pode repetir 01 comprimido após 6h horas.\n\nUso oral\n2) Sumatriptano 25 mg — 02 caixas\nTomar 01 comprimido ao primeiro sinal de enxaqueca. Se não houver melhora, pode repetir 02 comprimidos a cada 02 horas, até o máximo de 04 vezes ao dia.\n\nUso oral\n3) Sumatriptana 50mg + Naproxeno 500mg — 01 caixa\nTomar 01 comprimido, logo no início da crise de enxaqueca.\n\nUso oral\n4) Sumatriptana 85mg + Naproxeno 500mg — 01 caixa\nTomar 01 comprimido, logo no início da crise de enxaqueca.\n\nUso oral\n5) Cefaliv® — 01 caixa\nTomar 01 a 02 comprimidos ao primeiro sinal de enxaqueca. Se não houver melhora, pode ingerir um comprimido a cada 30 min, até um máximo de 06 comprimidos.\n\nUso oral\n6) Cefalium® — 01 caixa\nTomar 01 a 02 comprimidos ao primeiro sinal de enxaqueca. Se não houver melhora, pode ingerir um comprimido a cada 30 min, até um máximo de 06 comprimidos.\n\nORIENTAÇÕES:\n- Tomar logo no início da crise de enxaqueca e repousar em ambiente escuro e silencioso.\n- NUNCA associar triptanos (Sumatriptano/Naratriptano) com ergotamina (Cefaliv®) no mesmo período de 24 horas.\n- Contraindicados em hipertensos não controlados ou cardiopatas; procurar emergência se sentir aperto no peito."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  },
+  {
+    "id": "ADU-180",
+    "name": "Patologia não especificada — Antipsicóticos atípicos",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "Z00.0",
+    "category": "CLASSE_FARMACOLOGICA",
+    "tags": "patologia não especificada — antipsicóticos atípicos Risperidona 1mg Risperidona 2mg Risperidona 3mg Risperidona 3mg",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Risperidona 1mg — 20 comprimidos\nTomar 01 comprimido à noite, continuamente.\n\nUso oral\n2) Risperidona 2mg — 20 comprimidos\nTomar 01 comprimido à noite, continuamente.\n\nUso oral\n3) Risperidona 3mg — 20 comprimidos\nTomar 01 comprimido à noite, continuamente.\n\nORIENTAÇÕES:\n- Tomar rigorosamente nos horários prescritos, levantar-se devagar da cama e não suspender por conta própria.\n- Não dirigir veículos, não operar máquinas e não consumir bebidas alcoólicas.\n- Procurar emergência se apresentar rigidez muscular forte, tremores intensos ou febre alta."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Risperidona 3mg — 60 comprimidos\nTomar 01 comprimido de 12/12h, continuamente.\n\nORIENTAÇÕES:\n- Tomar rigorosamente nos horários prescritos, levantar-se devagar da cama e não suspender por conta própria.\n- Não dirigir veículos, não operar máquinas e não consumir bebidas alcoólicas.\n- Procurar emergência se apresentar rigidez muscular forte, tremores intensos ou febre alta."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  },
+  {
+    "id": "ADU-181",
+    "name": "Patologia não especificada — Antipsicóticos típicos",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "Z00.0",
+    "category": "CLASSE_FARMACOLOGICA",
+    "tags": "patologia não especificada — antipsicóticos típicos Haloperidol 1mg Haloperidol 5mg Haloperidol 5mg Haloperidol 5mg Clorpromazina 25mg Clorpromazina 25mg Clorpromazina 25mg Clorpromazina 25mg Clorpromazina 100mg",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Haloperidol 1mg — 20 comprimidos\nTomar 01 comprimido ao dia, no mesmo horário continuamente (uso contínuo conforme orientação médica).\n\nUso oral\n2) Haloperidol 5mg — 20 comprimidos\nTomar 01 comprimido ao dia, no mesmo horário continuamente (uso contínuo conforme orientação médica).\n\nORIENTAÇÕES:\n- Tomar rigorosamente nos horários prescritos, levantar-se devagar da cama e não suspender por conta própria.\n- Não dirigir veículos, não operar máquinas e não consumir bebidas alcoólicas.\n- Procurar emergência se apresentar rigidez muscular forte, tremores intensos ou febre alta."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Haloperidol 5mg — 40 comprimidos\nTomar 02 comprimidos ao dia, no mesmo horário continuamente (uso contínuo conforme orientação médica).\n\nORIENTAÇÕES:\n- Tomar rigorosamente nos horários prescritos, levantar-se devagar da cama e não suspender por conta própria.\n- Não dirigir veículos, não operar máquinas e não consumir bebidas alcoólicas.\n- Procurar emergência se apresentar rigidez muscular forte, tremores intensos ou febre alta."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Haloperidol 5mg — 60 comprimidos\nTomar 03 comprimidos ao dia, no mesmo horário continuamente (uso contínuo conforme orientação médica).\n\nUso oral\n2) Clorpromazina 25mg — 20 comprimidos\nTomar 01 comprimido uma vez ao dia, à noite continuamente (uso contínuo conforme orientação médica).\n\nORIENTAÇÕES:\n- Tomar rigorosamente nos horários prescritos, levantar-se devagar da cama e não suspender por conta própria.\n- Não dirigir veículos, não operar máquinas e não consumir bebidas alcoólicas.\n- Procurar emergência se apresentar rigidez muscular forte, tremores intensos ou febre alta."
+      },
+      {
+        "id": "esquema-4",
+        "title": "Esquema 4",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Clorpromazina 25mg — 60 comprimidos\nTomar 01 comprimido de 12/12 horas Horário sugerido: 08:00 – 20:00.\n\nORIENTAÇÕES:\n- Tomar rigorosamente nos horários prescritos, levantar-se devagar da cama e não suspender por conta própria.\n- Não dirigir veículos, não operar máquinas e não consumir bebidas alcoólicas.\n- Procurar emergência se apresentar rigidez muscular forte, tremores intensos ou febre alta."
+      },
+      {
+        "id": "esquema-5",
+        "title": "Esquema 5",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Clorpromazina 25mg — 90 comprimidos\nTomar 01 comprimido de 8/8 horas Horário sugerido: 06:00 – 14:00 – 22:00.\n\nORIENTAÇÕES:\n- Tomar rigorosamente nos horários prescritos, levantar-se devagar da cama e não suspender por conta própria.\n- Não dirigir veículos, não operar máquinas e não consumir bebidas alcoólicas.\n- Procurar emergência se apresentar rigidez muscular forte, tremores intensos ou febre alta."
+      },
+      {
+        "id": "esquema-6",
+        "title": "Esquema 6",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Clorpromazina 25mg — 120 comprimidos\nTomar 01 comprimido de 6/6 horas Horário sugerido: 06:00 – 12:00 – 18:00 – 00:00.\n\nUso oral\n2) Clorpromazina 100mg — 90 comprimidos\nTomar 01 comprimido de 8/8 horas Horário sugerido: 06:00 – 14:00 – 22:00.\n\nORIENTAÇÕES:\n- Tomar rigorosamente nos horários prescritos, levantar-se devagar da cama e não suspender por conta própria.\n- Não dirigir veículos, não operar máquinas e não consumir bebidas alcoólicas.\n- Procurar emergência se apresentar rigidez muscular forte, tremores intensos ou febre alta."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  },
+  {
+    "id": "ADU-182",
+    "name": "Patologia não especificada — Antitussígenos",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "Z00.0",
+    "category": "CLASSE_FARMACOLOGICA",
+    "tags": "patologia não especificada — antitussígenos Levodropropizina xarope 6mg/ml Codeína 30mg",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Levodropropizina xarope 6mg/ml — 01 frasco\nTomar 10 ml no caso de tosse, podendo repetir de 6/6 horas.\n\nUso oral\n2) Codeína 30mg — 30 comprimidos\nTomar 01 comprimido em caso de tosse, podendo repetir de 8/8 horas.\n\nORIENTAÇÕES:\n- Usar apenas para tosse seca irritativa (não usar se houver muito catarro no peito).\n- Beber água frequentemente e elevar a cabeceira ao dormir; se usar Codeína, não dirigir nem beber álcool.\n- Procurar o médico se surgir falta de ar, febre alta ou tosse por mais de 2 semanas."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  },
+  {
+    "id": "ADU-183",
+    "name": "Patologia não especificada — Calmantes fitoterápicos",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "Z00.0",
+    "category": "CLASSE_FARMACOLOGICA",
+    "tags": "patologia não especificada — calmantes fitoterápicos Passíflora 260 mg Passíflora Incarnata 360 mg Passíflora Incarnata 360 mg Passíflora Incarnata 500 mg",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Passíflora 260 mg — 20 comprimidos\nTomar 01 comprimido de 12/12h por 10 dias.\n\nUso oral\n2) Passíflora Incarnata 360 mg — 30 cps\nTomar 01 comprimido à noite por 30 dias.\n\nORIENTAÇÕES:\n- Manter rotina regular de sono, desligar telas 1 hora antes de deitar e evitar cafeína após as 16:00.\n- Evitar dirigir logo após tomar a Passiflora e não associar com bebidas alcoólicas.\n- Procurar avaliação médica se a insônia ou ansiedade persistirem por mais de 2 a 4 semanas."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Passíflora Incarnata 360 mg — 30 cps\nTomar 01 comprimido de 12/12 horas por 10 dias, e depois um comprimido à noite por mais 10 dias.\n\nUso oral\n2) Passíflora Incarnata 500 mg — 10 cps\nTomar 01 comprimido 01 vez à noite por 10 dias.\n\nORIENTAÇÕES:\n- Manter rotina regular de sono, desligar telas 1 hora antes de deitar e evitar cafeína após as 16:00.\n- Evitar dirigir logo após tomar a Passiflora e não associar com bebidas alcoólicas.\n- Procurar avaliação médica se a insônia ou ansiedade persistirem por mais de 2 a 4 semanas."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  },
+  {
+    "id": "ADU-184",
+    "name": "Patologia não especificada — Colírios",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "Z00.0",
+    "category": "CLASSE_FARMACOLOGICA",
+    "tags": "patologia não especificada — colírios Tobramicina 3mg/ml + Dexametasona 1mg/ml Solução Oftálmica",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oftálmico\n1) Tobramicina 3mg/ml + Dexametasona 1mg/ml Solução Oftálmica — 01 frasco\nPingar 1 gota em cada olho, de 6/6h por 07 dias.\n\nORIENTAÇÕES:\n- Lavar bem as mãos antes de pingar, não encostar a ponta do frasco no olho e não usar lentes de contato.\n- Colírios anestésicos (Tetracaína) são de uso exclusivo médico no consultório e NUNCA devem ser usados em casa.\n- Retornar ao oftalmologista se houver piora da dor ocular, pus ou visão turva."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  },
+  {
+    "id": "ADU-185",
+    "name": "Patologia não especificada — Corticoides",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "Z00.0",
+    "category": "CLASSE_FARMACOLOGICA",
+    "tags": "patologia não especificada — corticoides Prednisona 20 mg Mometasona 1mg/g Betametasona 0,1% Clobetasol creme 0,5 mg/g Triancinolona Acetonida Fluticasona spray 50mcg/jato Fluticasona spray 50mcg/jato",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Prednisona 20 mg — 05 comprimidos\nTomar 01 comprimido às 08:00 por 05 dias.\n\nUso oral\n2) Mometasona 1mg/g — 01 bisnaga\nAplicar uma fina camada sobre a área afetada uma vez ao dia por 07 a 14 dias seguidos (até melhora das lesões).\n\nUso oral\n3) Betametasona 0,1% — 01 bisnaga\nAplicar uma fina camada sobre a área afetada duas vezes ao dia por 07 a 14 dias seguidos (até melhora das lesões).\n\nUso local\n4) Clobetasol creme 0,5 mg/g — 01 bisnaga\nAplicar uma fina camada sobre a área afetada duas vezes ao dia por 07 a 14 dias seguidos (até melhora das lesões).\n\nUso local\n5) Triancinolona Acetonida — 01 bisnaga\nAplicar uma fina camada sobre a lesão, sem esfregar, três vezes ao dia por 07 dias.\n\nUso nasal\n6) Fluticasona spray 50mcg/jato — 01 frasco\nAplicar 1 jato em cada narina de 12/12h por 15 dias. Após este período, aplicar um jato em cada narina pela manhã até completar 90 dias.\n\nORIENTAÇÕES:\n- Tomar a Prednisona pela manhã (às 08:00) após o café da manhã; nos sprays nasais, lavar o nariz com soro antes de usar.\n- Nos cremes/pomadas, aplicar camada fina apenas pelo período indicado, evitando uso prolongado no rosto.\n- Não interromper tratamentos prolongados de forma abrupta sem orientação médica."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso nasal\n1) Fluticasona spray 50mcg/jato — 01 frasco\nAplicar 1 jato em cada narina de 12/12h por 15 dias.\n\nORIENTAÇÕES:\n- Tomar a Prednisona pela manhã (às 08:00) após o café da manhã; nos sprays nasais, lavar o nariz com soro antes de usar.\n- Nos cremes/pomadas, aplicar camada fina apenas pelo período indicado, evitando uso prolongado no rosto.\n- Não interromper tratamentos prolongados de forma abrupta sem orientação médica."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  },
+  {
+    "id": "ADU-186",
+    "name": "Patologia não especificada — Corticoides tópicos",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "Z00.0",
+    "category": "CLASSE_FARMACOLOGICA",
+    "tags": "patologia não especificada — corticoides tópicos Hidrocortisona 1% Mometasona creme 1mg Desonida creme 0,05% Betametasona creme 1mg/g Diflucortolona creme 1mg/g Triancinolona Pomada 1mg/g Clobetasol creme 0,5mg/g",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso local\n1) Hidrocortisona 1% — 01 bisnaga\nAplicar uma fina camada sobre a área afetada três vezes ao dia, por 10 a, no máximo, 20 dias seguidos.\n\nUso local\n2) Mometasona creme 1mg — 01 bisnaga\nAplicar uma fina camada sobre a área afetada uma vez ao dia por 07 a 14 dias seguidos (até melhora das lesões).\n\nUso local\n3) Desonida creme 0,05% — 01 bisnaga\nAplicar uma fina camada sobre a área afetada duas vezes ao dia por 07 a 14 dias seguidos (até melhora das lesões).\n\nUso local\n4) Betametasona creme 1mg/g — 01 bisnaga\nAplicar uma fina camada sobre a área afetada duas vezes ao dia por 07 a 14 dias seguidos (até melhora das lesões).\n\nUso local\n5) Diflucortolona creme 1mg/g — 01 bisnaga\nAplicar uma fina camada sobre a área afetada duas vezes ao dia por 07 a 14 dias seguidos (até melhora das lesões).\n\nUso local\n6) Triancinolona Pomada 1mg/g — 01 bisnaga\nAplicar uma fina camada sobre a área afetada duas vezes ao dia por 07 a 14 dias seguidos (até melhora das lesões).\n\nUso local\n7) Clobetasol creme 0,5mg/g — 01 bisnaga\nAplicar uma fina camada sobre a área afetada duas vezes ao dia por 07 a 14 dias seguidos (até melhora das lesões).\n\nORIENTAÇÕES:\n- Tomar a Prednisona pela manhã (às 08:00) após o café da manhã; nos sprays nasais, lavar o nariz com soro antes de usar.\n- Nos cremes/pomadas, aplicar camada fina apenas pelo período indicado, evitando uso prolongado no rosto.\n- Não interromper tratamentos prolongados de forma abrupta sem orientação médica."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  }
+]
+
+

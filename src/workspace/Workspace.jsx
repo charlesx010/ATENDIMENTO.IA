@@ -1,6 +1,7 @@
 import React, { lazy, Suspense, useCallback, useEffect, useRef, useState } from 'react';
-import { Activity, Mic, FileText, Sparkles, CheckCheck, Cloud, CloudOff, Download, Copy, ArrowRight, LogOut, BookOpen, Plus, Settings, RefreshCw, Check, AlertCircle, LayoutTemplate, BarChart3, Printer } from 'lucide-react';
+import { Mic, FileText, Sparkles, CheckCheck, Cloud, CloudOff, Download, Copy, ArrowRight, LogOut, BookOpen, HeartPulse, Plus, Settings, RefreshCw, Check, AlertCircle, LayoutTemplate, BarChart3, Printer } from 'lucide-react';
 import { supabase } from '../supabase.js';
+import Brand from '../Brand.jsx';
 import { organizeNotesToSoap } from '../organizeSoap.js';
 import { emptyConsultation, MAX_SOURCE, hasContent, canExport, exportNote, sourceChanged, parseConsultation } from './model.js';
 import { useConsultationSync } from './useConsultationSync.js';
@@ -12,7 +13,10 @@ import ReviewedDocument from './ReviewedDocument.jsx';
 import TemplateCloudPanel from './TemplateCloudPanel.jsx';
 import CaptureStep from './CaptureStep.jsx';
 import ReviewStep from './ReviewStep.jsx';
+import { containsPrescription } from '../prescriptionInsertion.js';
+import { dischargeReferenceIds } from '../dischargeReferences.js';
 const PrescriptionCatalog = lazy(() => import('../PrescriptionCatalog.jsx'));
+const RedRoom = lazy(() => import('../RedRoom.jsx'));
 const TemplateLibrary = lazy(() => import('./TemplateLibrary.jsx'));
 const UsagePanel = lazy(() => import('./UsagePanel.jsx'));
 const AdminPanel = lazy(() => import('../AdminPanel.jsx'));
@@ -28,6 +32,8 @@ export default function Workspace({demo=false,profile,onLogout}) {
   const [revisions,setRevisions]=useState([]),[templates,setTemplates]=useState(createStarterTemplates);
   const [guide,setGuide]=useState(null),[outputFormat,setOutputFormat]=useState('soap'),[captureKey,setCaptureKey]=useState(0),[attachmentPending,setAttachmentPending]=useState(false);
   const [tab,setTab]=useState('consultation'), [stage,setStage]=useState('capture'), [voice,setVoice]=useState('browser');
+  const [patientWeight,setPatientWeight]=useState('');
+  const [catalogReferenceId,setCatalogReferenceId]=useState('');
   const [consent,setConsent]=useState(false),[busy,setBusy]=useState(false),[message,setMessage]=useState('');
   const [online,setOnline]=useState(navigator.onLine),[aiAvailable,setAiAvailable]=useState(false),[aiProposal,setAiProposal]=useState(null);
   const [confirmNew,setConfirmNew]=useState(false),[showSync,setShowSync]=useState(false),[voicePending,setVoicePending]=useState(false);
@@ -62,6 +68,23 @@ export default function Workspace({demo=false,profile,onLogout}) {
     if(source.length>MAX_SOURCE){setMessage('O relato excederia 6.000 caracteres. Reduza-o antes de inserir; a transcrição foi preservada no gravador.');return false;}
     if(!setDoc(d=>sourceChanged(d,source)))return false;setMessage('Transcrição inserida. Confira números, negações e lateralidade.');return true;
   }
+  function insertClinicalText(text,title='prescrição') {
+    const clean=String(text||'').trim();
+    if(!clean)return false;
+    const current=latest.current.soap.plan||'';
+    if(containsPrescription(current,clean)){setMessage(`Esta ${title} já está no plano da consulta.`);return false;}
+    const next=current?`${current}\n\n${clean}`:clean;
+    if(next.length>8000){setMessage('O plano da consulta excederia o limite permitido. Revise ou remova trechos antes de inserir.');return false;}
+    remember(`Antes de inserir ${title}`);
+    const accepted=setDoc(d=>({...d,soap:{...d.soap,plan:next},reviewed:false}));
+    if(accepted){setTab('consultation');setStage('review');setMessage(`${title} inserida no plano. Revise antes de exportar.`);}
+    return accepted;
+  }
+              function openDischarge(referenceId){
+                const ids=dischargeReferenceIds(referenceId);
+                setCatalogReferenceId(ids[0]||String(referenceId||''));
+                setTab('catalog');
+              }
   function organizeLocal() {
     remember('Antes da organização literal');
     const {sections}=organizeNotesToSoap(doc.source);
@@ -112,13 +135,13 @@ export default function Workspace({demo=false,profile,onLogout}) {
   function navigate(action){if((voicePending||attachmentPending)&&!window.confirm('Há gravação, transcrição ou anexo ainda não inserido. Continuar descarta esse conteúdo pendente.'))return;setVoicePending(false);setAttachmentPending(false);action();}
   const leave=()=>{if((hasContent(doc)||voicePending||attachmentPending||busy)&&!window.confirm('Sair descarta o conteúdo desta aba. Exporte um backup ou confirme que a consulta está sincronizada antes de sair. Continuar?'))return;onLogout();};
   return <div className="workspace-v2">
-    <aside className="w-sidebar"><a className="w-brand" href="/" onClick={e=>{e.preventDefault();navigate(()=>setTab('consultation'))}}><span><Activity/></span><div>Prontuário<span>.IA</span><small>ASSISTENTE DE DOCUMENTAÇÃO</small></div></a>
+    <aside className="w-sidebar"><a className="w-brand" href="/" onClick={e=>{e.preventDefault();navigate(()=>setTab('consultation'))}}><Brand/><div><small>ASSISTENTE DE DOCUMENTAÇÃO</small></div></a>
       <p className="w-nav-label">ÁREA DE TRABALHO</p>
-      <nav aria-label="Navegação principal"><button className={tab==='consultation'?'active':''} onClick={()=>navigate(()=>setTab('consultation'))}><FileText size={19}/> Consulta</button><button className={tab==='catalog'?'active':''} onClick={()=>navigate(()=>setTab('catalog'))}><BookOpen size={19}/> Receituário</button><button className={tab==='settings'?'active':''} onClick={()=>navigate(()=>setTab('settings'))}><Settings size={19}/> Configuração</button><button className={tab==='templates'?'active':''} onClick={()=>navigate(()=>setTab('templates'))}><LayoutTemplate size={19}/> Modelos</button><button className={tab==='usage'?'active':''} onClick={()=>navigate(()=>setTab('usage'))}><BarChart3 size={19}/> Meu uso</button></nav>
+      <nav aria-label="Navegação principal"><button className={tab==='consultation'?'active':''} onClick={()=>navigate(()=>setTab('consultation'))}><FileText size={19}/> Consulta</button><button className={tab==='catalog'?'active':''} onClick={()=>navigate(()=>setTab('catalog'))}><BookOpen size={19}/> Receituário</button><button className={tab==='emergency'?'active':''} onClick={()=>navigate(()=>setTab('emergency'))}><HeartPulse size={19}/> Sala Vermelha</button><button className={tab==='settings'?'active':''} onClick={()=>navigate(()=>setTab('settings'))}><Settings size={19}/> Configuração</button><button className={tab==='templates'?'active':''} onClick={()=>navigate(()=>setTab('templates'))}><LayoutTemplate size={19}/> Modelos</button><button className={tab==='usage'?'active':''} onClick={()=>navigate(()=>setTab('usage'))}><BarChart3 size={19}/> Meu uso</button></nav>
       <div className="w-sidebar-note"><Cloud size={20}/><strong>Do celular ao computador</strong><p>A mesma conta, uma consulta temporária. Ative a sincronização para continuar em outro aparelho.</p></div>
       <div className="w-account"><span className="w-avatar">{(profile?.display_name||'D').slice(0,1)}</span><div><strong>{demo?'Demonstração':profile?.display_name}</strong><small>{demo?'Sem conexão com a nuvem':'Conta individual'}</small></div><button onClick={leave} aria-label="Sair"><LogOut size={18}/></button></div>
     </aside>
-    <div className="w-main"><header className="w-topbar"><span><span className="w-mobile-brand">Prontuário.IA · </span>Seu espaço de atendimento</span><div><span className="w-test-badge">AMBIENTE DE TESTES</span><button className="w-sync-button" onClick={()=>setShowSync(v=>!v)} aria-expanded={showSync}>{sync.phase==='synced'?<Cloud size={16}/>:<CloudOff size={16}/>}<span>{online?SYNC[sync.phase]:'Sem conexão'}</span></button></div></header>
+    <div className="w-main"><header className="w-topbar"><span><span className="w-mobile-brand">IAI doutor · </span>Seu espaço de atendimento</span><div><span className="w-test-badge">AMBIENTE DE TESTES</span><button className="w-sync-button" onClick={()=>setShowSync(v=>!v)} aria-expanded={showSync}>{sync.phase==='synced'?<Cloud size={16}/>:<CloudOff size={16}/>}<span>{online?SYNC[sync.phase]:'Sem conexão'}</span></button></div></header>
     <main className="w-content">
       {showSync&&<section className="w-card w-sync-panel" aria-label="Sincronização"><h2>Continue em outro aparelho</h2><p>{demo?'O modo demonstração mantém tudo somente na memória desta aba. Entre com sua conta para sincronizar.':'A sincronização guarda somente o texto na sua conta por 24 horas desde a criação. Áudio não é sincronizado. A atualização é verificada a cada 4 segundos enquanto a aba está ativa.'}</p>
         {sync.expiresAt&&<p>Expira em {new Date(sync.expiresAt).toLocaleString('pt-BR')}.</p>}
@@ -152,9 +175,10 @@ export default function Workspace({demo=false,profile,onLogout}) {
       <div hidden={tab!=='templates'}><TemplateCloudPanel active={tab==='templates'} demo={demo} templates={templates} setTemplates={setTemplates} onStatus={setMessage}/></div>
       {tab==='templates'&&<Suspense fallback={<p>Carregando modelos…</p>}><TemplateLibrary templates={templates} setTemplates={setTemplates} onApply={applyGuide} onStatus={setMessage}/></Suspense>}
       {tab==='usage'&&<Suspense fallback={<p>Consultando conta…</p>}><UsagePanel demo={demo}/></Suspense>}
-      {tab==='catalog'&&<Suspense fallback={<p>Carregando catálogo…</p>}><PrescriptionCatalog/></Suspense>}
+      {tab==='catalog'&&<Suspense fallback={<p>Carregando receituário completo…</p>}><PrescriptionCatalog initialReferenceId={catalogReferenceId} onClearInitialReference={()=>setCatalogReferenceId('')} patientWeight={patientWeight} onWeightChange={setPatientWeight} onInsertInConduct={insertClinicalText}/></Suspense>}
+      {tab==='emergency'&&<Suspense fallback={<p>Carregando Sala Vermelha…</p>}><RedRoom initialReferenceId="" onClearInitialReference={()=>{}} patientWeight={patientWeight} onWeightChange={setPatientWeight} onInsertInConduct={insertClinicalText} onOpenDischarge={openDischarge}/></Suspense>}
       {tab==='settings'&&<><div className="w-heading"><div><h1>Configuração e privacidade</h1><p>Disponibilidade real dos recursos deste ambiente.</p></div></div><section className="w-card"><h2>Conexões</h2><p>Conta: {demo?'demonstração, sem login':'autenticada'}. IA de documentação: {aiAvailable?'configurada no servidor':'indisponível ou não configurada'}.</p><p>Sincronização: {SYNC[sync.phase]}. Use a mesma conta em ambos os aparelhos. Se a conexão estiver indisponível, peça à administração que confira o serviço.</p><h3>Como os dados circulam</h3><p>O ditado do navegador pode usar servidores do fabricante. Whisper envia áudio à Groq após autorização. Resumo por IA envia o relato à Groq. A sincronização guarda somente texto no Supabase por 24 horas desde a criação; backups do provedor têm políticas próprias.</p><p>Não há persistência clínica em localStorage nem promessa de funcionamento offline. Sem nuvem, fechar a aba perde o rascunho. Exporte antes.</p><h3>Microfone no celular</h3><p>Use HTTPS e permita acesso ao microfone. Suporte a ditado varia por navegador; Whisper negocia WebM ou MP4 conforme o dispositivo. Validação em aparelhos físicos ainda é necessária.</p><h3>Restaurar backup</h3><label className="w-field">Arquivo JSON exportado pelo aplicativo<input type="file" accept=".json,application/json" onChange={importBackup}/></label><h3>Sobre esta versão</h3><p>Piloto profissional 2.1. Modelos e versões anteriores ficam nesta aba. Exporte o rascunho e a biblioteca antes de sair. Cobrança e assinatura ainda não estão habilitadas.</p></section>{!demo&&profile?.role==='admin'&&<section className="w-card"><Suspense fallback={<p>Carregando administração…</p>}><AdminPanel/></Suspense></section>}</>}
-    </main><footer className="w-footer">Prontuário.IA · Piloto profissional 2.1 <span>Documentação assistida. Decisão sempre humana.</span></footer></div>
+    </main><footer className="w-footer">IAI doutor · Piloto profissional 2.1 <span>Documentação assistida. Decisão sempre humana.</span></footer></div>
     <ReviewedDocument doc={doc} format={outputFormat}/>
     {confirmNew&&<div className="w-modal-backdrop"><section className="w-card w-modal" role="dialog" aria-modal="true" aria-labelledby="new-title"><h2 id="new-title">Começar outra consulta?</h2><p>{sync.phase==='disabled'?'O conteúdo desta aba será limpo. Baixe um backup antes de continuar.':'Isso encerra a consulta na nuvem nos dois aparelhos e limpa esta aba. Baixe um backup antes; a exclusão exige conexão e não é aplicada se outro aparelho já atualizou a versão.'}</p><div className="w-actions"><button className="w-button" onClick={()=>setConfirmNew(false)}>Cancelar</button><button className="w-button" onClick={()=>download('consulta-backup.json',JSON.stringify(doc,null,2),'application/json')}>Baixar backup</button><button className="w-button primary" onClick={()=>navigate(newConsultation)}>Limpar e começar</button></div></section></div>}
   </div>;

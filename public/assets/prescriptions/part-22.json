@@ -1,0 +1,247 @@
+[
+  {
+    "id": "ADU-164",
+    "name": "Vertigem posicional paroxística benigna (VPPB)",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "H81.1",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "tontura ao virar na cama, vertigem posicional, dimenidrinato, dramim, betaistina Dimenidrinato 50 mg + Cloridrato de Piridoxina 10 mg Dicloridrato de Betaistina 24 mg",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Dimenidrinato 50 mg + Cloridrato de Piridoxina 10 mg — 01 caixa\nTomar 01 comprimido de 6/6h se crise aguda de vertigem ou náuseas, por no máximo 03 a 05 dias.\n\nUso oral\n2) Dicloridrato de Betaistina 24 mg — 30 comprimidos\nTomar 01 comprimido de 12/12h junto às refeições por 15 dias.\n\nORIENTAÇÕES:\n- Levantar-se devagar da cama (sentar na beira por 1 minuto antes de ficar em pé) e evitar olhar bruscamente para cima ou abaixar a cabeça rápido.\n- Dormir com a cabeceira levemente elevada (2 travesseiros) e evitar dirigir durante as crises de tontura.\n- Retornar à emergência se a tontura vier com perda de força, dificuldade para falar, visão dupla ou dor de cabeça intensa."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  },
+  {
+    "id": "ADU-165",
+    "name": "Zika",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "A92.8",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "exantema maculopapular com coceira, conjuntivite sem pus, arbovirose Loratadina 10 mg Dipirona 500 mg Cetirizina 10 mg",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Loratadina 10 mg — 01 caixa\nTomar 01 comprimido ao dia, no mesmo horário, por 05 dias. Após este período, tomar 01 comprimido se coceira, podendo repetir a dose 24/24h se necessário.\n\nUso oral\n2) Dipirona 500 mg — 01 caixa\nTomar 02 comprimidos se dor ou febre, podendo repetir de 6/6h. Intercalar com paracetamol, se necessário.\n\nUso oral\n3) Cetirizina 10 mg — 01 caixa\nTomar 01 comprimido ao dia, no mesmo horário, por 05 dias. Após este período, tomar 01 comprimido se coceira, podendo repetir a dose 24/24h se necessário.\n\nORIENTAÇÕES:\n- Beber bastante líquido (água, soro de reidratação, água de coco), fazer repouso e tomar banhos frios/mornos para aliviar a coceira.\n- NÃO tomar AAS nem anti-inflamatórios até descartar dengue; usar repelente e preservativo (se gestante, iniciar acompanhamento pré-natal imediato).\n- Retornar imediatamente à emergência se sentir formigamento ou perda de força nas pernas/braços, vômitos persistentes ou sangramentos."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  },
+  {
+    "id": "ADU-166",
+    "name": "Patologia não especificada — Analgésicos comuns",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "Z00.0",
+    "category": "CLASSE_FARMACOLOGICA",
+    "tags": "patologia não especificada — analgésicos comuns Dipirona 500 mg Dipirona 500 mg Dipirona 01 g Novalgina® 01 g Dipirona gotas 500mg/ml Paracetamol 750 mg Paracetamol 500 mg Paracetamol 500mg + Pseudoefedrina 30mg Tylenol Sinus ® 500/30 mg Tylenol Sinus ® 01g/60mg Paracetamol gotas 200mg/ml",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Dipirona 500 mg — 01 caixa\nTomar 02 comprimidos se dor ou febre, podendo repetir de 6/6h. Intercalar com paracetamol, se necessário.\n\nORIENTAÇÕES:\n- Usar apenas se houver dor ou febre, respeitando o intervalo mínimo entre as doses.\n- Não ultrapassar 4 g/dia de Paracetamol e evitar bebidas alcoólicas; hipertensos devem evitar fórmulas com Pseudoefedrina.\n- Procurar avaliação médica se a dor ou febre durarem mais de 3 a 5 dias."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Dipirona 500 mg — 01 caixa\nTomar 02 comprimidos se dor ou febre, podendo repetir de 6/6h se necessário.\n\nUso oral\n2) Dipirona 01 g — 01 caixa\nTomar 01 comprimido se dor ou febre, podendo repetir de 6/6h.\n\nUso oral\n3) Novalgina® 01 g — 01 caixa\nTomar 01 comprimido se dor ou febre, podendo repetir de 6/6h.\n\nUso oral\n4) Dipirona gotas 500mg/ml — 01 frasco\nTomar 40 gotas se dor ou febre, podendo repetir de 6/6h se necessário.\n\nUso oral\n5) Paracetamol 750 mg — 01 caixa\nTomar 01 comprimido se dor ou febre, podendo repetir de 6/6h se necessário.\n\nUso oral\n6) Paracetamol 500 mg — 01 caixa\nTomar 02 comprimidos se dor ou febre, podendo repetir de 8/8h se necessário.\n\nUso oral\n7) Paracetamol 500mg + Pseudoefedrina 30mg — 01 caixa\nTomar 02 comprimidos se dor ou febre, podendo repetir de 8/8h se necessário.\n\nUso oral\n8) Tylenol Sinus ® 500/30 mg — 01 caixa\nTomar 02 comprimidos se febre ou dor, podendo repetir de 6/6h.\n\nUso oral\n9) Tylenol Sinus ® 01g/60mg — 01 caixa\nTomar 01 comprimido se febre ou dor, podendo repetir de 6/6h.\n\nUso oral\n10) Paracetamol gotas 200mg/ml — 01 frasco\nTomar 80 gotas (4ml) se dor ou febre, podendo repetir de 6/6h se necessário.\n\nORIENTAÇÕES:\n- Usar apenas se houver dor ou febre, respeitando o intervalo mínimo entre as doses.\n- Não ultrapassar 4 g/dia de Paracetamol e evitar bebidas alcoólicas; hipertensos devem evitar fórmulas com Pseudoefedrina.\n- Procurar avaliação médica se a dor ou febre durarem mais de 3 a 5 dias."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  },
+  {
+    "id": "ADU-167",
+    "name": "Patologia não especificada — Analgésicos e opioides",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "Z00.0",
+    "category": "CLASSE_FARMACOLOGICA",
+    "tags": "patologia não especificada — analgésicos e opioides Paracetamol 500 mg + Codeína 30mg Paco® Paco® Paco® Paco® Tramadol 37,5mg + Paracetamol 325mg Revange® Revange® Revange®",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Paracetamol 500 mg + Codeína 30mg — 01 caixa\nTomar 01 comprimido se dor intensa, podendo repetir de 6/6h.\n\nUso oral\n2) Paco® — 01 caixa\nTomar 01 comprimido se dor intensa, podendo repetir de 8/8h se necessário. Tomar o mínimo possível, para evitar dependência e constipação.\n\nORIENTAÇÕES:\n- Usar apenas enquanto houver dor intensa e pelo menor tempo possível para evitar dependência.\n- Beber bastante água e comer fibras para prevenir intestino preso; proibido dirigir ou beber álcool.\n- Retornar ao médico se houver vômitos persistentes, sonolência excessiva ou falta de ar."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Paco® — 01 caixa\nTomar 01 comprimido se dor intensa, podendo repetir de 6/6h se necessário. Tomar o mínimo possível, para evitar dependência e constipação.\n\nORIENTAÇÕES:\n- Usar apenas enquanto houver dor intensa e pelo menor tempo possível para evitar dependência.\n- Beber bastante água e comer fibras para prevenir intestino preso; proibido dirigir ou beber álcool.\n- Retornar ao médico se houver vômitos persistentes, sonolência excessiva ou falta de ar."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Paco® — 01 caixa\nTomar 02 comprimidos se dor intensa, podendo repetir de 8/8h se necessário. Tomar o mínimo possível, para evitar dependência e constipação.\n\nORIENTAÇÕES:\n- Usar apenas enquanto houver dor intensa e pelo menor tempo possível para evitar dependência.\n- Beber bastante água e comer fibras para prevenir intestino preso; proibido dirigir ou beber álcool.\n- Retornar ao médico se houver vômitos persistentes, sonolência excessiva ou falta de ar."
+      },
+      {
+        "id": "esquema-4",
+        "title": "Esquema 4",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Paco® — 01 caixa\nTomar 02 comprimidos se dor intensa, podendo repetir de 8/8h se necessário. Tomar o mínimo possível, para evitar dependência e constipação.\n\nUso oral\n2) Tramadol 37,5mg + Paracetamol 325mg — 01 caixa\nTomar 01 comprimido se dor intensa, podendo repetir de 6/6h se necessário. Tomar o mínimo possível, para evitar dependência e constipação.\n\nUso oral\n3) Revange® — 01 caixa\nTomar 01 comprimido se dor intensa, podendo repetir de 6/6h se necessário. Tomar o mínimo possível, para evitar dependência e constipação.\n\nORIENTAÇÕES:\n- Usar apenas enquanto houver dor intensa e pelo menor tempo possível para evitar dependência.\n- Beber bastante água e comer fibras para prevenir intestino preso; proibido dirigir ou beber álcool.\n- Retornar ao médico se houver vômitos persistentes, sonolência excessiva ou falta de ar."
+      },
+      {
+        "id": "esquema-5",
+        "title": "Esquema 5",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Revange® — 01 caixa\nTomar 01 comprimido se dor intensa, podendo repetir de 4/4h se necessário. Tomar o mínimo possível, para evitar dependência e constipação.\n\nORIENTAÇÕES:\n- Usar apenas enquanto houver dor intensa e pelo menor tempo possível para evitar dependência.\n- Beber bastante água e comer fibras para prevenir intestino preso; proibido dirigir ou beber álcool.\n- Retornar ao médico se houver vômitos persistentes, sonolência excessiva ou falta de ar."
+      },
+      {
+        "id": "esquema-6",
+        "title": "Esquema 6",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Revange® — 01 caixa\nTomar 02 comprimidos se dor intensa, podendo repetir de 6/6h se necessário. Tomar o mínimo possível, para evitar dependência e constipação.\n\nORIENTAÇÕES:\n- Usar apenas enquanto houver dor intensa e pelo menor tempo possível para evitar dependência.\n- Beber bastante água e comer fibras para prevenir intestino preso; proibido dirigir ou beber álcool.\n- Retornar ao médico se houver vômitos persistentes, sonolência excessiva ou falta de ar."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  },
+  {
+    "id": "ADU-168",
+    "name": "Patologia não especificada — Analgésicos e relaxantes musculares",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "Z00.0",
+    "category": "CLASSE_FARMACOLOGICA",
+    "tags": "patologia não especificada — analgésicos e relaxantes musculares Dorflex® Paracetamol 350mg + Carisoprodol 150mg + Cafeína 50mg Paracetamol 350mg + Carisoprodol 150mg + Cafeína 50mg Dorilax®",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Dorflex® — 01 caixa\nTomar 02 comprimidos se dor, podendo repetir de 6/6h se necessário.\n\nUso oral\n2) Paracetamol 350mg + Carisoprodol 150mg + Cafeína 50mg — 01 caixa\nTomar 02 comprimidos se dor, podendo repetir de 6/6h se necessário.\n\nORIENTAÇÕES:\n- Podem causar sonolência e tontura: evitar dirigir veículos, operar máquinas ou ingerir bebidas alcoólicas.\n- Associar compressas mornas no local dolorido por 15 a 20 minutos, 3 vezes ao dia.\n- Nas fórmulas combinadas com Diclofenaco, tomar após as refeições por no máximo 05 dias."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Paracetamol 350mg + Carisoprodol 150mg + Cafeína 50mg — 01 caixa\nTomar 02 comprimidos se dor, podendo repetir de 6/6h se necessário.\n\nUso oral\n2) Dorilax® — 01 caixa\nTomar 02 comprimidos se dor ou febre, podendo repetir de 8/8h se necessário.\n\nORIENTAÇÕES:\n- Podem causar sonolência e tontura: evitar dirigir veículos, operar máquinas ou ingerir bebidas alcoólicas.\n- Associar compressas mornas no local dolorido por 15 a 20 minutos, 3 vezes ao dia.\n- Nas fórmulas combinadas com Diclofenaco, tomar após as refeições por no máximo 05 dias."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  },
+  {
+    "id": "ADU-169",
+    "name": "Patologia não especificada — Anti-inflamatórios não seletivos",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "Z00.0",
+    "category": "CLASSE_FARMACOLOGICA",
+    "tags": "patologia não especificada — anti-inflamatórios não seletivos Ibuprofeno 400 mg Ibuprofeno 600 mg Diclofenaco 50 mg Alginac 1.000 ® Alginac retard ® Nimesulida 100 mg Nimesulida Betaciclodextrina 400 mg Naproxeno sódico 500 mg Piroxicam 20 mg Piroxicam 20 mg Meloxicam 7,5 mg Cetoprofeno 100 mg Cetoprofeno 150 mg Cetoprofeno 200 mg Cetorolaco 10 mg Diclofenaco gel 10mg/g",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Ibuprofeno 400 mg — 30 comprimidos\nTomar 01 comprimido se dor, podendo repetir de 4/4h, por até 5 dias seguidos.\n\nUso oral\n2) Ibuprofeno 600 mg — 20 comprimidos\nTomar 01 comprimido se dor, podendo repetir de 6/6h, por até 5 dias seguidos.\n\nUso oral\n3) Diclofenaco 50 mg — 15 comprimidos\nTomar 01 comprimido de 8/8h por 05 dias.\n\nUso oral\n4) Alginac 1.000 ® — 06 comprimidos\nTomar 01 comprimido de 8/8h, por 05 dias seguidos.\n\nUso oral\n5) Alginac retard ® — 06 comprimidos\nTomar 01 comprimido ao dia, por 05 dias seguidos.\n\nUso oral\n6) Nimesulida 100 mg — 10 comprimidos\nTomar 01 comprimido de 12/12h por 05 dias.\n\nUso oral\n7) Nimesulida Betaciclodextrina 400 mg — 06 comprimidos\nTomar 01 comprimido de 12/12h por 03 dias.\n\nUso oral\n8) Naproxeno sódico 500 mg — 10 comprimidos\nTomar um comprimido se dor, podendo repetir de 12/12h por até 05 dias seguidos.\n\nUso oral\n9) Piroxicam 20 mg — 05 comprimidos\nTomar 01 comprimido ao dia por 05 dias.\n\nORIENTAÇÕES:\n- Tomar sempre após as refeições com água (exceto Cetorolaco, que dissolve debaixo da língua) por no máximo 05 dias.\n- Não associar dois anti-inflamatórios e não usar em caso de suspeita de Dengue, úlcera gástrica ou doença renal.\n- Suspender e procurar o médico se sentir dor de estômago forte, fezes escuras, falta de ar ou alergia."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Piroxicam 20 mg — 05 comprimidos\nTomar 01 comprimido de 12/12h por 05 dias.\n\nUso oral\n2) Meloxicam 7,5 mg — 05 comprimidos\nTomar 01 comprimido ao dia por 05 dias.\n\nUso oral\n3) Cetoprofeno 100 mg — 10 comprimidos\nTomar 01 comprimido de 12/12h por 05 dias.\n\nUso oral\n4) Cetoprofeno 150 mg — 10 comprimidos\nTomar 01 comprimido de 12/12h por 05 dias.\n\nUso oral\n5) Cetoprofeno 200 mg — 05 comprimidos\nTomar 01 comprimido uma vez ao dia por 05 dias.\n\nUso sublingual\n6) Cetorolaco 10 mg — 10 comprimidos\nColocar 01 comprimido debaixo da língua e aguardar dissolver completamente, podendo repetir de 6/6h por até 05 dias seguidos.\n\nUso local\n7) Diclofenaco gel 10mg/g — 01 bisnaga\nAplicar 01 camada sobre a região afetada 03 vezes ao dia até melhora Horário sugerido: 06:00 – 14:00 – 22:00.\n\nORIENTAÇÕES:\n- Tomar sempre após as refeições com água (exceto Cetorolaco, que dissolve debaixo da língua) por no máximo 05 dias.\n- Não associar dois anti-inflamatórios e não usar em caso de suspeita de Dengue, úlcera gástrica ou doença renal.\n- Suspender e procurar o médico se sentir dor de estômago forte, fezes escuras, falta de ar ou alergia."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  },
+  {
+    "id": "ADU-170",
+    "name": "Patologia não especificada — Anti-inflamatórios seletivos COX-2",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "Z00.0",
+    "category": "CLASSE_FARMACOLOGICA",
+    "tags": "patologia não especificada — anti-inflamatórios seletivos cox-2 Celecoxibe 100 mg Celecoxibe 200 mg Etoricoxibe 60 mg Etoricoxibe 60 mg",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Celecoxibe 100 mg — 10 comprimidos\nTomar um comprimido de 12/12h por 05 dias.\n\nUso oral\n2) Celecoxibe 200 mg — 10 comprimidos\nTomar um comprimido se dor, podendo repetir de 12/12h por até 05 dias consecutivos.\n\nUso oral\n3) Etoricoxibe 60 mg — 10 comprimidos\nTomar um comprimido de 12/12h por 05 dias.\n\nORIENTAÇÕES:\n- Tomar sempre após as refeições com água (exceto Cetorolaco, que dissolve debaixo da língua) por no máximo 05 dias.\n- Não associar dois anti-inflamatórios e não usar em caso de suspeita de Dengue, úlcera gástrica ou doença renal.\n- Suspender e procurar o médico se sentir dor de estômago forte, fezes escuras, falta de ar ou alergia."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Etoricoxibe 60 mg — 10 comprimidos\nTomar um comprimido se dor, podendo repetir de 12/12h por até 05 dias seguidos.\n\nORIENTAÇÕES:\n- Tomar sempre após as refeições com água (exceto Cetorolaco, que dissolve debaixo da língua) por no máximo 05 dias.\n- Não associar dois anti-inflamatórios e não usar em caso de suspeita de Dengue, úlcera gástrica ou doença renal.\n- Suspender e procurar o médico se sentir dor de estômago forte, fezes escuras, falta de ar ou alergia."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  }
+]
+
+

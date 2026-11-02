@@ -1,0 +1,280 @@
+[
+  {
+    "id": "ADU-140",
+    "name": "Síndrome do intestino irritável (SII)",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "K58.9",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "intestino irritável, cólon irritável, SII, colite nervosa, barriga estufada com diarreia e prisão de ventre Brometo de pinavério 100 mg Escopolamina 10 mg (Buscopan simples) Psyllium 5 g sachê Loperamida 2 mg Amitriptilina 25 mg",
+    "gate": "Dor abdominal recorrente ligada à evacuação ou à mudança do hábito intestinal (critérios de Roma IV). Investigar se: início após 45 anos, perda de peso, sangue nas fezes, anemia, sintomas à noite ou história familiar de câncer colorretal, doença inflamatória ou doença celíaca.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Brometo de pinavério 100 mg — 60 comprimidos\nTomar 1 comprimido de 12/12h, junto das refeições, nas fases de cólica.\n\nORIENTAÇÕES:\n- Testar dieta com menos FODMAPs por 4 a 6 semanas (feijão, cebola, alho, trigo, leite, adoçantes)\n- e depois reintroduzir aos poucos.\n- Retornar imediatamente ao pronto-socorro se: sangue nas fezes, perda de peso, febre, dor que acorda à noite, diarreia noturna."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Escopolamina 10 mg (Buscopan simples) — 01 unidade / conforme orientação\n20 drágeas Tomar 1 drágea de 8/8h, se cólica.\n\nUso oral\n2) Psyllium 5 g sachê — 30 sachês\nDissolver 1 sachê em 1 copo grande de água e tomar 1 a 2 vezes ao dia.\n\nUso oral\n3) Loperamida 2 mg — 12 comprimidos\nTomar 1 comprimido antes de sair de casa ou após evacuação líquida (máx. 8 por dia).\n\nUso oral\n4) Amitriptilina 25 mg — 30 comprimidos\nTomar meio comprimido (12,5 mg) à noite.\n\nORIENTAÇÕES:\n- Testar dieta com menos FODMAPs por 4 a 6 semanas (feijão, cebola, alho, trigo, leite, adoçantes)\n- e depois reintroduzir aos poucos.\n- Retornar imediatamente ao pronto-socorro se: sangue nas fezes, perda de peso, febre, dor que acorda à noite, diarreia noturna."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "6 a 8 semanas",
+      "retornar_imediatamente_se": "Sangue nas fezes, perda de peso, febre, dor que acorda à noite, diarreia noturna.",
+      "seguranca_plantonista": "Idoso: amitriptilina e escopolamina podem causar confusão, boca seca e retenção urinária. Gestante: fibras. Evitar amitriptilina sem orientação.",
+      "encaminhar_internar": "Sinais de alarme: colonoscopia e gastroenterologia.",
+      "atestado_sugerido": "não se aplica"
+    }
+  },
+  {
+    "id": "ADU-141",
+    "name": "Síndrome gripal",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "J11.1",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "gripe, febre, dor no corpo, tosse, oseltamivir, dipirona, resfriado, influenza, covid, síndrome gripal, febre com tosse e dor de garganta, virose respiratória, coriza, tamiflu Dipirona 500 mg Metoclopramida 10 mg Oseltamivir 75mg Dipirona 500 mg Metoclopramida 10 mg Dipirona 500 mg Ibuprofeno 400 mg Soro fisiológico 0,9% spray nasal Paracetamol 750 mg Oseltamivir 75 mg",
+    "gate": "Síndrome gripal: febre (mesmo relatada) + tosse ou dor de garganta, com ou sem dor de cabeça, dor no corpo e coriza. Testar para COVID-19 e influenza conforme disponibilidade. SRAG (falta de ar, SpO2 < 95%, desconforto respiratório, piora): internação e oseltamivir, independentemente do tempo de doença. Notificar. Oseltamivir na síndrome gripal com fator de risco: gestante ou puérpera, menor de 5 anos, 60 anos ou mais, doença crônica (pulmão, coração, rim, fígado, diabetes, obesidade com IMC 40 ou mais, imunossupressão), indígena. Ideal em até 48h, mas não deixar de dar depois.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Dipirona 500 mg — 01 caixa\nTomar 02 comprimidos se dor ou febre, podendo repetir de 6/6h.\n\nUso oral\n2) Metoclopramida 10 mg — 01 caixa\nTomar 01 comprimido se náuseas ou vômitos, podendo repetir de 8/8h.\n\nUso oral\n3) Oseltamivir 75mg — 10 comprimidos\nTomar 01 comprimido de 12/12h por 05 dias Horário sugerido (12/12h): 08:00 – 20:00.\n\nORIENTAÇÕES:\n- Beber bastante líquido (10 ou mais copos de água/dia), lavar o nariz com Soro Fisiológico e manter repouso em ambiente ventilado.\n- Se usar Oseltamivir, tomar de 12/12h por 05 dias junto com alimentos; usar máscara se tiver contato com outras pessoas.\n- Retornar imediatamente à emergência se surgir falta de ar, dor no peito, tontura, lábios roxos ou febre por mais de 3 a 4 dias."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Dipirona 500 mg — 01 caixa\nTomar 02 comprimidos se dor ou febre, podendo repetir de 6/6h.\n\nUso oral\n2) Metoclopramida 10 mg — 01 caixa\nTomar 01 comprimido se náuseas ou vômitos, podendo repetir de 8/8h.\n\nORIENTAÇÕES:\n- Beber bastante líquido (10 ou mais copos de água/dia), lavar o nariz com Soro Fisiológico e manter repouso em ambiente ventilado.\n- Se usar Oseltamivir, tomar de 12/12h por 05 dias junto com alimentos; usar máscara se tiver contato com outras pessoas.\n- Retornar imediatamente à emergência se surgir falta de ar, dor no peito, tontura, lábios roxos ou febre por mais de 3 a 4 dias."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Dipirona 500 mg — 20 comprimidos\nTomar 1 a 2 comprimidos de 6/6h, se febre ou dor.\n\nUso oral\n2) Ibuprofeno 400 mg — 09 comprimidos\nTomar 1 comprimido de 8/8h, após as refeições, por 3 dias.\n\nUso nasal\n3) Soro fisiológico 0,9% spray nasal — 01 frasco\nAplicar 2 a 3 jatos em cada narina, 4 vezes ao dia.\n\nORIENTAÇÕES:\n- Beber bastante líquido (10 ou mais copos de água/dia), lavar o nariz com Soro Fisiológico e manter repouso em ambiente ventilado.\n- Se usar Oseltamivir, tomar de 12/12h por 05 dias junto com alimentos; usar máscara se tiver contato com outras pessoas.\n- Retornar imediatamente à emergência se surgir falta de ar, dor no peito, tontura, lábios roxos ou febre por mais de 3 a 4 dias."
+      },
+      {
+        "id": "esquema-4",
+        "title": "Esquema 4",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Paracetamol 750 mg — 20 comprimidos\nTomar 1 comprimido de 6/6h, se febre ou dor.\n\nUso oral\n2) Oseltamivir 75 mg — 10 cápsulas\nTomar 1 cápsula de 12/12h, por 5 dias. Ajustar se doença renal.\n\nORIENTAÇÕES:\n- Beber bastante líquido (10 ou mais copos de água/dia), lavar o nariz com Soro Fisiológico e manter repouso em ambiente ventilado.\n- Se usar Oseltamivir, tomar de 12/12h por 05 dias junto com alimentos; usar máscara se tiver contato com outras pessoas.\n- Retornar imediatamente à emergência se surgir falta de ar, dor no peito, tontura, lábios roxos ou febre por mais de 3 a 4 dias."
+      },
+      {
+        "id": "na-unidade",
+        "title": "Prescrição na unidade",
+        "note": "Administração na unidade · separada da receita domiciliar",
+        "prescription": "PRESCRIÇÃO NA UNIDADE\n\nUso EV ou IM\n1) Dipirona 500 mg/mL — 01 ampola\nAplicar 2 mL (1 g) IM ou EV lento, se febre ou dor. Desidratado: SF 0,9% 500 a 1.000 mL EV."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "48h se piorar",
+      "retornar_imediatamente_se": "Falta de ar, cansaço para falar, lábios roxos, dor no peito, saturação abaixo de 95%, febre por mais de 3 a 5 dias ou que volta, confusão, desidratação, piora depois de ter melhorado.",
+      "seguranca_plantonista": "Gestante e puérpera (até 2 semanas após o parto): oseltamivir sempre, mesmo após 48h. Doença renal: oseltamivir 30 mg de 12/12h (TFG 30 a 60) ou 30 mg 1 vez ao dia (TFG 10 a 30). Idoso: é grupo de risco (oseltamivir).",
+      "encaminhar_internar": "SRAG: internação e notificação.",
+      "atestado_sugerido": "3 a 5 dias (até 24h sem febre)"
+    }
+  },
+  {
+    "id": "ADU-142",
+    "name": "Tabagismo — cessação e reposição de nicotina",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "F17.2",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "parar de fumar, tabagismo, adesivo de nicotina, bupropiona, cigarro, cessação do tabagismo Adesivo de nicotina 21 mg Goma de mascar de nicotina 2 mg Bupropiona 150 mg",
+    "gate": "Abordagem breve + remédio dobra a chance de parar. O SUS fornece adesivo, goma ou pastilha de nicotina e bupropiona no programa de cessação da UBS.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso local\n1) Adesivo de nicotina 21 mg — 28 adesivos\n21 mg por 4 semanas, depois 14 mg por 4 semanas e 7 mg por 4 semanas. Trocar todo dia, em local diferente da pele.\n\nUso oral\n2) Goma de mascar de nicotina 2 mg — 30 unidades\nMascar 1 goma quando vier a fissura (máx. 15 por dia). Mascar até sentir o gosto e deixar parada entre a bochecha e a gengiva.\n\nORIENTAÇÕES:\n- Marcar o dia D. Jogar fora cigarros e isqueiros. Evitar gatilhos (café, álcool, pausas com fumantes).\n- A fissura dura poucos minutos: beber água, respirar fundo, mudar de atividade.\n- Retornar imediatamente ao pronto-socorro se: com bupropiona: agitação, alteração de humor, pensamentos de morte, convulsão, manchas na pele. Adesivo: irritação forte da pele."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Bupropiona 150 mg — 60 comprimidos\nTomar 1 comprimido pela manhã por 3 dias. Depois, 1 comprimido pela manhã e 1 à tarde (8h de intervalo), por 12 semanas. Parar de fumar entre o 8º e o 14º dia.\n\nORIENTAÇÕES:\n- Marcar o dia D. Jogar fora cigarros e isqueiros. Evitar gatilhos (café, álcool, pausas com fumantes).\n- A fissura dura poucos minutos: beber água, respirar fundo, mudar de atividade.\n- Retornar imediatamente ao pronto-socorro se: com bupropiona: agitação, alteração de humor, pensamentos de morte, convulsão, manchas na pele. Adesivo: irritação forte da pele."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "1 a 2 semanas após o dia D",
+      "retornar_imediatamente_se": "Com bupropiona: agitação, alteração de humor, pensamentos de morte, convulsão, manchas na pele. Adesivo: irritação forte da pele.",
+      "seguranca_plantonista": "Bupropiona contraindicada: epilepsia, transtorno alimentar, uso de IMAO, parada recente de álcool ou benzodiazepínico. Gestante: abordagem comportamental primeiro. Se necessário, reposição de nicotina (melhor que fumar). Cardiopata estável: reposição de nicotina é segura. Infarto há menos de 2 semanas: cautela.",
+      "encaminhar_internar": "Grupo de cessação do tabagismo na UBS.",
+      "atestado_sugerido": "não se aplica"
+    }
+  },
+  {
+    "id": "ADU-143",
+    "name": "Tétano — profilaxia vacinal e sorológica em ferimentos",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "Z23.5",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "vacina antitetânica, dT, antitetânica, tétano, prego enferrujado, ferimento, soro antitetânico, vacinação antitetânica Vacina Dupla Adulto (dT — Difteria e Tétano) 0,5 mL Imunoglobulina Humana Antitetânica (IGHAT) 250 UI (ou Soro Antitetânico — SAT 5.000 UI) Dipirona Sódica 500 mg",
+    "gate": "A conduta depende do tipo de ferimento e do histórico de vacinação. Sem comprovação de vacina: considerar como não vacinado. Ferimento de alto risco: profundo, sujo (terra, fezes, saliva), perfurante, com tecido morto ou corpo estranho, queimadura, fratura exposta, mordedura, esmagamento.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso IM\n1) Vacina Dupla Adulto (dT — Difteria e Tétano) 0,5 mL — 01 dose (esquema completo de 03 doses conforme cartão vacinal)\nAplicar 0,5 mL na região do músculo deltoide. Iniciar ou completar esquema de 03 doses (intervalo de 60 dias; mínimo 30 dias) ou aplicar 01 dose de reforço se última dose há >= 10 anos (ou >= 5 anos em ferimento de alto risco).\n\nUso IM\n2) Imunoglobulina Humana Antitetânica (IGHAT) 250 UI (ou Soro Antitetânico — SAT 5.000 UI) — 01 ampola / dose única (se ferimento de alto risco e vacinação incompleta/desconhecida)\nAplicar 250 UI de IGHAT em grupo muscular diferente do local da vacina dT, exclusivamente nos ferimentos de alto risco em pacientes com menos de 03 doses de vacina, histórico vacinal desconhecido ou imunossuprimidos graves.\n\nUso oral\n3) Dipirona Sódica 500 mg — 20 comprimidos\nTomar 01 a 02 comprimidos de 6/6h se dor local ou febre pós-vacinal.\n\nORIENTAÇÕES:\n- Completar o esquema na UBS (levar o cartão de vacina).\n- Dor e vermelhidão no local da vacina são comuns: compressa fria e dipirona.\n- Retornar imediatamente ao pronto-socorro se: nos dias ou semanas após o ferimento: dificuldade para abrir a boca, pescoço ou barriga duros, espasmos e contraturas dolorosas, dificuldade para engolir. CONDUTA Limpeza e desbridamento da ferida (SF 0,9% + antisséptico). Retirar corpos estranhos. FERIMENTO LIMPO E SUPERFICIAL Vacinação desconhecida ou menos de 3 doses: vacinar (iniciar ou completar o esquema). Sem soro. 3 doses ou mais, última há menos de 10 anos: nada a fazer. 3 doses ou mais, última há 10 anos ou mais: 1 dose de reforço. FERIMENTO DE ALTO RISCO Vacinação desconhecida ou menos de 3 doses: vacina + imunoglobulina humana antitetânica (IGHAT) 250 UI ou soro antitetânico (SAT) 5.000 UI, em local diferente da vacina. 3 doses ou mais, última há menos de 5 anos: nada a fazer. 3 doses ou mais, última há 5 anos ou mais: 1 dose de reforço. Em idoso, desnutrido grave ou imunodeprimido, associar IGHAT ou SAT. VACINA 1. Vacina dupla adulto (dT) 1 dose Aplicar 0,5 mL na região do músculo deltoide (braço). Criança menor de 7 anos: seguir o calendário (DTP ou pentavalente). Gestante: dT ou dTpa conforme o calendário. Esquema básico: 3 doses com intervalo de 60 dias (mínimo de 30 dias). Reforço a cada 10 anos."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "UBS para completar o esquema vacinal",
+      "retornar_imediatamente_se": "Nos dias ou semanas após o ferimento: dificuldade para abrir a boca, pescoço ou barriga duros, espasmos e contraturas dolorosas, dificuldade para engolir. CONDUTA Limpeza e desbridamento da ferida (SF 0,9% + antisséptico). Retirar corpos estranhos. FERIMENTO LIMPO E SUPERFICIAL Vacinação desconhecida ou menos de 3 doses: vacinar (iniciar ou completar o esquema). Sem soro. 3 doses ou mais, última há menos de 10 anos: nada a fazer. 3 doses ou mais, última há 10 anos ou mais: 1 dose de reforço. FERIMENTO DE ALTO RISCO Vacinação desconhecida ou menos de 3 doses: vacina + imunoglobulina humana antitetânica (IGHAT) 250 UI IM ou soro antitetânico (SAT) 5.000 UI IM, em local diferente da vacina. 3 doses ou mais, última há menos de 5 anos: nada a fazer. 3 doses ou mais, última há 5 anos ou mais: 1 dose de reforço. Em idoso, desnutrido grave ou imunodeprimido, associar IGHAT ou SAT. VACINA 1. Vacina dupla adulto (dT) 1 dose Aplicar 0,5 mL IM no deltoide. Criança menor de 7 anos: seguir o calendário (DTP ou pentavalente). Gestante: dT ou dTpa conforme o calendário. Esquema básico: 3 doses com intervalo de 60 dias (mínimo de 30 dias). Reforço a cada 10 anos.",
+      "seguranca_plantonista": "Gestante: vacinar normalmente (dT ou dTpa). Imunoglobulina ou soro se indicado. Imunodeprimido: em ferimento de risco, imunoglobulina mesmo com vacina em dia.",
+      "encaminhar_internar": "Suspeita de tétano: internação em UTI e notificação compulsória.",
+      "atestado_sugerido": "conforme o ferimento"
+    }
+  },
+  {
+    "id": "ADU-144",
+    "name": "Tinea pedis e cruris (frieira / pé de atleta e intertrigo fúngico)",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "B35",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "micose de pele, impinge, frieira, pé de atleta, tinea corporis, tinea cruris, micose na virilha, tinea capitis, micose no couro cabeludo, dermatofitose Cetoconazol 2% creme Clotrimazol 1% creme Terbinafina 1% creme Miconazol 2% pó Terbinafina 250 mg Fluconazol 150 mg Griseofulvina 500 mg Terbinafina 250 mg Cetoconazol 2% xampu",
+    "gate": "Lesão arredondada com borda avermelhada que descama, centro mais claro e coceira. Cremes com corticoide pioram a micose: evitar.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso local\n1) Cetoconazol 2% creme — 01 bisnaga\nAplicar na lesão e 2 cm ao redor, 1 a 2 vezes ao dia, por 2 a 4 semanas (até 1 semana após sumir).\n\nORIENTAÇÕES:\n- Secar bem a pele, principalmente dobras e entre os dedos. Roupas e meias de algodão, trocar a meia todo dia, chinelo em vestiário.\n- Não compartilhar toalha, pente e boné. Animal de estimação com lesão: levar ao veterinário.\n- Retornar imediatamente ao pronto-socorro se: lesão no couro cabeludo inchada, mole, com pus e queda de cabelo, febre, lesões que se espalham mesmo com o creme."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso local\n1) Clotrimazol 1% creme — 01 bisnaga\nAplicar na lesão, 2 vezes ao dia, por 2 a 4 semanas.\n\nUso local\n2) Terbinafina 1% creme — 01 bisnaga\nAplicar na lesão, 1 a 2 vezes ao dia, por 1 a 2 semanas.\n\nUso oral\n3) Miconazol 2% pó — 01 frasco\nPé de atleta: aplicar entre os dedos, nas meias e nos calçados, 1 vez ao dia.\n\nUso oral\n4) Terbinafina 250 mg — 14 comprimidos\nTomar 1 comprimido 1 vez ao dia, por 2 semanas.\n\nUso oral\n5) Fluconazol 150 mg — 04 cápsulas\nTomar 1 cápsula 1 vez por semana, por 4 semanas.\n\nUso oral\n6) Griseofulvina 500 mg — 60 comprimidos\nAdulto: 500 mg a 1 g por dia. 1 vez ao dia, após refeição com gordura (com leite), por 6 a 8 semanas.\n\nUso oral\n7) Terbinafina 250 mg — 28 comprimidos\nAdulto: tomar 1 comprimido 1 vez ao dia, por 4 semanas.\n\nUso local\n8) Cetoconazol 2% xampu — 01 frasco\nLavar o cabelo 2 a 3 vezes por semana durante o tratamento (reduz o contágio).\n\nORIENTAÇÕES:\n- Secar bem a pele, principalmente dobras e entre os dedos. Roupas e meias de algodão, trocar a meia todo dia, chinelo em vestiário.\n- Não compartilhar toalha, pente e boné. Animal de estimação com lesão: levar ao veterinário.\n- Retornar imediatamente ao pronto-socorro se: lesão no couro cabeludo inchada, mole, com pus e queda de cabelo, febre, lesões que se espalham mesmo com o creme."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "2 a 4 semanas se não melhorar",
+      "retornar_imediatamente_se": "Lesão no couro cabeludo inchada, mole, com pus e queda de cabelo, febre, lesões que se espalham mesmo com o creme.",
+      "seguranca_plantonista": "Gestante e amamentação: só tratamento tópico. Terbinafina oral: evitar em hepatopatia e se TFG < 50. Griseofulvina: contraindicada na gestação. Tomar com alimento com gordura.",
+      "encaminhar_internar": "Lesão inflamatória no couro cabeludo (quérion), falha do tratamento, imunossuprimido ou lesão atípica: dermatologia.",
+      "atestado_sugerido": "não se aplica"
+    }
+  },
+  {
+    "id": "ADU-145",
+    "name": "Tinha capitis",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "B35.0",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "micose no couro cabeludo, falha no cabelo, griseofulvina, cetoconazol Griseofulvina 500mg Cetoconazol shampoo 2%",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Griseofulvina 500mg — 50 comprimidos\nTomar 01 comprimido ao dia, no mesmo horário, por 8 semanas.\n\nUso local\n2) Cetoconazol shampoo 2% — 01 frasco\nAplicar no couro cabeludo, deixar agir por 10 minutos antes de enxaguar, 2 a 3 vezes por semana, durante 4 semanas.\n\nORIENTAÇÕES:\n- Tomar a Griseofulvina todos os dias após o almoço ou jantar por 8 semanas e deixar o xampu de Cetoconazol agir por 10 minutos no banho.\n- Não compartilhar pentes, escovas, bonés, toalhas ou fronhas e levar cães/gatos com falhas de pelo ao veterinário.\n- Evitar bebidas alcoólicas e exposição solar intensa durante o tratamento."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  },
+  {
+    "id": "ADU-146",
+    "name": "Tinha corporis",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "B35.4",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "impingem, micose na pele, lesão anular, terbinafina, cetoconazol Terbinafina 250mg Cetirizina 10 mg Terbinafina creme 1% Griseofulvina 500mg Cetirizina 10 mg Terbinafina creme 1%",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Terbinafina 250mg — 28 comprimidos\nTomar 01 comprimido ao dia, no mesmo horário, por 28 dias seguidos.\n\nUso oral\n2) Cetirizina 10 mg — 01 caixa\nTomar 01 comprimido se coceira ou alergia, podendo repetir de 24/24 se necessário.\n\nUso local\n3) Terbinafina creme 1% — 01 bisnaga\nAplicar nas áreas afetadas de 12/12h até melhora (em média 28 dias).\n\nUso oral\n4) Griseofulvina 500mg — 50 comprimidos\nTomar 01 comprimido ao dia, no mesmo horário, por 8 semanas.\n\nORIENTAÇÕES:\n- Aplicar o creme antifúngico cobrindo a mancha e 2 cm ao redor, 2 vezes ao dia, mantendo por mais 1 semana após sumir a lesão.\n- Manter a pele limpa e bem seca (secar as dobras por último com toalha separada) e usar roupas leves de algodão.\n- Se usar antifúngico em comprimido, tomar no mesmo horário todos os dias e evitar bebidas alcoólicas."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Cetirizina 10 mg — 01 caixa\nTomar 01 comprimido se coceira ou alergia, podendo repetir de 24/24 se necessário.\n\nUso local\n2) Terbinafina creme 1% — 01 bisnaga\nAplicar nas áreas afetadas de 12/12h até melhora (em média 28 dias).\n\nORIENTAÇÕES:\n- Aplicar o creme antifúngico cobrindo a mancha e 2 cm ao redor, 2 vezes ao dia, mantendo por mais 1 semana após sumir a lesão.\n- Manter a pele limpa e bem seca (secar as dobras por último com toalha separada) e usar roupas leves de algodão.\n- Se usar antifúngico em comprimido, tomar no mesmo horário todos os dias e evitar bebidas alcoólicas."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  },
+  {
+    "id": "ADU-147",
+    "name": "Torcicolo espasmódico",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "M43.6",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "pescoço travado, dor cervical aguda, ciclobenzaprina, torsilax Ciclobenzaprina 5 mg Dorilax® Cafeína 35mg + Dipirona 300mg + Orfenadrina 50mg Paracetamol 350mg + Carisoprodol 150mg + Cafeína 50mg Carisoprodol 125mg + Diclofenaco 50mg + Paracetamol 300mg + cafeína 30mg Diclofenaco 50 mg Ciclobenzaprina 10 mg Cetoprofeno 150 mg Ciclobenzaprina 10 mg Nimesulida Betaciclodextrina 400 mg Ciclobenzaprina 10 mg",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Ciclobenzaprina 5 mg — 01 caixa\nTomar 01 comprimido ao sair da emergência. Em seguida, tomar 01 comprimido à noite antes de dormir, por 05 dias seguidos.\n\nUso oral\n2) Dorilax® — 01 caixa\nTomar 02 comprimidos se dor, podendo repetir de 6/6h se necessário.\n\nUso oral\n3) Cafeína 35mg + Dipirona 300mg + Orfenadrina 50mg — 01 caixa\nTomar 02 comprimidos de 6/6h se dor.\n\nUso oral\n4) Paracetamol 350mg + Carisoprodol 150mg + Cafeína 50mg — 01 caixa\nTomar 2 comprimidos se dor, de 6/6h.\n\nUso oral\n5) Carisoprodol 125mg + Diclofenaco 50mg + Paracetamol 300mg + cafeína 30mg — 10 comprimidos\nTomar 01 comprimido de 12/12h por até 05 dias.\n\nUso oral\n6) Diclofenaco 50 mg — 15 comprimidos\nTomar 01 comprimido de 08/08h por até 05 dias.\n\nUso oral\n7) Ciclobenzaprina 10 mg — 01 caixa\nTomar 01 comprimido à noite por 05 dias seguidos.\n\nUso oral\n8) Cetoprofeno 150 mg — 10 comprimidos\nTomar 01 comprimido de 12/12h por até 05 dias.\n\nORIENTAÇÕES:\n- Aplicar compressas de água morna no pescoço por 15 a 20 minutos, 3 a 4 vezes ao dia, e evitar movimentos bruscos.\n- Ajustar a altura do travesseiro (não dormir de bruços) e evitar dirigir ou beber álcool devido à sonolência dos relaxantes musculares.\n- Retornar à emergência se tiver febre, dor de cabeça forte ou dor que irradia para o braço com formigamento/perda de força na mão."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Ciclobenzaprina 10 mg — 01 caixa\nTomar 01 comprimido à noite por 05 dias.\n\nUso oral\n2) Nimesulida Betaciclodextrina 400 mg — 06 comprimidos\nTomar 01 comprimido de 12/12h por até 03 dias.\n\nORIENTAÇÕES:\n- Aplicar compressas de água morna no pescoço por 15 a 20 minutos, 3 a 4 vezes ao dia, e evitar movimentos bruscos.\n- Ajustar a altura do travesseiro (não dormir de bruços) e evitar dirigir ou beber álcool devido à sonolência dos relaxantes musculares.\n- Retornar à emergência se tiver febre, dor de cabeça forte ou dor que irradia para o braço com formigamento/perda de força na mão."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Ciclobenzaprina 10 mg — 01 caixa\nTomar 01 comprimido à noite por 05 dias seguidos.\n\nORIENTAÇÕES:\n- Aplicar compressas de água morna no pescoço por 15 a 20 minutos, 3 a 4 vezes ao dia, e evitar movimentos bruscos.\n- Ajustar a altura do travesseiro (não dormir de bruços) e evitar dirigir ou beber álcool devido à sonolência dos relaxantes musculares.\n- Retornar à emergência se tiver febre, dor de cabeça forte ou dor que irradia para o braço com formigamento/perda de força na mão."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  }
+]
+
+

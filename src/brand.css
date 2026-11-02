@@ -1,0 +1,6 @@
+.iai-brand{display:inline-flex;align-items:center;gap:8px;color:#5fa8ff;font-weight:850;letter-spacing:-.04em;line-height:1}
+.iai-symbol{width:31px;height:31px;flex:none;color:#5fa8ff}
+.iai-symbol-ink{fill:#e9f3ff}
+.iai-wordmark{display:inline-flex;align-items:baseline;gap:3px;font-size:20px}
+.iai-name{color:#eef6ff}.iai-doctor{color:#69adff;font-weight:700}
+.w-brand .iai-symbol{width:35px;height:35px}.w-brand .iai-wordmark{font-size:19px}

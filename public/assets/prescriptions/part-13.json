@@ -1,0 +1,298 @@
+[
+  {
+    "id": "ADU-094",
+    "name": "Insônia aguda e crônica",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "G47.0",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "insônia, não consegue dormir, dificuldade para dormir, acorda de madrugada, remédio para dormir Passiflora incarnata extrato seco Valeriana officinalis extrato seco Melatonina 3 mg (manipulada) Trazodona 50 mg",
+    "gate": "Investigue a causa: ansiedade, depressão, apneia do sono (ronco, pausas, sonolência de dia), dor, urinar à noite, refluxo, café, álcool, estimulantes, telas e remédios (corticoide, fluoxetina à noite). 1ª linha é a higiene do sono e a terapia cognitivo-comportamental para insônia. Evitar benzodiazepínico e zolpidem de uso contínuo, principalmente em idosos (quedas, dependência).",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Passiflora incarnata extrato seco — 30 comprimidos\nTomar 1 comprimido 30 minutos antes de dormir.\n\nORIENTAÇÕES:\n- Horário fixo para dormir e acordar, inclusive no fim de semana. Cama só para dormir e sexo.\n- Não pegou no sono em 20 minutos: levantar, fazer algo calmo com luz baixa e voltar quando tiver sono.\n- Retornar imediatamente ao pronto-socorro se: tristeza intensa ou pensamentos de morte, ronco com pausas na respiração, sono ao dirigir."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Valeriana officinalis extrato seco — 30 comprimidos\nTomar 1 comprimido 30 a 60 minutos antes de dormir.\n\nUso oral\n2) Melatonina 3 mg (manipulada) — 30 cápsulas\nTomar 1 cápsula 1 a 2h antes de dormir. Melhor para quem dorme tarde demais ou idoso.\n\nUso oral\n3) Trazodona 50 mg — 30 comprimidos\nTomar meio a 1 comprimido (25 a 50 mg) à noite. Reavaliar na UBS em 4 semanas.\n\nORIENTAÇÕES:\n- Horário fixo para dormir e acordar, inclusive no fim de semana. Cama só para dormir e sexo.\n- Não pegou no sono em 20 minutos: levantar, fazer algo calmo com luz baixa e voltar quando tiver sono.\n- Retornar imediatamente ao pronto-socorro se: tristeza intensa ou pensamentos de morte, ronco com pausas na respiração, sono ao dirigir."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "UBS em 4 semanas",
+      "retornar_imediatamente_se": "Tristeza intensa ou pensamentos de morte, ronco com pausas na respiração, sono ao dirigir.",
+      "seguranca_plantonista": "Idoso: evitar benzodiazepínico, zolpidem e anti-histamínico sedativo (critérios de Beers). Trazodona com cautela (queda da pressão). Gestante: higiene do sono e terapia cognitivo-comportamental. Evitar hipnóticos.",
+      "encaminhar_internar": "Depressão ou ansiedade: UBS e psicologia. Suspeita de apneia: polissonografia.",
+      "atestado_sugerido": "não se aplica"
+    }
+  },
+  {
+    "id": "ADU-095",
+    "name": "Insuficiência venosa crônica e varizes",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "I83.9",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "varizes, dor e peso nas pernas, inchaço nas pernas, diosmina, hesperidina, daflon, meia elástica, veias dilatadas, perna pesada, perna cansada, insuficiência venosa crônica, microvarizes Diosmina 450 mg + Hesperidina 50 mg Meia Elástica de Compressão 20-30 mmHg Polissulfato de mucopolissacarídeo gel (Hirudoid) Ibuprofeno 600 mg",
+    "gate": "Perna inchada de um lado só, dolorosa, de início recente: pensar em trombose venosa profunda (escore de Wells, D-dímero, Doppler).",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Diosmina 450 mg + Hesperidina 50 mg — 60 comprimidos\nTomar 01 comprimido de 12/12h (no almoço e no jantar) por 30 a 60 dias contínuos.\n\nUso local\n2) Meia Elástica de Compressão 20-30 mmHg — 01 par\nVestir pela manhã logo ao acordar e retirar à noite para dormir, de uso diário contínuo.\n\nORIENTAÇÕES:\n- Elevar as pernas acima do nível do coração por 20 a 30 minutos, 2 a 3 vezes ao dia, e fazer caminhadas diárias regulares.\n- Usar a meia elástica de compressão pela manhã logo ao acordar (retirando para dormir) e evitar ficar muitas horas parado em pé ou sentado.\n- Retornar imediatamente ao pronto-socorro se uma perna inchar subitamente com dor forte na panturrilha, calor ou falta de ar."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso local\n1) Polissulfato de mucopolissacarídeo gel (Hirudoid) — 01 bisnaga\nAplicar nas áreas doloridas, 2 vezes ao dia.\n\nUso oral\n2) Ibuprofeno 600 mg — 15 comprimidos\nTomar 1 comprimido de 8/8h, após as refeições, por 5 dias.\n\nORIENTAÇÕES:\n- Elevar as pernas acima do nível do coração por 20 a 30 minutos, 2 a 3 vezes ao dia, e fazer caminhadas diárias regulares.\n- Usar a meia elástica de compressão pela manhã logo ao acordar (retirando para dormir) e evitar ficar muitas horas parado em pé ou sentado.\n- Retornar imediatamente ao pronto-socorro se uma perna inchar subitamente com dor forte na panturrilha, calor ou falta de ar."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "UBS em 2 a 3 meses",
+      "retornar_imediatamente_se": "Perna inchada, quente e dolorosa de um lado só, falta de ar ou dor no peito, ferida que não cicatriza, sangramento de variz.",
+      "seguranca_plantonista": "Doença arterial (pulsos fracos, pé frio): não usar meia de compressão sem avaliação vascular. Gestante: meia elástica é segura e recomendada.",
+      "encaminhar_internar": "Úlcera venosa, varizes com complicação ou sintomas apesar do tratamento: cirurgia vascular.",
+      "atestado_sugerido": "não se aplica"
+    }
+  },
+  {
+    "id": "ADU-096",
+    "name": "Larva migrans cutânea (bicho geográfico)",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "B76.9",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "bicho geográfico, bicho de praia, larva migrans cutânea, coceira em trilha, caminho na pele Tiabendazol 50 mg/g pomada 1 bisnaga (45 g) Albendazol 400 mg Albendazol 400 mg/10 mL suspensão Ivermectina 6 mg Hidroxizina 25 mg",
+    "gate": "",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso local\n1) Tiabendazol 50 mg/g pomada 1 bisnaga (45 g) — 01 unidade / conforme orientação\nAplicar sobre as trilhas e 2 cm além delas, 3 vezes ao dia, por 7 dias.\n\nORIENTAÇÕES:\n- Não andar descalço em areia ou terra onde circulam cães e gatos. Sentar sobre canga ou toalha na praia.\n- Vermifugar os animais de casa.\n- Retornar imediatamente ao pronto-socorro se: lesões com pus, vermelhidão se espalhando, febre."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Albendazol 400 mg — 03 comprimidos\nTomar 1 comprimido 1 vez ao dia, por 3 dias. Criança a partir de 2 anos: mesma dose.\n\nUso oral\n2) Albendazol 400 mg/10 mL suspensão — 03 frascos\nCriança a partir de 2 anos: dar 10 mL 1 vez ao dia, por 3 dias.\n\nUso oral\n3) Ivermectina 6 mg — 01 unidade / conforme orientação\nconforme o peso Dose única (15 kg ou mais, não gestante). 15 a 24 kg: meio comprimido. 25 a 35 kg: 1. 36 a 50 kg: 1 e meio. 51 a 65 kg: 2. 66 a 79 kg: 2 e meio. 80 kg ou mais: 3 comprimidos. COCEIRA\n\nUso oral\n4) Hidroxizina 25 mg — 10 comprimidos\nTomar 1 comprimido à noite, se coceira (adulto).\n\nORIENTAÇÕES:\n- Não andar descalço em areia ou terra onde circulam cães e gatos. Sentar sobre canga ou toalha na praia.\n- Vermifugar os animais de casa.\n- Retornar imediatamente ao pronto-socorro se: lesões com pus, vermelhidão se espalhando, febre."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "se não melhorar em 1 semana",
+      "retornar_imediatamente_se": "Lesões com pus, vermelhidão se espalhando, febre.",
+      "seguranca_plantonista": "Gestante: preferir o tratamento tópico. Evitar ivermectina e albendazol.",
+      "encaminhar_internar": "",
+      "atestado_sugerido": "não se aplica"
+    }
+  },
+  {
+    "id": "ADU-097",
+    "name": "Leptospirose (fase precoce e tardia)",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "A27.9",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "leptospirose, doença do rato, febre após enchente, dor na panturrilha, xixi de rato Doxiciclina 100 mg Paracetamol 750 mg Amoxicilina 500 mg",
+    "gate": "Febre + dor muscular intensa (principalmente panturrilha) + contato com enchente, lama, esgoto ou ratos nos últimos 30 dias. Olhos vermelhos sem secreção ajudam a pensar. Notificação compulsória. Sinais de gravidade (icterícia, urina diminuindo, sangramento, tosse com sangue, falta de ar, pressão baixa): internação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Doxiciclina 100 mg — 14 comprimidos\nTomar 1 comprimido de 12/12h, por 7 dias.\n\nUso oral\n2) Paracetamol 750 mg — 20 comprimidos\nTomar 1 comprimido de 6/6h, se febre ou dor. Evitar AAS e anti-inflamatório.\n\nORIENTAÇÕES:\n- Beber bastante líquido. Retornar à UBS ou a esta unidade para reavaliação em 24 a 72h.\n- Evitar contato com água de enchente. Usar botas e luvas na limpeza.\n- Retornar imediatamente ao pronto-socorro se: olhos ou pele amarelados, urina diminuindo, falta de ar, tosse com sangue, sangramentos, tontura, confusão."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Amoxicilina 500 mg — 21 cápsulas\nTomar 1 cápsula de 8/8h, por 7 dias. Escolha na gestante.\n\nORIENTAÇÕES:\n- Beber bastante líquido. Retornar à UBS ou a esta unidade para reavaliação em 24 a 72h.\n- Evitar contato com água de enchente. Usar botas e luvas na limpeza.\n- Retornar imediatamente ao pronto-socorro se: olhos ou pele amarelados, urina diminuindo, falta de ar, tosse com sangue, sangramentos, tontura, confusão."
+      },
+      {
+        "id": "na-unidade",
+        "title": "Prescrição na unidade",
+        "note": "Administração na unidade · separada da receita domiciliar",
+        "prescription": "PRESCRIÇÃO NA UNIDADE\n\nUso EV\n1) Dipirona 500 mg/mL — 01 ampola\nAplicar 2 mL (1 g) EV lento, se febre ou dor. Pedir creatinina, potássio, bilirrubinas, TGO/TGP, CPK e plaquetas para classificar a gravidade."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "24 a 72h (obrigatório)",
+      "retornar_imediatamente_se": "Olhos ou pele amarelados, urina diminuindo, falta de ar, tosse com sangue, sangramentos, tontura, confusão.",
+      "seguranca_plantonista": "Gestante: amoxicilina. Doxiciclina é contraindicada. Doença renal: doxiciclina não precisa de ajuste.",
+      "encaminhar_internar": "Forma grave: internação com penicilina cristalina ou ceftriaxona EV.",
+      "atestado_sugerido": "7 dias"
+    }
+  },
+  {
+    "id": "ADU-098",
+    "name": "Linfogranuloma venéreo",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "A55",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "bubão inguinal, íngua na virilha, chlamydia, doxiciclina Doxiciclina 100 mg Azitromicina 500 mg",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Doxiciclina 100 mg — 42 comprimidos\nTomar 01 comprimido de 12/12h por 21 dias.\n\nUso oral\n2) Azitromicina 500 mg — 06 comprimidos\nTomar 02 comprimidos a cada 07 dias até 03 doses.\n\nORIENTAÇÕES:\n- Tomar a Doxiciclina por 21 dias com um copo cheio de água, sem se deitar por 30 minutos e longe de leite/antiácidos (contraindicada na gestação).\n- Tratar a(s) parceria(s) sexual(is) dos últimos 60 dias, manter abstinência sexual até o fim do tratamento e nunca espremer ínguas na virilha.\n- Realizar exames para HIV, Sífilis e Hepatites B e C na unidade de saúde."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  },
+  {
+    "id": "ADU-099",
+    "name": "Lombalgia mecânica",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "M54.5",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "dor nas costas, dor lombar, coluna travada, ciclobenzaprina, torsilax, tandrilax, lumbago, ciatalgia, ciático, dor muscular, cervicalgia, torcicolo, dorsalgia, travou as costas, dor no pescoço Dorilax® Diclofenaco 50 mg Paracetamol 350mg + Carisoprodol 150mg + Cafeína 50mg Diclofenaco 50 mg Dipirona 500 mg Ciclobenzaprina 5 mg Alginac 1000 ® Dipirona 500 mg Ciclobenzaprina 5 mg Celecoxibe 100 mg Paracetamol 350mg + Carisoprodol 150mg + Cafeína 50mg Ibuprofeno 600 mg Dipirona 500 mg Ciclobenzaprina 5 mg Naproxeno 500 mg Tramadol 50 mg Diclofenaco dietilamônio 11,6 mg/g gel",
+    "gate": "Bandeiras vermelhas (investigar): trauma importante, primeira crise após 50 anos, câncer prévio, perda de peso, febre, imunossupressão ou droga EV, dor noturna que não melhora em repouso, fraqueza progressiva nas pernas, perda de controle da urina ou das fezes, dormência na região genital (cauda equina: urgência). Lembrar de causas que não são musculares: cólica renal, pielonefrite, aneurisma de aorta (idoso), dissecção.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Dorilax® — 01 caixa\nTomar 02 comprimidos se dor, podendo repetir de 6/6h se necessário.\n\nUso oral\n2) Diclofenaco 50 mg — 15 comprimidos\nTomar 01 comprimido de 8/8h, por 05 dias seguidos Horário sugerido (8/8h): 06:00 / 14:00 / 22:00.\n\nUso oral\n3) Paracetamol 350mg + Carisoprodol 150mg + Cafeína 50mg — 01 caixa\nTomar 2 comprimidos se dor, podendo repetir de 6/6h se necessário.\n\nORIENTAÇÕES:\n- Aplicar bolsa de água morna na região lombar por 20 minutos, 3 vezes ao dia, e evitar repouso absoluto na cama por mais de 48h.\n- Dobrar os joelhos ao abaixar, dormir de lado com travesseiro entre os joelhos e não dirigir nem beber álcool se usar relaxante muscular.\n- Retornar imediatamente à emergência se perder força na perna/pé, sentir dormência na virilha, dificuldade para urinar ou febre."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Diclofenaco 50 mg — 15 comprimidos\nTomar 01 comprimido de 8/8h, por 05 dias seguidos Horário sugerido (8/8h): 06:00 / 14:00 / 22:00.\n\nUso oral\n2) Dipirona 500 mg — 01 caixa\nTomar 02 comprimidos se dor ou febre, podendo repetir de 6/6h.\n\nUso oral\n3) Ciclobenzaprina 5 mg — 01 caixa\nTomar 01 comprimido à noite antes de dormir, por 05 dias seguidos.\n\nUso oral\n4) Alginac 1000 ® — 15 comprimidos\nTomar 01 comprimido de 8/8h, por 05 dias seguidos Horário sugerido (8/8h): 06:00 / 14:00 / 22:00.\n\nORIENTAÇÕES:\n- Aplicar bolsa de água morna na região lombar por 20 minutos, 3 vezes ao dia, e evitar repouso absoluto na cama por mais de 48h.\n- Dobrar os joelhos ao abaixar, dormir de lado com travesseiro entre os joelhos e não dirigir nem beber álcool se usar relaxante muscular.\n- Retornar imediatamente à emergência se perder força na perna/pé, sentir dormência na virilha, dificuldade para urinar ou febre."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Dipirona 500 mg — 01 caixa\nTomar 02 comprimidos se dor ou febre, podendo repetir de 6/6h.\n\nUso oral\n2) Ciclobenzaprina 5 mg — 01 caixa\nTomar 01 comprimido à noite antes de dormir, por 05 dias seguidos.\n\nUso oral\n3) Celecoxibe 100 mg — 10 comprimidos\nTomar um comprimido de 12/12h por 05 dias.\n\nUso oral\n4) Paracetamol 350mg + Carisoprodol 150mg + Cafeína 50mg — 01 caixa\nTomar 2 comprimidos se dor, podendo repetir de 6/6h se necessário.\n\nORIENTAÇÕES:\n- Aplicar bolsa de água morna na região lombar por 20 minutos, 3 vezes ao dia, e evitar repouso absoluto na cama por mais de 48h.\n- Dobrar os joelhos ao abaixar, dormir de lado com travesseiro entre os joelhos e não dirigir nem beber álcool se usar relaxante muscular.\n- Retornar imediatamente à emergência se perder força na perna/pé, sentir dormência na virilha, dificuldade para urinar ou febre."
+      },
+      {
+        "id": "esquema-4",
+        "title": "Esquema 4",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Ibuprofeno 600 mg — 15 comprimidos\nTomar 1 comprimido de 8/8h, após as refeições, por 5 dias.\n\nUso oral\n2) Dipirona 500 mg — 20 comprimidos\nTomar 1 a 2 comprimidos de 6/6h, se dor.\n\nUso oral\n3) Ciclobenzaprina 5 mg — 10 comprimidos\nTomar 1 a 2 comprimidos à noite, por até 7 dias, se contratura. Dá sono.\n\nORIENTAÇÕES:\n- Aplicar bolsa de água morna na região lombar por 20 minutos, 3 vezes ao dia, e evitar repouso absoluto na cama por mais de 48h.\n- Dobrar os joelhos ao abaixar, dormir de lado com travesseiro entre os joelhos e não dirigir nem beber álcool se usar relaxante muscular.\n- Retornar imediatamente à emergência se perder força na perna/pé, sentir dormência na virilha, dificuldade para urinar ou febre."
+      },
+      {
+        "id": "esquema-5",
+        "title": "Esquema 5",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Naproxeno 500 mg — 10 comprimidos\nTomar 1 comprimido de 12/12h, após as refeições, por 5 dias.\n\nUso oral\n2) Tramadol 50 mg — 15 comprimidos\nTomar 1 comprimido de 8/8h, se dor forte, por até 5 dias.\n\nUso local\n3) Diclofenaco dietilamônio 11,6 mg/g gel — 01 bisnaga\nAplicar no local com leve massagem, 3 vezes ao dia. Boa opção para cervicalgia e torcicolo.\n\nORIENTAÇÕES:\n- Aplicar bolsa de água morna na região lombar por 20 minutos, 3 vezes ao dia, e evitar repouso absoluto na cama por mais de 48h.\n- Dobrar os joelhos ao abaixar, dormir de lado com travesseiro entre os joelhos e não dirigir nem beber álcool se usar relaxante muscular.\n- Retornar imediatamente à emergência se perder força na perna/pé, sentir dormência na virilha, dificuldade para urinar ou febre."
+      },
+      {
+        "id": "na-unidade",
+        "title": "Prescrição na unidade",
+        "note": "Administração na unidade · separada da receita domiciliar",
+        "prescription": "PRESCRIÇÃO NA UNIDADE\n\nUso EV ou IM\n1) Dipirona 500 mg/mL — 01 ampola\nAplicar 2 mL (1 g) EV lento ou IM.\n\nUso IM\n2) Diclofenaco de sódio 75 mg/3 mL — 01 ampola\nAplicar IM profundo, dose única.\n\nUso EV\n3) Cetoprofeno 100 mg — 01 frasco-ampola\nDiluir em 100 mL de SF 0,9% e correr EV em 20 min.\n\nUso EV ou IM\n4) Dexametasona 4 mg/mL — 01 unidade / conforme orientação\n1 ampola de 2,5 mL Aplicar IM, dose única, se dor ciática intensa (benefício modesto). Dor intensa sem melhora: tramadol 100 mg diluído em 100 mL de SF 0,9%, EV em 30 min."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "2 semanas se não melhorar; imediato se sinal de alarme",
+      "retornar_imediatamente_se": "Fraqueza nas pernas, dormência na região genital ou no ânus, perda de controle da urina ou das fezes, febre, dor que piora muito à noite, perda de peso.",
+      "seguranca_plantonista": "Gestante: paracetamol, calor local e fisioterapia. Evitar anti-inflamatório após 20 semanas e relaxante muscular. Idoso: evitar ciclobenzaprina (critérios de Beers). Tramadol com cautela (quedas, sódio baixo). Preferir paracetamol + gel tópico. Doença renal, úlcera ou anticoagulado: evitar anti-inflamatório oral.",
+      "encaminhar_internar": "Cauda equina ou fraqueza progressiva: urgência (ressonância e neurocirurgia ou ortopedia). Dor por mais de 6 semanas: UBS, fisioterapia e imagem conforme o caso.",
+      "atestado_sugerido": "1 a 3 dias; manter a pessoa ativa"
+    }
+  },
+  {
+    "id": "ADU-100",
+    "name": "Mastalgia cíclica e acíclica",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "N64.4",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "dor na mama, dor no seio, mastalgia cíclica, peito dolorido, dor no peito antes da menstruação Diclofenaco dietilamônio 11,6 mg/g gel Paracetamol 750 mg Ibuprofeno 400 mg",
+    "gate": "Sempre examinar mamas e axilas. Nódulo, retração da pele ou do mamilo, secreção com sangue ou alteração localizada e persistente: imagem (USG e/ou mamografia conforme a idade) e mastologia. Dor isolada raramente é câncer. Dor cíclica (piora antes da menstruação, nas duas mamas) ou não cíclica (localizada: pensar em costocondrite, cisto, mastite).",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso local\n1) Diclofenaco dietilamônio 11,6 mg/g gel — 01 bisnaga\nAplicar na mama dolorida, 2 a 3 vezes ao dia, nos dias de dor.\n\nUso oral\n2) Paracetamol 750 mg — 20 comprimidos\nTomar 1 comprimido de 6/6h, se dor.\n\nORIENTAÇÕES:\n- Sutiã de boa sustentação, inclusive para exercício e para dormir nos dias de dor.\n- Reduzir a cafeína ajuda algumas mulheres. Compressa morna ou fria alivia.\n- Retornar imediatamente ao pronto-socorro se: caroço novo, mama vermelha e quente com febre (mastite ou abscesso), secreção com sangue pelo mamilo, mamilo ou pele \"puxando para dentro\"."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Ibuprofeno 400 mg — 09 comprimidos\nTomar 1 comprimido de 8/8h, após as refeições, se dor, por até 3 dias.\n\nORIENTAÇÕES:\n- Sutiã de boa sustentação, inclusive para exercício e para dormir nos dias de dor.\n- Reduzir a cafeína ajuda algumas mulheres. Compressa morna ou fria alivia.\n- Retornar imediatamente ao pronto-socorro se: caroço novo, mama vermelha e quente com febre (mastite ou abscesso), secreção com sangue pelo mamilo, mamilo ou pele \"puxando para dentro\"."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "UBS se não melhorar em 2 a 3 meses",
+      "retornar_imediatamente_se": "Caroço novo, mama vermelha e quente com febre (mastite ou abscesso), secreção com sangue pelo mamilo, mamilo ou pele \"puxando para dentro\".",
+      "seguranca_plantonista": "Amamentando: dor com mama vermelha e quente é mastite (ver ficha Mastite lactacional).",
+      "encaminhar_internar": "Alteração no exame ou na imagem, ou dor intensa refratária por mais de 6 meses (avaliar tamoxifeno com especialista): mastologia.",
+      "atestado_sugerido": "não se aplica"
+    }
+  },
+  {
+    "id": "ADU-101",
+    "name": "Mastite lactacional (puerperal)",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "O91.1",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "mastite, mama empedrada, mama vermelha amamentando, ingurgitamento, abscesso de mama, peito inflamado Cefalexina 500 mg Ibuprofeno 400 mg Paracetamol 750 mg Amoxicilina + clavulanato 875/125 mg Clindamicina 300 mg",
+    "gate": "Mama vermelha, quente e dolorosa, com febre, em quem amamenta. Manter a amamentação, inclusive na mama afetada: esvaziar a mama faz parte do tratamento. Caroço com flutuação ou que não melhora em 48h: pensar em abscesso (USG e drenagem ou punção).",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Cefalexina 500 mg — 40 cápsulas\nTomar 1 cápsula de 6/6h, por 10 dias.\n\nUso oral\n2) Ibuprofeno 400 mg — 15 comprimidos\nTomar 1 comprimido de 8/8h, após as refeições, por 5 dias.\n\nUso oral\n3) Paracetamol 750 mg — 20 comprimidos\nTomar 1 comprimido de 6/6h, se dor ou febre.\n\nORIENTAÇÕES:\n- Amamentar com frequência, com boa pega. Se doer muito, começar pela outra mama e trocar quando o leite descer.\n- Compressa fria após as mamadas. Evitar massagem forte. Sutiã firme, mas sem apertar.\n- Retornar imediatamente ao pronto-socorro se: caroço que não melhora, febre que continua após 48h de antibiótico, pele escura ou com feridas, calafrios, tontura."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Amoxicilina + clavulanato 875/125 mg — 20 comprimidos\nTomar 1 comprimido de 12/12h, por 10 dias.\n\nUso oral\n2) Clindamicina 300 mg — 40 cápsulas\nTomar 1 cápsula de 6/6h, por 10 dias. Alergia à penicilina.\n\nORIENTAÇÕES:\n- Amamentar com frequência, com boa pega. Se doer muito, começar pela outra mama e trocar quando o leite descer.\n- Compressa fria após as mamadas. Evitar massagem forte. Sutiã firme, mas sem apertar.\n- Retornar imediatamente ao pronto-socorro se: caroço que não melhora, febre que continua após 48h de antibiótico, pele escura ou com feridas, calafrios, tontura."
+      },
+      {
+        "id": "na-unidade",
+        "title": "Prescrição na unidade",
+        "note": "Administração na unidade · separada da receita domiciliar",
+        "prescription": "PRESCRIÇÃO NA UNIDADE\n\nUso EV ou IM\n1) Dipirona 500 mg/mL — 01 ampola\nAplicar 2 mL (1 g) EV lento ou IM, se dor ou febre."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "48 a 72h",
+      "retornar_imediatamente_se": "Caroço que não melhora, febre que continua após 48h de antibiótico, pele escura ou com feridas, calafrios, tontura.",
+      "seguranca_plantonista": "Amamentação: cefalexina, amoxicilina + clavulanato, clindamicina, ibuprofeno e paracetamol são compatíveis.",
+      "encaminhar_internar": "Abscesso: mastologia ou cirurgia. Mastite de repetição: investigar.",
+      "atestado_sugerido": "2 a 5 dias"
+    }
+  }
+]
+
+

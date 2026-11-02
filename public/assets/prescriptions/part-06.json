@@ -1,0 +1,316 @@
+[
+  {
+    "id": "ADU-039",
+    "name": "Corpo estranho ocular",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "T15.9",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "cisco no olho, lesão corneana, tobramicina, regencel, arranhão no olho, limalha, esmeril, corpo estranho ocular, ferida na córnea Tobramicina 3mg/ml + Dexametasona 1mg/ml colírio Solução Fisiológica 0,9% Ofloxacino colírio 0,3% Tobramicina 0,3% colírio Lágrima artificial (carmelose 0,5%) colírio Paracetamol 750 mg Ciprofloxacino 0,3% colírio",
+    "gate": "Trauma em alta velocidade (esmeril, martelo em metal) ou pupila irregular, baixa de visão importante: suspeitar de perfuração. Proteger o olho sem apertar e encaminhar ao oftalmologista com urgência.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oftálmico\n1) Tobramicina 3mg/ml + Dexametasona 1mg/ml colírio — 01 frasco\nPingar 1 gota em cada olho, de 6/6h por 07 dias Horário sugerido: 06:00 / 12:00 / 18:00 / 00:00.\n\nUso local\n2) Solução Fisiológica 0,9% — 01 frasco\nLavar os olhos afetados com soro gelado quatro vezes ao dia. guardar o soro na geladeira. por 05 a 07 dias (ou diariamente enquanto houver congestão).\n\nUso oftálmico\n3) Ofloxacino colírio 0,3% — 01 frasco\nPingar uma gota no olho afetado de 6/6h por 05 dias Horário sugerido: 06:00 / 12:00 / 18:00 / 00:00.\n\nORIENTAÇÕES:\n- Não esfregar o olho, lavar com Soro Fisiológico 0,9% gelado, suspender lentes de contato e usar óculos de proteção no trabalho.\n- Lavar as mãos antes de pingar o colírio e não encostar a ponta do frasco no olho.\n- Retornar à emergência oftalmológica se persistir dor/sensação de areia após 24 horas, sair pus ou piorar a visão."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oftálmico\n1) Tobramicina 0,3% colírio — 01 frasco\nPingar 1 gota no olho afetado, de 6/6h, por 5 dias.\n\nUso oftálmico\n2) Lágrima artificial (carmelose 0,5%) colírio — 01 frasco\nPingar 1 gota no olho afetado, de 4/4h, por 7 dias.\n\nUso oral\n3) Paracetamol 750 mg — 20 comprimidos\nTomar 1 comprimido de 6/6h, se dor.\n\nORIENTAÇÕES:\n- Não esfregar o olho, lavar com Soro Fisiológico 0,9% gelado, suspender lentes de contato e usar óculos de proteção no trabalho.\n- Lavar as mãos antes de pingar o colírio e não encostar a ponta do frasco no olho.\n- Retornar à emergência oftalmológica se persistir dor/sensação de areia após 24 horas, sair pus ou piorar a visão."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oftálmico\n1) Ciprofloxacino 0,3% colírio — 01 frasco\nPingar 1 gota no olho afetado, de 6/6h, por 5 a 7 dias. Usuário de lente de contato. Não ocluir o olho: o curativo oclusivo não acelera a cura e piora em usuário de lente.\n\nORIENTAÇÕES:\n- Não esfregar o olho, lavar com Soro Fisiológico 0,9% gelado, suspender lentes de contato e usar óculos de proteção no trabalho.\n- Lavar as mãos antes de pingar o colírio e não encostar a ponta do frasco no olho.\n- Retornar à emergência oftalmológica se persistir dor/sensação de areia após 24 horas, sair pus ou piorar a visão."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "24 a 48h se não melhorar",
+      "retornar_imediatamente_se": "Visão piorando, dor que aumenta após 24h, secreção amarelada, mancha branca no olho.",
+      "seguranca_plantonista": "Gestante e amamentação: os colírios indicados são seguros.",
+      "encaminhar_internar": "Corpo estranho não removido, anel de ferrugem, suspeita de perfuração ou abrasão grande que não melhora em 24 a 48h: oftalmologia.",
+      "atestado_sugerido": "1 a 2 dias"
+    }
+  },
+  {
+    "id": "ADU-040",
+    "name": "Covid-19",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "U07.1",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "coronavírus, sars-cov-2, síndrome gripal, isolamento Dipirona 500 mg Metoclopramida 10 mg Paracetamol 500 mg Metoclopramida 10 mg Azitromicina 500mg Dipirona 500 mg Metoclopramida 10 mg Oseltamivir 75mg Azitromicina 500mg Dipirona 500 mg Metoclopramida 10 mg",
+    "gate": "Confirmar alergias medicamentosas, função renal/hepática e possibilidade de gestação ou lactação.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Dipirona 500 mg — 01 caixa\nTomar 02 comprimidos se dor ou febre, podendo repetir de 6/6h.\n\nUso oral\n2) Metoclopramida 10 mg — 01 caixa\nTomar 01 comprimido se náuseas ou vômitos, podendo repetir de 8/8h.\n\nUso oral\n3) Paracetamol 500 mg — 01 caixa\nTomar 02 comprimidos se dor ou febre, podendo repetir de 6/6h.\n\nORIENTAÇÕES:\n- Manter isolamento respiratório, ambientes ventilados, hidratação abundante (mais de 2 litros/dia) e monitorar saturação com oxímetro.\n- Tomar apenas as medicações prescritas e caminhar levemente pelo quarto a cada 2 horas para ativar a circulação.\n- Retornar IMEDIATAMENTE ao pronto-socorro se a saturação cair abaixo de 94%, surgir falta de ar, dor no peito, tontura ou confusão."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Metoclopramida 10 mg — 01 caixa\nTomar 01 comprimido se náuseas ou vômitos, podendo repetir de 8/8h.\n\nUso oral\n2) Azitromicina 500mg — 05 comprimidos\nTomar 01 comprimido às 08:00 da manhã por 05 dias seguidos.\n\nUso oral\n3) Dipirona 500 mg — 01 caixa\nTomar 02 comprimidos se dor ou febre, podendo repetir de 6/6h.\n\nORIENTAÇÕES:\n- Manter isolamento respiratório, ambientes ventilados, hidratação abundante (mais de 2 litros/dia) e monitorar saturação com oxímetro.\n- Tomar apenas as medicações prescritas e caminhar levemente pelo quarto a cada 2 horas para ativar a circulação.\n- Retornar IMEDIATAMENTE ao pronto-socorro se a saturação cair abaixo de 94%, surgir falta de ar, dor no peito, tontura ou confusão."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Metoclopramida 10 mg — 01 caixa\nTomar 01 comprimido se náuseas ou vômitos, podendo repetir de 8/8h.\n\nUso oral\n2) Oseltamivir 75mg — 10 comprimidos\nTomar 01 comprimido de 12/12h por 05 dias Horário sugerido (12/12h): 08:00 – 20:00.\n\nUso oral\n3) Azitromicina 500mg — 05 comprimidos\nTomar 01 comprimido às 08:00 da manhã por 05 dias seguidos Horário sugerido: 08:00.\n\nUso oral\n4) Dipirona 500 mg — 01 caixa\nTomar 02 comprimidos se dor ou febre, podendo repetir de 6/6h.\n\nORIENTAÇÕES:\n- Manter isolamento respiratório, ambientes ventilados, hidratação abundante (mais de 2 litros/dia) e monitorar saturação com oxímetro.\n- Tomar apenas as medicações prescritas e caminhar levemente pelo quarto a cada 2 horas para ativar a circulação.\n- Retornar IMEDIATAMENTE ao pronto-socorro se a saturação cair abaixo de 94%, surgir falta de ar, dor no peito, tontura ou confusão."
+      },
+      {
+        "id": "esquema-4",
+        "title": "Esquema 4",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Metoclopramida 10 mg — 01 caixa\nTomar 01 comprimido se náuseas ou vômitos, podendo repetir de 8/8h.\n\nORIENTAÇÕES:\n- Manter isolamento respiratório, ambientes ventilados, hidratação abundante (mais de 2 litros/dia) e monitorar saturação com oxímetro.\n- Tomar apenas as medicações prescritas e caminhar levemente pelo quarto a cada 2 horas para ativar a circulação.\n- Retornar IMEDIATAMENTE ao pronto-socorro se a saturação cair abaixo de 94%, surgir falta de ar, dor no peito, tontura ou confusão."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "Reavaliação na UBS ou retorno imediato se sinais de alarme",
+      "retornar_imediatamente_se": "Piora clínica, febre persistente, falta de ar, vômitos incoercíveis ou reação alérgica.",
+      "seguranca_plantonista": "Ajustar doses em idosos e nefropatas; verificar classificação de risco na gestação e amamentação.",
+      "encaminhar_internar": "Sinais de gravidade sistêmica, refratariedade ao tratamento ambulatorial ou intolerância à via domiciliar.",
+      "atestado_sugerido": "Conforme avaliação clínica individual"
+    }
+  },
+  {
+    "id": "ADU-041",
+    "name": "Crise convulsiva e epilepsia (manejo ambulatorial)",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "R56.8 / G40.9",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "convulsão, epilepsia, ataque epiléptico, crise epiléptica, estado de mal epiléptico Diazepam 10 mg/2 mL Midazolam 5 mg/mL",
+    "gate": "Crise com mais de 5 minutos ou crises repetidas sem recuperar a consciência = estado de mal epiléptico. Tratar imediatamente. Gestante ou puérpera convulsionando: pensar em eclâmpsia. Sulfato de magnésio 4 g EV em 20 min.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Diazepam 10 mg/2 mL — 01 ampola\nAplicar 10 mg lento (0,15 a 0,2 mg/kg, máx. 10 mg por dose). Pode repetir 1 vez após 5 min.\n\nUso oral\n2) Midazolam 5 mg/mL — 01 ampola\nSem acesso venoso: aplicar 10 mg (acima de 40 kg) ou 5 mg (13 a 40 kg). Crise que persiste após 2 doses de benzodiazepínico: estado de mal epiléptico, sala vermelha.\n\nORIENTAÇÕES:\n- Em nova crise: deitar a pessoa de lado, afastar objetos, proteger a cabeça, não colocar nada na boca e marcar o tempo.\n- Não dirigir, não nadar sozinho e não trabalhar em altura até liberação do neurologista.\n- Retornar imediatamente ao pronto-socorro se: nova crise, crise com mais de 5 minutos, não acordar entre as crises, dor de cabeça forte, febre, vômitos, fraqueza em um lado do corpo ou confusão que não passa."
+      },
+      {
+        "id": "na-unidade",
+        "title": "Prescrição na unidade",
+        "note": "Administração na unidade · separada da receita domiciliar",
+        "prescription": "PRESCRIÇÃO NA UNIDADE\n\nUso EV\n1) Diazepam 10 mg/2 mL — 01 ampola\nAplicar 10 mg EV lento (0,15 a 0,2 mg/kg, máx. 10 mg por dose). Pode repetir 1 vez após 5 min.\n\nUso EV\n2) Midazolam 5 mg/mL — 01 ampola\nSem acesso venoso: aplicar 10 mg IM (acima de 40 kg) ou 5 mg IM (13 a 40 kg). Crise que persiste após 2 doses de benzodiazepínico: estado de mal epiléptico, sala vermelha."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "neurologia; imediato se nova crise",
+      "retornar_imediatamente_se": "Nova crise, crise com mais de 5 minutos, não acordar entre as crises, dor de cabeça forte, febre, vômitos, fraqueza em um lado do corpo ou confusão que não passa.",
+      "seguranca_plantonista": "Gestante ou puérpera: convulsão é eclâmpsia até prova em contrário (sulfato de magnésio). Idoso e etilista: benzodiazepínico deprime a respiração com mais facilidade (monitorar).",
+      "encaminhar_internar": "Internar: estado de mal, crises repetidas, não voltou ao normal, causa estrutural ou metabólica, febre com sinais meníngeos, eclâmpsia.",
+      "atestado_sugerido": "conforme o caso; afastar de direção e trabalho em altura até liberação do neurologista"
+    }
+  },
+  {
+    "id": "ADU-042",
+    "name": "Crise de gota",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "M10.9",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "ácido úrico alto, podagra, artrite gotosa, colchicina, naproxeno, prednisona, crise de gota, dedão inchado, hiperuricemia Naproxeno Sódico 250 mg Dipirona 500 mg Omeprazol 20 mg Colchicina 0,5 mg Prednisona 20 mg Colchicina 0,5 mg Naproxeno 500 mg Prednisona 20 mg Alopurinol 100 mg Colchicina 0,5 mg",
+    "gate": "Artrite aguda muito dolorosa, vermelha e quente (dedão, tornozelo, joelho). Febre: pensar em artrite séptica. Ácido úrico pode estar normal na crise.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Naproxeno Sódico 250 mg — 30 comprimidos\nTomar 02 comprimidos de 12/12h por 3 dias Horário sugerido: 08:00 / 20:00.\n\nUso oral\n2) Dipirona 500 mg — 01 caixa\nTomar 02 comprimidos se dor ou febre, podendo repetir de 6/6h.\n\nUso oral\n3) Omeprazol 20 mg — 10 comprimidos\nTomar 01 comprimido pela manhã, em jejum, por 10 dias.\n\nUso oral\n4) Colchicina 0,5 mg — 90 comprimidos\nTomar 02 comprimidos e, depois de uma hora, 01 comprimido. em seguida, manter 01 comprimido de 8/8h por 03 meses.\n\nUso oral\n5) Prednisona 20 mg — 31 comprimidos\nTomar 01 comprimido de 8/8h por 07 dias, depois 12/12 por 04 dias, e então uma vez ao dia, às 8:00 da manhã, por mais 03 dias.\n\nORIENTAÇÕES:\n- Manter a articulação em repouso e elevada, aplicando gelo protegido por pano por 15 a 20 minutos, 3 a 4 vezes ao dia.\n- Beber 2 a 3 litros de água por dia e cortar cerveja/álcool, refrigerantes, carnes vermelhas, miúdos e frutos do mar.\n- Suspender a Colchicina se tiver diarreia ou vômitos; retornar ao pronto-socorro se surgir febre alta ou piora da dor."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Colchicina 0,5 mg — 20 comprimidos\nTomar 2 comprimidos (1 mg) logo no início da crise e mais 1 comprimido 1h depois. A partir do dia seguinte, 1 comprimido de 12/12h até 2 a 3 dias após a melhora.\n\nUso oral\n2) Naproxeno 500 mg — 14 comprimidos\nTomar 1 comprimido de 12/12h, após as refeições, por 7 dias.\n\nORIENTAÇÕES:\n- Manter a articulação em repouso e elevada, aplicando gelo protegido por pano por 15 a 20 minutos, 3 a 4 vezes ao dia.\n- Beber 2 a 3 litros de água por dia e cortar cerveja/álcool, refrigerantes, carnes vermelhas, miúdos e frutos do mar.\n- Suspender a Colchicina se tiver diarreia ou vômitos; retornar ao pronto-socorro se surgir febre alta ou piora da dor."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Prednisona 20 mg — 10 comprimidos\nTomar 2 comprimidos pela manhã, por 5 dias.\n\nUso oral\n2) Alopurinol 100 mg — 30 comprimidos\nTomar 1 comprimido 1 vez ao dia. Aumentar 100 mg a cada 2 a 4 semanas até ácido úrico abaixo de 6 mg/dL (ajustar à função renal).\n\nUso oral\n3) Colchicina 0,5 mg — 90 comprimidos\nTomar 1 comprimido 1 vez ao dia, por 3 a 6 meses, junto com o alopurinol (previne crise no início).\n\nORIENTAÇÕES:\n- Manter a articulação em repouso e elevada, aplicando gelo protegido por pano por 15 a 20 minutos, 3 a 4 vezes ao dia.\n- Beber 2 a 3 litros de água por dia e cortar cerveja/álcool, refrigerantes, carnes vermelhas, miúdos e frutos do mar.\n- Suspender a Colchicina se tiver diarreia ou vômitos; retornar ao pronto-socorro se surgir febre alta ou piora da dor."
+      },
+      {
+        "id": "na-unidade",
+        "title": "Prescrição na unidade",
+        "note": "Administração na unidade · separada da receita domiciliar",
+        "prescription": "PRESCRIÇÃO NA UNIDADE\n\nUso EV\n1) Cetoprofeno 100 mg — 01 frasco-ampola\nDiluir em 100 mL de SF 0,9% e correr EV em 20 min.\n\nUso IM\n2) Diclofenaco de sódio 75 mg/3 mL — 01 ampola\nAplicar IM profundo, dose única.\n\nUso EV\n3) Dipirona 500 mg/mL — 01 ampola\nAplicar 2 mL (1 g) EV lento. Se anti-inflamatório contraindicado (doença renal, úlcera, anticoagulado, insuficiência cardíaca): prednisona 40 mg via oral."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "UBS em 2 a 4 semanas para iniciar ou ajustar o alopurinol",
+      "retornar_imediatamente_se": "Febre ou calafrio, várias articulações inflamadas, piora após 48h de tratamento, diarreia intensa, fraqueza muscular.",
+      "seguranca_plantonista": "Doença renal: preferir corticoide na crise. Colchicina: se TFG < 30, não repetir o curso antes de 14 dias. Alopurinol: começar com 50 mg/dia se TFG < 30. Idoso: preferir corticoide ou colchicina em dose baixa. Evitar anti-inflamatório. Interações: colchicina com claritromicina, verapamil ou diltiazem pode intoxicar.",
+      "encaminhar_internar": "Suspeita de artrite séptica: punção e ortopedia. Gota com tofos, refratária ou dúvida diagnóstica: reumatologia.",
+      "atestado_sugerido": "2 a 5 dias"
+    }
+  },
+  {
+    "id": "ADU-043",
+    "name": "Crise hipertensiva / pseudocrise e PA elevada no PS",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "I10",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "pressão alta, hipertensão descompensada, pico hipertensivo, urgência hipertensiva, emergência hipertensiva, HAS Losartana 50 mg Anlodipino 5 mg",
+    "gate": "Emergência hipertensiva = PA muito elevada (em geral 180/120 ou mais) + lesão aguda de órgão-alvo (dor torácica, edema agudo de pulmão, déficit neurológico, confusão, alteração visual, dissecção, eclâmpsia, lesão renal aguda): sala vermelha. Sem lesão de órgão-alvo: não baixar rápido. Meta é reduzir aos poucos em 24 a 48h e reavaliar na UBS.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Losartana 50 mg — 30 comprimidos\nTomar 1 comprimido 1 vez ao dia.\n\nUso oral\n2) Anlodipino 5 mg — 30 comprimidos\nTomar 1 comprimido 1 vez ao dia.\n\nORIENTAÇÕES:\n- Medir a PA na UBS ou farmácia (ou em casa): 3 medidas pela manhã e 3 à noite por 5 a 7 dias, anotar e levar na consulta.\n- Menos sal (no máximo 1 colher de chá rasa por dia, somando tudo), evitar embutidos, temperos prontos e enlatados. Reduzir álcool, parar de fumar e fazer atividade física.\n- Retornar imediatamente ao pronto-socorro se: dor no peito, falta de ar, fraqueza ou formigamento em um lado do corpo, boca torta, fala enrolada, perda de visão, dor de cabeça muito forte, confusão ou desmaio."
+      },
+      {
+        "id": "na-unidade",
+        "title": "Prescrição na unidade",
+        "note": "Administração na unidade · separada da receita domiciliar",
+        "prescription": "PRESCRIÇÃO NA UNIDADE\n\nUso sublingual\n1) Captopril 25 mg — 01 comprimido\nTomar 1 comprimido, via oral (não sublingual). Reavaliar em 1h, pode repetir 1 vez. Evitar em gestante e hipercalemia.\n\nUso sublingual\n2) Clonidina 0,100 mg — 01 comprimido\nTomar 1 a 2 comprimidos, via oral. Reavaliar em 1h. Evitar em bradicardia e idoso frágil. Pseudocrise: dipirona 1 g EV se dor, diazepam 5 mg via oral se ansiedade. Tratar a causa, não a PA. Nunca usar nifedipino sublingual: queda brusca da PA com risco de AVC e infarto. Emergência hipertensiva (com lesão de órgão-alvo) ou gestante com PA 160/110 ou mais: sala vermelha e internação."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "UBS em até 7 dias com as medidas de PA",
+      "retornar_imediatamente_se": "Dor no peito, falta de ar, fraqueza ou formigamento em um lado do corpo, boca torta, fala enrolada, perda de visão, dor de cabeça muito forte, confusão ou desmaio.",
+      "seguranca_plantonista": "Gestante: captopril, enalapril e losartana são contraindicados. Usar metildopa ou nifedipino de liberação prolongada, com o pré-natal. Amamentação: captopril, enalapril, nifedipino e anlodipino são compatíveis. Idoso: reduzir devagar (risco de queda e AVC isquêmico). Começar com metade da dose. Doença renal: IECA ou losartana com cautela. Pedir potássio e creatinina em 1 a 2 semanas.",
+      "encaminhar_internar": "Suspeita de hipertensão secundária (menos de 30 anos, refratária, potássio baixo, sopro abdominal): investigação na UBS ou especialista.",
+      "atestado_sugerido": "1 dia, se necessário"
+    }
+  },
+  {
+    "id": "ADU-044",
+    "name": "Dengue",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "A90",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "febre quebra-ossos, dor retro-orbitária, plaquetopenia, soro de reidratação, dipirona, dengue, arbovirose, febre com dor no corpo, manchas vermelhas, chikungunya, zika Dipirona 500 mg Metoclopramida 10 mg Soro de Reidratação (SRO) Sais de Reidratação (SRO) Dipirona 500 mg Ondansetrona 4 mg Paracetamol 750 mg",
+    "gate": "Classifique em todo atendimento (Ministério da Saúde). Grupo A: sem sinal de alarme, sem sangramento, sem condição especial, prova do laço negativa = casa. Grupo B: sangramento de pele espontâneo ou prova do laço positiva, ou condição especial (gestante, menor de 2 anos, maior de 65 anos, comorbidade, risco social) = hemograma obrigatório e observação até o resultado. Grupo C: sinal de alarme = hidratação EV e internação. Grupo D: choque ou sangramento grave = sala vermelha. Sinais de alarme: dor abdominal intensa e contínua, vômitos persistentes, acúmulo de líquidos (ascite, derrame pleural), hipotensão postural ou desmaio, fígado aumentado (mais de 2 cm), sangramento de mucosa, sonolência ou irritabilidade, hematócrito subindo.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Dipirona 500 mg — 01 caixa\nTomar 02 comprimidos se dor ou febre, podendo repetir de 6/6h.\n\nUso oral\n2) Metoclopramida 10 mg — 01 caixa\nTomar 01 comprimido se náuseas ou vômitos, podendo repetir de 8/8h.\n\nUso local\n3) Soro de Reidratação (SRO) — 01 caixa\nDiluir 01 sachê em 1 litro de água filtrada ou fervida e guardar na geladeira. tomar 01 copo ao menos 10 vezes por dia, ou mais, conforme aceitação pelo período orientado pelo médico.\n\nORIENTAÇÕES:\n- Hidratação rigorosa: beber 3 a 4 litros de líquidos por dia (1/3 de Soro de Reidratação e 2/3 de água, água de coco e sucos) e fazer repouso.\n- PROIBIDO usar AAS (Aspirina) e anti-inflamatórios (ibuprofeno, diclofenaco, nimesulida, cetoprofeno, naproxeno) pelo risco de hemorragia.\n- Retornar IMEDIATAMENTE ao pronto-socorro se surgir dor abdominal forte, vômitos persistentes, sangramentos, tontura ao levantar ou pouca urina."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Sais de Reidratação (SRO) — 07 envelopes\nDiluir 1 envelope em 1 litro de água filtrada e beber ao longo do dia. Total de líquidos por dia: 60 mL/kg (1/3 de soro de reidratação e 2/3 de água, suco natural, água de coco).\n\nUso oral\n2) Dipirona 500 mg — 20 comprimidos\nTomar 1 a 2 comprimidos de 6/6h, se febre ou dor.\n\nUso oral\n3) Ondansetrona 4 mg — 10 comprimidos\nTomar 1 comprimido de 8/8h, se náusea ou vômito.\n\nORIENTAÇÕES:\n- Hidratação rigorosa: beber 3 a 4 litros de líquidos por dia (1/3 de Soro de Reidratação e 2/3 de água, água de coco e sucos) e fazer repouso.\n- PROIBIDO usar AAS (Aspirina) e anti-inflamatórios (ibuprofeno, diclofenaco, nimesulida, cetoprofeno, naproxeno) pelo risco de hemorragia.\n- Retornar IMEDIATAMENTE ao pronto-socorro se surgir dor abdominal forte, vômitos persistentes, sangramentos, tontura ao levantar ou pouca urina."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Paracetamol 750 mg — 20 comprimidos\nTomar 1 comprimido de 6/6h, se febre ou dor. Não passar de 4 comprimidos por dia.\n\nORIENTAÇÕES:\n- Hidratação rigorosa: beber 3 a 4 litros de líquidos por dia (1/3 de Soro de Reidratação e 2/3 de água, água de coco e sucos) e fazer repouso.\n- PROIBIDO usar AAS (Aspirina) e anti-inflamatórios (ibuprofeno, diclofenaco, nimesulida, cetoprofeno, naproxeno) pelo risco de hemorragia.\n- Retornar IMEDIATAMENTE ao pronto-socorro se surgir dor abdominal forte, vômitos persistentes, sangramentos, tontura ao levantar ou pouca urina."
+      },
+      {
+        "id": "na-unidade",
+        "title": "Prescrição na unidade",
+        "note": "Administração na unidade · separada da receita domiciliar",
+        "prescription": "PRESCRIÇÃO NA UNIDADE\n\nUso EV ou IM\n1) Dipirona 500 mg/mL — 01 ampola\nAplicar 2 mL (1 g) EV lento ou IM, se febre ou dor.\n\nUso EV\n2) Ondansetrona 8 mg/4 mL — 01 ampola\nAplicar 4 a 8 mg EV lento, se vômitos. Grupo B: hidratação oral supervisionada enquanto aguarda o hemograma. Hematócrito normal = seguir como grupo A com reavaliação diária. Grupo C: SF 0,9% ou Ringer lactato 10 mL/kg na 1ª hora, reavaliar e repetir até 3 vezes. Internar. Grupo D (choque ou sangramento grave): sala vermelha. Notificação compulsória."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "no dia em que a febre parar ou no 5º dia; grupo B, diário",
+      "retornar_imediatamente_se": "Dor forte na barriga, vômitos que não param, tontura ou desmaio ao levantar, sangramento de gengiva, nariz, vômito ou fezes, sonolência ou agitação, urina diminuindo, falta de ar, mãos e pés frios.",
+      "seguranca_plantonista": "Gestante: no mínimo grupo B (hemograma e acompanhamento próximo). Idoso e comorbidades: no mínimo grupo B. Usa AAS ou anticoagulante: reavaliar a suspensão se plaquetas baixas, com o médico assistente. Amamentação: manter.",
+      "encaminhar_internar": "Grupos C e D: internação. Gestante, idoso ou com comorbidade: acompanhamento diário mais próximo.",
+      "atestado_sugerido": "5 a 7 dias, cobrindo a fase crítica"
+    }
+  },
+  {
+    "id": "ADU-045",
+    "name": "Depressão — início do tratamento ambulatorial",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "F32.9",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "depressão, tristeza, antidepressivo, sertralina, fluoxetina, desânimo, transtorno depressivo Sertralina 50 mg Fluoxetina 20 mg Escitalopram 10 mg",
+    "gate": "Avaliar risco de suicídio em toda consulta (ideação, plano, tentativa prévia). Risco alto: não liberar sozinho, CAPS ou emergência psiquiátrica. Antes do antidepressivo: perguntar sobre episódios de euforia (transtorno bipolar) e descartar hipotireoidismo, anemia e uso de álcool.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Sertralina 50 mg — 30 comprimidos\nTomar meio comprimido (25 mg) pela manhã por 7 dias. Depois, 1 comprimido pela manhã.\n\nORIENTAÇÕES:\n- O efeito leva de 2 a 6 semanas. Enjoo, dor de cabeça e ansiedade no início costumam passar em 1 a 2 semanas.\n- Não parar de repente. Manter por pelo menos 6 a 12 meses após melhorar.\n- Retornar imediatamente ao pronto-socorro se: pensamentos de morte ou de se machucar (CVV 188, SAMU 192 ou PS), agitação intensa, euforia, falar muito e dormir pouco sem cansaço."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Fluoxetina 20 mg — 30 cápsulas\nTomar 1 cápsula pela manhã.\n\nUso oral\n2) Escitalopram 10 mg — 30 comprimidos\nTomar meio comprimido (5 mg) por 7 dias. Depois, 1 comprimido por dia. Evitar benzodiazepínico como tratamento da depressão.\n\nORIENTAÇÕES:\n- O efeito leva de 2 a 6 semanas. Enjoo, dor de cabeça e ansiedade no início costumam passar em 1 a 2 semanas.\n- Não parar de repente. Manter por pelo menos 6 a 12 meses após melhorar.\n- Retornar imediatamente ao pronto-socorro se: pensamentos de morte ou de se machucar (CVV 188, SAMU 192 ou PS), agitação intensa, euforia, falar muito e dormir pouco sem cansaço."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "2 a 4 semanas (1 a 2 semanas se menos de 25 anos)",
+      "retornar_imediatamente_se": "Pensamentos de morte ou de se machucar (CVV 188, SAMU 192 ou PS), agitação intensa, euforia, falar muito e dormir pouco sem cansaço.",
+      "seguranca_plantonista": "Gestante e amamentação: sertralina é a mais estudada. Idoso: começar com metade da dose. Risco de sódio baixo e quedas. Interações: tramadol e triptanos (síndrome serotoninérgica). AAS, anti-inflamatório e anticoagulante (mais sangramento).",
+      "encaminhar_internar": "Risco de suicídio, sintomas psicóticos, suspeita de transtorno bipolar, falha de 2 tratamentos ou gestante grave: psiquiatria ou CAPS.",
+      "atestado_sugerido": "avaliação individual, conforme a gravidade"
+    }
+  },
+  {
+    "id": "ADU-046",
+    "name": "Dermatite atópica",
+    "setting": "Atenção básica",
+    "audience": "Adulto",
+    "status": "Banco 4.5 · revisão médica necessária",
+    "source": "receitas_prontas_adulto.json · 4.5",
+    "cid10": "L20.9",
+    "category": "PATOLOGIA_A_Z",
+    "tags": "eczema atópico, pele seca, coceira nas dobras, hidrocortisona, mometasona, tacrolimo, eczema, dermatite atópica, pele seca com coceira, alergia de pele crônica, eczema nas dobras Hidrocortisona 1% Mometasona creme 1mg Desonida creme 0,05% Betametasona creme 1mg/g Diflucortolona creme 1mg/g Triancinolona pomada 1mg/g Clobetasol creme 0,5mg/g Pimecrolimo creme 1% Tacrolimo pomada 0,03% Mupirocina pomada 2% Ácido Fusídico creme 20mg/g Permanganato de potássio 100mg Cefalexina 500mg Prednisona 20mg Loratadina 10 mg Hidroxizina 25mg Hidratante emoliente sem perfume Betametasona 0,1% creme Hidroxizina 25 mg Hidrocortisona 1% creme",
+    "gate": "Lesão com crosta amarelada ou pus: tratar infecção (ver Impetigo). Bolhas agrupadas e dolorosas com febre (eczema herpético): urgência com aciclovir.",
+    "options": [
+      {
+        "id": "esquema-1",
+        "title": "Esquema 1",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso local\n1) Hidrocortisona 1% — 01 bisnaga\nAplicar uma fina camada sobre a área afetada três vezes ao dia, por 10 a, no máximo, 20 dias seguidos.\n\nUso local\n2) Mometasona creme 1mg — 01 bisnaga\nAplicar uma fina camada sobre a área afetada uma vez ao dia por 07 a 14 dias seguidos (até melhora das lesões).\n\nUso local\n3) Desonida creme 0,05% — 01 bisnaga\nAplicar uma fina camada sobre a área afetada duas vezes ao dia por 07 a 14 dias seguidos (até melhora das lesões).\n\nUso local\n4) Betametasona creme 1mg/g — 01 bisnaga\nAplicar uma fina camada sobre a área afetada duas vezes ao dia por 07 a 14 dias seguidos (até melhora das lesões).\n\nUso local\n5) Diflucortolona creme 1mg/g — 01 bisnaga\nAplicar uma fina camada sobre a área afetada duas vezes ao dia por 07 a 14 dias seguidos (até melhora das lesões).\n\nUso local\n6) Triancinolona pomada 1mg/g — 01 bisnaga\nAplicar uma fina camada sobre a área afetada duas vezes ao dia por 07 a 14 dias seguidos (até melhora das lesões).\n\nUso local\n7) Clobetasol creme 0,5mg/g — 01 bisnaga\nAplicar uma fina camada sobre a área afetada duas vezes ao dia por 07 a 14 dias seguidos (até melhora das lesões).\n\nUso local\n8) Pimecrolimo creme 1% — 01 bisnaga\nAplicar uma fina camada sobre a área afetada duas vezes ao dia por 14 a 28 dias (até remissão das lesões).\n\nUso local\n9) Tacrolimo pomada 0,03% — 01 bisnaga\nAplicar uma fina camada sobre a área afetada duas vezes ao dia por 14 a 28 dias (até remissão das lesões).\n\nUso local\n10) Mupirocina pomada 2% — 01 bisnaga\nAplicar nas lesões três vezes ao dia, por dez dias pelo período orientado pelo médico.\n\nUso local\n11) Ácido Fusídico creme 20mg/g — 01 bisnaga\nAplicar nas lesões três vezes ao dia, por 7 dias.\n\nUso local\n12) Permanganato de potássio 100mg — 01 caixa\nDiluir 01 comprimido em 02 litros de água morna e banhar-se duas vezes ao dia por 05 a 07 dias (enquanto houver lesões exsudativas).\n\nUso oral\n13) Cefalexina 500mg — 40 comprimidos\nTomar 01 comprimido de 6/6h por 10 dias Horário sugerido: 06:00 / 12:00 / 18:00 / 00:00.\n\nUso oral\n14) Prednisona 20mg — 15 comprimidos\nTomar 01 comprimido de 8/8h por 05 dias Horário sugerido: 06:00 / 14:00 / 20:00.\n\nUso oral\n15) Loratadina 10 mg — 01 caixa\nTomar 01 comprimido ao dia, pela manhã, no mesmo horário, por 05 dias. Após este período, tomar 01 comprimido se coceira ou espirros, podendo repetir a dose 24/24h se necessário.\n\nUso oral\n16) Hidroxizina 25mg — 01 caixa\nTomar 01 comprimido à noite, antes de dormir, por 05 dias.\n\nORIENTAÇÕES:\n- Tomar 1 banho rápido por dia com água morna/fria e sabonete neutro (sem bucha), aplicando hidratante sem perfume logo após secar.\n- Usar roupas de algodão e aplicar o corticoide apenas nas lesões pelo tempo prescrito (Diluir o Permanganato em 2L de água antes do banho).\n- Retornar ao médico se surgirem sinais de infecção na pele (pus, crostas amareladas, calor intenso ou febre)."
+      },
+      {
+        "id": "esquema-2",
+        "title": "Esquema 2",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso oral\n1) Hidratante emoliente sem perfume — 01 unidade\nAplicar no corpo todo, 2 vezes ao dia, principalmente até 3 minutos após o banho. É a base do tratamento.\n\nUso local\n2) Betametasona 0,1% creme — 01 bisnaga\nCorpo: aplicar fina camada, 1 a 2 vezes ao dia, por 7 a 14 dias. Depois, 2 vezes por semana nas áreas que voltam.\n\nUso oral\n3) Hidroxizina 25 mg — 10 comprimidos\nTomar 1 comprimido à noite, se a coceira atrapalhar o sono.\n\nORIENTAÇÕES:\n- Tomar 1 banho rápido por dia com água morna/fria e sabonete neutro (sem bucha), aplicando hidratante sem perfume logo após secar.\n- Usar roupas de algodão e aplicar o corticoide apenas nas lesões pelo tempo prescrito (Diluir o Permanganato em 2L de água antes do banho).\n- Retornar ao médico se surgirem sinais de infecção na pele (pus, crostas amareladas, calor intenso ou febre)."
+      },
+      {
+        "id": "esquema-3",
+        "title": "Esquema 3",
+        "note": "Prescrição domiciliar · revisar antes de usar",
+        "prescription": "Uso local\n1) Hidrocortisona 1% creme — 01 bisnaga\nRosto e dobras: aplicar fina camada, 1 a 2 vezes ao dia, por até 7 dias.\n\nORIENTAÇÕES:\n- Tomar 1 banho rápido por dia com água morna/fria e sabonete neutro (sem bucha), aplicando hidratante sem perfume logo após secar.\n- Usar roupas de algodão e aplicar o corticoide apenas nas lesões pelo tempo prescrito (Diluir o Permanganato em 2L de água antes do banho).\n- Retornar ao médico se surgirem sinais de infecção na pele (pus, crostas amareladas, calor intenso ou febre)."
+      }
+    ],
+    "clinicalDetails": {
+      "retorno": "2 a 4 semanas",
+      "retornar_imediatamente_se": "Feridas com pus ou crostas amareladas, bolhas dolorosas com febre, vermelhidão no corpo todo.",
+      "seguranca_plantonista": "Gestante: hidratante e corticoide de baixa ou média potência são seguros. Evitar hidroxizina no 1º trimestre. Rosto e pálpebras: só corticoide fraco e por poucos dias.",
+      "encaminhar_internar": "Grave ou sem resposta: dermatologia.",
+      "atestado_sugerido": "não se aplica"
+    }
+  }
+]
+
+
