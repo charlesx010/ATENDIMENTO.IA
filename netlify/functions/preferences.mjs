@@ -12,10 +12,15 @@ export function createPreferencesHandler({env=process.env,authenticate=authentic
   try{
    const account=await authenticate(header.slice(7),env);if(!account?.userId||!account.client)return json({error:'Conta indisponível.'},403);
    // Só preferences do próprio usuário. Não altera papel, bloqueio, cobrança ou consulta.
-   const preferences={specialty:body.specialty.trim(),caps:body.caps,format:'Narrativo'};
-   const {error}=await account.client.from('profiles').update({preferences}).eq('user_id',account.userId);
-   if(error)return json({error:'Não foi possível salvar suas preferências. O conteúdo desta aba foi preservado.'},503);
-   return json({preferences});
+   const allowed={specialty:body.specialty.trim(),caps:body.caps,format:'Narrativo'};
+   const {data:existing,error:readError}=await account.client.from('profiles').select('preferences').eq('user_id',account.userId).maybeSingle();
+   if(readError||!existing)return json({error:'Não foi possível consultar suas preferências atuais. Nada foi substituído.'},503);
+   const previous=existing.preferences&&typeof existing.preferences==='object'&&!Array.isArray(existing.preferences)?existing.preferences:{};
+   const {region:_obsoleteRegion,...retained}=previous;
+   const preferences={...retained,...allowed};
+   const {data:saved,error}=await account.client.from('profiles').update({preferences}).eq('user_id',account.userId).select('user_id').maybeSingle();
+   if(error||!saved)return json({error:'Não foi possível salvar suas preferências. O conteúdo desta aba foi preservado.'},503);
+   return json({preferences:allowed});
   }catch(e){return json({error:e instanceof UsageAccessError?e.message:'Não foi possível confirmar o acesso.'},e instanceof UsageAccessError?e.status:503);}
  };
 }

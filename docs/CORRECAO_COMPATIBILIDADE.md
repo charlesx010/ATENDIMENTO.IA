@@ -15,7 +15,7 @@ Esses achados não comprovam quais commits foram publicados em `deploy-preview-3
 - `FREE_TRANSCRIPTION_ENABLED=true` é respeitado quando as flags específicas novas estiverem ausentes; um `false` explícito prevalece.
 - O novo `/api/organize-note` continua exigindo sua quota; isso não bloqueia o atendimento clássico.
 - A consulta de perfil usa as colunas básicas do aplicativo existente.
-- Preferências passam por `/api/preferences`, autenticado, que atualiza somente as preferências do proprietário. Não é necessário conceder UPDATE irrestrito de profiles ao navegador.
+- Preferências passam por `/api/preferences`, autenticado, que atualiza somente as preferências do proprietário. Outras preferências já salvas são preservadas no servidor. Não é necessário conceder UPDATE irrestrito de profiles ao navegador.
 
 ## Conexão pública em runtime
 

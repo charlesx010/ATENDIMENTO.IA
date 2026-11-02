@@ -1,6 +1,6 @@
 # Correção 2.1.1 — 02/11/2026
 
-208 testes unitários/API/controlador aprovados, 29 testes Playwright aprovados, build concluído, testes PostgreSQL descartável aprovados e npm audit com 0 vulnerabilidades reportadas. Inclui integração simulada de login/configuração runtime e instalação somente com profiles + clinical_sessions, sem novas tabelas nem colunas financeiras; preferências pelo servidor. O site Netlify real não foi validado: a rede deste executor bloqueia o domínio e não há credenciais Netlify. Consulte docs/CORRECAO_COMPATIBILIDADE.md.
+210 testes unitários/API/controlador aprovados, 29 testes Playwright aprovados, build concluído, testes PostgreSQL descartável aprovados e npm audit com 0 vulnerabilidades reportadas. Inclui integração simulada de login/configuração runtime e instalação somente com profiles + clinical_sessions, sem novas tabelas nem colunas financeiras; preferências pelo servidor. O site Netlify real não foi validado: a rede deste executor bloqueia o domínio e não há credenciais Netlify. Consulte docs/CORRECAO_COMPATIBILIDADE.md.
 
 ---
 
