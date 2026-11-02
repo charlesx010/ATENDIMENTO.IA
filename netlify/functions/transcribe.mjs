@@ -21,6 +21,7 @@ function getExtension(type) {
 }
 export default async (request) => {
   if(request.method!=='POST') return reply({error:'Método inválido'},405);
+ if(process.env.LEGACY_PAID_AI_ENABLED!=='true')return reply({error:'IA paga legada desativada por segurança.'},503);
   // Nenhuma chamada paga ocorre se a nova chave e a base não estiverem configuradas.
   if(!process.env.OPENAI_API_KEY || !process.env.SUPABASE_URL ||
      !process.env.SUPABASE_SERVICE_ROLE_KEY) {

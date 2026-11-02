@@ -47,6 +47,16 @@
   status = 200
 
 [[redirects]]
+  from = "/api/personal-templates"
+  to = "/.netlify/functions/personal-templates"
+  status = 200
+
+[[redirects]]
+  from = "/api/account-usage"
+  to = "/.netlify/functions/account-usage"
+  status = 200
+
+[[redirects]]
   from = "/api/organize-note"
   to = "/.netlify/functions/organize-note"
   status = 200

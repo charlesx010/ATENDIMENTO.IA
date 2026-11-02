@@ -4,7 +4,8 @@ import {extractLocalText,extractionMessage,validateExamFile} from './localOcr.js
 
 export {validateExamFile} from './localOcr.js';
 
-export default function ExamAttachments({onInsertText=()=>{}}){
+export default function ExamAttachments({onInsertText=()=>{},onPendingChange=()=>{}}){
+ const [insertedText,setInsertedText]=useState('');
  const [file,setFile]=useState(null);
  const [preview,setPreview]=useState('');
  const [reportText,setReportText]=useState('');
@@ -13,6 +14,7 @@ export default function ExamAttachments({onInsertText=()=>{}}){
  const [progress,setProgress]=useState(0);
  const [lowConfidence,setLowConfidence]=useState(false);
  const job=useRef(0);
+ useEffect(()=>{onPendingChange(busy||Boolean(reportText.trim()&&reportText.trim()!==insertedText));},[busy,reportText,insertedText,onPendingChange]);
  useEffect(()=>()=>{job.current+=1;},[]);
  useEffect(()=>{
   if(!file?.type?.startsWith('image/')){setPreview('');return;}
@@ -50,7 +52,7 @@ export default function ExamAttachments({onInsertText=()=>{}}){
   const error=validateExamFile(selected);
   job.current+=1;
   if(error){setFile(null);setPreview('');setReportText('');setMessage(error);return;}
-  setFile(selected);setReportText('');setMessage('');
+  setInsertedText('');setFile(selected);setReportText('');setMessage('');
   await readFile(selected,job.current);
  }
 
@@ -61,6 +63,7 @@ export default function ExamAttachments({onInsertText=()=>{}}){
   const text=reportText.trim();
   if(!text){setMessage('Revise ou digite o texto do laudo antes de inserir.');return;}
   if(onInsertText('EXAME ANEXADO — '+(file?.name||'sem arquivo')+'\n'+text)===false)return;
+  setInsertedText(text);
   setMessage('Exame inserido no atendimento. Ao gerar com a Groq Free, ele entrará no resumo clínico. Revise o conteúdo.');
  }
  return <section className="q-box q-simple-card q-exam-attachments" aria-busy={busy}>
@@ -80,7 +83,7 @@ export default function ExamAttachments({onInsertText=()=>{}}){
    <textarea rows={7} value={reportText} disabled={busy} onChange={event=>setReportText(event.target.value)}
     placeholder="O OCR preencherá este campo automaticamente. Você também pode colar ou corrigir o texto."/>
   </label>
-  <button className="btn primary" type="button" onClick={insert} disabled={busy||!reportText.trim()}>
+  <button className="btn primary" type="button" onClick={insert} disabled={busy||!reportText.trim()||reportText.trim()===insertedText}>
    <ScanText size={16}/> Inserir exame no atendimento</button>
   {!busy&&message&&<p className="q-feedback" role="status">{message}</p>}
  </section>;

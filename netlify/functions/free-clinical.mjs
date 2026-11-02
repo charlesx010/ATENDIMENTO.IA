@@ -1,4 +1,4 @@
-import {createClient} from '@supabase/supabase-js';
+import {authenticatedAccount,reserveUsage,usageDenied,UsageAccessError} from '../lib/usage-policy.mjs';
 import {DEEP_FIELDS,deepJsonSchema,brazilianClinicalPrompt,validateDeepResult,normalizeBrazilianText} from '../lib/deep-clinical.mjs';
 import {lookupEvidence,evidenceInstructions} from '../lib/clinical-evidence.mjs';
 import {
@@ -11,8 +11,8 @@ const isEnabled=()=>{
  const configured=process.env.GROQ_CLINICAL_ENABLED;
  return Boolean(process.env.GROQ_API_KEY)&&(configured===undefined?process.env.FREE_TRANSCRIPTION_ENABLED==='true':configured==='true');
 };
-const respond=(data,status=200)=>new Response(JSON.stringify(data),{
- status,headers:{'content-type':'application/json; charset=utf-8','cache-control':'no-store','x-content-type-options':'nosniff'}
+const respond=(data,status=200,headers={})=>new Response(JSON.stringify(data),{
+ status,headers:{'content-type':'application/json; charset=utf-8','cache-control':'no-store','x-content-type-options':'nosniff',...headers}
 });
 const SIMPLE_KEYS=['evolucao','hipoteses','tratamento','pendencias'];
 const simpleSchema=()=>({
@@ -59,25 +59,14 @@ export default async function handler(request){
  const valid=validateClinicalDraft(body?.text);
  if(!valid.ok)return respond({error:valid.message},400);
  if(valid.text.length>6000)return respond({error:'Para economizar a cota gratuita, limite o caso a 6 mil caracteres.'},400);
- let identity;
  try{
-  const service=createClient(process.env.SUPABASE_URL,process.env.SUPABASE_SERVICE_ROLE_KEY,{
-   auth:{persistSession:false,autoRefreshToken:false}
-  });
-  const {data,error}=await service.auth.getUser(auth.slice(7));
-  if(error||!data?.user)return respond({error:'Sessão expirada.'},401);
-  identity=data.user;
-  const {data:profile,error:pe}=await service.from('profiles')
-   .select('enabled,must_change_password,role').eq('user_id',identity.id).single();
-  if(pe||!profile?.enabled||profile?.must_change_password)return respond({error:'Conta não habilitada.'},403);
-  if(profile.role==='admin'){
-   let claims;
-   try{claims=JSON.parse(Buffer.from(auth.slice(7).split('.')[1],'base64url').toString('utf8'));}
-   catch{return respond({error:'Sessão inválida.'},401);}
-   if(claims.sub!==identity.id||claims.aal!=='aal2')
-    return respond({error:'Valide a autenticação em duas etapas.'},403);
-  }
- }catch{return respond({error:'Falha na validação de acesso.'},503);}
+  const account=await authenticatedAccount(auth.slice(7));
+  const usage=await reserveUsage(account,'documentation');
+  if(!usage.allowed){const denied=usageDenied(usage);return respond(denied.body,429,denied.headers);}
+ }catch(error){
+  if(error instanceof UsageAccessError)return respond({error:error.message,code:error.code},error.status);
+  return respond({error:'Controle de uso indisponível. Nenhuma chamada foi feita.'},503);
+ }
  const deep=body.mode==='simple'||body.mode==='deep';
  const schema=deep?deepJsonSchema():bundleJsonSchema();
  const research=body?.webEvidence===true?await lookupEvidence(valid.text):{status:'disabled',sources:[],context:''};

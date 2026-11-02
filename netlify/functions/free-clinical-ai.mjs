@@ -1,13 +1,16 @@
-import {createClient} from '@supabase/supabase-js';
+import {authenticatedAccount,reserveUsage,usageDenied,UsageAccessError} from '../lib/usage-policy.mjs';
 import {
  validateClinicalDraft,formatClinicalBundlePrompt,bundleJsonSchema,validateClinicalBundle
 } from '../lib/ai-note.mjs';
 
 const MODEL='openai/gpt-oss-120b';
 const MAX_OUTPUT_TOKENS=3200;
-const enabled=()=>process.env.FREE_TRANSCRIPTION_ENABLED==='true' && Boolean(process.env.GROQ_API_KEY);
-const json=(data,status=200)=>new Response(JSON.stringify(data),{
- status,headers:{'content-type':'application/json; charset=utf-8','cache-control':'no-store, no-cache, must-revalidate','x-content-type-options':'nosniff'}
+const enabled=()=>{
+ const flag=process.env.GROQ_CLINICAL_ENABLED;
+ return (flag===undefined?process.env.FREE_TRANSCRIPTION_ENABLED==='true':flag==='true')&&Boolean(process.env.GROQ_API_KEY);
+};
+const json=(data,status=200,headers={})=>new Response(JSON.stringify(data),{
+ status,headers:{'content-type':'application/json; charset=utf-8','cache-control':'no-store, no-cache, must-revalidate','x-content-type-options':'nosniff',...headers}
 });
 export default async function freeClinicalAi(request){
  if(request.method==='GET')return json({available:enabled(),provider:'groq',model:MODEL});
@@ -34,23 +37,13 @@ export default async function freeClinicalAi(request){
  if(!process.env.SUPABASE_URL||!process.env.SUPABASE_SERVICE_ROLE_KEY)
   return json({error:'Autenticação temporariamente indisponível.'},503);
  try{
-  const supabase=createClient(process.env.SUPABASE_URL,process.env.SUPABASE_SERVICE_ROLE_KEY,{
-   auth:{persistSession:false,autoRefreshToken:false}
-  });
-  const {data:identity,error}=await supabase.auth.getUser(token);
-  if(error||!identity?.user)return json({error:'Sessão expirada. Entre novamente.'},401);
-  const {data:profile,error:pe}=await supabase.from('profiles')
-   .select('role,enabled,must_change_password').eq('user_id',identity.user.id).single();
-  if(pe||!profile?.enabled||profile.must_change_password)
-   return json({error:'Conta não habilitada.'},403);
-  if(profile.role==='admin'){
-   let claims;
-   try{claims=JSON.parse(Buffer.from(token.split('.')[1],'base64url').toString('utf8'));}
-   catch{return json({error:'Sessão inválida.'},401);}
-   if(claims.sub!==identity.user.id||claims.aal!=='aal2')
-    return json({error:'Confirme a autenticação em duas etapas.'},403);
-  }
- }catch{return json({error:'Falha na autenticação. Nenhuma chamada foi feita.'},503);}
+  const account=await authenticatedAccount(token);
+  const usage=await reserveUsage(account,'documentation');
+  if(!usage.allowed){const denied=usageDenied(usage);return json(denied.body,429,denied.headers);}
+ }catch(error){
+  if(error instanceof UsageAccessError)return json({error:error.message,code:error.code},error.status);
+  return json({error:'Controle de uso indisponível. Nenhuma chamada foi feita.'},503);
+ }
  // Exclusivamente Groq. Em qualquer falha ou cota atingida, NUNCA usa API paga como fallback.
  try{
   const response=await fetch('https://api.groq.com/openai/v1/chat/completions',{

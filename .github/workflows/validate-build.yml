@@ -1,7 +1,7 @@
 name: Validar Prontuário.IA
 on:
   push:
-    branches: [main, preview-testes-gratuitos]
+    branches: [main, preview-testes-gratuitos, 'feat/**']
   pull_request:
   workflow_dispatch:
 permissions:

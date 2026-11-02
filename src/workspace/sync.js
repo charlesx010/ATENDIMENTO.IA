@@ -1,14 +1,14 @@
 // Controlador independente de React: uma operação por vez e CAS no servidor.
 import { parseConsultation, hasContent } from './model.js';
 export class ConsultationSync {
-  constructor({ store, getLocal, applyRemote, onState, now = () => Date.now() }) {
-    Object.assign(this, { store, getLocal, applyRemote, onState, now });
+  constructor({ store, getLocal, applyRemote, onState, isEditing = () => false, now = () => Date.now() }) {
+    Object.assign(this, { store, getLocal, applyRemote, onState, isEditing, now });
     this.version = null; this.dirty = false; this.active = false; this.busy = false; this.closed = false;
     this.state = { phase: 'disabled', remote: null, expiresAt: null };
   }
   emit(phase, extra = {}) { this.state = { ...this.state, phase, ...extra }; if (!this.closed) this.onState(this.state); }
   valid(row) { return row && Date.parse(row.expires_at) > this.now(); }
-  changed() { this.dirty = true; if (this.active && this.state.phase !== 'conflict') this.emit('pending'); }
+  changed() { this.dirty = true; if (this.active && !['conflict','expired'].includes(this.state.phase)) this.emit('pending'); }
   accept(row) {
     const doc = parseConsultation(row.payload);
     this.version = row.version; this.dirty = false; this.applyRemote(doc);
@@ -20,7 +20,7 @@ export class ConsultationSync {
     try {
       const row = await this.store.read(); if (this.closed) return;
       if (this.valid(row)) {
-        if (hasContent(this.getLocal())) { this.dirty = true; this.emit('conflict', { remote: row, expiresAt: row.expires_at }); }
+        if (hasContent(this.getLocal()) || this.isEditing()) { this.dirty = true; this.emit('conflict', { remote: row, expiresAt: row.expires_at }); }
         else this.accept(row);
       } else { this.version = null; this.dirty = true; this.emit('pending'); }
     } catch { this.emit('error'); }
@@ -39,7 +39,7 @@ export class ConsultationSync {
         row = null;
       }
       if (row?.version !== this.version && (row || this.version)) {
-        if (this.dirty || !row) this.emit('conflict', { remote: row || null });
+        if (this.dirty || this.isEditing() || !row) this.emit('conflict', { remote: row || null });
         else this.accept(row);
         return;
       }
@@ -71,6 +71,11 @@ export class ConsultationSync {
       this.version = null; this.active = false; this.dirty = false;
       this.emit('disabled', { remote: null, expiresAt: null }); return true;
     } catch { this.emit('error'); return false; } finally { this.busy = false; }
+  }
+  detach() {
+    if(this.busy || this.closed)return false;
+    this.active=false;this.version=null;this.dirty=false;
+    this.emit('disabled',{remote:null,expiresAt:null});return true;
   }
   stop() { this.closed = true; this.active = false; }
 }

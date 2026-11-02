@@ -23,6 +23,7 @@ const readBearer=request=>{
 
 export default async (request)=>{
  if(request.method!=='POST')return json({error:'Método não permitido.'},405);
+ if(process.env.LEGACY_PAID_AI_ENABLED!=='true')return json({error:'IA paga legada desativada por segurança.'},503);
  // O recurso é DESATIVADO por padrão. Só habilitar após rodar chave NOVA,
  // ajustar orçamento explícito e concluir validação de uso fictício.
  if(process.env.TEXT_AI_ENABLED!=='true')

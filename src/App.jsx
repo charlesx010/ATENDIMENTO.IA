@@ -1,59 +1,220 @@
-import React, { lazy, Suspense, useEffect, useRef, useState } from 'react';
-import {
-  Activity, ArrowRight, ArrowLeft, ShieldCheck, Sparkles, ClipboardList, Settings,
-  Users, LogOut, Menu, X, FilePenLine, Cloud, CloudOff,
-  LockKeyhole, Plus, Check, AlertTriangle, UserRound, CircleHelp, MonitorSmartphone,
-  Stethoscope, Save, Trash2, ChevronRight, ExternalLink, Eye, EyeOff, Copy, WandSparkles,
-  KeyRound, RotateCcw, PanelLeft, Wifi, Info
-} from 'lucide-react';
-import {configured,supabase,validUsername} from './supabase';
-import ClinicalWorkspace from './workspace/Workspace.jsx';
+import React, { useEffect, useRef, useState } from 'react';
+import { Activity, AlertTriangle, Info, KeyRound, ShieldCheck } from 'lucide-react';
+import { configured, supabase } from './supabase.js';
+import Workspace from './workspace/Workspace.jsx';
 import AccessGate from './workspace/AccessGate.jsx';
-const APP_VERSION = '2.0.0';
-const logo=<span className="brand-mark"><Activity size={23}/></span>;
 
-function Logo({compact=false}) {return <div className="brand">{logo}{!compact&&<span>Prontuário<span className="brand-blue">.IA</span></span>}</div>}
-function Notice({type='info',children}) {return <div className={`alert ${type}`}>{type==='error'?<AlertTriangle size={18}/>:type==='success'?<Check size={18}/>:<Info size={18}/>}<div>{children}</div></div>}
-function Field({label,value,onChange,placeholder,type='text',...props}){return <label>{label}<input type={type} value={value} onChange={e=>onChange(e.target.value)} placeholder={placeholder} {...props}/></label>}
-function LinkNav({to,children,className='',onNavigate}){return <a href={to} className={className} onClick={e=>{if(onNavigate){e.preventDefault();history.pushState({},'',to);onNavigate(to);}}}>{children}</a>}
-
-function Gate({onLogin,pathname,onDemo}){
-  const [username,setUsername]=useState(''); const [password,setPassword]=useState(''); const [busy,setBusy]=useState(false),[error,setError]=useState(''),[show,setShow]=useState(false);
-  let route='';
-  try{route=decodeURIComponent(pathname.slice(1).split('/')[0]||'').toLowerCase()}catch{}
-  const target=validUsername(route)&&route!=='demo' ? route : null;
-  async function login(e){e.preventDefault();if(!configured)return;setBusy(true);setError('');try{const response=await fetch('/api/login',{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({username:target,password})});if(!response.ok)throw Error('Falha de autenticação');const tokens=await response.json();const {data,error}=await supabase.auth.setSession({access_token:tokens.access_token,refresh_token:tokens.refresh_token});if(error||!data?.user)throw error||Error('Sessão inválida');setPassword('');onLogin(data.user)}catch{setError('Usuário ou senha inválidos. Verifique suas credenciais.')}finally{setBusy(false)}}
-  return <div className="auth-page"><div className="auth-top"><Logo/><span className="auth-top-right"><ShieldCheck size={15}/> Ambiente protegido</span></div><div className="auth-main"><div className="auth-hero"><div className="hero-pill"><Sparkles size={14}/> SEU AMBIENTE CLÍNICO INTELIGENTE</div><h1>Mais tempo para cuidar.<br/><span>Menos tempo documentando.</span></h1><p>Uma área de trabalho médica simples, personalizável e acessível de qualquer navegador. Comece pelo básico — evoluímos módulo a módulo.</p><div className="hero-checks"><span><Check size={16}/> 100% online</span><span><Check size={16}/> Por usuário</span><span><Check size={16}/> Documentos locais gratuitos</span></div></div><section className="auth-card"><div className="auth-card-top"><div className="auth-icon"><LockKeyhole size={22}/></div><span className="eyebrow">ACESSO INDIVIDUAL</span><h2>{target?`Bem-vindo, ${target}`:'Entrar no Prontuário.IA'}</h2><p>{target?'Digite sua senha para abrir seu espaço de trabalho.':'Informe seu nome de usuário para abrir seu endereço individual.'}</p></div>
-    {!target?<form onSubmit={e=>{e.preventDefault();const v=username.toLowerCase().trim();if(validUsername(v)){history.pushState({},'',`/${v}`);window.dispatchEvent(new PopStateEvent('popstate'));setError('');}else setError('Use 3–30 caracteres: letras minúsculas, números, _ ou -.')}}><Field label="Nome de usuário" value={username} onChange={setUsername} placeholder="Ex.: charles" autoComplete="username" required/><button className="btn primary full" type="submit">Continuar <ArrowRight size={17}/></button></form>
-      :<form onSubmit={login}><label>Senha<div className="password-input"><input type={show?'text':'password'} value={password} onChange={e=>setPassword(e.target.value)} placeholder="Digite sua senha" autoComplete="current-password" minLength={8} required/><button type="button" aria-label={show?'Ocultar senha':'Mostrar senha'} onClick={()=>setShow(x=>!x)}>{show?<EyeOff size={17}/>:<Eye size={17}/>}</button></div></label><button className="btn primary full" type="submit" disabled={busy||!configured}>{busy?'Autenticando...':'Acessar meu espaço'} <ArrowRight size={17}/></button><LinkNav to="/" className="back-link" onNavigate={()=>{setPassword('');setError('')}}><ArrowLeft size={14}/> Trocar usuário</LinkNav></form>}
-    {error&&<Notice type="error">{error}</Notice>}
-    {!configured&&<Notice>Integração com Supabase ainda não configurada. O modo demonstração está disponível sem login.</Notice>}
-    <div className="auth-divider"><span>ou</span></div><button className="btn ghost full" onClick={onDemo}><Sparkles size={16}/> Explorar demonstração gratuita</button><p className="auth-caption">Use somente dados fictícios. Versão de testes, sem aprovação para pacientes reais.</p>
-  </section></div><footer className="auth-footer"><span>Prontuário.IA · versão {APP_VERSION}</span><span>Ambiente clínico de testes</span></footer></div>;
+const READINESS_TIMEOUT = 15000;
+function withTimeout(operation, ms = READINESS_TIMEOUT) {
+  let timer;
+  return Promise.race([
+    operation,
+    new Promise((_, reject) => { timer = setTimeout(() => reject(new Error('readiness_timeout')), ms); })
+  ]).finally(() => clearTimeout(timer));
+}
+function Logo() {
+  return <div className="brand"><span className="brand-mark"><Activity size={23}/></span><span>Prontuário<span className="brand-blue">.IA</span></span></div>;
+}
+function Notice({ children, error = false }) {
+  return <div className={`alert ${error ? 'error' : 'info'}`} role={error ? 'alert' : 'status'}>{error ? <AlertTriangle size={18}/> : <Info size={18}/>}<div>{children}</div></div>;
+}
+function Field({ label, value, onChange, ...props }) {
+  return <label>{label}<input value={value} onChange={event => onChange(event.target.value)} {...props}/></label>;
+}
+function Recovery({ title, message, retry, onSignOut, onDemo, signingOut }) {
+  return <div className="center-page"><Logo/><section className="gate-card"><h2>{title}</h2><Notice error>{message}</Notice><button className="btn primary full" onClick={retry}>Tentar novamente</button><button className="btn subtle full" onClick={onDemo}>Abrir demonstração</button><button className="btn subtle full" disabled={signingOut} onClick={onSignOut}>{signingOut ? 'Saindo…' : 'Sair'}</button></section></div>;
+}
+function Loading({ message, onDemo }) {
+  return <div className="center-page"><Logo/><p role="status">{message}</p><button className="btn subtle" onClick={onDemo}>Abrir demonstração</button></div>;
 }
 
-function MFA({onVerified,onSignOut}){
- const [state,setState]=useState('checking'),[enroll,setEnroll]=useState(null),[factorId,setFactorId]=useState(''),[code,setCode]=useState(''),[error,setError]=useState(''),[busy,setBusy]=useState(false);
- useEffect(()=>{let alive=true;(async()=>{try{const {data:aal,error:a}=await supabase.auth.mfa.getAuthenticatorAssuranceLevel();if(a)throw a;if(aal.currentLevel==='aal2'){onVerified();return;}const {data:fac,error:f}=await supabase.auth.mfa.listFactors();if(f)throw f;const verified=(fac?.totp||[]).find(x=>x.status==='verified');if(verified){if(alive){setFactorId(verified.id);setState('challenge');}}else{const {data:e,error:ee}=await supabase.auth.mfa.enroll({factorType:'totp',friendlyName:'Prontuário.IA Administrador'});if(ee)throw ee;if(alive){setFactorId(e.id);setEnroll(e.totp);setState('enroll');}}}catch(e){if(alive){setError(e.message);setState('error');}}})();return()=>{alive=false};},[]);
- async function verify(e){e.preventDefault();setBusy(true);setError('');try{const {error}=await supabase.auth.mfa.challengeAndVerify({factorId,code:code.trim()});if(error)throw error;onVerified();}catch(e){setError('Código inválido ou expirado. '+e.message)}finally{setBusy(false)}}
- return <div className="center-page"><Logo/><div className="gate-card"><div className="auth-icon"><ShieldCheck size={23}/></div><h2>Proteção do administrador</h2><p>O acesso administrativo exige um segundo fator por aplicativo autenticador.</p>{state==='checking'&&<p>Verificando autenticação...</p>}{state==='enroll'&&<div className="mfa-setup"><p>1. Escaneie o QR code no seu autenticador (Google Authenticator, Microsoft Authenticator ou similar).</p>{enroll?.qr_code&&<img className="mfa-qr" src={enroll.qr_code} alt="QR para ativar autenticação"/>}<p className="hint">Alternativa: adicione manualmente a chave <code>{enroll?.secret}</code>. Nunca compartilhe essa chave.</p><p>2. Digite o código de seis números.</p></div>}{state==='challenge'&&<p>Abra seu aplicativo autenticador e informe o código atual.</p>}{['enroll','challenge'].includes(state)&&<form onSubmit={verify}><Field label="Código de segurança" value={code} onChange={setCode} placeholder="000000" inputMode="numeric" maxLength={6} pattern="[0-9]{6}" required/><button className="btn primary full" disabled={busy}>{busy?'Validando...':'Validar código'}</button></form>}{error&&<Notice type="error">{error}</Notice>}<button className="btn subtle full" onClick={onSignOut}>Sair da conta</button></div></div>;
+function MFA({ onVerified, onSignOut, signingOut }) {
+  const [state, setState] = useState('checking');
+  const [enroll, setEnroll] = useState(null);
+  const [factorId, setFactorId] = useState('');
+  const [code, setCode] = useState('');
+  const [error, setError] = useState('');
+  const [busy, setBusy] = useState(false);
+  const [attempt, setAttempt] = useState(0);
+  const mounted = useRef(true), verified = useRef(onVerified);
+  verified.current = onVerified;
+  useEffect(() => { mounted.current = true; return () => { mounted.current = false; }; }, []);
+  useEffect(() => {
+    let alive = true;
+    setState('checking'); setError(''); setEnroll(null); setFactorId(''); setCode('');
+    (async () => {
+      try {
+        const { data: assurance, error: assuranceError } = await withTimeout(supabase.auth.mfa.getAuthenticatorAssuranceLevel());
+        if (!alive) return;
+        if (assuranceError) throw assuranceError;
+        if (assurance?.currentLevel === 'aal2') { verified.current(); return; }
+        const { data: factors, error: factorError } = await withTimeout(supabase.auth.mfa.listFactors());
+        if (!alive) return;
+        if (factorError) throw factorError;
+        const existing = (factors?.totp || []).find(factor => factor.status === 'verified');
+        if (existing) { setFactorId(existing.id); setState('challenge'); return; }
+        const { data: enrollment, error: enrollmentError } = await withTimeout(supabase.auth.mfa.enroll({ factorType: 'totp', friendlyName: 'Prontuário.IA Administrador' }));
+        if (!alive) return;
+        if (enrollmentError || !enrollment?.id || !enrollment?.totp) throw enrollmentError || new Error('invalid_enrollment');
+        setFactorId(enrollment.id); setEnroll(enrollment.totp); setState('enroll');
+      } catch {
+        if (alive) { setError('Não foi possível preparar a autenticação em duas etapas. Confira a conexão e tente novamente.'); setState('error'); }
+      }
+    })();
+    return () => { alive = false; };
+  }, [attempt]);
+  async function verify(event) {
+    event.preventDefault(); if (busy) return;
+    setBusy(true); setError('');
+    try {
+      const result = await withTimeout(supabase.auth.mfa.challengeAndVerify({ factorId, code: code.trim() }));
+      if (!mounted.current) return;
+      if (result.error) throw result.error;
+      const { data, error: assuranceError } = await withTimeout(supabase.auth.mfa.getAuthenticatorAssuranceLevel());
+      if (!mounted.current) return;
+      if (assuranceError || data?.currentLevel !== 'aal2') throw assuranceError || new Error('second_factor_pending');
+      verified.current();
+    } catch {
+      if (mounted.current) setError('Não foi possível validar o código. Confira o autenticador, a conexão e tente novamente.');
+    } finally { if (mounted.current) setBusy(false); }
+  }
+  return <div className="center-page"><Logo/><section className="gate-card"><div className="auth-icon"><ShieldCheck size={23}/></div><h2>Proteção da conta</h2><p>Este acesso exige um segundo fator por aplicativo autenticador.</p>
+    {state === 'checking' && <p role="status">Verificando autenticação…</p>}
+    {state === 'enroll' && <div className="mfa-setup"><p>Escaneie o QR code no aplicativo autenticador e informe o código abaixo.</p>{enroll?.qr_code && <img className="mfa-qr" src={enroll.qr_code} alt="QR para ativar autenticação"/>}<p className="hint">Se necessário, adicione manualmente a chave <code>{enroll?.secret}</code>. Guarde-a em segurança e não compartilhe.</p></div>}
+    {state === 'challenge' && <p>Abra seu aplicativo autenticador e informe o código atual.</p>}
+    {['enroll', 'challenge'].includes(state) && <form onSubmit={verify}><Field label="Código de segurança" value={code} onChange={setCode} placeholder="000000" inputMode="numeric" autoComplete="one-time-code" maxLength={6} pattern="[0-9]{6}" required/><button className="btn primary full" disabled={busy}>{busy ? 'Validando…' : 'Validar código'}</button></form>}
+    {error && <Notice error>{error}</Notice>}{state === 'error' && <button className="btn primary full" onClick={() => setAttempt(value => value + 1)}>Tentar novamente</button>}<button className="btn subtle full" disabled={signingOut || busy} onClick={onSignOut}>Sair da conta</button></section></div>;
 }
 
-function PasswordChange({profile,onChanged,onSignOut}){const [value,setValue]=useState(''),[confirm,setConfirm]=useState(''),[message,setMessage]=useState(''),[busy,setBusy]=useState(false);async function change(e){e.preventDefault();if(value.length<12||value!==confirm){setMessage('A senha precisa ter 12 ou mais caracteres e coincidir com a confirmação.');return;}setBusy(true);setMessage('');try{const {data:session,error:sessionError}=await supabase.auth.getSession();if(sessionError||!session?.session?.access_token)throw Error('Sessão expirada. Entre novamente.');const res=await fetch('/api/change-password',{method:'POST',headers:{'content-type':'application/json',authorization:'Bearer '+session.session.access_token},body:JSON.stringify({password:value})});const result=await res.json().catch(()=>({}));if(!res.ok)throw Error(result.error||'Não foi possível alterar a senha.');onChanged();}catch(e){setMessage(e.message)}finally{setBusy(false)}}return <div className="center-page"><Logo/><div className="gate-card"><div className="auth-icon"><KeyRound size={23}/></div><h2>Defina sua senha pessoal</h2><p>Seu administrador criou uma senha temporária. Escolha uma senha forte antes de continuar.</p><form onSubmit={change}><Field label="Nova senha (12+ caracteres)" value={value} onChange={setValue} type="password" autoComplete="new-password" required minLength={12}/><Field label="Confirmar nova senha" value={confirm} onChange={setConfirm} type="password" autoComplete="new-password" required minLength={12}/><button className="btn primary full" disabled={busy}>Atualizar senha</button></form>{message&&<Notice type="error">{message}</Notice>}<button className="btn subtle full" onClick={onSignOut}>Sair</button></div></div>}
+function PasswordChange({ onChanged, onSignOut, signingOut }) {
+  const [value, setValue] = useState(''), [confirm, setConfirm] = useState('');
+  const [message, setMessage] = useState(''), [busy, setBusy] = useState(false);
+  const mounted = useRef(true), abort = useRef(null);
+  useEffect(() => { mounted.current = true; return () => { mounted.current = false; abort.current?.abort(); }; }, []);
+  async function change(event) {
+    event.preventDefault(); if (busy) return;
+    if (value.length < 12 || value.length > 128 || value !== confirm) { setMessage('A senha deve ter de 12 a 128 caracteres e coincidir com a confirmação.'); return; }
+    setBusy(true); setMessage('');
+    const controller = new AbortController(); abort.current = controller;
+    const timer = setTimeout(() => controller.abort(), 20000);
+    try {
+      const { data, error } = await withTimeout(supabase.auth.getSession());
+      if (!mounted.current) return;
+      if (error || !data?.session?.access_token) throw error || new Error('missing_session');
+      const response = await fetch('/api/change-password', { method: 'POST', headers: { 'content-type': 'application/json', authorization: 'Bearer ' + data.session.access_token }, body: JSON.stringify({ password: value }), signal: controller.signal });
+      if (!mounted.current) return;
+      if (!response.ok) throw new Error('password_change_failed');
+      setValue(''); setConfirm(''); onChanged();
+    } catch {
+      if (mounted.current) setMessage('Não foi possível concluir a troca de senha. Tente novamente; se o problema persistir, contate o administrador.');
+    } finally { clearTimeout(timer); if (mounted.current) setBusy(false); abort.current = null; }
+  }
+  return <div className="center-page"><Logo/><section className="gate-card"><div className="auth-icon"><KeyRound size={23}/></div><h2>Defina sua senha pessoal</h2><p>Sua conta usa uma senha temporária. Escolha uma senha forte antes de continuar.</p><form onSubmit={change}><Field label="Nova senha (12+ caracteres)" value={value} onChange={setValue} type="password" autoComplete="new-password" required minLength={12} maxLength={128}/><Field label="Confirmar nova senha" value={confirm} onChange={setConfirm} type="password" autoComplete="new-password" required minLength={12} maxLength={128}/><button className="btn primary full" disabled={busy}>{busy ? 'Atualizando…' : 'Atualizar senha'}</button></form>{message && <Notice error>{message}</Notice>}<button className="btn subtle full" disabled={busy || signingOut} onClick={onSignOut}>Sair</button></section></div>;
+}
 
-// A área após o login foi reconstruída em tela única, em QuickWorkspace.jsx.
-const Workspace = ClinicalWorkspace;
+export default function App() {
+  const [pathname, setPathname] = useState(window.location.pathname);
+  const [user, setUser] = useState(null), [profile, setProfile] = useState(null);
+  const [authPhase, setAuthPhase] = useState(configured ? 'loading' : 'ready');
+  const [profilePhase, setProfilePhase] = useState('idle'), [mfaPhase, setMfaPhase] = useState('idle');
+  const [mfaReady, setMfaReady] = useState(false), [problem, setProblem] = useState('');
+  const [retry, setRetry] = useState(0), [signingOut, setSigningOut] = useState(false), [logoutError, setLogoutError] = useState('');
+  const mounted = useRef(true);
+  const demoMode = pathname === '/demo';
+  useEffect(() => { mounted.current = true; return () => { mounted.current = false; }; }, []);
+  useEffect(() => { const changed = () => setPathname(window.location.pathname); window.addEventListener('popstate', changed); return () => window.removeEventListener('popstate', changed); }, []);
+  const navigate = path => { history.pushState({}, '', path); setPathname(path); };
+  const openDemo = () => navigate('/demo');
 
-export default function App(){
- const [pathname,setPathname]=useState(window.location.pathname),[user,setUser]=useState(null),[profile,setProfile]=useState(null),[loading,setLoading]=useState(true),[error,setError]=useState(''),[demo,setDemo]=useState(false),[mfaReady,setMfaReady]=useState(false),[mfaChecked,setMfaChecked]=useState(false);
- useEffect(()=>{const fn=()=>setPathname(window.location.pathname);window.addEventListener('popstate',fn);return()=>window.removeEventListener('popstate',fn)},[]);
- useEffect(()=>{if(!configured){setLoading(false);return;}let alive=true;(async()=>{const {data}=await supabase.auth.getUser();if(alive){setUser(data?.user||null);setLoading(false);}})();const {data:sub}=supabase.auth.onAuthStateChange((_event,session)=>{if(alive)setUser(session?.user||null);});return()=>{alive=false;sub.subscription.unsubscribe();}},[]);
- useEffect(()=>{if(!user||!configured){setProfile(null);setMfaReady(false);setMfaChecked(false);return;}let alive=true;setLoading(true);setError('');(async()=>{const {data,error:e}=await supabase.from('profiles').select('user_id,username,display_name,role,enabled,must_change_password,preferences,ai_enabled,monthly_limit_usd').eq('user_id',user.id).maybeSingle();if(!alive)return;if(e||!data||!data.enabled){setError('Conta não habilitada ou perfil não encontrado. Contate o administrador.');setProfile(null);}else{setProfile(data);const route=`/${data.username}`;if(window.location.pathname!==route){history.replaceState({},'',route);setPathname(route);} }setLoading(false);})();return()=>{alive=false}},[user?.id]);
- useEffect(()=>{if(!profile||!configured)return;let alive=true;setMfaChecked(false);setMfaReady(false);(async()=>{try{const {data}=await supabase.auth.mfa.getAuthenticatorAssuranceLevel();if(alive){setMfaReady(data?.currentLevel==='aal2'||profile.role!=='admin'&&data?.nextLevel!=='aal2');setMfaChecked(true);}}catch{if(alive){setMfaReady(false);setMfaChecked(true)}}})();return()=>{alive=false}},[profile?.user_id,profile?.role]);
- async function logout(){if(configured)await supabase.auth.signOut();setDemo(false);setUser(null);setProfile(null);history.pushState({},'', '/');setPathname('/');}
- if(loading)return <div className="center-page"><Logo/><span className="muted">Preparando seu ambiente...</span></div>;
- if(demo||pathname==='/demo')return <Workspace key="demo" demo profile={{display_name:'Demonstração'}} onLogout={()=>{setDemo(false);history.pushState({},'', '/');setPathname('/')}}/>;
- if(user&&error)return <div className="center-page"><Logo/><div className="gate-card"><Notice type="error">{error}</Notice><button className="btn primary full" onClick={logout}>Sair</button></div></div>;
- if(user&&profile){if(!mfaChecked)return <div className="center-page"><Logo/><p>Verificando proteção da conta...</p></div>;if(!mfaReady)return <MFA onVerified={()=>setMfaReady(true)} onSignOut={logout}/>;if(profile.must_change_password)return <PasswordChange profile={profile} onChanged={()=>setProfile(p=>({...p,must_change_password:false}))} onSignOut={logout}/>;return <Workspace key={user.id} profile={profile} onLogout={logout}/>;}
- return <AccessGate pathname={pathname} onLogin={setUser} onDemo={()=>{history.pushState({},'', '/demo');setPathname('/demo');setDemo(true)}}/>;
+  useEffect(() => {
+    if (!configured || demoMode) { setAuthPhase('ready'); return; }
+    let alive = true, eventRevision = 0;
+    setAuthPhase('loading'); setProblem('');
+    const { data: subscription } = supabase.auth.onAuthStateChange((event, session) => {
+      if (!alive || event === 'INITIAL_SESSION') return;
+      eventRevision += 1;
+      setUser(session?.user || null); setAuthPhase('ready'); setProblem('');
+    });
+    const revision = eventRevision;
+    (async () => {
+      try {
+        const { data, error } = await withTimeout(supabase.auth.getUser());
+        if (!alive || eventRevision !== revision) return;
+        if (error && error.name !== 'AuthSessionMissingError') throw error;
+        setUser(data?.user || null); setAuthPhase('ready');
+      } catch {
+        if (alive && eventRevision === revision) { setAuthPhase('error'); setProblem('Não foi possível verificar sua sessão. Confira a conexão e tente novamente. A demonstração continua disponível.'); }
+      }
+    })();
+    return () => { alive = false; subscription?.subscription.unsubscribe(); };
+  }, [demoMode, retry]);
+
+  useEffect(() => {
+    if (!configured || !user || authPhase !== 'ready' || demoMode) { setProfile(null); setProfilePhase('idle'); setMfaReady(false); setMfaPhase('idle'); return; }
+    let alive = true;
+    const controller = new AbortController();
+    setProfile(null); setProfilePhase('loading'); setProblem('');
+    (async () => {
+      try {
+        const result = await withTimeout(supabase.from('profiles').select('user_id,username,display_name,role,enabled,must_change_password,preferences,ai_enabled,monthly_limit_usd').eq('user_id', user.id).maybeSingle().abortSignal(controller.signal));
+        if (!alive) return;
+        if (result.error || !result.data || !result.data.enabled) {
+          setProblem('Sua conta não está habilitada ou não foi possível consultar o perfil. Tente novamente ou contate o administrador.'); setProfilePhase('error'); return;
+        }
+        setProfile(result.data); setProfilePhase('ready');
+        const route = `/${result.data.username}`;
+        if (window.location.pathname !== route) { history.replaceState({}, '', route); setPathname(route); }
+      } catch {
+        if (alive) { setProblem('Não foi possível carregar sua conta. Seu acesso não foi liberado; confira a conexão e tente novamente.'); setProfilePhase('error'); }
+      }
+    })();
+    return () => { alive = false; controller.abort(); };
+  }, [user?.id, authPhase, demoMode, retry]);
+
+  useEffect(() => {
+    if (!profile || !configured || demoMode) return;
+    let alive = true;
+    setMfaPhase('loading'); setMfaReady(false);
+    (async () => {
+      try {
+        const { data, error } = await withTimeout(supabase.auth.mfa.getAuthenticatorAssuranceLevel());
+        if (!alive) return;
+        if (error || !data) throw error || new Error('missing_assurance');
+        setMfaReady(data.currentLevel === 'aal2' || (profile.role !== 'admin' && data.nextLevel !== 'aal2'));
+        setMfaPhase('ready');
+      } catch {
+        if (alive) { setProblem('Não foi possível verificar a proteção da conta. Tente novamente antes de continuar.'); setMfaPhase('error'); }
+      }
+    })();
+    return () => { alive = false; };
+  }, [profile?.user_id, profile?.role, demoMode, retry]);
+
+  async function logout() {
+    if (signingOut) return;
+    setSigningOut(true); setLogoutError('');
+    try {
+      if (configured) { const result = await withTimeout(supabase.auth.signOut()); if (result.error) throw result.error; }
+      if (!mounted.current) return;
+      setUser(null); setProfile(null); setProblem(''); setAuthPhase('ready'); navigate('/');
+    } catch {
+      if (mounted.current) setLogoutError('Não foi possível confirmar a saída da conta. A sessão não foi descartada nesta tela. Confira a conexão e tente sair novamente.');
+    } finally { if (mounted.current) setSigningOut(false); }
+  }
+  const recover = () => { setProblem(''); setRetry(value => value + 1); };
+  const recovery = title => <Recovery title={title} message={problem} retry={recover} onSignOut={logout} onDemo={openDemo} signingOut={signingOut}/>;
+  let content;
+  // A demonstração nunca depende da disponibilidade de Auth, perfil ou MFA.
+  if (demoMode) content = <Workspace key="demo" demo profile={{ display_name: 'Demonstração' }} onLogout={() => navigate('/')}/>;
+  else if (authPhase === 'loading') content = <Loading message="Verificando sua sessão…" onDemo={openDemo}/>;
+  else if (authPhase === 'error') content = recovery('Não foi possível abrir sua conta');
+  else if (user && (profilePhase === 'loading' || profilePhase === 'idle')) content = <Loading message="Carregando sua conta…" onDemo={openDemo}/>;
+  else if (user && profilePhase === 'error') content = recovery('Acesso à conta indisponível');
+  else if (user && profile) {
+    if (mfaPhase === 'loading' || mfaPhase === 'idle') content = <Loading message="Verificando proteção da conta…" onDemo={openDemo}/>;
+    else if (mfaPhase === 'error') content = recovery('Verificação de segurança indisponível');
+    else if (!mfaReady) content = <MFA onVerified={() => setMfaReady(true)} onSignOut={logout} signingOut={signingOut}/>;
+    else if (profile.must_change_password) content = <PasswordChange onChanged={() => setProfile(value => value ? { ...value, must_change_password: false } : value)} onSignOut={logout} signingOut={signingOut}/>;
+    else content = <Workspace key={user.id} profile={profile} onLogout={logout}/>;
+  } else content = <AccessGate pathname={pathname} onLogin={setUser} onDemo={openDemo}/>;
+  return <>{logoutError && <div className="alert error" role="alert"><AlertTriangle size={18}/><div>{logoutError}<button className="btn subtle" disabled={signingOut} onClick={logout}>Tentar sair novamente</button></div></div>}{signingOut && <p role="status">Encerrando sessão…</p>}{content}</>;
 }

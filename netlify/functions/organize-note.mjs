@@ -1,7 +1,7 @@
-import { createClient } from '@supabase/supabase-js';
+import { authenticatedAccount, reserveUsage, usageDenied, UsageAccessError } from '../lib/usage-policy.mjs';
 import { documentationSchema, documentationPrompt, validateDocumentation } from '../lib/documentation.mjs';
-const json = (body, status = 200) => new Response(JSON.stringify(body), { status, headers: { 'content-type':'application/json; charset=utf-8', 'cache-control':'no-store', 'x-content-type-options':'nosniff' } });
-export function createDocumentationHandler({ env = process.env, fetcher = fetch, authenticate } = {}) {
+const json = (body, status = 200, headers = {}) => new Response(JSON.stringify(body), { status, headers: { 'content-type':'application/json; charset=utf-8', 'cache-control':'no-store', 'x-content-type-options':'nosniff', ...headers } });
+export function createDocumentationHandler({ env = process.env, fetcher = fetch, authenticate, limiter = reserveUsage } = {}) {
   return async request => {
     const available = env.GROQ_CLINICAL_ENABLED === 'true' && Boolean(env.GROQ_API_KEY) && Boolean(env.SUPABASE_URL && env.SUPABASE_SERVICE_ROLE_KEY);
     if (request.method === 'GET') return json({ available });
@@ -16,20 +16,13 @@ export function createDocumentationHandler({ env = process.env, fetcher = fetch,
     if (body?.consent !== 'fictitious_only' || body?.freePlanAcknowledged !== true) return json({error:'Autorize dados fictícios e confirme o plano gratuito.'},400);
     if (typeof body?.text !== 'string' || body.text.trim().length < 20 || body.text.length > 6000) return json({error:'Informe de 20 a 6.000 caracteres.'},400);
     try {
-      let permitted;
-      if (authenticate) permitted = await authenticate(auth.slice(7));
-      else {
-        const client = createClient(env.SUPABASE_URL, env.SUPABASE_SERVICE_ROLE_KEY, { auth:{persistSession:false,autoRefreshToken:false} });
-        const {data,error} = await client.auth.getUser(auth.slice(7));
-        if (error || !data?.user) return json({error:'Sessão expirada.'},401);
-        const {data:profile,error:pe} = await client.from('profiles').select('enabled,must_change_password,role').eq('user_id',data.user.id).single();
-        permitted = !pe && profile?.enabled && !profile.must_change_password;
-        if (permitted && profile.role === 'admin') {
-          const claims = JSON.parse(Buffer.from(auth.slice(7).split('.')[1],'base64url').toString('utf8'));
-          permitted = claims.sub === data.user.id && claims.aal === 'aal2';
-        }
+      const account = authenticate ? await authenticate(auth.slice(7), env) : await authenticatedAccount(auth.slice(7), env);
+      if (!account) return json({error:'Conta não habilitada ou segundo fator pendente.'},403);
+      const usage = await limiter(account, 'documentation', env);
+      if (!usage?.allowed) {
+        const denied = usageDenied(usage);
+        return json(denied.body, 429, denied.headers);
       }
-      if (!permitted) return json({error:'Conta não habilitada ou segundo fator pendente.'},403);
       const response = await fetcher('https://api.groq.com/openai/v1/chat/completions', {
         method:'POST', headers:{'content-type':'application/json',authorization:`Bearer ${env.GROQ_API_KEY}`},
         body:JSON.stringify({ model:env.GROQ_NOTE_MODEL || 'openai/gpt-oss-120b',temperature:0,max_completion_tokens:2400,
@@ -44,7 +37,10 @@ export function createDocumentationHandler({ env = process.env, fetcher = fetch,
       let note; try { note=JSON.parse(raw); } catch { return json({error:'Resposta fora do formato esperado.'},502); }
       if (!validateDocumentation(note)) return json({error:'Campos da resposta inválidos.'},502);
       return json({note,requiresReview:true,provider:'groq'});
-    } catch { return json({error:'Não foi possível concluir. Relato e rascunho anteriores preservados.'},503); }
+    } catch (error) {
+      if (error instanceof UsageAccessError) return json({error:error.message,code:error.code},error.status);
+      return json({error:'Não foi possível concluir. Relato e rascunho anteriores preservados.'},503);
+    }
   };
 }
 export default createDocumentationHandler();

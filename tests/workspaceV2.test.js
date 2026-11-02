@@ -61,15 +61,15 @@ const env={GROQ_API_KEY:'test-only-not-a-real-secret',GROQ_CLINICAL_ENABLED:'tru
 const note={summary:'Paciente refere dor à direita.',subjective:'Dor à direita há 3 dias.',objective:'',assessment:'',plan:'',pending:'Exame físico não informado.'};
 const request=(body={},auth=true)=>new Request('https://example.test/api/organize-note',{method:'POST',headers:{'content-type':'application/json',...(auth?{authorization:'Bearer test-token-with-more-than-twenty-characters'}:{})},body:JSON.stringify({text:'Paciente fictício relata dor no joelho direito há três dias.',consent:'fictitious_only',freePlanAcknowledged:true,...body})});
 test('IA exige sessão e consentimento antes de contatar provedor',async()=>{
- let calls=0;const h=createDocumentationHandler({env,authenticate:async()=>true,fetcher:async()=>{calls++}});
+ let calls=0;const h=createDocumentationHandler({env,limiter:async()=>({allowed:true}),authenticate:async()=>true,fetcher:async()=>{calls++}});
  assert.equal((await h(request({},false))).status,401);assert.equal((await h(request({consent:false}))).status,400);assert.equal(calls,0);
 });
 test('conta sem permissão não aciona o provedor',async()=>{
- let calls=0;const h=createDocumentationHandler({env,authenticate:async()=>false,fetcher:async()=>{calls++}});
+ let calls=0;const h=createDocumentationHandler({env,limiter:async()=>({allowed:true}),authenticate:async()=>false,fetcher:async()=>{calls++}});
  assert.equal((await h(request())).status,403);assert.equal(calls,0);
 });
 test('JSON válido de documentação é devolvido como rascunho não revisado',async()=>{
- const h=createDocumentationHandler({env,authenticate:async()=>true,fetcher:async(url,options)=>{
+ const h=createDocumentationHandler({env,limiter:async()=>({allowed:true}),authenticate:async()=>true,fetcher:async(url,options)=>{
   assert.equal(url,'https://api.groq.com/openai/v1/chat/completions');
   const body=JSON.parse(options.body);assert.match(body.messages[0].content,/Não invente/);
   return Response.json({choices:[{finish_reason:'stop',message:{content:JSON.stringify(note)}}]});
@@ -78,11 +78,11 @@ test('JSON válido de documentação é devolvido como rascunho não revisado',a
 });
 test('JSON inválido e geração truncada são rejeitados',async()=>{
  for(const choice of [{finish_reason:'length',message:{content:JSON.stringify(note)}},{finish_reason:'stop',message:{content:'não é JSON'}},{finish_reason:'stop',message:{content:JSON.stringify({...note,plan:12})}}]){
-  const h=createDocumentationHandler({env,authenticate:async()=>true,fetcher:async()=>Response.json({choices:[choice]})});assert.equal((await h(request())).status,502);
+  const h=createDocumentationHandler({env,limiter:async()=>({allowed:true}),authenticate:async()=>true,fetcher:async()=>Response.json({choices:[choice]})});assert.equal((await h(request())).status,502);
  }
 });
 test('cota excedida é informada sem fallback pago',async()=>{
- let calls=0;const h=createDocumentationHandler({env,authenticate:async()=>true,fetcher:async()=>{calls++;return new Response('',{status:429})}});
+ let calls=0;const h=createDocumentationHandler({env,limiter:async()=>({allowed:true}),authenticate:async()=>true,fetcher:async()=>{calls++;return new Response('',{status:429})}});
  assert.equal((await h(request())).status,429);assert.equal(calls,1);
 });
 

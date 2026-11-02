@@ -1,3 +1,9 @@
+# Retomada — piloto profissional 2.1
+
+Atualização de 02/11/2026: a base 2.0 foi enviada ao GitHub (46fe0ce) e a CI passou. A evolução 2.1 está na branch feat/piloto-profissional, com mudanças para piloto comercial. Leia docs/PILOTO_COMERCIAL.md para recursos, migrações e limites. Não aplicar em produção sem preparar as novas tabelas de quota e biblioteca. A IA agora falha fechada se a migração das cotas não existir. O preview externo não foi validado/alterado.
+
+O texto abaixo preserva o checkpoint anterior; suas observações de bloqueio de push foram resolvidas em 02/11/2026.
+
 # Retomada de desenvolvimento — Prontuário.IA 2.0
 
 ## Intenção do usuário

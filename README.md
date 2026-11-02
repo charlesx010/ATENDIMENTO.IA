@@ -1,8 +1,10 @@
-# Prontuário.IA — reconstrução 2.0
+# Prontuário.IA — piloto profissional 2.1
 
 Webapp responsivo de documentação clínica: **capturar → organizar → revisar**. O fluxo principal foi reconstruído; autenticação, ditado, OCR, catálogo e bibliotecas úteis do projeto original foram preservados. Não é uma implementação integralmente nova de todos os módulos.
 
 Versão de testes: use somente casos fictícios. IA produz rascunhos, não atendimento autônomo. O projeto não está homologado para pacientes reais.
+
+Leia [o plano de ativação do piloto](docs/PILOTO_COMERCIAL.md) antes de distribuir. Esta versão adiciona biblioteca pessoal de roteiros, versões anteriores do rascunho, impressão revisada e cotas atômicas de IA. Cobrança e assinatura ainda não estão habilitadas.
 
 ## O que funciona sem serviços externos
 
@@ -41,7 +43,7 @@ Abra `/demo` no servidor de desenvolvimento. A alternativa de organização lite
 
 Para testar Functions localmente, use Netlify CLI de confiança e `netlify dev` na raiz, com variáveis seguras disponíveis ao processo. Para hospedar, importe o projeto no Netlify: `netlify.toml` já define build, publicação de `dist` e Functions. O acesso pelo celular precisa de HTTPS e permissão para o microfone. Nenhuma configuração da hospedagem anterior foi copiada ou alterada automaticamente.
 
-`npm run build` gera `public/ocr/` e `dist/`. Ambos são ignorados no Git. O `package-lock.json` agora permite instalar com `npm ci` sem resolver versões a cada instalação.
+`npm run build` gera `public/ocr/` e `dist/`. Ambos são ignorados no Git. O `package-lock.json` permite instalar com `npm ci` sem resolver versões a cada instalação.
 
 ## Banco para uma instalação nova
 
@@ -73,6 +75,12 @@ Use `.env.example` como referência de nomes; configure valores pelas ferramenta
 | `TEXT_AI_ENABLED` | Functions, legado | Manter `false`; recursos pagos antigos não são usados pela interface nova |
 
 `GROQ_*` fica desativado por padrão. O aplicativo não verifica faturamento da conta do provedor; confirmar plano e cotas no painel da Groq. Não há promessa de gratuidade ilimitada. Não há fallback pago automático no fluxo novo. `FREE_TRANSCRIPTION_ENABLED` é compatibilidade de endpoints legados e não habilita o novo endpoint de documentação.
+
+## Biblioteca pessoal e limites de IA
+
+As migrações `20261102_ai_usage.sql` e `20261102_personal_templates.sql` devem ser aplicadas após a base. A biblioteca tem salvamento/carregamento explícito e comparação de versão, separada da consulta; sua retenção é até exclusão, não 24 horas. Não colocar dados de pacientes nos roteiros.
+
+O painel Meu uso consulta apenas o consumo da própria conta. A reserva de tentativa é atômica no servidor; sem migração, o pedido de IA falha antes do provedor. Defaults: 30 tentativas de documentação/dia, 40 de transcrição/dia e 3/minuto/operação, ajustáveis pelas variáveis `AI_DOCUMENTATION_DAILY_LIMIT`, `AI_TRANSCRIPTION_DAILY_LIMIT`, `AI_BURST_LIMIT`. Tentativas autorizadas contam inclusive em falha do provedor, sem relação com cobrança financeira.
 
 ## Sincronização e retenção
 
