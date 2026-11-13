@@ -163,7 +163,8 @@ export default function App() {
         }
         setProfile(result.data); setProfilePhase('ready');
         const base = `/${result.data.username}`;
-        const route = window.location.pathname === `${base}/novo` || window.location.pathname === `${base}/novo/` ? `${base}/novo` : base;
+        // Contas reais usam somente o atendimento clássico; /novo fica restrito à demonstração.
+        const route = base;
         if (window.location.pathname !== route) { history.replaceState({}, '', route); setPathname(route); }
       } catch {
         if (alive) { setProblem('Não foi possível carregar sua conta. Seu acesso não foi liberado; confira a conexão e tente novamente.'); setProfilePhase('error'); }

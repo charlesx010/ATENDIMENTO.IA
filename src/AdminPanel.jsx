@@ -87,6 +87,17 @@ export default function AdminPanel() {
     } catch (cause) { if (mounted.current) setError(cause.message || requestError()); }
     finally { if (mounted.current) setBusy(false); }
   }
+  async function toggleConsultation(user) {
+    if (busy || (user.consultation_enabled && !window.confirm(`Suspender o salvamento de consultas da conta /${user.username}?`))) return;
+    setError(''); setNotice(''); setBusy(true);
+    try {
+      await admin('update', { userId: user.user_id, consultationEnabled: !user.consultation_enabled });
+      if (!mounted.current) return;
+      setNotice(user.consultation_enabled ? 'Consulta suspensa para esta conta. O login continua permitido.' : 'Consulta liberada para esta conta.');
+      await refresh();
+    } catch (cause) { if (mounted.current) setError(cause.message || requestError()); }
+    finally { if (mounted.current) setBusy(false); }
+  }
   async function reset(user) {
     if (busy || !window.confirm(`Gerar uma nova senha temporária para /${user.username}? A senha anterior será substituída.`)) return;
     setBusy(true); setError(''); setNotice(''); setSecret(null);
@@ -123,7 +134,7 @@ export default function AdminPanel() {
     <section className="panel"><div className="panel-heading"><div><h3><Users size={18}/> Contas existentes</h3><p>Bloqueio, reativação e redefinição de senha. Administradores não podem ser alterados por esta lista.</p></div><button onClick={refresh} className="btn subtle" disabled={loading || busy}><RotateCcw size={15}/> Atualizar</button></div>
       {loading && <p role="status">Atualizando contas…</p>}
       {!loading && loaded && users.length === 0 && <p>Nenhuma conta foi encontrada.</p>}
-      <div className="user-list admin-user-list">{users.map(user => <div className="user-item" key={user.user_id}><div className="user-avatar" aria-hidden="true">{user.display_name?.charAt(0)?.toUpperCase() || 'P'}</div><div className="user-info"><strong>{user.display_name}</strong><span>/{user.username} · {user.role === 'admin' ? 'Administrador' : 'Profissional'} · {user.enabled ? 'Ativo' : 'Bloqueado'}</span></div>{user.role !== 'admin' && <div className="user-actions"><button className="btn subtle small" disabled={busy || loading} onClick={() => toggleAccess(user)}>{user.enabled ? 'Bloquear' : 'Reativar'}</button><button className="btn subtle small" disabled={busy || loading} onClick={() => reset(user)}>Redefinir senha</button></div>}</div>)}</div>
+      <div className="user-list admin-user-list">{users.map(user => <div className="user-item" key={user.user_id}><div className="user-avatar" aria-hidden="true">{user.display_name?.charAt(0)?.toUpperCase() || 'P'}</div><div className="user-info"><strong>{user.display_name}</strong><span>/{user.username} · {user.role === 'admin' ? 'Administrador' : 'Profissional'} · {user.enabled ? 'Ativo' : 'Bloqueado'}{user.role !== 'admin' && (user.consultation_enabled ? ' · Consulta liberada' : ' · Consulta suspensa')}</span></div>{user.role !== 'admin' && <div className="user-actions"><button className="btn subtle small" disabled={busy || loading} onClick={() => toggleConsultation(user)}>{user.consultation_enabled ? 'Suspender consulta' : 'Liberar consulta'}</button><button className="btn subtle small" disabled={busy || loading} onClick={() => toggleAccess(user)}>{user.enabled ? 'Bloquear' : 'Reativar'}</button><button className="btn subtle small" disabled={busy || loading} onClick={() => reset(user)}>Redefinir senha</button></div>}</div>)}</div>
     </section>
     <div className="alert info"><ShieldCheck size={18}/><div><strong>Uso da IA e acesso</strong><p>O painel exige segundo fator TOTP validado (AAL2). Consulte as tentativas e cotas operacionais em “Meu uso”. Cotas do aplicativo não são assinatura, cobrança nem garantia de teto financeiro no provedor.</p></div></div>
   </div>;
