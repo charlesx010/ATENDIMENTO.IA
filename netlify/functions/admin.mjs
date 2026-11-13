@@ -1,5 +1,6 @@
 import { createClient } from '@supabase/supabase-js';
 import { randomBytes } from 'node:crypto';
+import { accountChanges, provisionAccountProfile } from '../lib/admin-accounts.mjs';
 
 const json = (obj,status=200) => new Response(JSON.stringify(obj), { status, headers: {'content-type':'application/json; charset=utf-8','cache-control':'no-store'} });
 function readBody(req) { return req.text().then(s => { if (s.length > 12000) throw Error('Requisição muito grande'); return JSON.parse(s || '{}'); }); }
@@ -44,7 +45,7 @@ export default async (request) => {
       return json({success:true});
     }
     if (body.action === 'list') {
-      const { data,error } = await service.from('profiles').select('user_id,username,display_name,role,enabled,ai_enabled,monthly_limit_usd,created_at').order('created_at',{ascending:true});
+      const { data,error } = await service.from('profiles').select('user_id,username,display_name,role,enabled,consultation_enabled,ai_enabled,monthly_limit_usd,created_at').order('created_at',{ascending:true});
       if (error) throw error;
       return json({ users:data });
     }
@@ -56,7 +57,7 @@ export default async (request) => {
       const tempPassword = password();
       const { data:created,error: createError } = await service.auth.admin.createUser({email:`${username}@login.prontuario.invalid`, password:tempPassword,email_confirm:true});
       if (createError) return json({error:'Não foi possível criar: usuário possivelmente existente'},409);
-      const { error:profileError } = await service.from('profiles').insert({user_id:created.user.id, username, display_name:displayName, role:'medico', enabled:true, must_change_password:true, ai_enabled:false,monthly_limit_usd:0});
+      const profileError = await provisionAccountProfile(service, {userId:created.user.id, username, displayName});
       if (profileError) { await service.auth.admin.deleteUser(created.user.id); throw profileError; }
       return json({success:true, username, temporaryPassword:tempPassword});
     }
@@ -64,10 +65,7 @@ export default async (request) => {
       if (!/^[0-9a-f-]{36}$/.test(String(body.userId||''))) return json({error:'Conta inválida'},400);
       const {data:target} = await service.from('profiles').select('role').eq('user_id',body.userId).single();
       if (!target || target.role === 'admin') return json({error:'Não é permitido modificar administradores'},403);
-      const allowed = {};
-      if (typeof body.enabled === 'boolean') allowed.enabled=body.enabled;
-      if (typeof body.aiEnabled === 'boolean') allowed.ai_enabled=body.aiEnabled;
-      if (typeof body.monthlyLimit === 'number' && Number.isFinite(body.monthlyLimit) && body.monthlyLimit >= 0 && body.monthlyLimit <= 10000) allowed.monthly_limit_usd=body.monthlyLimit;
+      const allowed = accountChanges(body);
       if (!Object.keys(allowed).length) return json({error:'Nenhuma alteração válida'},400);
       const {error} = await service.from('profiles').update(allowed).eq('user_id',body.userId);
       if (error) throw error;

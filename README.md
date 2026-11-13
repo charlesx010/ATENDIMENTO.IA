@@ -47,10 +47,14 @@ Para testar Functions localmente, use Netlify CLI de confiança e `netlify dev` 
 
 `npm run build` gera `public/ocr/` e `dist/`. Ambos são ignorados no Git. O `package-lock.json` permite instalar com `npm ci` sem resolver versões a cada instalação.
 
-## Banco para uma instalação nova
+## Banco em uso: Prontuario-IA
+
+O atendimento clássico usa o projeto Supabase `Prontuario-IA`. O esquema aplicado nele está em `supabase/migrations/` e as diferenças conhecidas estão em [supabase/README.md](supabase/README.md). Contas reais usam somente o atendimento clássico; a área nova (`/novo`) fica restrita à demonstração até que as migrations de `supabase/pendentes-area-nova/` sejam revisadas e aplicadas.
+
+## Banco de testes para a área nova
 
 1. Crie um **projeto Supabase de testes separado**. Não execute a migração às cegas em banco existente.
-2. Leia e execute `supabase/migrations/20261025_workspace_v2.sql`. Ela cria `profiles` se ausente, a tabela nova e RPCs protegidas. Em instalação existente, revise colunas, permissões e políticas anteriores: políticas permissivas preexistentes em `profiles` não são automaticamente removidas.
+2. Leia e execute `supabase/pendentes-area-nova/20261025_workspace_v2.sql`. Ela cria `profiles` se ausente, a tabela nova e RPCs protegidas. Em instalação existente, revise colunas, permissões e políticas anteriores: políticas permissivas preexistentes em `profiles` não são automaticamente removidas.
 3. Desative cadastros públicos. Crie a primeira conta no Supabase Auth com senha forte.
 4. Insira um perfil em `profiles`, vinculando o UUID real dessa conta, um `username` válido, `display_name`, `role='admin'`, `enabled=true` e `must_change_password=false`. Faça isso pela administração segura do banco; não versionar senhas.
 5. Habilite TOTP no provedor e conclua o segundo fator no primeiro acesso. Administradores precisam de AAL2, também nas RPCs.
@@ -80,7 +84,7 @@ Use `.env.example` como referência de nomes; configure valores pelas ferramenta
 
 ## Biblioteca pessoal e limites de IA
 
-As migrações `20261102_ai_usage.sql` e `20261102_personal_templates.sql` devem ser aplicadas após a base. A biblioteca tem salvamento/carregamento explícito e comparação de versão, separada da consulta; sua retenção é até exclusão, não 24 horas. Não colocar dados de pacientes nos roteiros.
+As migrações `20261102_ai_usage.sql` e `20261102_personal_templates.sql` (em `supabase/pendentes-area-nova/`) devem ser aplicadas após a base. A biblioteca tem salvamento/carregamento explícito e comparação de versão, separada da consulta; sua retenção é até exclusão, não 24 horas. Não colocar dados de pacientes nos roteiros.
 
 O painel Meu uso consulta apenas o consumo da própria conta. A reserva de tentativa é atômica no servidor; o novo endpoint organiza-note exige a migração. As rotas clássicas só exigem a nova tabela quando AI_USAGE_ENFORCEMENT=true é explicitamente ativado; sem essa ativação, mantêm a configuração anterior e os limites do provedor. Defaults: 30 tentativas de documentação/dia, 40 de transcrição/dia e 3/minuto/operação, ajustáveis pelas variáveis `AI_DOCUMENTATION_DAILY_LIMIT`, `AI_TRANSCRIPTION_DAILY_LIMIT`, `AI_BURST_LIMIT`. Tentativas autorizadas contam inclusive em falha do provedor, sem relação com cobrança financeira.
 

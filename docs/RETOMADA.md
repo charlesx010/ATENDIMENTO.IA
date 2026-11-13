@@ -1,3 +1,16 @@
+# Checkpoint 13/11/2026 — estabilização do atendimento clássico
+
+Base: main 5d4fece. Branch: fix/estabilizar-classica. Decisão do usuário: estabilizar primeiro o atendimento clássico; banco definitivo é o projeto Supabase Prontuario-IA.
+
+Feito nesta etapa (somente código e documentação; nenhuma alteração no banco):
+- Painel admin: criar conta falhava porque o gatilho do banco já insere o perfil; agora usa upsert (netlify/lib/admin-accounts.mjs). Conta criada pelo admin nasce com consulta liberada; o painel lista e alterna consultation_enabled.
+- Área nova (/novo) restrita à demonstração: as tabelas dela não existem no Prontuario-IA.
+- supabase/migrations passou a conter as 12 migrations reais do banco (conferidas por MD5). As 3 antigas foram para supabase/pendentes-area-nova. Ver supabase/README.md, inclusive diferenças aplicadas fora das migrations.
+
+Verificado: node --test — 150 de 160 passam no ambiente da sessão; os 10 restantes falham apenas por falta de node_modules (sem acesso a npm). Build, Playwright e test:db NÃO foram executados; dependem da CI do GitHub.
+
+Pendências externas: confirmar cadastro público desligado e TOTP ligado no Supabase Auth; criar a primeira conta (vira admin) e ajustar o username; ligar o site Netlify à main com as variáveis do Prontuario-IA (service_role apenas pelo painel do Netlify); testar login, MFA, criação de conta e sessão PC/celular. O site Netlify atendimento-ia-piloto-profissional publicado em 02/11 veio de deploy manual de uma branch ausente no GitHub e está atrás da main.
+
 # Correção 2.1.1 — leia primeiro
 
 O usuário relatou regressão completa. O fluxo antigo QuickWorkspace voltou como padrão; a área nova é opt-in em /novo. O banco clássico clinical_sessions e seu payload schema1 foram preservados, sem conversão. Runtime público permite usar a configuração das Functions quando não há VITE no build; só anon/publicável, nunca service_role. As rotas Groq antigas só aplicam cotas novas se AI_USAGE_ENFORCEMENT=true. Preferências têm endpoint autenticado próprio. Leia docs/CORRECAO_COMPATIBILIDADE.md. Não declarar site corrigido antes de confirmar repositório/commit do Netlify e teste real: preview iaidoutor está bloqueado nesta sessão e não há credencial Netlify.

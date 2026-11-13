@@ -21,11 +21,11 @@ for attempt in {1..30}; do
 done
 if [[ "$ready" != true ]]; then docker logs "$container"; exit 1; fi
 docker exec -i "$container" psql -h 127.0.0.1 -U postgres -d postgres -v ON_ERROR_STOP=1 < tests/db-auth-fixture.sql
-docker exec -i "$container" psql -h 127.0.0.1 -U postgres -d postgres -v ON_ERROR_STOP=1 < supabase/migrations/20261025_workspace_v2.sql
+docker exec -i "$container" psql -h 127.0.0.1 -U postgres -d postgres -v ON_ERROR_STOP=1 < supabase/pendentes-area-nova/20261025_workspace_v2.sql
 docker exec -i "$container" psql -h 127.0.0.1 -U postgres -d postgres -v ON_ERROR_STOP=1 < tests/workspace-db.sql
 
-docker exec -i "$container" psql -h 127.0.0.1 -U postgres -d postgres -v ON_ERROR_STOP=1 < supabase/migrations/20261102_ai_usage.sql
+docker exec -i "$container" psql -h 127.0.0.1 -U postgres -d postgres -v ON_ERROR_STOP=1 < supabase/pendentes-area-nova/20261102_ai_usage.sql
 docker exec -i "$container" psql -h 127.0.0.1 -U postgres -d postgres -v ON_ERROR_STOP=1 < tests/usage-db.sql
 
-docker exec -i "$container" psql -h 127.0.0.1 -U postgres -d postgres -v ON_ERROR_STOP=1 < supabase/migrations/20261102_personal_templates.sql
+docker exec -i "$container" psql -h 127.0.0.1 -U postgres -d postgres -v ON_ERROR_STOP=1 < supabase/pendentes-area-nova/20261102_personal_templates.sql
 docker exec -i "$container" psql -h 127.0.0.1 -U postgres -d postgres -v ON_ERROR_STOP=1 < tests/personal-templates-db.sql
